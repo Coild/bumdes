@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('fitur.dashboard');
 });
+
+Route::get('/pengelola', function () {
+    return view('fitur.pengelola');
+});
