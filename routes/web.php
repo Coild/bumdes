@@ -20,3 +20,15 @@ Route::get('/', function () {
 Route::get('/pengelola', function () {
     return view('fitur.pengelola');
 });
+
+Route::get('/akun', function () {
+    return view('fitur.akun');
+});
+
+Route::get('/pemasok', function () {
+    return view('fitur.pemasok');
+});
+
+Route::get('/detilpemasok', function () {
+    return view('fitur.detil.pemasok');
+});
