@@ -32,12 +32,12 @@
                 <li class="has_sub">
                     <a href="javascript:void(0);" class="waves-effect"><i class="ti-agenda"></i> <span> Master Data</span> <span class="pull-right"><i class="mdi mdi-plus"></i></span></a>
                     <ul class="list-unstyled">
-                        <li><a href="/pengelola">Data Penegelola</a></li>
+                        <li><a href="/pengelola">Data Pengelola</a></li>
                         <li><a href="ui-panels.html">Data Akun</a></li>
-                        <li><a href="ui-tabs-accordions.html"> Jenis Pendapatan</a></li>
-                        <li><a href="ui-modals.html">Data pemasok</a></li>
+                        <li><a href="ui-components.html">Jenis Pendapatan</a></li>
+                        <li><a href="/pemasok">Dasta Pemasok</a></li>
                         <li><a href="ui-components.html">Data Pelanggan</a></li>
-                        <li><a href="ui-progressbars.html">Data Investor</a></li>
+                        <!-- <li><a href="ui-progressbars.html">Data Investor</a></li> --> //Note: Future Development
                     </ul>
                 </li>
 
