@@ -21,6 +21,8 @@
     <link href={{ asset('css/icons.css') }} rel="stylesheet" type="text/css">
     <link href={{ asset('css/style.css') }} rel="stylesheet" type="text/css">
 
+    @yield('css');
+
 </head>
 
 
