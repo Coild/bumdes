@@ -88,8 +88,6 @@
     <!-- Parsleyjs -->
     <script type="text/javascript" src="plugins/parsleyjs/parsley.min.js"></script>
 
-    <script src="js/app.js"></script>
-
     <script type="text/javascript">
         $(document).ready(function() {
             $('form').parsley();
