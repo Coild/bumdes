@@ -1,105 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Xadmino - Responsive Admin Dashboard Template</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta content="Admin Dashboard" name="description" />
-        <meta content="ThemeDesign" name="author" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <link rel="shortcut icon" href={{ asset("images/favicon.ico") }}>
+<head>
+    <meta charset="utf-8" />
+    <title>Xadmino - Responsive Admin Dashboard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="Admin Dashboard" name="description" />
+    <meta content="ThemeDesign" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <!-- DataTables -->
-        <link href={{ asset("plugins/datatables/jquery.dataTables.min.css") }} rel="stylesheet" type="text/css" />
-        <link href={{ asset("plugins/datatables/responsive.bootstrap.min.css") }} rel="stylesheet" type="text/css" />
-        <link href={{ asset("plugins/datatables/dataTables.bootstrap.min.css") }} rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href={{ asset('images/favicon.ico') }}>
 
-
-        <link href={{ asset("css/bootstrap.min.css") }} rel="stylesheet" type="text/css">
-        <link href={{ asset("css/icons.css") }} rel="stylesheet" type="text/css">
-        <link href={{ asset("css/style.css") }} rel="stylesheet" type="text/css">
-
-    </head>
+    <!-- DataTables -->
+    <link href={{ asset('plugins/datatables/jquery.dataTables.min.css') }} rel="stylesheet" type="text/css" />
+    <link href={{ asset('plugins/datatables/responsive.bootstrap.min.css') }} rel="stylesheet" type="text/css" />
+    <link href={{ asset('plugins/datatables/dataTables.bootstrap.min.css') }} rel="stylesheet" type="text/css" />
 
 
-    <body class="fixed-left">
+    <link href={{ asset('css/bootstrap.min.css') }} rel="stylesheet" type="text/css">
+    <link href={{ asset('css/icons.css') }} rel="stylesheet" type="text/css">
+    <link href={{ asset('css/style.css') }} rel="stylesheet" type="text/css">
 
-        <!-- Begin page -->
-        <div id="wrapper">
-
-           @include('template.header')
-
-           @include('template.sidebar')
+</head>
 
 
-            
+<body class="fixed-left">
 
-           <div class="content-page">
-            
+    <!-- Begin page -->
+    <div id="wrapper">
+
+        @include('template.header')
+
+        @include('template.sidebar')
+
+
+
+
+        <div class="content-page">
+
             @yield('content') {{-- //konten --}}
             @include('template.footer')
-           </div>
-
         </div>
-        <!-- END wrapper -->
+
+    </div>
+    <!-- END wrapper -->
 
 
-        <!-- jQuery  -->
-        <script src={{ asset("js/jquery.min.js") }}></script>
-        <script src={{ asset("js/bootstrap.min.js") }}></script>
-        <script src={{ asset("js/modernizr.min.js") }}></script>
-        <script src={{ asset("js/detect.js") }}></script>
-        <script src={{ asset("js/fastclick.js") }}></script>
-        <script src={{ asset("js/jquery.slimscroll.js") }}></script>
-        <script src={{ asset("js/jquery.blockUI.js") }}></script>
-        <script src={{ asset("js/waves.js") }}></script>
-        <script src={{ asset("js/wow.min.js") }}></script>
-        <script src={{ asset("js/jquery.nicescroll.js") }}></script>
-        <script src={{ asset("js/jquery.scrollTo.min.js") }}></script>
+    <!-- jQuery  -->
+    <script src={{ asset('js/jquery.min.js') }}></script>
+    <script src={{ asset('js/bootstrap.min.js') }}></script>
+    <script src={{ asset('js/modernizr.min.js') }}></script>
+    <script src={{ asset('js/detect.js') }}></script>
+    <script src={{ asset('js/fastclick.js') }}></script>
+    <script src={{ asset('js/jquery.slimscroll.js') }}></script>
+    <script src={{ asset('js/jquery.blockUI.js') }}></script>
+    <script src={{ asset('js/waves.js') }}></script>
+    <script src={{ asset('js/wow.min.js') }}></script>
+    <script src={{ asset('js/jquery.nicescroll.js') }}></script>
+    <script src={{ asset('js/jquery.scrollTo.min.js') }}></script>
 
-        <script src={{ asset("plugins/jquery-sparkline/jquery.sparkline.min.js") }}></script>
+    <script src={{ asset('plugins/jquery-sparkline/jquery.sparkline.min.js') }}></script>
 
-        
-        <!-- Datatables-->
-        <script src={{ asset("plugins/datatables/jquery.dataTables.min.js") }}></script>
-        <script src={{ asset("plugins/datatables/dataTables.bootstrap.js") }}></script>
-        <script src={{ asset("plugins/datatables/dataTables.buttons.min.js") }}></script>
-        <script src={{ asset("plugins/datatables/buttons.bootstrap.min.js") }}></script>
-        <script src={{ asset("plugins/datatables/jszip.min.js") }}></script>
-        <script src={{ asset("plugins/datatables/pdfmake.min.js") }}></script>
-        <script src={{ asset("plugins/datatables/vfs_fonts.js") }}></script>
-        <script src={{ asset("plugins/datatables/buttons.html5.min.js") }}></script>
-        <script src={{ asset("plugins/datatables/buttons.print.min.js") }}></script>
-        <script src={{ asset("plugins/datatables/dataTables.fixedHeader.min.js") }}></script>
-        <script src={{ asset("plugins/datatables/dataTables.keyTable.min.js") }}></script>
-        <script src={{ asset("plugins/datatables/dataTables.responsive.min.js") }}></script>
-        <script src={{ asset("plugins/datatables/responsive.bootstrap.min.js") }}></script>
-        <script src={{ asset("plugins/datatables/dataTables.scroller.min.js") }}></script>
 
-        <!-- Datatable init js -->
-        <script src={{ asset("pages/datatables.init.js")}}></script>
+    <!-- Datatables-->
+    <script src={{ asset('plugins/datatables/jquery.dataTables.min.js') }}></script>
+    <script src={{ asset('plugins/datatables/dataTables.bootstrap.js') }}></script>
+    <script src={{ asset('plugins/datatables/dataTables.buttons.min.js') }}></script>
+    <script src={{ asset('plugins/datatables/buttons.bootstrap.min.js') }}></script>
+    <script src={{ asset('plugins/datatables/jszip.min.js') }}></script>
+    <script src={{ asset('plugins/datatables/pdfmake.min.js') }}></script>
+    <script src={{ asset('plugins/datatables/vfs_fonts.js') }}></script>
+    <script src={{ asset('plugins/datatables/buttons.html5.min.js') }}></script>
+    <script src={{ asset('plugins/datatables/buttons.print.min.js') }}></script>
+    <script src={{ asset('plugins/datatables/dataTables.fixedHeader.min.js') }}></script>
+    <script src={{ asset('plugins/datatables/dataTables.keyTable.min.js') }}></script>
+    <script src={{ asset('plugins/datatables/dataTables.responsive.min.js') }}></script>
+    <script src={{ asset('plugins/datatables/responsive.bootstrap.min.js') }}></script>
+    <script src={{ asset('plugins/datatables/dataTables.scroller.min.js') }}></script>
 
-        <script src={{ asset("pages/dashborad.js") }}></script>
+    <!-- Datatable init js -->
+    <script src={{ asset('pages/datatables.init.js') }}></script>
 
-        <script src={{ asset("js/app.js") }}></script>
-        
-        <!-- jQuery  -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/modernizr.min.js"></script>
-    <script src="js/detect.js"></script>
-    <script src="js/fastclick.js"></script>
-    <script src="js/jquery.slimscroll.js"></script>
-    <script src="js/jquery.blockUI.js"></script>
-    <script src="js/waves.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.nicescroll.js"></script>
-    <script src="js/jquery.scrollTo.min.js"></script>
-    <!-- Parsleyjs -->
-    <script type="text/javascript" src="plugins/parsleyjs/parsley.min.js"></script>
+    <script src={{ asset('pages/dashborad.js') }}></script>
 
-    <script src="js/app.js"></script>
+    <script src={{ asset('js/app.js') }}></script>
+
 
     <script type="text/javascript">
         $(document).ready(function() {
@@ -109,6 +94,7 @@
 
 
 
-        @yield('script')
-    </body>
+    @yield('script')
+</body>
+
 </html>
