@@ -35,7 +35,7 @@
                                 <h3 class="panel-title">Bar Chart   </h3>
                             </div>
                             <div class="panel-body">
-                                <div id="morris-bar-example" style="height: 300px"></div>
+                                <div class=" table-responsive"  id="morris-bar-example" style="height: 300px"></div>
                             </div>
                         </div>
                     </div> <!-- col -->
