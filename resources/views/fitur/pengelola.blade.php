@@ -8,11 +8,10 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="page-header-title">
-                        <h4 class="pull-left page-title">Datatables</h4>
+                        <!-- <h4 class="pull-left page-title">Daftar Pengelola</h4> -->
                         <ol class="breadcrumb pull-right">
-                            <li><a href="#">Xadmino</a></li>
-                            <li><a href="#">Tables</a></li>
-                            <li class="active">Datatables</li>
+                            <li><a href="#">Master Data</a></li>
+                            <li class="active">Pengelola</li>
                         </ol>
                         <div class="clearfix"></div>
                     </div>
@@ -55,7 +54,7 @@
                                                 </td>
                                                 <td>
                                                     <!-- <a href="#"> Klikit</a> -->
-                                                    Pak Hasbi
+                                                    Hasbi
                                                 </td>
                                                 <td>
                                                     Pencatat Transaksi
@@ -81,7 +80,7 @@
                                                 </td>
                                                 <td>
                                                     <!-- <a href="#"> Klikit</a> -->
-                                                    Bu Ima
+                                                    Ima
                                                 </td>
                                                 <td>
                                                     Bendahara
@@ -158,7 +157,8 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="float-right">
+
+                        <div class="modal-footer">
 
                             <button type="button" class="btn btn-default waves-effect m-l-5"
                                 data-dismiss="modal">Cancel</button>
@@ -166,10 +166,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="modal-footer">
-                    {{-- <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
-                    <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button> --}}
-                </div>
+
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
@@ -194,37 +191,41 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label">Nama Pengelola</label>
                             <div class="col-md-8">
-                                <input type="text" class="form-control" value="Pak Hasbi">
+                                <input type="text" class="form-control" value="Hasbi" required>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label class="col-md-4 control-label">Nomor Telepon</label>
                             <div class="col-md-8">
-                                <input type="text" class="form-control" value="083117121494">
+                                <input data-parsley-type="number" type="text" class="form-control"
+                                    value="083117121494" required />
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label class="col-sm-4 control-label">Status Pengelola</label>
                             <div class="col-sm-8">
-                                <select class="form-control">
+                                <select class="form-control" required>
                                     <option>Bendahara</option>
                                     <option>Pencatat Transaksi</option>
                                 </select>
                             </div>
                         </div>
 
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-default waves-effect m-l-5"
+                                data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
+                        </div>
                     </form>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary waves-effect waves-light">Save changes</button>
-                </div>
+
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-    <!-- Modal Edit (Pak Hasbi)-->
+    <!-- Modal Edit (Bu Ima)-->
     <div id="editIma" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
         <div class="modal-dialog">
@@ -245,33 +246,37 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label">Nama Pengelola</label>
                             <div class="col-md-8">
-                                <input type="text" class="form-control" value="Bu Ima">
+                                <input type="text" class="form-control" value="Ima" required>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label class="col-md-4 control-label">Nomor Telepon</label>
                             <div class="col-md-8">
-                                <input type="text" class="form-control" value="083494117111">
+                                <input data-parsley-type="number" type="text" class="form-control"
+                                    value="083494117111" required />
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label class="col-sm-4 control-label">Status Pengelola</label>
                             <div class="col-sm-8">
-                                <select class="form-control">
+                                <select class="form-control" required>
                                     <option>Pencatat Transaksi</option>
                                     <option>Bendahara</option>
                                 </select>
                             </div>
                         </div>
 
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-default waves-effect m-l-5"
+                                data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
+                        </div>
                     </form>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary waves-effect waves-light">Save changes</button>
-                </div>
+
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
