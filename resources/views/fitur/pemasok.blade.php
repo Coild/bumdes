@@ -25,11 +25,11 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">
                         <h3 class="panel-title">Kelola Akun</h3>
-                        
+
                     </div>
-                     
+
                     <div class="panel-body">
-                        <div class="row mt-2" >
+                        <div class="row mt-2">
                             <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambah"> Tambah Akun </button>
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <table id="datatable" class="table table-striped table-bordered">
@@ -64,8 +64,8 @@
                                             </td>
                                             <td class="d-flex justify-content-center">
                                                 <div>
-                                                    <button class="btn btn-primary"  data-toggle="modal" data-target="#edit"> Edit </button> 
-                                                    <button class="btn btn-danger"> hapus </button> 
+                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#edit"> Edit </button>
+                                                    <button class="btn btn-danger"> hapus </button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -85,8 +85,8 @@
 
 </div> <!-- content -->
 
-  <!-- sample modal content -->
-  <div id="tambah" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!-- sample modal content -->
+<div id="tambah" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -142,9 +142,9 @@
                         </div>
                     </div>
 
-                   
 
-                </form>    
+
+                </form>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
@@ -154,8 +154,8 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
- <!-- sample modal content -->
- <div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!-- sample modal content -->
+<div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -211,9 +211,9 @@
                         </div>
                     </div>
 
-                   
 
-                </form>    
+
+                </form>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>

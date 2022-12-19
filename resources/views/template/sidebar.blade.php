@@ -25,13 +25,14 @@
         <div id="sidebar-menu">
             <ul>
                 <li>
-                    <a href="index.html" class="waves-effect"><i class="ti-home"></i><span> Dashboard </span></a>
+                    <a href="/" class="waves-effect"><i class="ti-home"></i><span> Dashboard </span></a>
                 </li>
 
 
                 <li class="has_sub">
                     <a href="javascript:void(0);" class="waves-effect"><i class="ti-agenda"></i> <span> Master Data</span> <span class="pull-right"><i class="mdi mdi-plus"></i></span></a>
                     <ul class="list-unstyled">
+                        <li><a href="/datausaha">Data Usaha</a></li>
                         <li><a href="/pengelola">Pengelola</a></li>
                         <li><a href="/akun">Data Akun</a></li>
                         <li><a href="ui-components.html">Jenis Pendapatan</a></li>

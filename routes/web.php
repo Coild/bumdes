@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('fitur.dashboard');
 });
 
+Route::get('/datausaha', function () {
+    return view('fitur.datausaha');
+});
+
 Route::get('/pengelola', function () {
     return view('fitur.pengelola');
 });
