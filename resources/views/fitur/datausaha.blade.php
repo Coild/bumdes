@@ -45,7 +45,7 @@
                         <div class="panel-body">
                             <div class="row mt-2">
                                 <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambahdata"> Tambah Data Usaha </button>
-                                <button class="btn btn-default mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambahjenis"> Tambah Jenis Pendapatan </button>
+
                                 <div class="col-md-12 col-sm-12 col-xs-12">
                                     <table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                         <thead>
@@ -75,9 +75,9 @@
                                                 </td>
                                                 <td>
                                                     <div class="conbtn">
-                                                        <button class="btn btn-primary center" data-toggle="modal" data-target="#editHasbi"> Edit </button>
-                                                        <button class="btn btn-danger center" style="margin-left: 2%"> Hapus
-                                                        </button>
+                                                        <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
+                                                        <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
+                                                        <button class="btn btn-success center fa fa-plus" style="margin-left: 2%" data-toggle="modal" data-target="#edit"> Jenis Pendapatan</button>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -96,9 +96,9 @@
                                                 </td>
                                                 <td>
                                                     <div class="conbtn">
-                                                        <button class="btn btn-primary center" data-toggle="modal" data-target="#editHasbi"> Edit </button>
-                                                        <button class="btn btn-danger center" style="margin-left: 2%"> Hapus
-                                                        </button>
+                                                        <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
+                                                        <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
+                                                        <button class="btn btn-success center fa fa-plus" style="margin-left: 2%" data-toggle="modal" data-target="#edit"> Jenis Pendapatan</button>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -117,9 +117,9 @@
                                                 </td>
                                                 <td>
                                                     <div class="conbtn">
-                                                        <button class="btn btn-primary center" data-toggle="modal" data-target="#editHasbi"> Edit </button>
-                                                        <button class="btn btn-danger center" style="margin-left: 2%"> Hapus
-                                                        </button>
+                                                        <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
+                                                        <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
+                                                        <button class="btn btn-success center fa fa-plus" style="margin-left: 2%" data-toggle="modal" data-target="#edit"> Jenis Pendapatan</button>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -197,7 +197,7 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<div id="tambahjenis" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -207,27 +207,24 @@
             <div class="modal-body">
                 <form class="form-horizontal" role="form">
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Jenis Pendapatan</label>
+                        <label class="col-md-4 control-label">Kode Usaha</label>
                         <div class="col-md-8">
                             <input type="text" class="form-control" disabled="disabled" value="001">
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-sm-4 control-label">Pilih Nama Usaha</label>
-                        <div class="col-sm-8">
-                            <select class="form-control" required>
-                                <option>Homestay Mandalika</option>
-                                <option>Homestay BUMDes</option>
-                                <option>Rental BUMDes</option>
-                            </select>
+                        <label class="col-md-4 control-label">Nama Usaha</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" value="Nama Usaha atau Perusahaan" required>
                         </div>
                     </div>
 
+                    
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Jenis Pendapatan</label>
+                        <label class="col-md-4 control-label">Lokasi Usaha</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" placeholder="Jenis Pendapatan Jasa (contoh: sewa kamar)" required>
+                            <input type="text" class="form-control" value="Alamat atau Lokasi Usaha" required />
                         </div>
                     </div>
 
@@ -243,108 +240,5 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<!-- Modal Edit (Pak Hasbi)-->
-<div id="editHasbi" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Edit Data Pengelola</h4>
-            </div>
-            <div class="modal-body">
-                <form class="form-horizontal" role="form">
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Pengelola</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" disabled="disabled" value="001">
-                        </div>
-                    </div>
 
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nama Pengelola</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" value="Hasbi" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nomor Telepon</label>
-                        <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" value="083117121494" required />
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Status Pengelola</label>
-                        <div class="col-sm-8">
-                            <select class="form-control" required>
-                                <option>Bendahara</option>
-                                <option>Pencatat Transaksi</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="modal-footer">
-
-                        <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
-                    </div>
-                </form>
-            </div>
-
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-<!-- Modal Edit (Bu Ima)-->
-<div id="editIma" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Edit Data Pengelola</h4>
-            </div>
-            <div class="modal-body">
-                <form class="form-horizontal" role="form">
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Pengelola</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" disabled="disabled" value="001">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nama Pengelola</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" value="Ima" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nomor Telepon</label>
-                        <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" value="083494117111" required />
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Status Pengelola</label>
-                        <div class="col-sm-8">
-                            <select class="form-control" required>
-                                <option>Pencatat Transaksi</option>
-                                <option>Bendahara</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="modal-footer">
-
-                        <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
-                    </div>
-                </form>
-            </div>
-
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
 @endsection

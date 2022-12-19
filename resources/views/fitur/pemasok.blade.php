@@ -39,7 +39,6 @@
                                             <th style="text-align: center;">Nama Pemasok</th>
                                             <th style="text-align: center;">Nomor Telepon</th>
                                             <th style="text-align: center;">Alamat Pemasok</th>
-                                            <th style="text-align: center;">Barang Pasokan</th>
                                             <th style="text-align: center;">Aksi</th>
                                         </tr>
                                     </thead>
@@ -60,17 +59,10 @@
                                                 Desa Kuripan
                                             </td>
                                             <td>
-                                                <div style="display: flex; justify-content: left; align-items: left;">
-                                                    <span class="badge badge-dark" style="margin-left: 5%; margin-right: 5%; ">9</span>
-                                                    <a href="#">Sembako</a>
-                                                </div>
-
-                                            </td>
-                                            <td>
                                                 <div class="conbtn">
-                                                    <button class="btn btn-primary center" data-toggle="modal" data-target="#edit1"> Edit </button>
-                                                    <button class="btn btn-danger center" style="margin-left: 2%"> Hapus
-                                                    </button>
+                                                    <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
+                                                    <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
+                                                    <button class="btn btn-success center mdi mdi-eye" style="margin-left: 2%" onclick="window.location.href='/detilpemasok'"> Barang</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -129,12 +121,7 @@
                     </div>
 
                     <div class="modal-footer">
-                        <div class="checkbox checkbox-primary" style="display: flex; justify-content: left; align-items: left;">
-                            <input id="checkbox" type="checkbox">
-                            <label for="checkbox">
-                                Langsung Menambahkan Data Barang
-                            </label>
-                        </div>
+
                         <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
                         <button type="submit" class="btn btn-primary waves-effect waves-light" data-toggle="modal" data-target="#tambahbarang">Simpan</button>
                     </div>
