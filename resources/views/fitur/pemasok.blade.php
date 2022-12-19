@@ -8,12 +8,12 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="page-header-title">
-                    <h4 class="pull-left page-title">Datatables</h4>
+
                     <ol class="breadcrumb pull-right">
-                        <li><a href="#">Xadmino</a></li>
-                        <li><a href="#">Tables</a></li>
-                        <li class="active">Datatables</li>
+                        <li><a href="#">Master Data</a></li>
+                        <li class="active">Data Pemasok</li>
                     </ol>
+
                     <div class="clearfix"></div>
                 </div>
             </div>
@@ -24,23 +24,23 @@
             <div class="col-md-12">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Kelola Akun</h3>
+                        <h3 class="panel-title">Data Pemasok</h3>
 
                     </div>
 
                     <div class="panel-body">
                         <div class="row mt-2">
-                            <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambah"> Tambah Akun </button>
+                            <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambah"> Tambah Data Akun </button>
                             <div class="col-md-12 col-sm-12 col-xs-12">
-                                <table id="datatable" class="table table-striped table-bordered">
+                                <table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                     <thead>
                                         <tr>
-                                            <th>No</th>
-                                            <th>Kode Pemasok</th>
-                                            <th>Nama pemasok</th>
-                                            <th>Jenis pemasok</th>
-                                            <th>Alamat</th>
-                                            <th>Aksi</th>
+                                            <th style="text-align: center;">No</th>
+                                            <th style="text-align: center;">Nama Pemasok</th>
+                                            <th style="text-align: center;">Nomor Telepon</th>
+                                            <th style="text-align: center;">Alamat Pemasok</th>
+                                            <th style="text-align: center;">Barang Pasokan</th>
+                                            <th style="text-align: center;">Aksi</th>
                                         </tr>
                                     </thead>
 
@@ -51,21 +51,26 @@
                                                 1
                                             </td>
                                             <td>
-                                                <a href="detilpemasok"> 7596</a>
+                                                Ega
                                             </td>
                                             <td>
-                                                Zen
+                                                081171113494
                                             </td>
                                             <td>
-                                                ihuj,
+                                                Desa Kuripan
                                             </td>
                                             <td>
-                                                Jln. kkhkh
+                                                <div style="display: flex; justify-content: left; align-items: left;">
+                                                    <span class="badge badge-dark" style="margin-left: 5%; margin-right: 5%; ">9</span>
+                                                    <a href="#">Sembako</a>
+                                                </div>
+
                                             </td>
-                                            <td class="d-flex justify-content-center">
-                                                <div>
-                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#edit"> Edit </button>
-                                                    <button class="btn btn-danger"> hapus </button>
+                                            <td>
+                                                <div class="conbtn">
+                                                    <button class="btn btn-primary center" data-toggle="modal" data-target="#edit1"> Edit </button>
+                                                    <button class="btn btn-danger center" style="margin-left: 2%"> Hapus
+                                                    </button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -91,134 +96,210 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Modal Heading</h4>
+                <h4 class="modal-title" id="myModalLabel">Tambah Data Pemasok</h4>
             </div>
             <div class="modal-body">
                 <form class="form-horizontal" role="form">
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Text</label>
+                        <label class="col-md-4 control-label">Kode Pemasok</label>
                         <div class="col-md-8">
-                            <p>0000001</p>
+                            <input type="text" class="form-control" disabled="disabled" value="001">
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-sm-4 control-label">Jenis Akun</label>
-                        <div class="col-sm-8">
-                            <select class="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Klasifikasi Akun</label>
-                        <div class="col-sm-8">
-                            <select class="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nama Akun</label>
+                        <label class="col-md-4 control-label">Nama Pemasok</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" value="Some text value...">
+                            <input type="text" class="form-control" placeholder="Nama Pemasok atau Nama Perusahaannya" required>
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Nilai Pengelola</label>
+                        <label class="col-md-4 control-label">Nomor Telepon</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" value="Some text value...">
+                            <input data-parsley-type="number" type="text" class="form-control" placeholder="08XXXXXXXXXX" required />
                         </div>
                     </div>
 
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Alamat Pemasok</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="Alamat Pemasok atau Alamat Perusahaannya" required>
+                        </div>
+                    </div>
 
-
+                    <div class="modal-footer">
+                        <div class="checkbox checkbox-primary" style="display: flex; justify-content: left; align-items: left;">
+                            <input id="checkbox" type="checkbox">
+                            <label for="checkbox">
+                                Langsung Menambahkan Data Barang
+                            </label>
+                        </div>
+                        <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary waves-effect waves-light" data-toggle="modal" data-target="#tambahbarang">Simpan</button>
+                    </div>
                 </form>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary waves-effect waves-light">Save changes</button>
-            </div>
+
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<!-- sample modal content -->
-<div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div id="tambahbarang" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Modal Heading</h4>
+                <h4 class="modal-title" id="myModalLabel">Tambah Barang</h4>
             </div>
             <div class="modal-body">
                 <form class="form-horizontal" role="form">
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Text</label>
+                        <label class="col-md-4 control-label">Kode Barang</label>
                         <div class="col-md-8">
-                            <p>0000001</p>
+                            <input type="text" class="form-control" disabled="disabled" value="001">
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-sm-4 control-label">Jenis Akun</label>
-                        <div class="col-sm-8">
-                            <select class="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+                        <label class="col-md-4 control-label">Nama Barang</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="Nama Pemasok atau Nama Perusahaannya" required>
                         </div>
                     </div>
 
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Simpan dan Kembali</button>
+                        <button type="submit" class="btn btn-primary waves-effect waves-light" data-toggle="modal" data-target="#tambahbarang">Tambah Barang Lagi</button>
+                    </div>
+                </form>
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- Modal Edit (1)-->
+<div id="edit1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Edit Data Akun</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form">
                     <div class="form-group">
-                        <label class="col-sm-4 control-label">Klasifikasi Akun</label>
-                        <div class="col-sm-8">
-                            <select class="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+                        <label class="col-md-4 control-label">Kode Akun</label>
+                        <div class="col-md-8">
+                            <input data-parsley-type="number" type="text" class="form-control" value="11011011" data-parsley-maxlength="8" required />
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Akun</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" value="Some text value...">
+                            <input type="text" class="form-control" value="Kas" required>
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Nilai Pengelola</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" value="Some text value...">
+                        <label class="col-sm-4 control-label">Jenis Akun</label>
+                        <div class="col-sm-8">
+                            <select class="form-control" required>
+                                <option>Header</option>
+                                <option>Sub Header</option>
+                            </select>
                         </div>
                     </div>
 
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Klasifikasi</label>
+                        <div class="col-sm-8">
+                            <select class="form-control" required>
+                                <option>Debit</option>
+                                <option>Kredit</option>
+                            </select>
+                        </div>
+                    </div>
 
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Nilai Akun</label>
+                        <div class="col-md-8">
+                            <input data-parsley-type="number" type="text" class="form-control" value="2000000" required />
+                        </div>
+                    </div>
 
+                    <div class="modal-footer">
+
+                        <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
+                    </div>
                 </form>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary waves-effect waves-light">Save changes</button>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- Modal Edit (2)-->
+<div id="edit2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Edit Data Akun</h4>
             </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Kode Akun</label>
+                        <div class="col-md-8">
+                            <input data-parsley-type="number" type="text" class="form-control" value="11011012" data-parsley-maxlength="8" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Nama Akun</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" value="Hutang" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Jenis Akun</label>
+                        <div class="col-sm-8">
+                            <select class="form-control" required>
+                                <option>Sub Header</option>
+                                <option>Header</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Klasifikasi</label>
+                        <div class="col-sm-8">
+                            <select class="form-control" required>
+                                <option>Kredit</option>
+                                <option>Debit</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Nilai Akun</label>
+                        <div class="col-md-8">
+                            <input data-parsley-type="number" type="text" class="form-control" value="400000" required />
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
+                    </div>
+                </form>
+            </div>
+
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
