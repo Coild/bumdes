@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\pageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,26 +14,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('fitur.dashboard');
-});
 
-Route::get('/datausaha', function () {
-    return view('fitur.datausaha');
-});
+Route::get('/', [pageController::class, 'dashboard']);
+Route::get('/datausaha', [pageController::class, 'datausaha']);
+Route::get('/pengelola', [pageController::class, 'pengelola']);
+Route::post('/pengelola', [pageController::class, 'pengelola']);
+Route::get('/akun', [pageController::class, 'akun']);
+Route::get('/datausaha', [pageController::class, 'datausaha']);
+Route::get('/pemasok', [pageController::class, 'pemasok']);
+Route::get('/detilpemasok', [pageController::class, 'detilpemasok']);
 
-Route::get('/pengelola', function () {
-    return view('fitur.pengelola');
-});
-
-Route::get('/akun', function () {
-    return view('fitur.akun');
-});
-
-Route::get('/pemasok', function () {
-    return view('fitur.pemasok');
-});
-
-Route::get('/detilpemasok', function () {
-    return view('fitur.detil.pemasok');
+Route::get('dummy' , function()
+{
+    $arr = [
+        ['toko' => 'serba ada', 'barang' => ['gas', 'batu']],
+        ['toko' => 'serba bisa', 'barang' => ['paku', 'palu']]
+    ];
+    foreach ($arr as $item) {
+        echo '***'.$item['toko'].'****';
+        foreach($item['barang'] as $barang) {
+            echo '   -'.$barang;
+        }
+    }
 });

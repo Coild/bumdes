@@ -45,56 +45,34 @@
 
 
                                     <tbody>
+                                        @if ($data != null)
                                         <tr>
                                             <td>
-                                                1
+                                                {{1}}
                                             </td>
                                             <td>
                                                 <!-- <a href="#"> Klikit</a> -->
-                                                Hasbi
+                                                {{$data ==null ? 'kosong' : $data['nama']}}
                                             </td>
                                             <td>
-                                                Pencatat Transaksi
+                                                {{$data ==null ? 'kosong' : $data['status']}}
                                             </td>
                                             <td>
-                                                083117121494
+                                                {{$data ==null ? 'kosong' : $data['nohp']}}
                                             </td>
                                             <td>
                                                 OnGoing
                                             </td>
                                             <td>
                                                 <div class="conbtn">
-                                                    <button class="btn btn-primary center" data-toggle="modal" data-target="#editHasbi"> Edit </button>
+                                                    <button class="btn btn-primary center" data-toggle="modal" data-target="#edit"> Edit </button>
                                                     <button class="btn btn-danger center" style="margin-left: 2%"> Hapus
                                                     </button>
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>
-                                                2
-                                            </td>
-                                            <td>
-                                                <!-- <a href="#"> Klikit</a> -->
-                                                Ima
-                                            </td>
-                                            <td>
-                                                Bendahara
-                                            </td>
-                                            <td>
-                                                083494117111
-                                            </td>
-                                            <td>
-                                                OnGoing
-                                            </td>
-                                            <td>
-                                                <div class="conbtn">
-                                                    <button class="btn btn-primary center" data-toggle="modal" data-target="#editIma"> Edit </button>
-                                                    <button class="btn btn-danger center" style="margin-left: 2%"> Hapus
-                                                    </button>
-                                                </div>
-                                            </td>
-                                        </tr>
+                                        @endif
+                                        
                                     </tbody>
                                 </table>
                             </div>
@@ -120,7 +98,8 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Data Pengelola</h4>
             </div>
             <div class="modal-body">
-                <form class="form-horizontal" role="form">
+                <form class="form-horizontal" role="form" method="POST" action="/pengelola">
+                    @csrf
                     <div class="form-group">
                         <label class="col-md-4 control-label">Kode Pengelola</label>
                         <div class="col-md-8">
@@ -131,21 +110,21 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Pengelola</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" placeholder="Nama Lengkap Pengelola" required>
+                            <input name="nama" type="text" class="form-control" placeholder="Nama Lengkap Pengelola" required>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nomor Telepon</label>
                         <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" placeholder="08XXXXXXXXXX" required />
+                            <input name="nohp" data-parsley-type="number" type="text" class="form-control" placeholder="08XXXXXXXXXX" required />
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Status Pengelola</label>
                         <div class="col-sm-8">
-                            <select class="form-control" required>
+                            <select name="status" class="form-control" required>
                                 <option>Bendahara</option>
                                 <option>Pencatat Transaksi</option>
                             </select>
@@ -164,7 +143,7 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 <!-- Modal Edit (Pak Hasbi)-->
-<div id="editHasbi" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -172,7 +151,8 @@
                 <h4 class="modal-title" id="myModalLabel">Edit Data Pengelola</h4>
             </div>
             <div class="modal-body">
-                <form class="form-horizontal" role="form">
+                <form class="form-horizontal" role="form" method="POST" action="pengelola">
+                    @csrf
                     <div class="form-group">
                         <label class="col-md-4 control-label">Kode Pengelola</label>
                         <div class="col-md-8">
@@ -183,23 +163,23 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Pengelola</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" value="Hasbi" required>
+                            <input  name="nama" type="text" class="form-control" value=" {{$data ==null ? 'kosong' : $data['nama']}}" required>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nomor Telepon</label>
                         <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" value="083117121494" required />
+                            <input name="nohp" data-parsley-type="number" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nohp']}}" required />
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Status Pengelola</label>
                         <div class="col-sm-8">
-                            <select class="form-control" required>
-                                <option>Bendahara</option>
-                                <option>Pencatat Transaksi</option>
+                            <select name ="status" class="form-control" value= required>
+                                <option value="Bendahara">Bendahara</option>
+                                <option value="Pencatat Transaksi">Pencatat Transaksi</option>
                             </select>
                         </div>
                     </div>
@@ -215,56 +195,5 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-<!-- Modal Edit (Bu Ima)-->
-<div id="editIma" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Edit Data Pengelola</h4>
-            </div>
-            <div class="modal-body">
-                <form class="form-horizontal" role="form">
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Pengelola</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" disabled="disabled" value="001">
-                        </div>
-                    </div>
 
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nama Pengelola</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" value="Ima" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nomor Telepon</label>
-                        <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" value="083494117111" required />
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Status Pengelola</label>
-                        <div class="col-sm-8">
-                            <select class="form-control" required>
-                                <option>Pencatat Transaksi</option>
-                                <option>Bendahara</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="modal-footer">
-
-                        <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
-                    </div>
-                </form>
-            </div>
-
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
 @endsection
