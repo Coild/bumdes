@@ -45,20 +45,21 @@
 
 
                                     <tbody>
+                                        @if ($data != null)
                                         <tr>
                                             <td>
                                                 <div class="conbtn">
-                                                    1
+                                                    {{1}}
                                                 </div>
                                             </td>
                                             <td>
-                                                Ega
+                                                {{$data ==null ? 'kosong' : $data['nama']}}
                                             </td>
                                             <td>
-                                                081171113494
+                                                {{$data ==null ? 'kosong' : $data['nohp']}}
                                             </td>
                                             <td>
-                                                Desa Kuripan
+                                                {{$data ==null ? 'kosong' : $data['alamat']}}
                                             </td>
                                             <td>
                                                 <div class="conbtn">
@@ -68,6 +69,7 @@
                                                 </div>
                                             </td>
                                         </tr>
+                                        @endif
                                     </tbody>
                                 </table>
 
@@ -97,28 +99,28 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Kode Pemasok</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" disabled="disabled" value="001">
+                            <input name="kode" type="text" class="form-control" disabled="disabled" value="001">
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Pemasok</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" placeholder="Nama Pemasok atau Nama Perusahaannya" required>
+                            <input name="nama" type="text" class="form-control" placeholder="Nama Pemasok atau Nama Perusahaannya" required>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nomor Telepon</label>
                         <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" placeholder="08XXXXXXXXXX" required />
+                            <input name="nohp" data-parsley-type="number" type="text" class="form-control" placeholder="08XXXXXXXXXX" required />
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Alamat Pemasok</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" placeholder="Alamat Pemasok atau Alamat Perusahaannya" required>
+                            <input name="alamat" type="text" class="form-control" placeholder="Alamat Pemasok atau Alamat Perusahaannya" required>
                         </div>
                     </div>
 
@@ -143,32 +145,35 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Data Pemasok</h4>
             </div>
             <div class="modal-body">
+                @if ($data != null)
                 <form class="form-horizontal" role="form">
+                    @csrf
                     <div class="form-group">
                         <label class="col-md-4 control-label">Kode Pemasok</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" disabled="disabled" value="001">
+                            
+                            <input name="kode" type="text" class="form-control" disabled="disabled" value="001">
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Nama Pemasok</label>
+                        <label class="col-md-4 control-label">Nama Pengelola</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" value="Nama Pemasok atau Nama Perusahaannya" required>
+                            <input name="nama" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nama']}}" required>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nomor Telepon</label>
                         <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" value="08XXXXXXXXXX" required />
+                            <input name="nohp" data-parsley-type="number" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nohp']}}" required />
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Alamat Pemasok</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" value="Alamat Pemasok atau Alamat Perusahaannya" required>
+                            <input name="alamat" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['alamat']}}" required>
                         </div>
                     </div>
 
@@ -178,6 +183,7 @@
                         <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
                     </div>
                 </form>
+                @endif
             </div>
 
         </div><!-- /.modal-content -->

@@ -45,26 +45,27 @@
 
 
                                     <tbody>
+                                        @if ($data != null)
                                         <tr>
                                             <td>
                                                 <div class="conbtn">
-                                                    1
+                                                    {{1}}
                                                 </div>
                                             </td>
                                             <td>
-                                                11011011
+                                                {{$data ==null ? 'kosong' : $data['kode']}}
                                             </td>
                                             <td>
-                                                Kas
+                                                {{$data ==null ? 'kosong' : $data['nama']}}
                                             </td>
                                             <td>
-                                                Header
+                                                {{$data ==null ? 'kosong' : $data['jenis']}}
                                             </td>
                                             <td>
-                                                Debit
+                                                {{$data ==null ? 'kosong' : $data['klasifikasi']}}
                                             </td>
                                             <td>
-                                                Rp2,000,000
+                                                {{$data ==null ? 'kosong' : $data['nilai']}}
                                             </td>
                                             <td>
                                                 <div class="conbtn">
@@ -73,34 +74,7 @@
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="conbtn">
-                                                    2
-                                                </div>
-                                            </td>
-                                            <td>
-                                                11011012
-                                            </td>
-                                            <td>
-                                                Hutang
-                                            </td>
-                                            <td>
-                                                Sub Header
-                                            </td>
-                                            <td>
-                                                Kredit
-                                            </td>
-                                            <td>
-                                                Rp400,000
-                                            </td>
-                                            <td>
-                                                <div class="conbtn">
-                                                    <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
-                                                    <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
-                                                </div>
-                                            </td>
-                                        </tr>
+                                        @endif
                                     </tbody>
                                 </table>
                             </div>
@@ -130,23 +104,23 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Kode Akun</label>
                         <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" placeholder="Kode Akun (contoh: 11011012)" data-parsley-maxlength="8" required />
+                            <input name="kode" data-parsley-type="number" type="text" class="form-control" placeholder="Kode Akun (contoh: 11011012)" data-parsley-maxlength="8" required />
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Akun</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" placeholder="Nama Akun" required>
+                            <input name="nama" type="text" class="form-control" placeholder="Nama Akun" required>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Jenis Akun</label>
                         <div class="col-sm-8">
-                            <select class="form-control" required>
-                                <option>Header</option>
-                                <option>Sub Header</option>
+                            <select name="jenis" class="form-control" required>
+                                <option value="Header">Header</option>
+                                <option value="Sub Header">Sub Header</option>
                             </select>
                         </div>
                     </div>
@@ -154,9 +128,9 @@
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Klasifikasi</label>
                         <div class="col-sm-8">
-                            <select class="form-control" required>
-                                <option>Debit</option>
-                                <option>Kredit</option>
+                            <select name="klasifikasi" class="form-control" required>
+                                <option value="Debit">Debit</option>
+                                <option value="Kredit">Kredit</option>
                             </select>
                         </div>
                     </div>
@@ -164,7 +138,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nilai Akun</label>
                         <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" placeholder="Total Nilai Akun dalam Rupiah" required />
+                            <input name="nilai" data-parsley-type="number" type="text" class="form-control" placeholder="Total Nilai Akun dalam Rupiah" required />
                         </div>
                     </div>
 
@@ -186,30 +160,37 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Edit Data Akun</h4>
+                <h4 class="modal-title" id="myModalLabel">Tambah Data Akun</h4>
             </div>
             <div class="modal-body">
+                @if ($data != null)
                 <form class="form-horizontal" role="form">
+                    @csrf
                     <div class="form-group">
                         <label class="col-md-4 control-label">Kode Akun</label>
                         <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" value="11011012" data-parsley-maxlength="8" required />
+                            <input name="kode" data-parsley-type="number" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['kode']}}" data-parsley-maxlength="8" required />
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Akun</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" value="Nama Akun" required>
+                            <input name="nama" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nama']}}" required>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Jenis Akun</label>
                         <div class="col-sm-8">
-                            <select class="form-control" required>
-                                <option>Header</option>
-                                <option>Sub Header</option>
+                            <select name="jenis" class="form-control" required>
+                                @if ($data['jenis'] == 'Header')
+                                <option value="Header">Header</option>
+                                <option value="Sub Header">Sub Header</option>
+                                @else
+                                <option value="Sub Header">Sub Header</option>
+                                <option value="Header">Header</option>
+                                @endif
                             </select>
                         </div>
                     </div>
@@ -217,9 +198,14 @@
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Klasifikasi</label>
                         <div class="col-sm-8">
-                            <select class="form-control" required>
-                                <option>Debit</option>
-                                <option>Kredit</option>
+                            <select name="klasifikasi" class="form-control" required>
+                                @if ($data['klasifikasi'] == 'Debit')
+                                <option value="Debit">Debit</option>
+                                <option value="Kredit">Kredit</option>
+                                @else
+                                <option value="Kredit">Kredit</option>
+                                <option value="Debit">Debit</option>
+                                @endif
                             </select>
                         </div>
                     </div>
@@ -227,7 +213,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nilai Akun</label>
                         <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" value="Rp10,000" required />
+                            <input name="nilai" data-parsley-type="number" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nilai']}}" required />
                         </div>
                     </div>
 
@@ -237,6 +223,7 @@
                         <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
                     </div>
                 </form>
+                @endif
             </div>
 
         </div><!-- /.modal-content -->

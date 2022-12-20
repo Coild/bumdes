@@ -14,11 +14,15 @@ class pageController extends Controller
     } 
 
     public function akun(Request $req) {
-        return view('fitur.akun');
+        $data = $req->all(); 
+        $data == null ? [] : $data;  
+        return view('fitur.akun', ['data' => $data]);
     } 
 
     public function pemasok(Request $req) {
-        return view('fitur.pemasok');
+        $data = $req->all(); 
+        $data == null ? [] : $data;  
+        return view('fitur.pemasok', ['data' => $data]);
     } 
 
     public function detilpemasok(Request $req) {
@@ -34,7 +38,9 @@ class pageController extends Controller
     } 
 
     public function pelanggan(Request $req) {
-        return view('fitur.pelanggan');
+        $data = $req->all(); 
+        $data == null ? [] : $data;
+        return view('fitur.pelanggan', ['data' => $data]);
     } 
 
     public function detilpelanggan(Request $req) {

@@ -152,6 +152,7 @@
                 <h4 class="modal-title" id="myModalLabel">Edit Data Pengelola</h4>
             </div>
             <div class="modal-body">
+                @if ($data != null)
                 <form class="form-horizontal" role="form" method="POST" action="pengelola">
                     @csrf
                     <div class="form-group">
@@ -178,9 +179,14 @@
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Status Pengelola</label>
                         <div class="col-sm-8">
-                            <select name="status" class="form-control" value=required>
+                            <select name="status" class="form-control" required>
+                                @if ($data['status'] == 'Bendahara')
                                 <option value="Bendahara">Bendahara</option>
                                 <option value="Pencatat Transaksi">Pencatat Transaksi</option>
+                                @else
+                                <option value="Pencatat Transaksi">Pencatat Transaksi</option>
+                                <option value="Bendahara">Bendahara</option>
+                                @endif
                             </select>
                         </div>
                     </div>
@@ -191,6 +197,7 @@
                         <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
                     </div>
                 </form>
+                @endif
             </div>
 
         </div><!-- /.modal-content -->
