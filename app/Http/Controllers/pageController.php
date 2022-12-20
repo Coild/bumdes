@@ -26,7 +26,9 @@ class pageController extends Controller
     } 
 
     public function detilpemasok(Request $req) {
-        return view('fitur.detil.pemasok');
+        $data = $req->all(); 
+        $data == null ? [] : $data;  
+        return view('fitur.detil.pemasok', ['data' => $data]);
     } 
 
     public function dashboard(Request $req) {
@@ -46,4 +48,11 @@ class pageController extends Controller
     public function detilpelanggan(Request $req) {
         return view('fitur.detil.pelanggan');
     } 
+
+    public function pendapatan(Request $req) {
+        $data = $req->all(); 
+        $data == null ? [] : $data;  
+        return view('fitur.pendapatan', ['data' => $data]);
+    } 
+    
 }

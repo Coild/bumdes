@@ -84,17 +84,18 @@
 
 
                                     <tbody>
+                                        @if ($data != null)
                                         <tr>
                                             <td>
                                                 <div class="conbtn">
-                                                    1
+                                                    {{1}}
                                                 </div>
                                             </td>
                                             <td>
-                                                11011011
+                                                {{11011011}}
                                             </td>
                                             <td>
-                                                Gas
+                                                {{$data ==null ? 'kosong' : $data['nama']}}
                                             </td>
                                             <td>
                                                 <div class="conbtn">
@@ -103,6 +104,7 @@
                                                 </div>
                                             </td>
                                         </tr>
+                                        @endif
                                     </tbody>
                                 </table>
                             </div>
@@ -139,7 +141,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Barang</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" placeholder="Nama Barang" required>
+                            <input name="nama" type="text" class="form-control" placeholder="Nama Barang" required>
                         </div>
                     </div>
 
@@ -163,7 +165,9 @@
                 <h4 class="modal-title" id="myModalLabel">Edit Data Barang</h4>
             </div>
             <div class="modal-body">
+                @if ($data != null)
                 <form class="form-horizontal" role="form">
+                    @crsf
                     <div class="form-group">
                         <label class="col-md-4 control-label">Kode Pemasok</label>
                         <div class="col-md-8">
@@ -174,7 +178,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Barang</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" value="Nama Barang" required>
+                            <input name="nama" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nama']}}" required>
                         </div>
                     </div>
 
@@ -184,6 +188,7 @@
                         <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
                     </div>
                 </form>
+                @endif
             </div>
 
         </div><!-- /.modal-content -->

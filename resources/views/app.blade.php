@@ -62,7 +62,7 @@
     <script src={{ asset('js/jquery.scrollTo.min.js') }}></script>
 
     <script src={{ asset('plugins/jquery-sparkline/jquery.sparkline.min.js') }}></script>
-    
+
 
     <!-- Datatables-->
     <script src={{ asset('plugins/datatables/jquery.dataTables.min.js') }}></script>
@@ -96,8 +96,16 @@
         });
     </script>
 
+    <!-- Plugins js -->
+    <script src={{ asset('plugins/timepicker/bootstrap-timepicker.js') }}></script>
+    <script src={{ asset('plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js') }}></script>
+    <script src={{ asset('plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}></script>
+    <script src={{ asset('plugins/bootstrap-maxlength/bootstrap-maxlength.min.js') }} type="text/javascript"></script>
+    <script src={{ asset('plugins/bootstrap-touchspin/js/jquery.bootstrap-touchspin.min.js') }} type="text/javascript"></script>
 
-
+    <!-- Plugins Init js -->
+    <script src={{ asset('pages/form-advanced.js') }}></script>
+    
     @yield('script')
 </body>
 

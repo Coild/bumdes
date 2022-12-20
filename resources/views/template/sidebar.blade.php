@@ -44,7 +44,7 @@
                 <li class="has_sub">
                     <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-group"></i> <span> Jasa</span> <span class="pull-right"><i class="mdi mdi-plus"></i></span></a>
                     <ul class="list-unstyled">
-                        <li><a href="#">Pendapatan</a></li>
+                        <li><a href="/pendapatan">Pendapatan</a></li>
                         <li><a href="#">Beban</a></li>
                         <li><a href="#">Transaksi Lainnya</a></li>
                     </ul>

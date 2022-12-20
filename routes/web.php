@@ -25,6 +25,7 @@ Route::get('/pemasok', [pageController::class, 'pemasok']);
 Route::get('/detilpemasok', [pageController::class, 'detilpemasok']);
 Route::get('/pelanggan', [pageController::class, 'pelanggan']);
 Route::get('/detilpelanggan', [pageController::class, 'detilpelanggan']);
+Route::get('/pendapatan', [pageController::class, 'pendapatan']);
 
 Route::get('dummy' , function()
 {
