@@ -70,14 +70,15 @@
     <!-- Set also "landscape" if you need -->
     <style>
         @page {
-            size: A4
+            size: A4;
+            margin: 15mm 15mm 15mm 15mm;
         }
     </style>
 </head>
 
 <body class="A4">
 
-    <section class="sheet padding-10mm" style="height: auto;">
+    <section class="sheet padding-20mm" style="height: auto;">
         <table width="100%" class="kop">
             <tr>
                 <td style="border:none;" width="30%">
@@ -109,113 +110,115 @@
             1. BADAN USAHA MILIK DESA PUTRI NYALE KUTA
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            a. Modal awal tahun 2018 = Rp. 102.000.000
+            a. Modal awal tahun 2018 &emsp;&emsp;&emsp;&emsp;= Rp. 102.000.000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            b. Hasil percetakan = Rp. 0
+            b. Hasil percetakan &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&nbsp; = Rp. 0
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            c. Pengeluaran = Rp. 0
+            c. Pengeluaran &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&nbsp; = Rp. 0
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            d. Total pendapatan tahun 2020 = Rp. 0
+            d. Total pendapatan tahun 2020 &emsp;&ensp;&nbsp; = Rp. 0
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
             e. Jadi untung bersih percetakan = Rp. 0
         </p>
 
         <p style="margin-bottom: -5px; font-size: 12px; font-weight:700 ">
-            2.	UNIT USAHA SIMPEN PINJAM
+            2. UNIT USAHA SIMPEN PINJAM
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            a. Modal awal			= Rp.38.000.000            
+            a. Modal awal = Rp.38.000.000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            b. Pendapatan bunga dari Tahun 2019 s/d 2020 = Rp.7,382,000 
+            b. Pendapatan bunga dari Tahun 2019 s/d 2020 = Rp.7,382,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            c. Perputaran modal sampai saat ini sebesar 	= Rp. 95,300,000
+            c. Perputaran modal sampai saat ini sebesar = Rp. 95,300,000
         </p>
 
         <p style="margin-bottom: -5px; font-size: 12px; font-weight:700 ">
-            3.	UNIT USAHA PERDAGANGAN GAS ELPIJI 3 KG
+            3. UNIT USAHA PERDAGANGAN GAS ELPIJI 3 KG
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            a.	Modal awal	= Rp. 84,300,000
+            a. Modal awal = Rp. 84,300,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            b.	Pembelian Pick Up	= Rp. 57,500,000
+            b. Pembelian Pick Up = Rp. 57,500,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            c.	Pembelian Tong Gas Elpiji 3 Kg	= Rp. 28,800,000
+            c. Pembelian Tong Gas Elpiji 3 Kg = Rp. 28,800,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            d.	Hasil penjualan 2020	= Rp. 5,512,500
+            d. Hasil penjualan 2020 = Rp. 5,512,500
         </p>
 
         <p style="margin-bottom: -5px; font-size: 12px; font-weight:700 ">
-            4.	Unit Usaha Budidaya Ayam KUB
+            4. Unit Usaha Budidaya Ayam KUB
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            a.	Modal awal	= Rp. 11,655,000
+            a. Modal awal = Rp. 11,655,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            b.	Harga pembelian	= Rp. 12,900,000
+            b. Harga pembelian = Rp. 12,900,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            c.	Harga penjualan 2020	= Rp. 27,780,000
+            c. Harga penjualan 2020 = Rp. 27,780,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            d.	Biaya Pakan	= Rp. 12.005,000
+            d. Biaya Pakan = Rp. 12.005,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            e.	Biaya kandang	= Rp. 1,855,000
+            e. Biaya kandang = Rp. 1,855,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            f.	Jadi di unit usaha Ayam KUB mengalami ke untungan sebesar 	
+            f. Jadi di unit usaha Ayam KUB mengalami ke untungan sebesar
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 25px; margin-bottom: 3px">
-            = harga jual – (harga pembelian + biaya) 
+            = harga jual – (harga pembelian + biaya)
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 25px; margin-bottom: 3px">
-            = Rp. 27,780,000 – (12,900,000 +  12.005,000 + 1,855,000 )
+            = Rp. 27,780,000 – (12,900,000 + 12.005,000 + 1,855,000 )
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 25px; margin-bottom: 3px">
             = Rp. 1,020,000
         </p>
 
         <p style="margin-bottom: -5px; font-size: 12px; font-weight:700 ">
-            5.	Unit usaha pengelolaan homestay	
+            5. Unit usaha pengelolaan homestay
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            a.	Modal awal		= Rp. 117,500,000
+            a. Modal awal = Rp. 117,500,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            b.	Hasil jasa sewa homestay		= Rp.    9,000,000
+            b. Hasil jasa sewa homestay = Rp. 9,000,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            c.	Biaya honor clening service		= Rp.    2,000,000
+            c. Biaya honor clening service = Rp. 2,000,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            d.	Pendapatan unit usaha  Homestay	= Rp.    7,000,000
+            d. Pendapatan unit usaha Homestay = Rp. 7,000,000
         </p>
 
         <p style="margin-bottom: -5px; font-size: 12px; font-weight:700 ">
-            6.	Unit usaha pengelolaan sampah	
+            6. Unit usaha pengelolaan sampah
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            a.	Modal awal		= Rp.3,000,000
+            a. Modal awal = Rp.3,000,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            b.	Pendapatan jasa angkut sampah 	= Rp. 3,280,000
+            b. Pendapatan jasa angkut sampah = Rp. 3,280,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            c.	Biaya oprasional angkut sampah		= Rp.    970,000
+            c. Biaya oprasional angkut sampah = Rp. 970,000
         </p>
         <p style="margin-bottom: -5px; font-size: 12px; padding-left: 10px; margin-bottom: 3px">
-            d.	Honor karyawan 9 orang 		= Rp. 2,310,000
+            d. Honor karyawan 9 orang = Rp. 2,310,000
         </p>
 
+
+        
 
     </section>
 </body>
