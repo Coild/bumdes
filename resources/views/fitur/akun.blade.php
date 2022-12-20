@@ -47,7 +47,9 @@
                                     <tbody>
                                         <tr>
                                             <td>
-                                                1
+                                                <div class="conbtn">
+                                                    1
+                                                </div>
                                             </td>
                                             <td>
                                                 11011011
@@ -66,15 +68,16 @@
                                             </td>
                                             <td>
                                                 <div class="conbtn">
-                                                    <button class="btn btn-primary center" data-toggle="modal" data-target="#edit1"> Edit </button>
-                                                    <button class="btn btn-danger center" style="margin-left: 2%"> Hapus
-                                                    </button>
+                                                    <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
+                                                    <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                2
+                                                <div class="conbtn">
+                                                    2
+                                                </div>
                                             </td>
                                             <td>
                                                 11011012
@@ -93,9 +96,8 @@
                                             </td>
                                             <td>
                                                 <div class="conbtn">
-                                                    <button class="btn btn-primary center" data-toggle="modal" data-target="#edit2"> Edit </button>
-                                                    <button class="btn btn-danger center" style="margin-left: 2%"> Hapus
-                                                    </button>
+                                                    <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
+                                                    <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
                                                 </div>
                                             </td>
                                         </tr>

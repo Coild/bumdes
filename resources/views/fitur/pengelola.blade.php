@@ -48,7 +48,9 @@
                                         @if ($data != null)
                                         <tr>
                                             <td>
-                                                {{1}}
+                                                <div class="conbtn">
+                                                    {{1}}
+                                                </div>
                                             </td>
                                             <td>
                                                 <!-- <a href="#"> Klikit</a> -->
@@ -65,14 +67,13 @@
                                             </td>
                                             <td>
                                                 <div class="conbtn">
-                                                    <button class="btn btn-primary center" data-toggle="modal" data-target="#edit"> Edit </button>
-                                                    <button class="btn btn-danger center" style="margin-left: 2%"> Hapus
-                                                    </button>
+                                                    <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
+                                                    <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
                                                 </div>
                                             </td>
                                         </tr>
                                         @endif
-                                        
+
                                     </tbody>
                                 </table>
                             </div>
@@ -163,7 +164,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Pengelola</label>
                         <div class="col-md-8">
-                            <input  name="nama" type="text" class="form-control" value=" {{$data ==null ? 'kosong' : $data['nama']}}" required>
+                            <input name="nama" type="text" class="form-control" value=" {{$data ==null ? 'kosong' : $data['nama']}}" required>
                         </div>
                     </div>
 
@@ -177,7 +178,7 @@
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Status Pengelola</label>
                         <div class="col-sm-8">
-                            <select name ="status" class="form-control" value= required>
+                            <select name="status" class="form-control" value=required>
                                 <option value="Bendahara">Bendahara</option>
                                 <option value="Pencatat Transaksi">Pencatat Transaksi</option>
                             </select>

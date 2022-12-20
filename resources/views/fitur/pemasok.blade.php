@@ -30,7 +30,7 @@
 
                     <div class="panel-body">
                         <div class="row mt-2">
-                            <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambah"> Tambah Data Akun </button>
+                            <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambah"> Tambah Pemasok </button>
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                     <thead>
@@ -47,7 +47,9 @@
                                     <tbody>
                                         <tr>
                                             <td>
-                                                1
+                                                <div class="conbtn">
+                                                    1
+                                                </div>
                                             </td>
                                             <td>
                                                 Ega

@@ -66,9 +66,9 @@
 
                                     <tbody>
                                         <tr>
-                                            <td>
+                                            <div class="conbtn">
                                                 1
-                                            </td>
+                                            </div>
                                             <td>
                                                 <!-- <a href="#"> Klikit</a> -->
                                                 Pak Hasbi

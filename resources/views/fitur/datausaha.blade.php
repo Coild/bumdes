@@ -62,7 +62,9 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    1
+                                                    <div class="conbtn">
+                                                        1
+                                                    </div>
                                                 </td>
                                                 <td>
                                                     Homestay BUMDes
@@ -71,7 +73,9 @@
                                                     Kuta Barat
                                                 </td>
                                                 <td>
-                                                    Sewa Kamar
+                                                    <ul>
+                                                        <li>sewa kamar</li>
+                                                    </ul>
                                                 </td>
                                                 <td>
                                                     <div class="conbtn">
@@ -83,7 +87,9 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    2
+                                                    <div class="conbtn">
+                                                        2
+                                                    </div>
                                                 </td>
                                                 <td>
                                                     Homestay Mandalika
@@ -92,7 +98,10 @@
                                                     Kuta Timur
                                                 </td>
                                                 <td>
-                                                    sewa kamar, sewa kendaraan
+                                                    <ul>
+                                                        <li>sewa kendaraan</li>
+                                                        <li>sewa kamar</li>
+                                                    </ul>
                                                 </td>
                                                 <td>
                                                     <div class="conbtn">
@@ -104,16 +113,21 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    3
+                                                    <div class="conbtn">
+                                                        3
+                                                    </div>
                                                 </td>
                                                 <td>
                                                     Rental BUMDes
+
                                                 </td>
                                                 <td>
                                                     Kuta Timur
                                                 </td>
                                                 <td>
-                                                    <a data-toggle="modal" data-target="#tambahjenis">Tambah Jenis Pendapatan</a>
+                                                    <ul>
+                                                        <li>sewa kendaraan</li>
+                                                    </ul>
                                                 </td>
                                                 <td>
                                                     <div class="conbtn">
@@ -150,7 +164,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Tambah Data Pengelola</h4>
+                <h4 class="modal-title" id="myModalLabel">Tambah Data Usaha</h4>
             </div>
             <div class="modal-body">
                 <form class="form-horizontal" role="form">
@@ -175,18 +189,7 @@
                         </div>
                     </div>
 
-                    <!-- <div class="form-group">
-                        <label class="col-sm-4 control-label">Status Pengelola</label>
-                        <div class="col-sm-8">
-                            <select class="form-control" required>
-                                <option>Bendahara</option>
-                                <option>Pencatat Transaksi</option>
-                            </select>
-                        </div>
-                    </div> -->
-
                     <div class="modal-footer">
-
                         <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
                         <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
                     </div>
@@ -220,7 +223,7 @@
                         </div>
                     </div>
 
-                    
+
                     <div class="form-group">
                         <label class="col-md-4 control-label">Lokasi Usaha</label>
                         <div class="col-md-8">
