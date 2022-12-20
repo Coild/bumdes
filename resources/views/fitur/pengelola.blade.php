@@ -164,7 +164,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Pengelola</label>
                         <div class="col-md-8">
-                            <input name="nama" type="text" class="form-control" value=" {{$data ==null ? 'kosong' : $data['nama']}}" required>
+                            <input name="nama" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nama']}}" required>
                         </div>
                     </div>
 

@@ -32,4 +32,8 @@ class pageController extends Controller
     public function datausaha(Request $req) {
         return view('fitur.datausaha');
     } 
+
+    public function pelanggan(Request $req) {
+        return view('fitur.pelanggan');
+    } 
 }

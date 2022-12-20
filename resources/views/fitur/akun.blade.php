@@ -179,70 +179,9 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-<!-- Modal Edit (1)-->
-<div id="edit1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Edit Data Akun</h4>
-            </div>
-            <div class="modal-body">
-                <form class="form-horizontal" role="form">
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Akun</label>
-                        <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" value="11011011" data-parsley-maxlength="8" required />
-                        </div>
-                    </div>
 
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nama Akun</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" value="Kas" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Jenis Akun</label>
-                        <div class="col-sm-8">
-                            <select class="form-control" required>
-                                <option>Header</option>
-                                <option>Sub Header</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Klasifikasi</label>
-                        <div class="col-sm-8">
-                            <select class="form-control" required>
-                                <option>Debit</option>
-                                <option>Kredit</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nilai Akun</label>
-                        <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" value="2000000" required />
-                        </div>
-                    </div>
-
-                    <div class="modal-footer">
-
-                        <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
-                    </div>
-                </form>
-            </div>
-
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-<!-- Modal Edit (2)-->
-<div id="edit2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!-- sample modal edit -->
+<div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -261,7 +200,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Akun</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" value="Hutang" required>
+                            <input type="text" class="form-control" value="Nama Akun" required>
                         </div>
                     </div>
 
@@ -269,8 +208,8 @@
                         <label class="col-sm-4 control-label">Jenis Akun</label>
                         <div class="col-sm-8">
                             <select class="form-control" required>
-                                <option>Sub Header</option>
                                 <option>Header</option>
+                                <option>Sub Header</option>
                             </select>
                         </div>
                     </div>
@@ -279,8 +218,8 @@
                         <label class="col-sm-4 control-label">Klasifikasi</label>
                         <div class="col-sm-8">
                             <select class="form-control" required>
-                                <option>Kredit</option>
                                 <option>Debit</option>
+                                <option>Kredit</option>
                             </select>
                         </div>
                     </div>
@@ -288,7 +227,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nilai Akun</label>
                         <div class="col-md-8">
-                            <input data-parsley-type="number" type="text" class="form-control" value="400000" required />
+                            <input data-parsley-type="number" type="text" class="form-control" value="Rp10,000" required />
                         </div>
                     </div>
 
@@ -303,5 +242,4 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-
 @endsection
