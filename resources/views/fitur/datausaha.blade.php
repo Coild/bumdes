@@ -22,7 +22,7 @@
             <ul class="nav nav-tabs navtab-bg nav-justified">
                 <li class="active">
                     <a href="#home1" data-toggle="tab" aria-expanded="false">
-                        <span class="visible-xs"><i class="fa fa-cubes"></i></span>
+                        <span class="visible-xs"><i class="fa fa-shopping-basket"></i></span>
                         <span class="hidden-xs">Usaha Jasa</span>
                     </a>
                 </li>

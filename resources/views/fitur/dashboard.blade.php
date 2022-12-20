@@ -66,37 +66,12 @@
 
                                     <tbody>
                                         <tr>
-                                            <div class="conbtn">
+                                            <td>
                                                 1
-                                            </div>
-                                            <td>
-                                                <!-- <a href="#"> Klikit</a> -->
-                                                Pak Hasbi
-                                            </td>
-                                            <td>
-                                                Pencatat Transaksi
-                                            </td>
-                                            <td>
-                                                083117121494
-                                            </td>
-                                            <td>
-                                                OnGoing
-                                            </td>
-                                            <td>
-                                                <div class="conbtn">
-                                                    <button class="btn btn-primary center" data-toggle="modal" data-target="#editHasbi"> Edit </button>
-                                                    <button class="btn btn-danger center" style="margin-left: 2%"> Hapus
-                                                    </button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                2
                                             </td>
                                             <td>
                                                 <!-- <a href="#"> Klikit</a> -->
-                                                Bu Ima
+                                                Ima
                                             </td>
                                             <td>
                                                 Bendahara
