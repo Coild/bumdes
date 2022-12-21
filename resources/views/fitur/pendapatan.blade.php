@@ -115,7 +115,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Tanggal</label>
                         <div class="col-md-8">
-                            <div class="input-group">
+                            <div class="input-group ">
                                 <input name="tanggal" type="text" class="form-control" placeholder="mm/dd/yyyy" id="datepicker-autoclose">
                                 <span class="input-group-addon bg-custom b-0"><i class="mdi mdi-calendar text-white"></i></span>
                             </div><!-- input-group -->
@@ -142,7 +142,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Catatan Transaksi</label>
                         <div class="col-md-8">
-                            <input name="catatan" type="text" class="form-control" placeholder="Catatan Transaksi" required>
+                            <input name="catatan" type="text" class="form-control" placeholder="Catatan Transaksi (bisa saja kosong)">
                         </div>
                     </div>
 
@@ -188,7 +188,7 @@
                         <label class="col-md-4 control-label">Tanggal</label>
                         <div class="col-md-8">
                             <div class="input-group">
-                                <input name="tanggal" type="text" class="form-control" placeholder="mm/dd/yyyy" id="datepicker-autoclose">
+                                <input name="tanggal" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['tanggal']}}" id="datepicker-autoclose2">
                                 <span class="input-group-addon bg-custom b-0"><i class="mdi mdi-calendar text-white"></i></span>
                             </div><!-- input-group -->
                         </div>
@@ -219,7 +219,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Catatan Transaksi</label>
                         <div class="col-md-8">
-                            <input name="catatan" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['catatan']}}" required>
+                            <input name="catatan" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['catatan']}}">
                         </div>
                     </div>
 
