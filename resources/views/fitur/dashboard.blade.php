@@ -32,10 +32,10 @@
             <div class="col-lg-6">
                 <div class="panel panel-border panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Bar Chart </h3>
+                        <h3 class="panel-title">Pendapatan </h3>
                     </div>
                     <div class="panel-body">
-                        <div class=" table-responsive" id="morris-bar-example" style="height: 300px"></div>
+                        <div id="morris-line-example" style="height: 300px"></div>
                     </div>
                 </div>
             </div> <!-- col -->
