@@ -27,6 +27,7 @@ Route::get('/pelanggan', [pageController::class, 'pelanggan']);
 Route::get('/detilpelanggan', [pageController::class, 'detilpelanggan']);
 Route::get('/pendapatan', [pageController::class, 'pendapatan']);
 Route::post('/tambahpendapatan', [pageController::class, 'tambahpendapatan']);
+Route::get('/notapendapatan', [pageController::class, 'notapendapatan']);
 
 Route::get('/laporan', [pageController::class, 'laporan']);
 

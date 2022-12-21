@@ -36,15 +36,15 @@
                                         <div class="m-t-5">
                                             <form class="form" role="form">
                                                 <div class="form-group">
-                                                    <label class="control-label">Kode Akun</label>
+                                                    <label class="control-label">Nomor Transaksi</label>
                                                     <div class="">
                                                         <input type="text" class="form-control" disabled="disabled" value="001">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="control-label">Nama Pemasok</label>
+                                                    <label class="control-label">Tanggal Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="Nama Pemasok">
+                                                        <input type="text" class="form-control" disabled="disabled" value="21/12/23">
                                                     </div>
                                                 </div>
                                             </form>
@@ -54,15 +54,15 @@
                                         <div class="m-t-5">
                                             <form class="form" role="form">
                                                 <div class="form-group">
-                                                    <label class="control-label">Nomor Telepon</label>
+                                                    <label class="control-label">Nama Pelanggan</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="083XXXXXXXX">
+                                                        <input type="text" class="form-control" disabled="disabled" value="Hasbi">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="control-label">Alamat Pemasok</label>
+                                                    <label class="control-label">Catatan Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="Alamat Pemasok">
+                                                        <input type="text" class="form-control" disabled="disabled" value="-">
                                                     </div>
                                                 </div>
                                             </form>
@@ -71,19 +71,22 @@
                                 </div>
                                 <hr>
 
-                                <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambah"> Tambah Barang </button>
+                                <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambah"> Tambah Transaksi </button>
                                 <table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                     <thead>
                                         <tr>
                                             <th style="text-align: center;">No</th>
                                             <th style="text-align: center;">Jenis Pendapatan</th>
-                                            <th style="text-align: center;">Nama Barang</th>
+                                            <th style="text-align: center;">Harga</th>
+                                            <th style="text-align: center;">Jumlah</th>
+                                            <th style="text-align: center;">Total Harga</th>
                                             <th style="text-align: center;">Aksi</th>
                                         </tr>
                                     </thead>
 
 
                                     <tbody>
+
                                         @if ($data != null)
                                         <tr>
                                             <td>
@@ -92,10 +95,17 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                {{11011011}}
+                                                {{$data ==null ? 'kosong' : $data['jenis']}}
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $data['nama']}}
+                                                {{$data ==null ? 'kosong' : $data['harga']}}
+                                            </td>
+                                            <td>
+                                                {{$data ==null ? 'kosong' : $data['jumlah']}}
+                                            </td>
+                                            <td>
+                                                {{$data['harga']*$data['jumlah']}}
+
                                             </td>
                                             <td>
                                                 <div class="conbtn">
@@ -104,12 +114,42 @@
                                                 </div>
                                             </td>
                                         </tr>
+                                        <!-- <tr>
+                                            <td colspan="4" rowspan="1"> total transaksi </td>
+                                            <td colspan="3" rowspan="1"> Rp </td>
+                                        </tr> -->
                                         @endif
                                     </tbody>
                                 </table>
                             </div>
 
+
                         </div>
+                        <hr>
+                        <div>
+
+                        </div>
+                        <div class="col-md-8">
+                            <label class="col-md-3 control-label">Total Transaksi</label>
+                            <div class="col-md-5">
+                                <input name="totaltransaksi" data-parsley-type="number" type="text" disabled="disabled" class="form-control" value="{{$data['harga']*$data['jumlah']}}" required>
+                            </div>
+                        </div>
+                        <div class="col-md-8 m-t-5">
+                            <label class="col-md-3 control-label">Dibayarkan</label>
+                            <div class="col-md-5">
+                                <input  data-parsley-type="number" type="text" class="form-control" placeholder="Total Pelanggan Membayar" required>
+                            </div>
+
+                            <button class="btn btn-primary center m-l-5" style="display: inline;" data-target="#bayar">Bayar</button>
+                        </div>
+                        <div class="col-md-8">
+                            <label class="col-md-3 control-label">Sisa </label>
+                            <div class="col-md-5">
+                                <input data-parsley-type="number" type="text" disabled="disabled" class="form-control" value="{{$data['totalbayar']}}" required>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -127,24 +167,36 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Tambah Data Barang</h4>
+                <h4 class="modal-title" id="myModalLabel">Tambah Barang</h4>
             </div>
             <div class="modal-body">
                 <form class="form-horizontal" role="form">
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Pemasok</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" disabled="disabled" value="001">
+                        <label class="col-sm-4 control-label">Status Pengelola</label>
+                        <div class="col-sm-8">
+                            <select name="jenis" class="form-control" required>
+                                @if ($data['jenis'] == 'sewa kamar - Homestay BUMDes')
+                                <option value="sewa kamar - Homestay BUMDes">sewa kamar - Homestay BUMDes</option>
+                                <option value="sewa kamar - Homestay Mandalika">sewa kamar - Homestay Mandalika</option>
+                                @else
+                                <option value="sewa kamar - Homestay Mandalika">sewa kamar - Homestay Mandalika</option>
+                                <option value="sewa kamar - Homestay BUMDes">sewa kamar - Homestay BUMDes</option>
+                                @endif
+                            </select>
                         </div>
                     </div>
-
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Nama Barang</label>
+                        <label class="col-md-4 control-label">Harga</label>
                         <div class="col-md-8">
-                            <input name="nama" type="text" class="form-control" placeholder="Nama Barang" required>
+                            <input name="harga" data-parsley-type="number" type="text" class="form-control" placeholder="Harga Jasa" required>
                         </div>
                     </div>
-
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Jumlah</label>
+                        <div class="col-md-8">
+                            <input name="jumlah" data-parsley-type="number" type="text" class="form-control" placeholder="Jumlah atau Berapa Kali Jasa" required>
+                        </div>
+                    </div>
                     <div class="modal-footer">
 
                         <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
@@ -156,42 +208,6 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-<!-- Modal Edit (1)-->
-<div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Edit Data Barang</h4>
-            </div>
-            <div class="modal-body">
-                @if ($data != null)
-                <form class="form-horizontal" role="form">
-                    @crsf
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Pemasok</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" disabled="disabled" value="001">
-                        </div>
-                    </div>
 
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nama Barang</label>
-                        <div class="col-md-8">
-                            <input name="nama" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nama']}}" required>
-                        </div>
-                    </div>
 
-                    <div class="modal-footer">
-
-                        <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
-                    </div>
-                </form>
-                @endif
-            </div>
-
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
 @endsection

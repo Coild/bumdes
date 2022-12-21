@@ -36,9 +36,9 @@
                                         <div class="m-t-5">
                                             <form class="form" role="form">
                                                 <div class="form-group">
-                                                    <label class="control-label">Kode Akun</label>
+                                                    <label class="control-label">Total Hutang</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="001">
+                                                        <input type="text" class="form-control" disabled="disabled"  style="font-style: italic; color: red;" value="Rp200,000">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
@@ -70,11 +70,6 @@
                                     </div>
                                 </div>
                                 <hr>
-
-
-                                <h5 style="margin-bottom: 20px;">Total Hutang: <span style="font-style: italic; color: red;">Rp200,000</span></h5>
-
-
                                 <!-- <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambah"> Tambah Hutang </button> -->
                                 <table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                     <thead>
