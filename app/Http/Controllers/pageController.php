@@ -54,5 +54,21 @@ class pageController extends Controller
         $data == null ? [] : $data;  
         return view('fitur.pendapatan', ['data' => $data]);
     } 
-    
+
+    public function tambahpendapatan(Request $req) {
+        $file = $req->file('file');
+        $nama = $file->getClientOriginalName();
+        $tujuan_upload = 'images/';
+        $file->move($tujuan_upload,$nama);
+        // dd($nama);
+        $data = [
+            'file' => $nama,
+            'tanggal' => $req->tanggal,
+            'usaha' => $req->usaha,
+            'catatan' => $req->catatan,
+            'pelanggan' => $req->pelanggan
+        ];
+        // dd($data);
+        return view('fitur.pendapatan', ['data' => $data]);
+    } 
 }
