@@ -71,4 +71,10 @@ class pageController extends Controller
         // dd($data);
         return view('fitur.pendapatan', ['data' => $data]);
     } 
+
+    public function laporan(Request $req) {
+        $data = $req->all(); 
+        $data == null ? [] : $data;  
+        return view('fitur.laporan', ['data' => $data]);
+    }
 }
