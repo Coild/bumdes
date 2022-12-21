@@ -258,38 +258,42 @@
                             <input name="jenis" type="text" class="form-control" placeholder="Nama Jenis Pendapatan">
                         </div>
                         <div class="col-md-2">
-                            <button type="submit" class="btn btn-success waves-effect waves-light" style="padding: 8px;"> tambah</button>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light" style="padding: 8px;"> tambah</button>
                         </div>
                     </div>
                 </form>
                 <hr>
-                <form>
+                
                     <table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <th style="text-align: center;">Jenis Pendapatan</th>
+                                <th style="text-align: center;">Edit Jenis Pendapatan</th>
                                 <th style="text-align: center;">Aksi</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>
-                                    Contoh
+                                    <form action="#">
+                                        <div class="">
+                                            <!-- <label class="control-label m-l-10" style="display: flex; justify-content: left; align-items: left; margin-bottom: 5px;">Data Jenis Pendapatan Baru</label> -->
+                                            <div class="">
+                                                <input name="jenis" type="text" class="form-control" placeholder="Contoh" value="Bukan Contoh">
+                                            </div>
+                                        </div>
+                                    
                                 </td>
                                 <td>
-                                    <div class="conbtn">
-                                        <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#jenis"></button>
+                                
+                                    <div class="conbtn pt-3">
+                                        <button class="btn btn-primary center" data-toggle="modal" data-target="#jenis" style="padding: 7px;">  Simpan</button>
                                     </div>
+                                </form>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
-                    </div>
-                </form>
+                
             </div>
 
         </div><!-- /.modal-content -->

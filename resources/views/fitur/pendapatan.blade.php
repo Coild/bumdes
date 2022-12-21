@@ -104,14 +104,8 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Transaksi</h4>
             </div>
             <div class="modal-body">
-                <form class="form-horizontal" role="form">
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Transaksi</label>
-                        <div class="col-md-8">
-                            <input name="kode" type="text" class="form-control" disabled="disabled" value="001">
-                        </div>
-                    </div>
-
+                <form action="/tambahpendapatan" method="POST" class="form-horizontal" role="form" enctype="multipart/form-data">
+                    @csrf
                     <div class="form-group">
                         <label class="col-md-4 control-label">Tanggal</label>
                         <div class="col-md-8">
@@ -176,7 +170,7 @@
             <div class="modal-body">
                 @if ($data != null)
                 <form class="form-horizontal" role="form">
-                @csrf
+                    @csrf
                     <div class="form-group">
                         <label class="col-md-4 control-label">Kode Transaksi</label>
                         <div class="col-md-8">
@@ -227,6 +221,13 @@
                         <label class="col-md-4 control-label">Bukti Transaksi</label>
                         <div class="col-md-8">
                             <input class="form-control" name="file" type="file" value="{{$data ==null ? 'kosong' : $data['file']}}" />
+
+                            <div class="checkbox checkbox-primary">
+                                <input id="checkbox2" type="checkbox">
+                                <label for="checkbox2">
+                                    Ganti Bukti Transaksi
+                                </label>
+                            </div>
                         </div>
                     </div>
 

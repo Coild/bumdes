@@ -26,6 +26,7 @@ Route::get('/detilpemasok', [pageController::class, 'detilpemasok']);
 Route::get('/pelanggan', [pageController::class, 'pelanggan']);
 Route::get('/detilpelanggan', [pageController::class, 'detilpelanggan']);
 Route::get('/pendapatan', [pageController::class, 'pendapatan']);
+Route::post('/tambahpendapatan', [pageController::class, 'tambahpendapatan']);
 
 Route::get('dummy' , function()
 {
