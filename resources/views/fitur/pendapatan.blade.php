@@ -74,7 +74,7 @@
                                                 <div class="conbtn">
                                                     <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
                                                     <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
-                                                    <button class="btn btn-success center mdi mdi-eye" style="margin-left: 2%" onclick="window.location.href='/detilpendapatan'"> Detail</button>
+                                                    <button class="btn btn-success center mdi mdi-eye" style="margin-left: 2%" onclick="window.location.href='/notapendapatan'"> Detail</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -110,7 +110,7 @@
                         <label class="col-md-4 control-label">Tanggal</label>
                         <div class="col-md-8">
                             <div class="input-group ">
-                                <input name="tanggal" type="text" class="form-control" placeholder="mm/dd/yyyy" id="datepicker-autoclose">
+                                <input name="tanggal" type="text" class="form-control" placeholder="mm/dd/yyyy" id="datepicker-autoclose" required>
                                 <span class="input-group-addon bg-custom b-0"><i class="mdi mdi-calendar text-white"></i></span>
                             </div><!-- input-group -->
                         </div>
@@ -143,7 +143,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Bukti Transaksi</label>
                         <div class="col-md-8">
-                            <input class="form-control" name="file" type="file" />
+                            <input class="form-control" name="file" type="file" required/>
                         </div>
                     </div>
 

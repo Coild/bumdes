@@ -96,12 +96,6 @@
             </div>
             <div class="modal-body">
                 <form class="form-horizontal" role="form">
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Pelanggan</label>
-                        <div class="col-md-8">
-                            <input name="kode" type="text" class="form-control" disabled="disabled" value="001">
-                        </div>
-                    </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Pelanggan</label>
@@ -142,37 +136,31 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Tambah Data Pelanggan</h4>
+                <h4 class="modal-title" id="myModalLabel">Edit Data Pelanggan</h4>
             </div>
             <div class="modal-body">
                 @if ($data != null)
                 <form class="form-horizontal" role="form">
                     @csrf
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Pelanggan</label>
-                        <div class="col-md-8">
-                            <input name="kode" type="text" class="form-control" disabled="disabled" value="001">
-                        </div>
-                    </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Pelanggan</label>
                         <div class="col-md-8">
-                            <input name="nama" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nama']}}" required>
+                            <input name="nama" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nama']}}" placeholder="Nama Pelanggan atau Nama Perusahaannya" required>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nomor Telepon</label>
                         <div class="col-md-8">
-                            <input name="nohp" data-parsley-type="number" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nohp']}}" required />
+                            <input name="nohp" data-parsley-type="number" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nohp']}}" placeholder="08XXXXXXXXXX" required />
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Alamat Pelanggan</label>
                         <div class="col-md-8">
-                            <input name="alamat" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['alamat']}}" required>
+                            <input name="alamat" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['alamat']}}" placeholder="Alamat Pelanggan atau Alamat Perusahaannya" required>
                         </div>
                     </div>
 

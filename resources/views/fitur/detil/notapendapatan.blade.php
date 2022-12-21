@@ -36,15 +36,15 @@
                                         <div class="m-t-5">
                                             <form class="form" role="form">
                                                 <div class="form-group">
-                                                    <label class="control-label">Kode Akun</label>
+                                                    <label class="control-label">Nomor Transaksi</label>
                                                     <div class="">
                                                         <input type="text" class="form-control" disabled="disabled" value="001">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="control-label">Nama Pemasok</label>
+                                                    <label class="control-label">Tanggal Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="Nama Pemasok">
+                                                        <input type="text" class="form-control" disabled="disabled" value="21/12/23">
                                                     </div>
                                                 </div>
                                             </form>
@@ -54,15 +54,15 @@
                                         <div class="m-t-5">
                                             <form class="form" role="form">
                                                 <div class="form-group">
-                                                    <label class="control-label">Nomor Telepon</label>
+                                                    <label class="control-label">Nama Pelanggan/label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="083XXXXXXXX">
+                                                        <input type="text" class="form-control" disabled="disabled" value="Hasbi">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="control-label">Alamat Pemasok</label>
+                                                    <label class="control-label">Catatan Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="Alamat Pemasok">
+                                                        <input type="text" class="form-control" disabled="disabled" value="-">
                                                     </div>
                                                 </div>
                                             </form>
@@ -71,7 +71,7 @@
                                 </div>
                                 <hr>
 
-                                <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambah"> Tambah Barang </button>
+                                <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambah"> Tambah Transaksi </button>
                                 <table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                     <thead>
                                         <tr>

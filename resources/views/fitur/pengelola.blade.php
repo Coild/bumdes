@@ -101,12 +101,6 @@
             <div class="modal-body">
                 <form class="form-horizontal" role="form" method="POST" action="/pengelola">
                     @csrf
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Pengelola</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" disabled="disabled" value="001">
-                        </div>
-                    </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Pengelola</label>
@@ -155,24 +149,18 @@
                 @if ($data != null)
                 <form class="form-horizontal" role="form" method="POST" action="pengelola">
                     @csrf
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Pengelola</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" disabled="disabled" value="001">
-                        </div>
-                    </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Pengelola</label>
                         <div class="col-md-8">
-                            <input name="nama" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nama']}}" required>
+                            <input name="nama" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nama']}}" placeholder="Nama Lengkap Pengelola" required>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nomor Telepon</label>
                         <div class="col-md-8">
-                            <input name="nohp" data-parsley-type="number" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nohp']}}" required />
+                            <input name="nohp" data-parsley-type="number" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nohp']}}" placeholder="08XXXXXXXXXX" required />
                         </div>
                     </div>
 

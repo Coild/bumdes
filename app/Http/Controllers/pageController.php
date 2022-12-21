@@ -71,4 +71,10 @@ class pageController extends Controller
         // dd($data);
         return view('fitur.pendapatan', ['data' => $data]);
     } 
+
+    public function notapendapatan(Request $req) {
+        $data = $req->all(); 
+        $data == null ? [] : $data;  
+        return view('fitur.detil.notapendapatan', ['data' => $data]);
+    } 
 }

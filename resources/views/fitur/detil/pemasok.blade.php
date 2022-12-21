@@ -36,9 +36,9 @@
                                         <div class="m-t-5">
                                             <form class="form" role="form">
                                                 <div class="form-group">
-                                                    <label class="control-label">Kode Akun</label>
+                                                    <label class="control-label">Total Jenis Barang</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="001">
+                                                        <input type="text" class="form-control" disabled="disabled" value="100">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
@@ -132,13 +132,6 @@
             <div class="modal-body">
                 <form class="form-horizontal" role="form">
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Pemasok</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" disabled="disabled" value="001">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
                         <label class="col-md-4 control-label">Nama Barang</label>
                         <div class="col-md-8">
                             <input name="nama" type="text" class="form-control" placeholder="Nama Barang" required>
@@ -167,18 +160,12 @@
             <div class="modal-body">
                 @if ($data != null)
                 <form class="form-horizontal" role="form">
-                    @crsf
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Pemasok</label>
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" disabled="disabled" value="001">
-                        </div>
-                    </div>
+                @csrf
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Barang</label>
                         <div class="col-md-8">
-                            <input name="nama" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nama']}}" required>
+                            <input name="nama" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nama']}}" placeholder="Nama Barang" required>
                         </div>
                     </div>
 
