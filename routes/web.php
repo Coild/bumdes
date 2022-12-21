@@ -29,16 +29,16 @@ Route::get('/pendapatan', [pageController::class, 'pendapatan']);
 
 Route::get('dummy' , function()
 {
-    $arr = [
-        ['toko' => 'serba ada', 'barang' => ['gas', 'batu']],
-        ['toko' => 'serba bisa', 'barang' => ['paku', 'palu']]
-    ];
-    foreach ($arr as $item) {
-        echo '***'.$item['toko'].'****';
-        foreach($item['barang'] as $barang) {
-            echo '   -'.$barang;
-        }
-    }
+    // $arr = [
+    //     ['toko' => 'serba ada', 'barang' => ['gas', 'batu']],
+    //     ['toko' => 'serba bisa', 'barang' => ['paku', 'palu']]
+    // ];
+    // foreach ($arr as $item) {
+    //     echo '***'.$item['toko'].'****';
+    //     foreach($item['barang'] as $barang) {
+    //         echo '   -'.$barang;
+    //     }
+    // }
 
-    // return view('print.laporan');
+    return view('print.buku');
 });
