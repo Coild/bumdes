@@ -44,6 +44,17 @@ Route::get('dummy' , function()
     //         echo '   -'.$barang;
     //     }
     // }
+            
+    $data = [
+        'file' => 'aku',
+        'tanggal' => 'dia',
+        'usaha' => 'merala',
+        'catatan' => 'ksosng',
+        'pelanggan' => 'laper'
+    ];
+    // dd ($data); 
+    $data['harga'] = 1000;
+    dd ($data);
 
-    return view('print.buku');
+    // return view('print.buku');
 });

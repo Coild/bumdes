@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class pageController extends Controller
 {
@@ -78,9 +79,25 @@ class pageController extends Controller
         return view('fitur.laporan', ['data' => $data]);
     }
     public function notapendapatan(Request $req) {
-        $data = $req->all(); 
-        $data == null ? [] : $data;  
+        // Session::flush();
+        // dd(Session::get('notapendapatan') == null);
+        $data = Session::get('notapendapatan') == null ? [] : Session::get('notapendapatan');
+        $total = Session::get('totalnotapendapatan') == null ? 0 : Session::get('totalnotapendapatan');
+        $tambah = $req->all(); 
+        if ($tambah != null) {
+            $nota = [
+                'jenis' => $req->jenis,
+                'harga' => $req->harga,
+                'jumlah' => $req->jumlah,
+                'total' => $req->harga * $req->jumlah,
+            ];
+            $total = $total + $nota['total'];
+            array_push($data, $nota);
+            Session::put('totalnotapendapatan', $total);
+            Session::put('notapendapatan', $data);
+            // dd($data);
+        } 
         // dd(count($data));
-        return view('fitur.detil.notapendapatan', ['data' => $data]);
+        return view('fitur.detil.notapendapatan', compact('data','total') );
     } 
 }
