@@ -38,13 +38,13 @@
                                                 <div class="form-group">
                                                     <label class="control-label">Nomor Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="001">
+                                                        <input type="text" name="nota" class="form-control" disabled="disabled" value="001">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="control-label">Tanggal Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="21/12/23">
+                                                        <input type="text" name="tanggal" class="form-control" disabled="disabled" value="21/12/23">
                                                     </div>
                                                 </div>
                                             </form>
@@ -56,13 +56,13 @@
                                                 <div class="form-group">
                                                     <label class="control-label">Nama Pelanggan</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="Hasbi">
+                                                        <input type="text" name="nama" class="form-control" disabled="disabled" value="Hasbi">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="control-label">Catatan Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="-">
+                                                        <input type="text" name="catat" class="form-control" disabled="disabled" value="-">
                                                     </div>
                                                 </div>
                                             </form>
@@ -86,8 +86,13 @@
 
 
                                     <tbody>
+                                        <?php
+                                                    $harga = $data ==null ? 0 : $data['harga'];
+                                                    $jumlah = $data ==null ? 0 : $data['jumlah']
+                                                ?>
 
-                                        @if ($data != null)
+
+                                        @if (count ($data) != 0)
                                         <tr>
                                             <td>
                                                 <div class="conbtn">
@@ -104,7 +109,8 @@
                                                 {{$data ==null ? 'kosong' : $data['jumlah']}}
                                             </td>
                                             <td>
-                                                {{$data['harga']*$data['jumlah']}}
+                                                
+                                                {{ $harga * $jumlah }}
 
                                             </td>
                                             <td>
@@ -132,7 +138,7 @@
                         <div class="col-md-8">
                             <label class="col-md-3 control-label">Total Transaksi</label>
                             <div class="col-md-5">
-                                <input name="totaltransaksi" data-parsley-type="number" type="text" disabled="disabled" class="form-control" value="{{$data['harga']*$data['jumlah']}}" required>
+                                <input name="totaltransaksi" data-parsley-type="number" type="text" disabled="disabled" class="form-control"  value="{{ $harga * $jumlah }}" required>
                             </div>
                         </div>
                         <div class="col-md-8 m-t-5">
@@ -146,7 +152,7 @@
                         <div class="col-md-8">
                             <label class="col-md-3 control-label">Sisa </label>
                             <div class="col-md-5">
-                                <input data-parsley-type="number" type="text" disabled="disabled" class="form-control" value="{{$data['totalbayar']}}" required>
+                                <input data-parsley-type="number" type="text" disabled="disabled" class="form-control" value="{{isset($totalbayar) ? 0: 1}}" required>
                             </div>
                         </div>
 
@@ -170,12 +176,13 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Barang</h4>
             </div>
             <div class="modal-body">
-                <form class="form-horizontal" role="form">
+                <form method="POST" action="/notapendapatan" class="form-horizontal" role="form">
+                    @csrf
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Status Pengelola</label>
                         <div class="col-sm-8">
                             <select name="jenis" class="form-control" required>
-                                @if ($data['jenis'] == 'sewa kamar - Homestay BUMDes')
+                                @if ($data == null ? 'sewa kamar - Homestay BUMDes' : $data['jenis']  == 'sewa kamar - Homestay BUMDes')
                                 <option value="sewa kamar - Homestay BUMDes">sewa kamar - Homestay BUMDes</option>
                                 <option value="sewa kamar - Homestay Mandalika">sewa kamar - Homestay Mandalika</option>
                                 @else

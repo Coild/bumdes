@@ -80,6 +80,7 @@ class pageController extends Controller
     public function notapendapatan(Request $req) {
         $data = $req->all(); 
         $data == null ? [] : $data;  
+        // dd(count($data));
         return view('fitur.detil.notapendapatan', ['data' => $data]);
     } 
 }
