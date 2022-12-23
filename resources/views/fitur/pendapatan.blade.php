@@ -47,7 +47,7 @@
 
 
                                     <tbody>
-                                        @if ($data != null)
+                                    @foreach ($data as $item)
                                         <tr>
                                             <td>
                                                 <div class="conbtn">
@@ -55,17 +55,17 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $data['tanggal']}}
+                                                {{$data ==null ? 'kosong' : $item['tanggal']}}
                                             </td>
                                             <td>
                                                 {{"0001"}}
                                                 <!-- Perlu dibahas kodenya gmn -->
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $data['usaha']}}
+                                                {{$data ==null ? 'kosong' : $item['usaha']}}
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $data['pelanggan']}}
+                                                {{$data ==null ? 'kosong' : $item['pelanggan']}}
                                             </td>
                                             <td>
                                                 {{"Rp200,000"}}
@@ -78,7 +78,7 @@
                                                 </div>
                                             </td>
                                         </tr>
-                                        @endif
+                                        @endforeach
                                     </tbody>
                                 </table>
 
@@ -104,7 +104,7 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Transaksi</h4>
             </div>
             <div class="modal-body">
-                <form action="/tambahpendapatan" method="POST" class="form-horizontal" role="form" enctype="multipart/form-data">
+                <form action="/pendapatan" method="POST" class="form-horizontal" role="form" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
                         <label class="col-md-4 control-label">Tanggal</label>
@@ -159,89 +159,6 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<!-- sample modal content -->
-<div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel">Tambah Transaksi</h4>
-            </div>
-            <div class="modal-body">
-                @if ($data != null)
-                <form class="form-horizontal" role="form">
-                    @csrf
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Transaksi</label>
-                        <div class="col-md-8">
-                            <input name="kode" type="text" class="form-control" disabled="disabled" value="001">
-                        </div>
-                    </div>
 
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Tanggal</label>
-                        <div class="col-md-8">
-                            <div class="input-group">
-                                <input name="tanggal" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['tanggal']}}" id="datepicker-autoclose2">
-                                <span class="input-group-addon bg-custom b-0"><i class="mdi mdi-calendar text-white"></i></span>
-                            </div><!-- input-group -->
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Nama Usaha</label>
-                        <div class="col-sm-8">
-                            <select name="usaha" class="form-control" required>
-                                @if ($data['usaha'] == 'Homestay Mandalika')
-                                <option value="Homestay Mandalika">Homestay Mandalika</option>
-                                <option value="Homestay BUMDes">Homestay BUMDes</option>
-                                @else
-                                <option value="Homestay BUMDes">Homestay BUMDes</option>
-                                <option value="Homestay Mandalika">Homestay Mandalika</option>
-                                @endif
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nama Pelanggan</label>
-                        <div class="col-md-8">
-                            <input name="pelanggan" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['pelanggan']}}" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Catatan Transaksi</label>
-                        <div class="col-md-8">
-                            <input name="catatan" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['catatan']}}">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Bukti Transaksi</label>
-                        <div class="col-md-8">
-                            <input class="form-control" name="file" type="file" value="{{$data ==null ? 'kosong' : $data['file']}}" />
-
-                            <div class="checkbox checkbox-primary">
-                                <input id="checkbox2" type="checkbox">
-                                <label for="checkbox2">
-                                    Ganti Bukti Transaksi
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
-                    </div>
-
-                </form>
-                @endif
-            </div>
-
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
 
 @endsection

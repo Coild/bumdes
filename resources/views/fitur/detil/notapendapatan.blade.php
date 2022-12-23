@@ -1,238 +1,227 @@
 @extends('app')
 
 @section('content')
-    <div class="content">
-        <div class="container">
+<div class="content">
+    <div class="container">
 
-            <!-- Page-Title -->
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="page-header-title">
-                        <ol class="breadcrumb pull-right">
-                            <li><a href="#">Transaksi Jasa</a></li>
-                            <li><a href="/pemasok">Pendapatan</a></li>
-                            <li class="active">Nota Transaksi Pendapatan</li>
-                        </ol>
-                        <div class="clearfix"></div>
-                    </div>
+        <!-- Page-Title -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-header-title">
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="#">Transaksi Jasa</a></li>
+                        <li><a href="/pemasok">Pendapatan</a></li>
+                        <li class="active">Nota Transaksi Pendapatan</li>
+                    </ol>
+                    <div class="clearfix"></div>
                 </div>
             </div>
+        </div>
 
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Nota Transaksi</h3>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Nota Transaksi</h3>
 
-                        </div>
+                    </div>
 
-                        <div class="panel-body">
-                            <div class="row mt-2">
+                    <div class="panel-body">
+                        <div class="row mt-2">
 
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div class="container">
-                                        <div class="col-sm-6 col-xs-12">
-                                            <div class="m-t-5">
-                                                <form class="form" role="form">
-                                                    <div class="form-group">
-                                                        <label class="control-label">Nomor Transaksi</label>
-                                                        <div class="">
-                                                            <input type="text" name="nota" class="form-control"
-                                                                disabled="disabled" value="001">
-                                                        </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="container">
+                                    <div class="col-sm-6 col-xs-12">
+                                        <div class="m-t-5">
+                                            <form class="form" role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label">Nomor Transaksi</label>
+                                                    <div class="">
+                                                        <input type="text" name="nota" class="form-control" disabled="disabled" value="001">
                                                     </div>
-                                                    <div class="form-group">
-                                                        <label class="control-label">Tanggal Transaksi</label>
-                                                        <div class="">
-                                                            <input type="text" name="tanggal" class="form-control"
-                                                                disabled="disabled" value="21/12/23">
-                                                        </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label">Tanggal Transaksi</label>
+                                                    <div class="">
+                                                        <input type="text" name="tanggal" class="form-control" disabled="disabled" value="21/12/23">
                                                     </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 col-xs-12">
-                                            <div class="m-t-5">
-                                                <form class="form" role="form">
-                                                    <div class="form-group">
-                                                        <label class="control-label">Nama Pelanggan</label>
-                                                        <div class="">
-                                                            <input type="text" name="nama" class="form-control"
-                                                                disabled="disabled" value="Hasbi">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="control-label">Catatan Transaksi</label>
-                                                        <div class="">
-                                                            <input type="text" name="catat" class="form-control"
-                                                                disabled="disabled" value="-">
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
+                                                </div>
+                                            </form>
                                         </div>
                                     </div>
-                                    <hr>
-
-                                    <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px"
-                                        data-toggle="modal" data-target="#tambah"> Tambah Transaksi </button>
-                                    <table id="datatable-responsive"
-                                        class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0"
-                                        width="100%">
-                                        <thead>
-                                            <tr>
-                                                <th style="text-align: center;">No</th>
-                                                <th style="text-align: center;">Jenis Pendapatan</th>
-                                                <th style="text-align: center;">Harga</th>
-                                                <th style="text-align: center;">Jumlah</th>
-                                                <th style="text-align: center;">Total Harga</th>
-                                                <th style="text-align: center;">Aksi</th>
-                                            </tr>
-                                        </thead>
-
-
-                                        <tbody>
-
-
-                                            @foreach ($data as $item)
-                                                <tr>
-                                                    <td>
-                                                        <div class="conbtn">
-                                                            {{ 1 }}
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        {{ $data == null ? 'kosong' : $item['jenis'] }}
-                                                    </td>
-                                                    <td>
-                                                        {{ $data == null ? 'kosong' : $item['harga'] }}
-                                                    </td>
-                                                    <td>
-                                                        {{ $data == null ? 'kosong' : $item['jumlah'] }}
-                                                    </td>
-                                                    <td>
-
-                                                        {{ $item['total'] }}
-
-                                                    </td>
-                                                    <td>
-                                                        <div class="conbtn">
-                                                            <button class="btn btn-primary center fa fa-edit"
-                                                                data-toggle="modal" data-target="#edit"></button>
-                                                            <button class="btn btn-danger center fa fa-trash"
-                                                                style="margin-left: 2%"></button>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            @endforeach
-
-
-
-                                        </tbody>
-                                    </table>
+                                    <div class="col-sm-6 col-xs-12">
+                                        <div class="m-t-5">
+                                            <form class="form" role="form">
+                                                <div class="form-group">
+                                                    <label class="control-label">Nama Pelanggan</label>
+                                                    <div class="">
+                                                        <input type="text" name="nama" class="form-control" disabled="disabled" value="Hasbi">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label">Catatan Transaksi</label>
+                                                    <div class="">
+                                                        <input type="text" name="catat" class="form-control" disabled="disabled" value="-">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
                                 </div>
+                                <hr>
+
+                                <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambah"> Tambah Transaksi </button>
+                                <table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                                    <thead>
+                                        <tr>
+                                            <th style="text-align: center;">No</th>
+                                            <th style="text-align: center;">Jenis Pendapatan</th>
+                                            <th style="text-align: center;">Harga</th>
+                                            <th style="text-align: center;">Jumlah</th>
+                                            <th style="text-align: center;">Total Harga</th>
+                                            <th style="text-align: center;">Aksi</th>
+                                        </tr>
+                                    </thead>
 
 
+                                    <tbody>
+
+
+                                        @foreach ($data as $item)
+                                        <tr>
+                                            <td>
+                                                <div class="conbtn">
+                                                    {{ 1 }}
+                                                </div>
+                                            </td>
+                                            <td>
+                                                {{ $data == null ? 'kosong' : $item['jenis'] }}
+                                            </td>
+                                            <td>
+                                                {{ $data == null ? 'kosong' : $item['harga'] }}
+                                            </td>
+                                            <td>
+                                                {{ $data == null ? 'kosong' : $item['jumlah'] }}
+                                            </td>
+                                            <td>
+
+                                                {{ $item['total'] }}
+
+                                            </td>
+                                            <td>
+                                                <div class="conbtn">
+                                                    <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
+                                                    <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        @endforeach
+
+
+
+                                    </tbody>
+                                </table>
                             </div>
-                            <hr>
-                            <div>
 
-                            </div>
+
+                        </div>
+                        <hr>
+
+                        <div class="row mt-2">
                             <div class="col-md-8">
                                 <label class="col-md-3 control-label">Total Transaksi</label>
                                 <div class="col-md-5">
-                                    <input id="totaltr" name="totaltransaksi" data-parsley-type="number" type="text"
-                                        disabled="disabled" class="form-control" value="{{ $total }}" required>
+                                    <input id="totaltr" name="totaltransaksi" data-parsley-type="number" type="text" disabled="disabled" class="form-control" value="Rp{{ $total }}" required>
                                 </div>
                             </div>
                             <div class="col-md-8 m-t-5">
                                 <label class="col-md-3 control-label">Dibayarkan</label>
                                 <div class="col-md-5">
-                                    <input id="totalbyr" data-parsley-type="number" type="text" class="form-control"
-                                        placeholder="Total Pelanggan Membayar" required>
+                                    <input id="totalbyr" data-parsley-type="number" type="text" class="form-control" placeholder="Total Pelanggan Membayar" required>
                                 </div>
 
-                                <button class="btn btn-primary center m-l-5" style="display: inline;" data-target="#bayar"
-                                    onclick="bayar()">Bayar</button>
+                                <button class="btn btn-primary center m-l-5" style="display: inline;" data-target="#bayar" onclick="bayar()">Bayar</button>
                             </div>
-                            <div class="col-md-8">
-                                <label class="col-md-3 control-label">Sisa </label>
-                                <div class="col-md-5">
-                                    <input id="hasil" data-parsley-type="number" type="text" disabled="disabled"
-                                        class="form-control" value="{{ isset($totalbayar) ? 0 : 1 }}" required>
-                                </div>
-                            </div>
-
                         </div>
+                        <div style="width: 50%;"><hr style="border-color: black;"></div>
+                        
+
+
+                        <div class="col-md-8">
+                            <label class="col-md-3 control-label">Sisa </label>
+                            <div class="col-md-5">
+                                <input id="hasil" data-parsley-type="number" type="text" disabled="disabled" class="form-control" value="0" required>
+                            </div>
+
+                            <button class="btn btn-primary center m-l-5" style="display: inline;" data-target="#bayar" onclick="">Simpan</button>
+                        </div>
+
                     </div>
                 </div>
+            </div>
 
-            </div> <!-- End Row -->
+        </div> <!-- End Row -->
 
 
-        </div> <!-- container -->
+    </div> <!-- container -->
 
-    </div> <!-- content -->
+</div> <!-- content -->
 
-    <!-- sample modal content -->
-    <div id="tambah" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title" id="myModalLabel">Tambah Barang</h4>
-                </div>
-                <div class="modal-body">
-                    <form method="POST" action="/notapendapatan" class="form-horizontal" role="form">
-                        @csrf
-                        <div class="form-group">
-                            <label class="col-sm-4 control-label">Status Pengelola</label>
-                            <div class="col-sm-8">
-                                <select name="jenis" class="form-control" required>
+<!-- sample modal content -->
+<div id="tambah" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Tambah Barang</h4>
+            </div>
+            <div class="modal-body">
+                <form method="POST" action="/notapendapatan" class="form-horizontal" role="form">
+                    @csrf
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Status Pengelola</label>
+                        <div class="col-sm-8">
+                            <select name="jenis" class="form-control" required>
 
-                                    <option value="sewa kamar - Homestay BUMDes">sewa kamar - Homestay BUMDes</option>
-                                    <option value="sewa kamar - Homestay Mandalika">sewa kamar - Homestay Mandalika
-                                    </option>
+                                <option value="sewa kamar - Homestay BUMDes">sewa kamar - Homestay BUMDes</option>
+                                <option value="sewa kamar - Homestay Mandalika">sewa kamar - Homestay Mandalika
+                                </option>
 
-                                </select>
-                            </div>
+                            </select>
                         </div>
-                        <div class="form-group">
-                            <label class="col-md-4 control-label">Harga</label>
-                            <div class="col-md-8">
-                                <input name="harga" data-parsley-type="number" type="text" class="form-control"
-                                    placeholder="Harga Jasa" required>
-                            </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Harga</label>
+                        <div class="col-md-8">
+                            <input name="harga" data-parsley-type="number" type="text" class="form-control" placeholder="Harga Jasa" required>
                         </div>
-                        <div class="form-group">
-                            <label class="col-md-4 control-label">Jumlah</label>
-                            <div class="col-md-8">
-                                <input name="jumlah" data-parsley-type="number" type="text" class="form-control"
-                                    placeholder="Jumlah atau Berapa Kali Jasa" required>
-                            </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Jumlah</label>
+                        <div class="col-md-8">
+                            <input name="jumlah" data-parsley-type="number" type="text" class="form-control" placeholder="Jumlah atau Berapa Kali Jasa" required>
                         </div>
-                        <div class="modal-footer">
+                    </div>
+                    <div class="modal-footer">
 
-                            <button type="button" class="btn btn-default waves-effect m-l-5"
-                                data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
-                        </div>
-                    </form>
-                </div>
+                        <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
+                    </div>
+                </form>
+            </div>
 
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 @endsection
 
 @section('script')
-    <script>
-        function bayar() {
-            totaltr = document.getElementById("totaltr").value;
-            totalbyr = document.getElementById("totalbyr").value;
-            document.getElementById("hasil").value =  totalbyr - totaltr;
-        }
-    </script>
+<script>
+    function bayar() {
+        totaltr = document.getElementById("totaltr").value;
+        totalbyr = document.getElementById("totalbyr").value;
+        document.getElementById("hasil").value = totalbyr - totaltr;
+    }
+</script>
 @endsection
