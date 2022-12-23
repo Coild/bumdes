@@ -140,4 +140,11 @@ class pageController extends Controller
         // dd(count($data));
         return view('fitur.detil.notapendapatan', compact('data', 'total'));
     }
+
+    public function stok(Request $req)
+    {
+        $data = $req->all();
+        $data == null ? [] : $data;
+        return view('fitur.stok', ['data' => $data]);
+    }
 }
