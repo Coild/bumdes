@@ -91,7 +91,8 @@
                                                                     style="margin-left: 2%"></button>
                                                                 <button class="btn btn-success center fa fa-plus"
                                                                     style="margin-left: 2%" data-toggle="modal"
-                                                                    data-target="#editjenis" onclick="jenisdata({{$item['jenis']}})"> Jenis Pendapatan</button>
+                                                                  
+                                                                    data-target="#editjenis" onclick='jenisdata(@json($item["jenis"]))'> Jenis Pendapatan</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -380,12 +381,12 @@
             // $("#isidata").val(id);
             var atas = '<table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap"                        cellspacing="0" width="100%">                        <thead>                            <tr>                                <th style="text-align: center;">Edit Jenis Pendapatan</th>                                <th style="text-align: center;">Aksi</th>                            </tr>                        </thead>                        <tbody>'; 
             var bawah = '</tbody>  </table>'
-            $isi = '<form action="#">                                <tr>                                    <td>                                        <div class="">                                            <!-- <label class="control-label m-l-10" style="display: flex; justify-content: left; align-items: left; margin-bottom: 5px;">Data Jenis Pendapatan Baru</label> -->                                            <div class="">                                                <input name="jenis" type="text" class="form-control"                                                    placeholder="Contoh" value="Bukan Contoh">                                            </div>                                        </div>                                    </td>                                    <td>                                        <div class="conbtn pt-3">                                            <button class="btn btn-primary center" data-toggle="modal"                                                data-target="#jenis" style="padding: 7px;"> Simpan</button>                                        </div>                                    </td>                                </tr>                            </form>';
-            array.forEach(element => {
-                
+            var isi = '';
+            jenis.forEach(element => {
+               isi = isi + '<form action="#">                                <tr>                                    <td>                                        <div class="">                                            <!-- <label class="control-label m-l-10" style="display: flex; justify-content: left; align-items: left; margin-bottom: 5px;">Data Jenis Pendapatan Baru</label> -->                                            <div class="">                                                <input name="jenis" type="text" class="form-control"                                                    placeholder="Contoh" value="' +element + '">                                            </div>                                        </div>                                    </td>                                    <td>                                        <div class="conbtn pt-3">                                            <button class="btn btn-primary center" data-toggle="modal"                                                data-target="#jenis" style="padding: 7px;"> Simpan</button>                                        </div>                                    </td>                                </tr>                            </form>';
             });
             
-            document.querySelector('#place_here').innerHTML = atas+isi+isi+isi+bawah;
+            document.querySelector('#place_here').innerHTML = atas+isi+bawah;
         }
     </script>
     
