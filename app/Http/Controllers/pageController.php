@@ -43,7 +43,35 @@ class pageController extends Controller
 
     public function datausaha(Request $req)
     {
-        return view('fitur.datausaha');
+        // Session::flush();
+        // dd('aku');
+        $data = Session::get('datausaha') == null ? [] : Session::get('datausaha');
+        $tambah = $req->post();
+        
+        if ($tambah != []) {
+            $isi = [
+                'nama' => $req->nama,
+                'alamat' => $req->alamat,
+                'jenis' => [],
+            ];
+            array_push($data, $isi);
+            Session::put('datausaha', $data);
+        }
+
+        // dd( gettype($data[0]['jenis']));
+
+        return view('fitur.datausaha', compact('data'));
+    }
+
+    public function jenisdatausaha(Request $req)
+    {
+        // dd($req);
+        $data = Session::get('datausaha');
+
+        array_push($data[$req->id]['jenis'], $req->jenis);
+        Session::put('datausaha', $data);
+
+        return view('fitur.datausaha', compact('data'));
     }
 
     public function pelanggan(Request $req)

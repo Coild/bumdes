@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [pageController::class, 'dashboard']);
 Route::get('/datausaha', [pageController::class, 'datausaha']);
+Route::post('/datausaha', [pageController::class, 'datausaha']);
+Route::post('/jenisdatausaha', [pageController::class, 'jenisdatausaha']);
 Route::get('/pengelola', [pageController::class, 'pengelola']);
 Route::post('/pengelola', [pageController::class, 'pengelola']);
 Route::get('/akun', [pageController::class, 'akun']);
@@ -56,6 +58,7 @@ Route::get('dummy' , function()
         'catatan' => 'ksosng',
         'pelanggan' => 'laper'
     ];
+    
     // dd ($data); 
     $data['harga'] = 1000;
     dd ($data);
