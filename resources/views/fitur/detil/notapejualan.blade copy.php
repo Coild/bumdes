@@ -144,20 +144,17 @@
                                 <button class="btn btn-primary center m-l-5" style="display: inline;" data-target="#bayar" onclick="bayar()">Bayar</button>
                             </div>
                         </div>
-                        <div style="width: 50%;">
-                            <hr style="border-color: black;">
-                        </div>
+                        <div style="width: 50%;"><hr style="border-color: black;"></div>
+                        
 
 
-                        <div class="row mt-2">
-                            <div class="col-md-8">
-                                <label class="col-md-3 control-label">Sisa </label>
-                                <div class="col-md-5">
-                                    <input id="hasil" data-parsley-type="number" type="text" disabled="disabled" class="form-control" placeholder="0" value="0" required>
-                                </div>
-
-                                <button class="btn btn-primary center m-l-5" style="display: inline;" data-target="#bayar" onclick="">Simpan</button>
+                        <div class="col-md-8">
+                            <label class="col-md-3 control-label">Sisa </label>
+                            <div class="col-md-5">
+                                <input id="hasil" data-parsley-type="number" type="text" disabled="disabled" class="form-control" placeholder="0" value="0" required>
                             </div>
+
+                            <button class="btn btn-primary center m-l-5" style="display: inline;" data-target="#bayar" onclick="">Simpan</button>
                         </div>
 
                     </div>

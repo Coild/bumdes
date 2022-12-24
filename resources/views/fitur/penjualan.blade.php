@@ -10,8 +10,8 @@
                 <div class="page-header-title">
 
                     <ol class="breadcrumb pull-right">
-                        <li><a href="#">Transaksi Jasa</a></li>
-                        <li class="active">Pendapatan</li>
+                        <li><a href="#">Transaksi Dagang</a></li>
+                        <li class="active">Penjualan</li>
                     </ol>
 
                     <div class="clearfix"></div>
@@ -24,7 +24,7 @@
             <div class="col-md-12">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Transaksi Pendapatan Jasa</h3>
+                        <h3 class="panel-title">Transaksi Penjualan Dagang</h3>
 
                     </div>
 
@@ -74,7 +74,7 @@
                                                 <div class="conbtn">
                                                     <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
                                                     <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
-                                                    <button class="btn btn-success center mdi mdi-eye" style="margin-left: 2%" onclick="window.location.href='/notapendapatan'"> Detail</button>
+                                                    <button class="btn btn-success center mdi mdi-eye" style="margin-left: 2%" onclick="window.location.href='/notapenjualan'"> Detail</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -104,7 +104,7 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Transaksi</h4>
             </div>
             <div class="modal-body">
-                <form action="/pendapatan" method="POST" class="form-horizontal" role="form" enctype="multipart/form-data">
+                <form action="/penjualan" method="POST" class="form-horizontal" role="form" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
                         <label class="col-md-4 control-label">Tanggal</label>

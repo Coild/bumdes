@@ -32,6 +32,8 @@ Route::post('/pendapatan', [pageController::class, 'pendapatan']);
 Route::post('/tambahpendapatan', [pageController::class, 'tambahpendapatan']);
 Route::get('/notapendapatan', [pageController::class, 'notapendapatan']);
 Route::post('/notapendapatan', [pageController::class, 'notapendapatan']);
+Route::get('/penjualan', [pageController::class, 'penjualan']);
+
 
 
 Route::get('/stok', [pageController::class, 'stok']);
