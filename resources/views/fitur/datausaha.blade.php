@@ -91,8 +91,9 @@
                                                                     style="margin-left: 2%"></button>
                                                                 <button class="btn btn-success center fa fa-plus"
                                                                     style="margin-left: 2%" data-toggle="modal"
-                                                                  
-                                                                    data-target="#editjenis" onclick='jenisdata({{$loop->index}},@json($item["jenis"]))'> Jenis Pendapatan</button>
+                                                                    data-target="#editjenis"
+                                                                    onclick='jenisdata({{$loop->index}}, @JSON($item['jenis']))'>
+                                                                    Jenis Pendapatan</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -340,9 +341,10 @@
                     <h4 class="modal-title" id="myModalLabel">Jenis Pendapatan</h4>
                 </div>
                 <div class="modal-body">
-                    <form class="form-horizontal" role="form" style="margin-left: 5px;" method="post" action="jenisdatausaha">
+                    <form class="form-horizontal" role="form" style="margin-left: 5px;" method="post"
+                        action="jenisdatausaha">
                         @csrf
-                        
+
                         <input type="hidden" id="isidata" name="id">
                         <div class="form-group">
                             <label class="control-label m-l-10"
@@ -372,22 +374,24 @@
 @endsection
 
 @section('script')
-
     <script>
-        function jenisdata (id, jenis) {
+        function jenisdata(id, jenis) {
             // var id = $(this).data('ids');
             // console.log("aku "+id);
             console.log(jenis);
             $("#isidata").val(id);
-            var atas = '<table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap"                        cellspacing="0" width="100%">                        <thead>                            <tr>                                <th style="text-align: center;">Edit Jenis Pendapatan</th>                                <th style="text-align: center;">Aksi</th>                            </tr>                        </thead>                        <tbody>'; 
+            var atas =
+                '<table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap"                        cellspacing="0" width="100%">                        <thead>                            <tr>                                <th style="text-align: center;">Edit Jenis Pendapatan</th>                                <th style="text-align: center;">Aksi</th>                            </tr>                        </thead>                        <tbody>';
             var bawah = '</tbody>  </table>'
             var isi = '';
             jenis.forEach(element => {
-               isi = isi + '<form action="#">                                <tr>                                    <td>                                        <div class="">                                            <!-- <label class="control-label m-l-10" style="display: flex; justify-content: left; align-items: left; margin-bottom: 5px;">Data Jenis Pendapatan Baru</label> -->                                            <div class="">                                                <input name="jenis" type="text" class="form-control"                                                    placeholder="Contoh" value="' +element + '">                                            </div>                                        </div>                                    </td>                                    <td>                                        <div class="conbtn pt-3">                                            <button class="btn btn-primary center" data-toggle="modal"                                                data-target="#jenis" style="padding: 7px;"> Simpan</button>                                        </div>                                    </td>                                </tr>                            </form>';
+                isi = isi +
+                    '<form action="#">                                <tr>                                    <td>                                        <div class="">                                            <!-- <label class="control-label m-l-10" style="display: flex; justify-content: left; align-items: left; margin-bottom: 5px;">Data Jenis Pendapatan Baru</label> -->                                            <div class="">                                                <input name="jenis" type="text" class="form-control"                                                    placeholder="Contoh" value="' +
+                    element +
+                    '">                                            </div>                                        </div>                                    </td>                                    <td>                                        <div class="conbtn pt-3">                                            <button class="btn btn-primary center" data-toggle="modal"                                                data-target="#jenis" style="padding: 7px;"> Simpan</button>                                        </div>                                    </td>                                </tr>                            </form>';
             });
-            
-            document.querySelector('#place_here').innerHTML = atas+isi+bawah;
+
+            document.querySelector('#place_here').innerHTML = atas + isi + bawah;
         }
     </script>
-    
 @endsection
