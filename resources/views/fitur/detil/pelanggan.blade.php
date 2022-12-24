@@ -38,13 +38,13 @@
                                                 <div class="form-group">
                                                     <label class="control-label">Total Hutang</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled"  style="font-style: italic; color: red;" value="Rp200,000">
+                                                        <input type="text" class="form-control" disabled="disabled"  style="font-style: italic; color: red;" value="{{ 0 }}">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="control-label">Nama Pelanggan</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="Nama Pelanggan">
+                                                        <input type="text" class="form-control" disabled="disabled" value="{{ $pelanggan[$loc]['nama']}}">
                                                     </div>
                                                 </div>
                                             </form>
@@ -56,13 +56,13 @@
                                                 <div class="form-group">
                                                     <label class="control-label">Nomor Telepon</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="083XXXXXXXX">
+                                                        <input type="text" class="form-control" disabled="disabled" value="{{ $pelanggan[$loc]['nohp']}}">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="control-label">Alamat Pelanggan</label>
                                                     <div class="">
-                                                        <input type="text" class="form-control" disabled="disabled" value="Alamat Pelanggan">
+                                                        <input type="text" class="form-control" disabled="disabled" value="{{ $pelanggan[$loc]['alamat']}}">
                                                     </div>
                                                 </div>
                                             </form>

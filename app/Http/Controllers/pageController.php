@@ -117,14 +117,47 @@ class pageController extends Controller
 
     public function pelanggan(Request $req)
     {
-        $data = $req->all();
-        $data == null ? [] : $data;
+        // Session::flush();
+        $data = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
+        $tambah = $req->post();
+        if ($tambah != null) {
+            $row = [
+                'nama' => $req->nama,
+                'nohp' => $req->nohp,
+                'alamat' => $req->alamat
+            ];
+            array_push($data, $row);
+            Session::put('pelanggan', $data);
+            // dd($data);
+        }
         return view('fitur.pelanggan', ['data' => $data]);
     }
 
     public function detilpelanggan(Request $req)
     {
-        return view('fitur.detil.pelanggan');
+         // Session::flush();
+         $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
+         Session::put('lokpen', $loc);
+         // dd($loc);
+         $pelanggan = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
+         $data = Session::get('detilpelanggan') == null ? [] : Session::get('detilpelanggan');
+ 
+ 
+        //  $isi = array_key_exists($loc, $data) ? $data[$loc]['detil'] : [];
+         // dd($tambah);
+        //  if ($req->nama != null) {
+        //      $detil = [
+        //          'nama' => $req->nama
+        //      ];
+        //      array_push($isi, $detil);
+        //      $data[$loc]['detil'] = $isi;
+             // dd($loc);   
+             Session::put('detilpelanggan', $data);
+             Session::put('pelanggan', $pelanggan);
+             // dd($data);
+        //  }
+         // dd($pelanggan);
+         return view('fitur.detil.pelanggan', compact('data', 'loc', 'pelanggan'));
     }
 
     public function pendapatan(Request $req)

@@ -17,13 +17,16 @@ use Illuminate\Support\Facades\Session;
 
 
 Route::get('/', [pageController::class, 'dashboard']);
+
 Route::get('/datausaha', [pageController::class, 'datausaha']);
 Route::post('/datausaha', [pageController::class, 'datausaha']);
+
 Route::post('/jenisdatausaha', [pageController::class, 'jenisdatausaha']);
+
 Route::get('/pengelola', [pageController::class, 'pengelola']);
 Route::post('/pengelola', [pageController::class, 'pengelola']);
+
 Route::get('/akun', [pageController::class, 'akun']);
-Route::get('/datausaha', [pageController::class, 'datausaha']);
 
 Route::get('/pemasok', [pageController::class, 'pemasok']);
 Route::post('/pemasok', [pageController::class, 'pemasok']);
@@ -32,12 +35,17 @@ Route::get('/detilpemasok', [pageController::class, 'detilpemasok']);
 Route::post('/detilpemasok', [pageController::class, 'detilpemasok']);
 
 Route::get('/pelanggan', [pageController::class, 'pelanggan']);
+Route::post('/pelanggan', [pageController::class, 'pelanggan']);
+
 Route::get('/detilpelanggan', [pageController::class, 'detilpelanggan']);
+Route::post('/detilpelanggan', [pageController::class, 'detilpelanggan']);
+
 Route::get('/pendapatan', [pageController::class, 'pendapatan']);
 Route::post('/pendapatan', [pageController::class, 'pendapatan']);
-Route::post('/tambahpendapatan', [pageController::class, 'tambahpendapatan']);
+
 Route::get('/notapendapatan', [pageController::class, 'notapendapatan']);
 Route::post('/notapendapatan', [pageController::class, 'notapendapatan']);
+
 Route::get('/penjualan', [pageController::class, 'penjualan']);
 
 
