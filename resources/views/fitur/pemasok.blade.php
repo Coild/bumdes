@@ -45,31 +45,31 @@
 
 
                                     <tbody>
-                                        @if ($data != null)
+                                        @foreach ($data as $item)
                                         <tr>
                                             <td>
                                                 <div class="conbtn">
-                                                    {{1}}
+                                                    {{ $loop->index + 1 }}
                                                 </div>
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $data['nama']}}
+                                                {{$data ==null ? 'kosong' : $item['nama']}}
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $data['nohp']}}
+                                                {{$data ==null ? 'kosong' : $item['nohp']}}
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $data['alamat']}}
+                                                {{$data ==null ? 'kosong' : $item['alamat']}}
                                             </td>
                                             <td>
                                                 <div class="conbtn">
                                                     <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
                                                     <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
-                                                    <button class="btn btn-success center mdi mdi-eye" style="margin-left: 2%" onclick="window.location.href='/detilpemasok'"> Barang</button>
+                                                    <button class="btn btn-success center mdi mdi-eye" style="margin-left: 2%" onclick="window.location.href='/detilpemasok?id={{ $loop->index}}'" > Barang</button>
                                                 </div>
                                             </td>
                                         </tr>
-                                        @endif
+                                        @endforeach
                                     </tbody>
                                 </table>
 
@@ -95,7 +95,7 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Data Pemasok</h4>
             </div>
             <div class="modal-body">
-                <form class="form-horizontal" role="form" method="post">
+                <form action="/pemasok" method="POST" class="form-horizontal" role="form">
                     @csrf
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Pemasok</label>
@@ -139,28 +139,28 @@
                 <h4 class="modal-title" id="myModalLabel">Edit Data Pemasok</h4>
             </div>
             <div class="modal-body">
-                @if ($data != null)
+          
                 <form class="form-horizontal" role="form">
-                    @csrf
+                    
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Pengelola</label>
                         <div class="col-md-8">
-                            <input name="nama" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nama']}}" placeholder="Nama Pemasok atau Nama Perusahaannya" required>
+                            <input name="nama" type="text" class="form-control" value="" placeholder="Nama Pemasok atau Nama Perusahaannya" required>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nomor Telepon</label>
                         <div class="col-md-8">
-                            <input name="nohp" data-parsley-type="number" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nohp']}}" placeholder="08XXXXXXXXXX" required />
+                            <input name="nohp" data-parsley-type="number" type="text" class="form-control" value="" placeholder="08XXXXXXXXXX" required />
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Alamat Pemasok</label>
                         <div class="col-md-8">
-                            <input name="alamat" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['alamat']}}" placeholder="Alamat Pemasok atau Alamat Perusahaannya" required>
+                            <input name="alamat" type="text" class="form-control" value="" placeholder="Alamat Pemasok atau Alamat Perusahaannya" required>
                         </div>
                     </div>
 
@@ -170,7 +170,7 @@
                         <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
                     </div>
                 </form>
-                @endif
+               
             </div>
 
         </div><!-- /.modal-content -->
