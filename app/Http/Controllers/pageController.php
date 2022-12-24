@@ -9,7 +9,7 @@ class pageController extends Controller
 {
 
     public function dummy(){
-        $data = Session::get('lokpen');
+        $data = Session::get('notapendapatan');
         // Session::put('pendapatan', [$data[0]]);
         // $data[0]['penghasilan'] =15000;
         dd($data);
@@ -97,7 +97,7 @@ class pageController extends Controller
 
     public function pendapatan(Request $req)
     {
-        // Session::flush();   
+        // Session::flush();     
         $data = Session::get('pendapatan') == null ? [] : Session::get('pendapatan');
         // $file = $req->file('file');
         // $nama = $file->getClientOriginalName();
@@ -158,15 +158,16 @@ class pageController extends Controller
     }
     public function notapendapatan(Request $req)
     {
-        // Session::flush();
-        $loc = Session::get('lokpen') == null ? $req->get('id') : Session::get('lokpen');
         
-        Session::put('lokpen', $loc);
+        $req->get('id') !=null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
+        
+        Session::put('lokpen', $loc); 
         // dd($loc);
         $pendapatan = Session::get('pendapatan') == null ? [] : Session::get('pendapatan');
         $data = Session::get('notapendapatan') == null ? [] : Session::get('notapendapatan');
-        $total = Session::get('totalnotapendapatan') == null ? 0 : Session::get('totalnotapendapatan');
+        $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0 ;
         $tambah = $req->post();
+        $isi = array_key_exists($loc, $data) ? $data[$loc]['nota']:[]  ;
         // dd($tambah);
         if ($req->jenis != null) {
             $nota = [
@@ -176,17 +177,17 @@ class pageController extends Controller
                 'total' => $req->harga * $req->jumlah,
             ];
             $total = $total + $nota['total'];
-            array_push($data, $nota);
-            
+            array_push($isi, $nota);
+            $data[$loc]['nota'] = $isi;
+            $data[$loc]['total'] = $total;
             $pendapatan[$loc]['penghasilan'] = $total;
-            // dd($loc);    
-            Session::put('totalnotapendapatan', $total);
+            // dd($loc);   
             Session::put('notapendapatan', $data);
             Session::put('pendapatan', $pendapatan);
             // dd($data);
         }
         // dd(count($data));
-        return view('fitur.detil.notapendapatan', compact('data', 'total'));
+        return view('fitur.detil.notapendapatan', compact('data', 'total','loc'));
     }
 
     public function stok(Request $req)

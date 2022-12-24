@@ -88,7 +88,8 @@
                                     <tbody>
 
 
-                                        @foreach ($data as $item)
+                                        @isset($data[$loc]['nota'])
+                                        @foreach ($data[$loc]['nota'] as $item)
                                         <tr>
                                             <td>
                                                 <div class="conbtn">
@@ -117,6 +118,8 @@
                                             </td>
                                         </tr>
                                         @endforeach
+                                        @endisset
+                                        
 
 
 
