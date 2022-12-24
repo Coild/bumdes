@@ -25,6 +25,7 @@ Route::post('/pengelola', [pageController::class, 'pengelola']);
 Route::get('/akun', [pageController::class, 'akun']);
 Route::get('/datausaha', [pageController::class, 'datausaha']);
 Route::get('/pemasok', [pageController::class, 'pemasok']);
+Route::post('/pemasok', [pageController::class, 'pemasok']);
 Route::get('/detilpemasok', [pageController::class, 'detilpemasok']);
 Route::get('/pelanggan', [pageController::class, 'pelanggan']);
 Route::get('/detilpelanggan', [pageController::class, 'detilpelanggan']);

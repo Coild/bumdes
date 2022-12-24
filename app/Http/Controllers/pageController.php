@@ -166,7 +166,7 @@ class pageController extends Controller
         $pendapatan = Session::get('pendapatan') == null ? [] : Session::get('pendapatan');
         $data = Session::get('notapendapatan') == null ? [] : Session::get('notapendapatan');
         $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0 ;
-        $tambah = $req->post();
+     
         $isi = array_key_exists($loc, $data) ? $data[$loc]['nota']:[]  ;
         // dd($tambah);
         if ($req->jenis != null) {

@@ -95,8 +95,8 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Data Pemasok</h4>
             </div>
             <div class="modal-body">
-                <form class="form-horizontal" role="form">
-
+                <form class="form-horizontal" role="form" method="post">
+                    @csrf
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Pemasok</label>
                         <div class="col-md-8">
