@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\pageController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Session;
 
 /*
 |--------------------------------------------------------------------------
@@ -67,3 +68,5 @@ Route::get('dummy' , function()
 
     // return view('print.buku');
 });
+
+Route::get('cek', [pageController::class, 'dummy']);

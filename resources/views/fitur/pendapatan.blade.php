@@ -68,13 +68,14 @@
                                                 {{$data ==null ? 'kosong' : $item['pelanggan']}}
                                             </td>
                                             <td>
-                                                {{"Rp200,000"}}
+                                                {{$data ==[] ? 'kosong' : $item['penghasilan']}}    
+                                                {{-- {{"Rp200,000"}} --}}
                                             </td>
                                             <td>
                                                 <div class="conbtn">
                                                     <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
                                                     <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
-                                                    <button class="btn btn-success center mdi mdi-eye" style="margin-left: 2%" onclick="window.location.href='/notapendapatan'"> Detail</button>
+                                                    <button class="btn btn-success center mdi mdi-eye" style="margin-left: 2%" onclick="window.location.href='/notapendapatan?id={{ $loop->index}}'" > Detail</button>
                                                 </div>
                                             </td>
                                         </tr>

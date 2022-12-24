@@ -7,6 +7,15 @@ use Illuminate\Support\Facades\Session;
 
 class pageController extends Controller
 {
+
+    public function dummy(){
+        $data = Session::get('lokpen');
+        // Session::put('pendapatan', [$data[0]]);
+        // $data[0]['penghasilan'] =15000;
+        dd($data);
+        Session::put('pendapatan', [$data[0]]);
+    }
+
     //
     public function pengelola(Request $req)
     {
@@ -88,13 +97,14 @@ class pageController extends Controller
 
     public function pendapatan(Request $req)
     {
-        // Session::flush();
+        // Session::flush();   
         $data = Session::get('pendapatan') == null ? [] : Session::get('pendapatan');
         // $file = $req->file('file');
         // $nama = $file->getClientOriginalName();
         // $tujuan_upload = 'images/';
         // $file->move($tujuan_upload, $nama);
-        $tambah = $req->all();
+        // dd($data);
+        $tambah = $req->post();
         if ($tambah != null) {
             $file = $req->file('file');
             $nama = $file->getClientOriginalName();
@@ -105,7 +115,8 @@ class pageController extends Controller
                 'tanggal' => $req->tanggal,
                 'usaha' => $req->usaha,
                 'catatan' => $req->catatan,
-                'pelanggan' => $req->pelanggan
+                'pelanggan' => $req->pelanggan,
+                'penghasilan' => 0
             ];
             array_push($data, $row);
             Session::put('pendapatan', $data);
@@ -148,11 +159,16 @@ class pageController extends Controller
     public function notapendapatan(Request $req)
     {
         // Session::flush();
-        // dd(Session::get('notapendapatan') == null);
+        $loc = Session::get('lokpen') == null ? $req->get('id') : Session::get('lokpen');
+        
+        Session::put('lokpen', $loc);
+        // dd($loc);
+        $pendapatan = Session::get('pendapatan') == null ? [] : Session::get('pendapatan');
         $data = Session::get('notapendapatan') == null ? [] : Session::get('notapendapatan');
         $total = Session::get('totalnotapendapatan') == null ? 0 : Session::get('totalnotapendapatan');
-        $tambah = $req->all();
-        if ($tambah != null) {
+        $tambah = $req->post();
+        // dd($tambah);
+        if ($req->jenis != null) {
             $nota = [
                 'jenis' => $req->jenis,
                 'harga' => $req->harga,
@@ -161,8 +177,12 @@ class pageController extends Controller
             ];
             $total = $total + $nota['total'];
             array_push($data, $nota);
+            
+            $pendapatan[$loc]['penghasilan'] = $total;
+            // dd($loc);    
             Session::put('totalnotapendapatan', $total);
             Session::put('notapendapatan', $data);
+            Session::put('pendapatan', $pendapatan);
             // dd($data);
         }
         // dd(count($data));

@@ -92,7 +92,7 @@
                                         <tr>
                                             <td>
                                                 <div class="conbtn">
-                                                    {{ 1 }}
+                                                    {{ $loop->index+1 }}
                                                 </div>
                                             </td>
                                             <td>
