@@ -67,7 +67,7 @@ class pageController extends Controller
     {
         // dd($req);
         $data = Session::get('datausaha');
-
+        // dd($req);
         array_push($data[$req->id]['jenis'], $req->jenis);
         Session::put('datausaha', $data);
 

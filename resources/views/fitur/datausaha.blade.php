@@ -92,7 +92,7 @@
                                                                 <button class="btn btn-success center fa fa-plus"
                                                                     style="margin-left: 2%" data-toggle="modal"
                                                                   
-                                                                    data-target="#editjenis" onclick='jenisdata(@json($item["jenis"]))'> Jenis Pendapatan</button>
+                                                                    data-target="#editjenis" onclick='jenisdata({{$loop->index}},@json($item["jenis"]))'> Jenis Pendapatan</button>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -374,11 +374,11 @@
 @section('script')
 
     <script>
-        function jenisdata ( jenis) {
+        function jenisdata (id, jenis) {
             // var id = $(this).data('ids');
             // console.log("aku "+id);
             console.log(jenis);
-            // $("#isidata").val(id);
+            $("#isidata").val(id);
             var atas = '<table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap"                        cellspacing="0" width="100%">                        <thead>                            <tr>                                <th style="text-align: center;">Edit Jenis Pendapatan</th>                                <th style="text-align: center;">Aksi</th>                            </tr>                        </thead>                        <tbody>'; 
             var bawah = '</tbody>  </table>'
             var isi = '';
