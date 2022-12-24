@@ -92,7 +92,7 @@
                                                                 <button class="btn btn-success center fa fa-plus"
                                                                     style="margin-left: 2%" data-toggle="modal"
                                                                   
-                                                                    data-target="#editjenis" onclick='jenisdata(@json($item["jenis"]))'> Jenis Pendapatan</button>
+                                                                    data-target="#editjenis" onclick='jenisdata(<?php echo json_encode($item["jenis"]); ?>)'> Jenis Pendapatan</button>
                                                             </div>
                                                         </td>
                                                     </tr>

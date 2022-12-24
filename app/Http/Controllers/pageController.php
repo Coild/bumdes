@@ -47,7 +47,7 @@ class pageController extends Controller
         // dd('aku');
         $data = Session::get('datausaha') == null ? [] : Session::get('datausaha');
         $tambah = $req->post();
-        
+
         if ($tambah != []) {
             $isi = [
                 'nama' => $req->nama,
@@ -147,7 +147,7 @@ class pageController extends Controller
     }
     public function notapendapatan(Request $req)
     {
-        Session::flush();
+        // Session::flush();
         // dd(Session::get('notapendapatan') == null);
         $data = Session::get('notapendapatan') == null ? [] : Session::get('notapendapatan');
         $total = Session::get('totalnotapendapatan') == null ? 0 : Session::get('totalnotapendapatan');
@@ -174,5 +174,32 @@ class pageController extends Controller
         $data = $req->all();
         $data == null ? [] : $data;
         return view('fitur.stok', ['data' => $data]);
+    }
+
+    public function penjualan(Request $req)
+    {
+        // Session::flush();
+        $data = Session::get('penjualan') == null ? [] : Session::get('penjualan');
+        // $file = $req->file('file');
+        // $nama = $file->getClientOriginalName();
+        // $tujuan_upload = 'images/';
+        // $file->move($tujuan_upload, $nama);
+        $tambah = $req->all();
+        if ($tambah != null) {
+            $file = $req->file('file');
+            $nama = $file->getClientOriginalName();
+            $tujuan_upload = 'images/';
+            $file->move($tujuan_upload, $nama);
+            $row = [
+                'file' => $nama,
+                'tanggal' => $req->tanggal,
+                'usaha' => $req->usaha,
+                'catatan' => $req->catatan,
+                'pelanggan' => $req->pelanggan
+            ];
+            array_push($data, $row);
+            Session::put('penjualan', $data);
+            // dd($data);
+        }
     }
 }
