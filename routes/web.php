@@ -52,6 +52,11 @@ Route::post('/penjualan', [pageController::class, 'penjualan']);
 Route::get('/notapenjualan', [pageController::class, 'notapenjualan']);
 Route::post('/notapenjualan', [pageController::class, 'notapenjualan']);
 
+Route::get('/pembelian', [pageController::class, 'pembelian']);
+Route::post('/pembelian', [pageController::class, 'pembelian']);
+
+Route::get('/notapembelian', [pageController::class, 'notapembelian']);
+Route::post('/notapembelian', [pageController::class, 'notapembelian']);
 
 
 Route::get('/stok', [pageController::class, 'stok']);

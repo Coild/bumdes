@@ -10,8 +10,8 @@
                 <div class="page-header-title">
                     <ol class="breadcrumb pull-right">
                         <li><a href="#">Transaksi Dagang</a></li>
-                        <li><a href="/penjualan">Penjualan</a></li>
-                        <li class="active">Nota Transaksi Penjualan</li>
+                        <li><a href="/pembelian">Pembelian</a></li>
+                        <li class="active">Nota Transaksi Pembelian</li>
                     </ol>
                     <div class="clearfix"></div>
                 </div>
@@ -44,7 +44,7 @@
                                                 <div class="form-group">
                                                     <label class="control-label">Tanggal Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" name="tanggal" class="form-control" disabled="disabled" value="{{ $penjualan[$loc]['tanggal']}}">
+                                                        <input type="text" name="tanggal" class="form-control" disabled="disabled" value="{{ $pembelian[$loc]['tanggal']}}">
                                                     </div>
                                                 </div>
                                             </form>
@@ -54,15 +54,15 @@
                                         <div class="m-t-5">
                                             <form class="form" role="form">
                                                 <div class="form-group">
-                                                    <label class="control-label">Nama Pelanggan</label>
+                                                    <label class="control-label">Nama Pemasok</label>
                                                     <div class="">
-                                                        <input type="text" name="pelanggan" class="form-control" disabled="disabled" value="{{ $penjualan[$loc]['pelanggan']}}">
+                                                        <input type="text" name="pemasok" class="form-control" disabled="disabled" value="{{ $pembelian[$loc]['pemasok']}}">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="control-label">Catatan Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" name="catatan" class="form-control" disabled="disabled" value="{{ $penjualan[$loc]['catatan']}}">
+                                                        <input type="text" name="catatan" class="form-control" disabled="disabled" value="{{ $pembelian[$loc]['catatan']}}">
                                                     </div>
                                                 </div>
                                             </form>
@@ -119,7 +119,7 @@
                                         </tr>
                                         @endforeach
                                         @endisset
-
+                                        
                                     </tbody>
                                 </table>
                             </div>
@@ -138,23 +138,26 @@
                             <div class="col-md-8 m-t-5">
                                 <label class="col-md-3 control-label">Dibayarkan</label>
                                 <div class="col-md-5">
-                                    <input id="totalbyr" data-parsley-type="number" type="text" class="form-control" placeholder="Total Pelanggan Membayar" required>
+                                    <input id="totalbyr" data-parsley-type="number" type="text" class="form-control" placeholder="Total BUMDes Membayar" required>
                                 </div>
 
                                 <button class="btn btn-primary center m-l-5" style="display: inline;" data-target="#bayar" onclick="bayar()">Bayar</button>
                             </div>
                         </div>
-                        <div style="width: 50%;"><hr style="border-color: black;"></div>
-                        
+                        <div style="width: 50%;">
+                            <hr style="border-color: black;">
+                        </div>
 
 
-                        <div class="col-md-8">
-                            <label class="col-md-3 control-label">Sisa </label>
-                            <div class="col-md-5">
-                                <input id="hasil" data-parsley-type="number" type="text" disabled="disabled" class="form-control" placeholder="0" value="0" required>
+                        <div class="row mt-2">
+                            <div class="col-md-8">
+                                <label class="col-md-3 control-label">Sisa </label>
+                                <div class="col-md-5">
+                                    <input id="hasil" data-parsley-type="number" type="text" disabled="disabled" class="form-control" placeholder="0" value="0" required>
+                                </div>
+
+                                <button class="btn btn-primary center m-l-5" style="display: inline;" data-target="#bayar" onclick="">Simpan</button>
                             </div>
-
-                            <button class="btn btn-primary center m-l-5" style="display: inline;" data-target="#bayar" onclick="">Simpan</button>
                         </div>
 
                     </div>
@@ -177,15 +180,15 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Barang</h4>
             </div>
             <div class="modal-body">
-                <form method="POST" action="/notapenjualan" class="form-horizontal" role="form">
+                <form method="POST" action="/notapembelian" class="form-horizontal" role="form">
                     @csrf
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Status Pengelola</label>
                         <div class="col-sm-8">
                             <select name="jenis" class="form-control" required>
 
-                                <option value="sewa kamar - Homestay BUMDes">sewa kamar - Homestay BUMDes</option>
-                                <option value="sewa kamar - Homestay Mandalika">sewa kamar - Homestay Mandalika
+                                <option value="Gas LPG">Gas LPG</option>
+                                <option value="Galon Narmada">Galon Narmada
                                 </option>
 
                             </select>

@@ -223,7 +223,7 @@ class pageController extends Controller
             // dd($data);
         }
         // dd(count($data));
-        return view('fitur.detil.notapendapatan', compact('data', 'total', 'loc'));
+        return view('fitur.detil.notapendapatan', compact('pendapatan', 'data', 'total', 'loc'));
     }
 
     public function stok(Request $req)
@@ -289,7 +289,65 @@ class pageController extends Controller
             // dd($data);
         }
         // dd(count($data));
-        return view('fitur.detil.notapenjualan', compact('data', 'total', 'loc'));
+        return view('fitur.detil.notapenjualan', compact('penjualan', 'data', 'total', 'loc'));
+    }
+
+    public function pembelian(Request $req)
+    {
+        // Session::flush();     
+        $data = Session::get('pembelian') == null ? [] : Session::get('pembelian');
+        // dd($data);
+        $tambah = $req->post();
+        if ($tambah != null) {
+            $file = $req->file('file');
+            $nama = $file->getClientOriginalName();
+            $tujuan_upload = 'images/';
+            $file->move($tujuan_upload, $nama);
+            $row = [
+                'file' => $nama,
+                'tanggal' => $req->tanggal,
+                'catatan' => $req->catatan,
+                'pemasok' => $req->pemasok,
+                'pembelian' => 0
+            ];
+            array_push($data, $row);
+            Session::put('pembelian', $data);
+        }
+        return view('fitur.pembelian', ['data' => $data]);
+    }
+
+    public function notapembelian(Request $req)
+    {
+
+        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
+
+        Session::put('lokpen', $loc);
+        // dd($loc);
+        $pembelian = Session::get('pembelian') == null ? [] : Session::get('pembelian');
+        $data = Session::get('notapembelian') == null ? [] : Session::get('notapembelian');
+        $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0;
+
+        $isi = array_key_exists($loc, $data) ? $data[$loc]['nota'] : [];
+        // dd($tambah);
+        if ($req->jenis != null) {
+            $nota = [
+                'jenis' => $req->jenis,
+                'harga' => $req->harga,
+                'jumlah' => $req->jumlah,
+                'total' => $req->harga * $req->jumlah,
+            ];
+            $total = $total + $nota['total'];
+            array_push($isi, $nota);
+            $data[$loc]['nota'] = $isi;
+            $data[$loc]['total'] = $total;
+            $pembelian[$loc]['pembelian'] = $total;
+            // dd($loc);   
+            Session::put('notapembelian', $data);
+            Session::put('pembelian', $pembelian);
+            // dd($data);
+        }
+        // dd(count($data));
+        return view('fitur.detil.notapembelian', compact('pembelian', 'data', 'total', 'loc'));
     }
 
 

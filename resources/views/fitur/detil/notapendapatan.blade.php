@@ -38,13 +38,13 @@
                                                 <div class="form-group">
                                                     <label class="control-label">Nomor Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" name="nota" class="form-control" disabled="disabled" value="001">
+                                                        <input type="text" name="nota" class="form-control" disabled="disabled" value="{{ 001 }}">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="control-label">Tanggal Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" name="tanggal" class="form-control" disabled="disabled" value="21/12/23">
+                                                        <input type="text" name="tanggal" class="form-control" disabled="disabled" value="{{ $pendapatan[$loc]['tanggal']}}">
                                                     </div>
                                                 </div>
                                             </form>
@@ -56,13 +56,13 @@
                                                 <div class="form-group">
                                                     <label class="control-label">Nama Pelanggan</label>
                                                     <div class="">
-                                                        <input type="text" name="nama" class="form-control" disabled="disabled" value="Hasbi">
+                                                        <input type="text" name="pelanggan" class="form-control" disabled="disabled" value="{{ $pendapatan[$loc]['pelanggan']}}">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="control-label">Catatan Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" name="catat" class="form-control" disabled="disabled" value="-">
+                                                        <input type="text" name="catatan" class="form-control" disabled="disabled" value="{{ $pendapatan[$loc]['catatan']}}">
                                                     </div>
                                                 </div>
                                             </form>
