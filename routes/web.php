@@ -63,8 +63,8 @@ Route::post('/bebandagang', [pageController::class, 'bebandagang']);
 Route::get('/notabebandagang', [pageController::class, 'notabebandagang']);
 Route::post('/notabebandagang', [pageController::class, 'notabebandagang']);
 
-
 Route::get('/stok', [pageController::class, 'stok']);
+Route::post('/stok', [pageController::class, 'stok']);
 
 Route::get('/laporan', [pageController::class, 'laporan']);
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Collection;
 
 class pageController extends Controller
 {
@@ -15,66 +16,6 @@ class pageController extends Controller
         // $data[0]['penghasilan'] =15000;
         dd($data);
         Session::put('pendapatan', [$data[0]]);
-    }
-
-    //
-    public function pengelola(Request $req)
-    {
-        $data = $req->all();
-        $data == null ? [] : $data;
-        return view('fitur.pengelola', ['data' => $data]);
-    }
-
-    public function akun(Request $req)
-    {
-        $data = $req->all();
-        $data == null ? [] : $data;
-        return view('fitur.akun', ['data' => $data]);
-    }
-
-    public function pemasok(Request $req)
-    {
-        // Session::flush();
-        $data = Session::get('pemasok') == null ? [] : Session::get('pemasok');
-        $tambah = $req->post();
-        if ($tambah != null) {
-            $row = [
-                'nama' => $req->nama,
-                'nohp' => $req->nohp,
-                'alamat' => $req->alamat
-            ];
-            array_push($data, $row);
-            Session::put('pemasok', $data);
-            // dd($data);
-        }
-        return view('fitur.pemasok', ['data' => $data]);
-    }
-
-    public function detilpemasok(Request $req)
-    {
-        // Session::flush();
-        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
-        Session::put('lokpen', $loc);
-        // dd($loc);
-        $pemasok = Session::get('pemasok') == null ? [] : Session::get('pemasok');
-        $data = Session::get('detilpemasok') == null ? [] : Session::get('detilpemasok');
-
-
-        $isi = array_key_exists($loc, $data) ? $data[$loc]['detil'] : [];
-        // dd($tambah);
-        if ($req->nama != null) {
-            $detil = [
-                'nama' => $req->nama
-            ];
-            array_push($isi, $detil);
-            $data[$loc]['detil'] = $isi;
-            // dd($loc);   
-            Session::put('detilpemasok', $data);
-            Session::put('pemasok', $pemasok);
-            // dd($data);
-        }
-        // dd($pemasok);
-        return view('fitur.detil.pemasok', compact('data', 'loc', 'pemasok'));
     }
 
     public function dashboard(Request $req)
@@ -160,6 +101,109 @@ class pageController extends Controller
         return view('fitur.detil.pelanggan', compact('data', 'loc', 'pelanggan'));
     }
 
+    public function pengelola(Request $req)
+    {
+        $data = $req->all();
+        $data == null ? [] : $data;
+        return view('fitur.pengelola', ['data' => $data]);
+    }
+
+    public function akun(Request $req)
+    {
+        $data = $req->all();
+        $data == null ? [] : $data;
+        return view('fitur.akun', ['data' => $data]);
+    }
+
+    public function pemasok(Request $req)
+    {
+        // Session::flush();
+        $data = Session::get('pemasok') == null ? [] : Session::get('pemasok');
+        $tambah = $req->post();
+        if ($tambah != null) {
+            $row = [
+                'nama' => $req->nama,
+                'nohp' => $req->nohp,
+                'alamat' => $req->alamat
+            ];
+            array_push($data, $row);
+            Session::put('pemasok', $data);
+            // dd($data);
+        }
+        return view('fitur.pemasok', ['data' => $data]);
+    }
+
+    public function detilpemasok(Request $req)
+    {
+        // Session::flush();
+        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
+        Session::put('lokpen', $loc);
+        // dd($loc);
+        $pemasok = Session::get('pemasok') == null ? [] : Session::get('pemasok');
+        $data = Session::get('detilpemasok') == null ? [] : Session::get('detilpemasok');
+
+
+        $isi = array_key_exists($loc, $data) ? $data[$loc]['detil'] : [];
+        // dd($tambah);
+        if ($req->nama != null) {
+            $detil = [
+                'nama' => $req->nama
+            ];
+            array_push($isi, $detil);
+            $data[$loc]['detil'] = $isi;
+            // dd($loc);
+
+            Session::put('detilpemasok', $data);
+            Session::put('pemasok', $pemasok);
+            // dd($data);
+        }
+        // dd($pemasok);
+        return view('fitur.detil.pemasok', compact('data', 'loc', 'pemasok'));
+    }
+
+    public function stok(Request $req)
+    {
+        $data = Session::get('stok') == null ? [] : Session::get('stok');
+        $namabarang = Session::get('detilpemasok') == null ? [] : Session::get('detilpemasok');
+        $jumlahbarang = Session::get('notapembelian') == null ? [] : Session::get('notapembelian');
+        $nama = Collection::make($namabarang)
+            ->flatMap(function ($item) {
+                return $item['detil'];
+            })
+            ->map(function ($item) {
+                return $item['nama'];
+            })
+            ->toArray();
+        // $jumlah = Collection::make($jumlahbarang)
+        //     ->flatMap(function ($item) {
+        //         return $item['detil'];
+        //     })
+        //     ->map(function ($item) {
+        //         return $item['nama'];
+        //     })
+        //     ->toArray();
+        // dd($nama[0]);
+
+        // $tambah = $req->post();
+        // array_push($data, $nama);
+        // dd($data);
+        $tambah = $req->post();
+        if ($tambah != null)  {
+            $row = [
+                'minimum' => $req->minimum,
+                'status' => $req->status,
+                'untung' => $req->untung
+            ];
+            array_push($data, $row);
+            Session::put('detilpemasok', $namabarang);
+            Session::put('notapembelian', $jumlahbarang);
+            Session::put('stok', $data);
+        }
+
+        // dd($data);
+        return view('fitur.stok', compact('data', 'nama'));
+    }
+
     public function pendapatan(Request $req)
     {
         // Session::flush();     
@@ -224,13 +268,6 @@ class pageController extends Controller
         }
         // dd(count($data));
         return view('fitur.detil.notapendapatan', compact('pendapatan', 'data', 'total', 'loc'));
-    }
-
-    public function stok(Request $req)
-    {
-        $data = $req->all();
-        $data == null ? [] : $data;
-        return view('fitur.stok', ['data' => $data]);
     }
 
     public function penjualan(Request $req)
@@ -465,5 +502,4 @@ class pageController extends Controller
         // dd(count($data));
         return view('fitur.detil.notabebandagang', compact('bebandagang', 'data', 'total', 'loc'));
     }
-
 }

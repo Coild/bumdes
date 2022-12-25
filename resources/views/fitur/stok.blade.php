@@ -9,8 +9,7 @@
             <div class="col-sm-12">
                 <div class="page-header-title">
                     <ol class="breadcrumb pull-right">
-                        <li><a href="#">Dagang</a></li>
-                        <li class="active">Stok Barang</li>
+                        <li><a href="#">Persediaan Barang</a></li>
                     </ol>
                     <div class="clearfix"></div>
                 </div>
@@ -22,46 +21,51 @@
             <div class="col-md-12">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Daftar Stok Barang</h3>
+                        <h3 class="panel-title">Daftar Persediaan Barang</h3>
 
                     </div>
 
                     <div class="panel-body">
                         <div class="row mt-2">
-                            <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambah"> Tambah pengelola </button>
+                            {{-- <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal" data-target="#tambah"> Tambah pengelola </button> --}}
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                     <thead>
                                         <tr>
-                                            <th style="text-align: center;">No</th>
-                                            <th style="text-align: center;">Nama Barang</th>
-                                            <th style="text-align: center;">Jumlah Barang</th>
-                                            <th style="text-align: center;">Jumlah Minimum Barang</th>
-                                            <th style="text-align: center;">Harga Jual</th>
-                                            <th style="text-align: center;">Aksi</th>
+                                            <th style="text-align: center; vertical-align: middle;">No</th>
+                                            <th style="text-align: center; vertical-align: middle;">Nama Barang</th>
+                                            <th style="text-align: center; vertical-align: middle;">Jumlah<br>Barang</th>
+                                            <th style="text-align: center; vertical-align: middle;">Persediaan<br>Minimum</th>
+                                            <th style="text-align: center; vertical-align: middle;">Status Barang</th>
+                                            <th style="text-align: center; vertical-align: middle;">Harga Jual</th>
+                                            <th style="text-align: center; vertical-align: middle;">Aksi</th>
                                         </tr>
                                     </thead>
 
 
                                     <tbody>
-                                        @if ($data != null)
+                                        @isset($nama)
+                                        @foreach ($nama as $item) //pasti salah, soalnya.. ntar gmn load $data nya? harusnya nama ni masuk $data
                                         <tr>
                                             <td>
                                                 <div class="conbtn">
-                                                    {{1}}
+                                                    {{ $loop->index+1 }}
                                                 </div>
                                             </td>
                                             <td>
-                                                {{"Barang 1"}}
+                                                {{$nama[$loop->index]}}
                                             </td>
                                             <td>
                                                 {{25}}
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $data['minimum']}}
+                                                {{25}}
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $data['harga']}}
+                                                {{"Barang Dagangan"}}
+                                            </td>
+                                            <td>
+                                                {{0}}
                                             </td>
                                             <td>
                                                 <div class="conbtn">
@@ -70,7 +74,8 @@
                                                 </div>
                                             </td>
                                         </tr>
-                                        @endif
+                                        @endforeach
+                                        @endisset
 
                                     </tbody>
                                 </table>
@@ -89,7 +94,7 @@
 </div> <!-- content -->
 
 <!-- sample modal content -->
-<div id="tambah" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -97,34 +102,30 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Stok Barang</h4>
             </div>
             <div class="modal-body">
-                <form class="form-horizontal" role="form">
+                <form method="POST" action="/stok" class="form-horizontal" role="form">
                     @csrf
 
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Nama Barang</label>
-                        <div class="col-md-8">
-                            <input name="nama" disabled="disabled" type="text" class="form-control" value="Barang 1" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Jumlah Barang</label>
-                        <div class="col-md-8">
-                            <input name="jumlah" disabled="disabled" type="text" class="form-control" value="25" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Jumlah Minimum</label>
+                        <label class="col-md-4 control-label">Persediaan Minimum</label>
                         <div class="col-md-8">
                             <input name="minimum" data-parsley-type="number" type="text" class="form-control" placeholder="Jumlah Minimum Ketersediaan Barang" required />
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Harga Jual</label>
+                        <label class="col-md-4 control-label">Nominal Untung</label>
                         <div class="col-md-8">
-                            <input name="harga" data-parsley-type="number" type="text" class="form-control" placeholder="Harga Jual dari Barang" required />
+                            <input name="untung" data-parsley-type="number" type="text" class="form-control" placeholder="Untung dari Penjualan Barang (Rp)" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Status Barang</label>
+                        <div class="col-sm-8">
+                            <select name="status" class="form-control" required>
+                                <option value="Barang Dagangan">Barang Dagangan</option>
+                                <option value="Perlengkapan Usaha">Perlengkapan Usaha</option>
+                            </select>
                         </div>
                     </div>
 

@@ -57,13 +57,16 @@
                         <li><a href="/penjualan">Penjualan</a></li>
                         <li><a href="/bebandagang">Beban</a></li>
                         <li><a href="#">Transaksi Lainnya</a></li>
-                        <li><a href="#">Inventaris</a></li>
                     </ul>
                 </li>
 
                 <!-- <li>
                     <a href="index.html" class="waves-effect"><i class="ti-home"></i><span> Bagi Hasil </span></a>
                 </li> Note: Future Development-->
+
+                <li>
+                    <a href="/stok" class="waves-effect"><i class="fa fa-cubes"></i><span> Persediaan Barang </span></a>
+                </li>
 
                 <li>
                     <a href="/laporan" class="waves-effect"><i class="fa fa-bar-chart-o"></i><span> Laporan </span></a>
