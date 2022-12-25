@@ -55,7 +55,7 @@
                     <ul class="list-unstyled">
                         <li><a href="/pembelian">Pembelian</a></li>
                         <li><a href="/penjualan">Penjualan</a></li>
-                        <li><a href="#">Beban</a></li>
+                        <li><a href="/bebandagang">Beban</a></li>
                         <li><a href="#">Transaksi Lainnya</a></li>
                         <li><a href="#">Inventaris</a></li>
                     </ul>

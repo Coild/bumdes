@@ -58,6 +58,11 @@ Route::post('/bebanjasa', [pageController::class, 'bebanjasa']);
 Route::get('/notabebanjasa', [pageController::class, 'notabebanjasa']);
 Route::post('/notabebanjasa', [pageController::class, 'notabebanjasa']);
 
+Route::get('/bebandagang', [pageController::class, 'bebandagang']);
+Route::post('/bebandagang', [pageController::class, 'bebandagang']);
+Route::get('/notabebandagang', [pageController::class, 'notabebandagang']);
+Route::post('/notabebandagang', [pageController::class, 'notabebandagang']);
+
 
 Route::get('/stok', [pageController::class, 'stok']);
 

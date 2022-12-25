@@ -9,8 +9,8 @@
             <div class="col-sm-12">
                 <div class="page-header-title">
                     <ol class="breadcrumb pull-right">
-                        <li><a href="#">Transaksi Jasa</a></li>
-                        <li><a href="/bebanjasa">Beban</a></li>
+                        <li><a href="#">Transaksi Dagang</a></li>
+                        <li><a href="/bebandagang">Beban</a></li>
                         <li class="active">Nota Transaksi Beban</li>
                     </ol>
                     <div class="clearfix"></div>
@@ -44,7 +44,7 @@
                                                 <div class="form-group">
                                                     <label class="control-label">Tanggal Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" name="tanggal" class="form-control" disabled="disabled" value="{{ $bebanjasa[$loc]['tanggal']}}">
+                                                        <input type="text" name="tanggal" class="form-control" disabled="disabled" value="{{ $bebandagang[$loc]['tanggal']}}">
                                                     </div>
                                                 </div>
                                             </form>
@@ -56,13 +56,13 @@
                                                 <div class="form-group">
                                                     <label class="control-label">Nama Transaksi Beban</label>
                                                     <div class="">
-                                                        <input type="text" name="namabeban" class="form-control" disabled="disabled" value="{{ $bebanjasa[$loc]['namabeban']}}">
+                                                        <input type="text" name="namabeban" class="form-control" disabled="disabled" value="{{ $bebandagang[$loc]['namabeban']}}">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="control-label">Catatan Transaksi</label>
                                                     <div class="">
-                                                        <input type="text" name="catatan" class="form-control" disabled="disabled" value="{{ $bebanjasa[$loc]['catatan']}}">
+                                                        <input type="text" name="catatan" class="form-control" disabled="disabled" value="{{ $bebandagang[$loc]['catatan']}}">
                                                     </div>
                                                 </div>
                                             </form>
@@ -177,15 +177,15 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Beban</h4>
             </div>
             <div class="modal-body">
-                <form method="POST" action="/notabebanjasa" class="form-horizontal" role="form">
+                <form method="POST" action="/notabebandagang" class="form-horizontal" role="form">
                     @csrf
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Jenis Beban</label>
                         <div class="col-sm-8">
                             <select name="jenis" class="form-control" required>
 
-                                <option value="Listrik Toko A">Listrik Toko A</option>
-                                <option value="Air PAM Toko B">Air PAM Toko B</option>
+                                <option value="Bayar sewa Toko A">Bayar sewa Toko A</option>
+                                <option value="Bayar sewa truk distributor Gas">Bayar sewa truk distributor Gas</option>
 
                             </select>
                         </div>

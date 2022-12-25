@@ -408,5 +408,62 @@ class pageController extends Controller
         return view('fitur.detil.notabebanjasa', compact('bebanjasa', 'data', 'total', 'loc'));
     }
 
+    public function bebandagang(Request $req)
+    {
+        // Session::flush();     
+        $data = Session::get('bebandagang') == null ? [] : Session::get('bebandagang');
+        // dd($data);
+        $tambah = $req->post();
+        if ($tambah != null) {
+            $file = $req->file('file');
+            $nama = $file->getClientOriginalName();
+            $tujuan_upload = 'images/';
+            $file->move($tujuan_upload, $nama);
+            $row = [
+                'file' => $nama,
+                'tanggal' => $req->tanggal,
+                'catatan' => $req->catatan,
+                'namabeban' => $req->namabeban,
+                'bebandagang' => 0
+            ];
+            array_push($data, $row);
+            Session::put('bebandagang', $data);
+        }
+        return view('fitur.bebandagang', ['data' => $data]);
+    }
+
+    public function notabebandagang(Request $req)
+    {
+
+        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
+
+        Session::put('lokpen', $loc);
+        // dd($loc);
+        $bebandagang = Session::get('bebandagang') == null ? [] : Session::get('bebandagang');
+        $data = Session::get('notabebandagang') == null ? [] : Session::get('notabebandagang');
+        $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0;
+
+        $isi = array_key_exists($loc, $data) ? $data[$loc]['nota'] : [];
+        // dd($tambah);
+        if ($req->jenis != null) {
+            $nota = [
+                'jenis' => $req->jenis,
+                'harga' => $req->harga,
+                'jumlah' => $req->jumlah,
+                'total' => $req->harga * $req->jumlah,
+            ];
+            $total = $total + $nota['total'];
+            array_push($isi, $nota);
+            $data[$loc]['nota'] = $isi;
+            $data[$loc]['total'] = $total;
+            $bebandagang[$loc]['bebandagang'] = $total;
+            // dd($loc);   
+            Session::put('notabebandagang', $data);
+            Session::put('bebandagang', $bebandagang);
+            // dd($data);
+        }
+        // dd(count($data));
+        return view('fitur.detil.notabebandagang', compact('bebandagang', 'data', 'total', 'loc'));
+    }
 
 }
