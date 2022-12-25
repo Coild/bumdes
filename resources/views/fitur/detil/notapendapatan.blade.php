@@ -10,7 +10,7 @@
                 <div class="page-header-title">
                     <ol class="breadcrumb pull-right">
                         <li><a href="#">Transaksi Jasa</a></li>
-                        <li><a href="/pemasok">Pendapatan</a></li>
+                        <li><a href="/pendapatan">Pendapatan</a></li>
                         <li class="active">Nota Transaksi Pendapatan</li>
                     </ol>
                     <div class="clearfix"></div>
@@ -120,9 +120,6 @@
                                         @endforeach
                                         @endisset
                                         
-
-
-
                                     </tbody>
                                 </table>
                             </div>

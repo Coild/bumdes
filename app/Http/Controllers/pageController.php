@@ -135,29 +135,29 @@ class pageController extends Controller
 
     public function detilpelanggan(Request $req)
     {
-         // Session::flush();
-         $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
-         Session::put('lokpen', $loc);
-         // dd($loc);
-         $pelanggan = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
-         $data = Session::get('detilpelanggan') == null ? [] : Session::get('detilpelanggan');
- 
- 
+        // Session::flush();
+        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
+        Session::put('lokpen', $loc);
+        // dd($loc);
+        $pelanggan = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
+        $data = Session::get('detilpelanggan') == null ? [] : Session::get('detilpelanggan');
+
+
         //  $isi = array_key_exists($loc, $data) ? $data[$loc]['detil'] : [];
-         // dd($tambah);
+        // dd($tambah);
         //  if ($req->nama != null) {
         //      $detil = [
         //          'nama' => $req->nama
         //      ];
         //      array_push($isi, $detil);
         //      $data[$loc]['detil'] = $isi;
-             // dd($loc);   
-             Session::put('detilpelanggan', $data);
-             Session::put('pelanggan', $pelanggan);
-             // dd($data);
+        // dd($loc);   
+        Session::put('detilpelanggan', $data);
+        Session::put('pelanggan', $pelanggan);
+        // dd($data);
         //  }
-         // dd($pelanggan);
-         return view('fitur.detil.pelanggan', compact('data', 'loc', 'pelanggan'));
+        // dd($pelanggan);
+        return view('fitur.detil.pelanggan', compact('data', 'loc', 'pelanggan'));
     }
 
     public function pendapatan(Request $req)
@@ -191,7 +191,7 @@ class pageController extends Controller
         $data == null ? [] : $data;
         return view('fitur.laporan', ['data' => $data]);
     }
-    
+
     public function notapendapatan(Request $req)
     {
 
@@ -235,13 +235,9 @@ class pageController extends Controller
 
     public function penjualan(Request $req)
     {
-        // Session::flush();
+        // Session::flush();     
         $data = Session::get('penjualan') == null ? [] : Session::get('penjualan');
-        // $file = $req->file('file');
-        // $nama = $file->getClientOriginalName();
-        // $tujuan_upload = 'images/';
-        // $file->move($tujuan_upload, $nama);
-        $tambah = $req->all();
+        $tambah = $req->post();
         if ($tambah != null) {
             $file = $req->file('file');
             $nama = $file->getClientOriginalName();
@@ -252,11 +248,49 @@ class pageController extends Controller
                 'tanggal' => $req->tanggal,
                 'usaha' => $req->usaha,
                 'catatan' => $req->catatan,
-                'pelanggan' => $req->pelanggan
+                'pelanggan' => $req->pelanggan,
+                'penghasilan' => 0
             ];
             array_push($data, $row);
             Session::put('penjualan', $data);
             // dd($data);
         }
+        return view('fitur.penjualan', ['data' => $data]);
     }
+
+    public function notapenjualan(Request $req)
+    {
+
+        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
+
+        Session::put('lokpen', $loc);
+        // dd($loc);
+        $penjualan = Session::get('penjualan') == null ? [] : Session::get('penjualan');
+        $data = Session::get('notapenjualan') == null ? [] : Session::get('notapenjualan');
+        $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0;
+
+        $isi = array_key_exists($loc, $data) ? $data[$loc]['nota'] : [];
+        // dd($tambah);
+        if ($req->jenis != null) {
+            $nota = [
+                'jenis' => $req->jenis,
+                'harga' => $req->harga,
+                'jumlah' => $req->jumlah,
+                'total' => $req->harga * $req->jumlah,
+            ];
+            $total = $total + $nota['total'];
+            array_push($isi, $nota);
+            $data[$loc]['nota'] = $isi;
+            $data[$loc]['total'] = $total;
+            $penjualan[$loc]['penghasilan'] = $total;
+            // dd($loc);   
+            Session::put('notapenjualan', $data);
+            Session::put('penjualan', $penjualan);
+            // dd($data);
+        }
+        // dd(count($data));
+        return view('fitur.detil.notapenjualan', compact('data', 'total', 'loc'));
+    }
+
+
 }

@@ -54,7 +54,7 @@
                     <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-shopping-basket"></i> <span> Dagang</span> <span class="pull-right"><i class="mdi mdi-plus"></i></span></a>
                     <ul class="list-unstyled">
                         <li><a href="#">Pembelian</a></li>
-                        <li><a href="#">Penjualan</a></li>
+                        <li><a href="/penjualan">Penjualan</a></li>
                         <li><a href="#">Beban</a></li>
                         <li><a href="#">Transaksi Lainnya</a></li>
                         <li><a href="#">Inventaris</a></li>

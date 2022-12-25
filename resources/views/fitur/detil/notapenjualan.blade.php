@@ -10,8 +10,8 @@
                 <div class="page-header-title">
                     <ol class="breadcrumb pull-right">
                         <li><a href="#">Transaksi Jasa</a></li>
-                        <li><a href="/pemasok">Pendapatan</a></li>
-                        <li class="active">Nota Transaksi Pendapatan</li>
+                        <li><a href="/penjualan">Penjualan</a></li>
+                        <li class="active">Nota Transaksi Penjualan</li>
                     </ol>
                     <div class="clearfix"></div>
                 </div>
@@ -76,7 +76,7 @@
                                     <thead>
                                         <tr>
                                             <th style="text-align: center;">No</th>
-                                            <th style="text-align: center;">Jenis Pendapatan</th>
+                                            <th style="text-align: center;">Nama/Jenis Barang</th>
                                             <th style="text-align: center;">Harga</th>
                                             <th style="text-align: center;">Jumlah</th>
                                             <th style="text-align: center;">Total Harga</th>
@@ -88,11 +88,12 @@
                                     <tbody>
 
 
-                                        @foreach ($data as $item)
+                                        @isset($data[$loc]['nota'])
+                                        @foreach ($data[$loc]['nota'] as $item)
                                         <tr>
                                             <td>
                                                 <div class="conbtn">
-                                                    {{ 1 }}
+                                                    {{ $loop->index+1 }}
                                                 </div>
                                             </td>
                                             <td>
@@ -117,8 +118,7 @@
                                             </td>
                                         </tr>
                                         @endforeach
-
-
+                                        @endisset
 
                                     </tbody>
                                 </table>
@@ -177,7 +177,7 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Barang</h4>
             </div>
             <div class="modal-body">
-                <form method="POST" action="/notapendapatan" class="form-horizontal" role="form">
+                <form method="POST" action="/notapenjualan" class="form-horizontal" role="form">
                     @csrf
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Status Pengelola</label>
