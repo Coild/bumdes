@@ -45,7 +45,7 @@
                     <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-group"></i> <span> Jasa</span> <span class="pull-right"><i class="mdi mdi-plus"></i></span></a>
                     <ul class="list-unstyled">
                         <li><a href="/pendapatan">Pendapatan</a></li>
-                        <li><a href="#">Beban</a></li>
+                        <li><a href="/bebanjasa">Beban</a></li>
                         <li><a href="#">Transaksi Lainnya</a></li>
                     </ul>
                 </li>
@@ -66,7 +66,7 @@
                 </li> Note: Future Development-->
 
                 <li>
-                    <a href="index.html" class="waves-effect"><i class="fa fa-bar-chart-o"></i><span> Laporan </span></a>
+                    <a href="/laporan" class="waves-effect"><i class="fa fa-bar-chart-o"></i><span> Laporan </span></a>
                 </li>
 
             </ul>

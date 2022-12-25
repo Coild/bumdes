@@ -30,33 +30,33 @@ Route::get('/akun', [pageController::class, 'akun']);
 
 Route::get('/pemasok', [pageController::class, 'pemasok']);
 Route::post('/pemasok', [pageController::class, 'pemasok']);
-
 Route::get('/detilpemasok', [pageController::class, 'detilpemasok']);
 Route::post('/detilpemasok', [pageController::class, 'detilpemasok']);
 
 Route::get('/pelanggan', [pageController::class, 'pelanggan']);
 Route::post('/pelanggan', [pageController::class, 'pelanggan']);
-
 Route::get('/detilpelanggan', [pageController::class, 'detilpelanggan']);
 Route::post('/detilpelanggan', [pageController::class, 'detilpelanggan']);
 
 Route::get('/pendapatan', [pageController::class, 'pendapatan']);
 Route::post('/pendapatan', [pageController::class, 'pendapatan']);
-
 Route::get('/notapendapatan', [pageController::class, 'notapendapatan']);
 Route::post('/notapendapatan', [pageController::class, 'notapendapatan']);
 
 Route::get('/penjualan', [pageController::class, 'penjualan']);
 Route::post('/penjualan', [pageController::class, 'penjualan']);
-
 Route::get('/notapenjualan', [pageController::class, 'notapenjualan']);
 Route::post('/notapenjualan', [pageController::class, 'notapenjualan']);
 
 Route::get('/pembelian', [pageController::class, 'pembelian']);
 Route::post('/pembelian', [pageController::class, 'pembelian']);
-
 Route::get('/notapembelian', [pageController::class, 'notapembelian']);
 Route::post('/notapembelian', [pageController::class, 'notapembelian']);
+
+Route::get('/bebanjasa', [pageController::class, 'bebanjasa']);
+Route::post('/bebanjasa', [pageController::class, 'bebanjasa']);
+Route::get('/notabebanjasa', [pageController::class, 'notabebanjasa']);
+Route::post('/notabebanjasa', [pageController::class, 'notabebanjasa']);
 
 
 Route::get('/stok', [pageController::class, 'stok']);
