@@ -3,7 +3,7 @@
     <!-- LOGO -->
     <div class="topbar-left">
         <div class="text-center">
-            <a href="index.html" class="logo"><img src={{ asset("images/logo_white_2.png") }} height="28"></a>
+            <a href="index.html" class="logo"><img src={{ asset("images/logo_sementara.png") }} height="60"></a>
             <a href="index.html" class="logo-sm"><img src={{ asset("images/logo_sm.png") }} height="36"></a>
         </div>
     </div>
