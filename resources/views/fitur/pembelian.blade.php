@@ -61,7 +61,7 @@
                                                 <!-- Perlu dibahas kodenya gmn -->
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $item['pemasok']}}
+                                                {{$data ==null ? 'kosong' : $pemasok[$item['pemasok']]['nama']}}
                                             </td>
                                             <td>
                                                 {{$data ==[] ? 'kosong' : $item['pembelian']}}    
@@ -117,8 +117,9 @@
                         <label class="col-sm-4 control-label">Nama Pemasok</label>
                         <div class="col-sm-8">
                             <select name="pemasok" class="form-control" required>
-                                <option value="Hasbi">Hasbi</option>
-                                <option value="Ima">Ima</option>
+                                @foreach ( $pemasok as $isi )
+                                <option value="{{$loop->index}}">{{$isi['nama']}}</option>  
+                                @endforeach
                             </select>
                         </div>
                     </div>
@@ -152,3 +153,4 @@
 
 
 @endsection
+

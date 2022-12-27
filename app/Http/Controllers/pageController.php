@@ -77,8 +77,8 @@ class pageController extends Controller
     public function detilpelanggan(Request $req)
     {
         // Session::flush();
-        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
-        Session::put('lokpen', $loc);
+        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('locdp');
+        Session::put('locdp', $loc);
         // dd($loc);
         $pelanggan = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
         $data = Session::get('detilpelanggan') == null ? [] : Session::get('detilpelanggan');
@@ -136,8 +136,8 @@ class pageController extends Controller
     public function detilpemasok(Request $req)
     {
         // Session::flush();
-        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
-        Session::put('lokpen', $loc);
+        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('locpasok');
+        Session::put('locpasok', $loc);
         // dd($loc);
         $pemasok = Session::get('pemasok') == null ? [] : Session::get('pemasok');
         $data = Session::get('detilpemasok') == null ? [] : Session::get('detilpemasok');
@@ -163,45 +163,23 @@ class pageController extends Controller
 
     public function stok(Request $req)
     {
-        $data = Session::get('stok') == null ? [] : Session::get('stok');
-        $namabarang = Session::get('detilpemasok') == null ? [] : Session::get('detilpemasok');
-        $jumlahbarang = Session::get('notapembelian') == null ? [] : Session::get('notapembelian');
-        $nama = Collection::make($namabarang)
-            ->flatMap(function ($item) {
-                return $item['detil'];
-            })
-            ->map(function ($item) {
-                return $item['nama'];
-            })
-            ->toArray();
-        // $jumlah = Collection::make($jumlahbarang)
-        //     ->flatMap(function ($item) {
-        //         return $item['detil'];
-        //     })
-        //     ->map(function ($item) {
-        //         return $item['nama'];
-        //     })
-        //     ->toArray();
-        // dd($nama[0]);
 
-        // $tambah = $req->post();
-        // array_push($data, $nama);
-        // dd($data);
-        $tambah = $req->post();
-        if ($tambah != null)  {
-            $row = [
-                'minimum' => $req->minimum,
-                'status' => $req->status,
-                'untung' => $req->untung
-            ];
-            array_push($data, $row);
-            Session::put('detilpemasok', $namabarang);
-            Session::put('notapembelian', $jumlahbarang);
-            Session::put('stok', $data);
+        // Session::flush();
+        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('locstok');
+        Session::put('locstok', $loc);
+        // dd($loc);
+        $data = Session::get('barang') == null ? [] : Session::get('barang');
+        $edit = $req->get('edit');
+        if ($edit != null)  {
+            $data[$edit]['minimum'] = $req->minimum;
+            $data[$edit]['status'] = $req->status;
+            $data[$edit]['untung'] = $req->untung;
+
+            Session::put('barang', $data);
         }
 
         // dd($data);
-        return view('fitur.stok', compact('data', 'nama'));
+        return view('fitur.stok', compact('data'));
     }
 
     public function pendapatan(Request $req)
@@ -333,7 +311,8 @@ class pageController extends Controller
     {
         // Session::flush();     
         $data = Session::get('pembelian') == null ? [] : Session::get('pembelian');
-        // dd($data);
+        $pemasok = Session::get('pemasok') == null ? [] : Session::get('pemasok');
+        // dd($pemasok);
         $tambah = $req->post();
         if ($tambah != null) {
             $file = $req->file('file');
@@ -350,18 +329,20 @@ class pageController extends Controller
             array_push($data, $row);
             Session::put('pembelian', $data);
         }
-        return view('fitur.pembelian', ['data' => $data]);
+        return view('fitur.pembelian', compact('pemasok', 'data'));
     }
 
     public function notapembelian(Request $req)
     {
 
-        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
-
-        Session::put('lokpen', $loc);
+        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokbeli');
+        $listbarang = Session::get('detilpemasok') == null ? [] : Session::get('detilpemasok');
+        
+        Session::put('lokbeli', $loc);
         // dd($loc);
         $pembelian = Session::get('pembelian') == null ? [] : Session::get('pembelian');
         $data = Session::get('notapembelian') == null ? [] : Session::get('notapembelian');
+        $barang = Session::get('barang') == null ? [] : Session::get('barang');
         $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0;
 
         $isi = array_key_exists($loc, $data) ? $data[$loc]['nota'] : [];
@@ -373,18 +354,29 @@ class pageController extends Controller
                 'jumlah' => $req->jumlah,
                 'total' => $req->harga * $req->jumlah,
             ];
+            $brg = [
+                'nama' => $req->jenis,
+                'harga' => $req->harga,
+                'jumlah' => $req->jumlah,
+                'minimum' => 0,
+                'status' => 0,
+                'untung' => 0
+            ];
             $total = $total + $nota['total'];
             array_push($isi, $nota);
+            array_push($barang, $brg);
             $data[$loc]['nota'] = $isi;
             $data[$loc]['total'] = $total;
             $pembelian[$loc]['pembelian'] = $total;
-            // dd($loc);   
+            // dd($loc);
+
+            Session::put('barang', $barang);
             Session::put('notapembelian', $data);
             Session::put('pembelian', $pembelian);
             // dd($data);
         }
         // dd(count($data));
-        return view('fitur.detil.notapembelian', compact('pembelian', 'data', 'total', 'loc'));
+        return view('fitur.detil.notapembelian', compact('pembelian', 'data', 'total', 'loc', 'listbarang'));
     }
 
     public function bebanjasa(Request $req)
@@ -414,9 +406,9 @@ class pageController extends Controller
     public function notabebanjasa(Request $req)
     {
 
-        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
+        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokbebanjasa');
 
-        Session::put('lokpen', $loc);
+        Session::put('lokbebanjasa', $loc);
         // dd($loc);
         $bebanjasa = Session::get('bebanjasa') == null ? [] : Session::get('bebanjasa');
         $data = Session::get('notabebanjasa') == null ? [] : Session::get('notabebanjasa');
@@ -472,9 +464,9 @@ class pageController extends Controller
     public function notabebandagang(Request $req)
     {
 
-        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
+        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokbebandagang');
 
-        Session::put('lokpen', $loc);
+        Session::put('lokbebandagang', $loc);
         // dd($loc);
         $bebandagang = Session::get('bebandagang') == null ? [] : Session::get('bebandagang');
         $data = Session::get('notabebandagang') == null ? [] : Session::get('notabebandagang');

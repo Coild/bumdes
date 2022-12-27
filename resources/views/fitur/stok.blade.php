@@ -69,7 +69,7 @@
                                             </td>
                                             <td>
                                                 <div class="conbtn">
-                                                    <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
+                                                    <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit" onclick="edit({{$loop->index}})"></button>
                                                     <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
                                                 </div>
                                             </td>
@@ -104,7 +104,7 @@
             <div class="modal-body">
                 <form method="POST" action="/stok" class="form-horizontal" role="form">
                     @csrf
-
+                    <input type="hidden" id="edit">
                     <div class="form-group">
                         <label class="col-md-4 control-label">Persediaan Minimum</label>
                         <div class="col-md-8">
@@ -142,4 +142,12 @@
 </div><!-- /.modal -->
 
 
+@endsection
+
+@section('script')
+<script>
+    function edit(id) {
+        document.getElementById("edit").value = id;
+    }
+</script>
 @endsection
