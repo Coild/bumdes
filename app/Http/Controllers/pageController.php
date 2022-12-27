@@ -164,22 +164,25 @@ class pageController extends Controller
     public function stok(Request $req)
     {
 
-        // Session::flush();
+        // Session::forget('barang');
         $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('locstok');
         Session::put('locstok', $loc);
-        // dd($loc);
-        $data = Session::get('barang') == null ? [] : Session::get('barang');
+        
+        $barang = Session::get('barang') == null ? [] : Session::get('barang');
+        // dd($barang);
         $edit = $req->get('edit');
         if ($edit != null)  {
-            $data[$edit]['minimum'] = $req->minimum;
-            $data[$edit]['status'] = $req->status;
-            $data[$edit]['untung'] = $req->untung;
+            $barang[$edit]['minimum'] = $req->minimum;
+            $barang[$edit]['status'] = $req->status;
+            $barang[$edit]['untung'] = $req->untung;
+            // dd($barang);
+            
 
-            Session::put('barang', $data);
+            Session::put('barang', $barang);
         }
 
-        // dd($data);
-        return view('fitur.stok', compact('data'));
+        // dd($barang);
+        return view('fitur.stok', compact('barang'));
     }
 
     public function pendapatan(Request $req)
@@ -341,6 +344,9 @@ class pageController extends Controller
         Session::put('lokbeli', $loc);
         // dd($loc);
         $pembelian = Session::get('pembelian') == null ? [] : Session::get('pembelian');
+        $detilpemasok = Session::get('detilpemasok') == null ? [] : Session::get('detilpemasok');
+        // dd($detilpemasok);
+        $pemasok = Session::get('pemasok') == null ? [] : Session::get('pemasok');
         $data = Session::get('notapembelian') == null ? [] : Session::get('notapembelian');
         $barang = Session::get('barang') == null ? [] : Session::get('barang');
         $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0;
@@ -376,7 +382,7 @@ class pageController extends Controller
             // dd($data);
         }
         // dd(count($data));
-        return view('fitur.detil.notapembelian', compact('pembelian', 'data', 'total', 'loc', 'listbarang'));
+        return view('fitur.detil.notapembelian', compact('pemasok','pembelian', 'data', 'total', 'loc', 'listbarang', 'detilpemasok'));
     }
 
     public function bebanjasa(Request $req)

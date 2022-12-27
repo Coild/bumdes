@@ -44,8 +44,7 @@
 
 
                                     <tbody>
-                                        @isset($nama)
-                                        @foreach ($nama as $item) //pasti salah, soalnya.. ntar gmn load $data nya? harusnya nama ni masuk $data
+                                        @foreach ($barang as $item) //pasti salah, soalnya.. ntar gmn load $data nya? harusnya nama ni masuk $data
                                         <tr>
                                             <td>
                                                 <div class="conbtn">
@@ -53,19 +52,19 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                {{$nama[$loop->index]}}
+                                                {{$item['nama']}}
                                             </td>
                                             <td>
-                                                {{25}}
+                                                {{$item['jumlah']}}
                                             </td>
                                             <td>
-                                                {{25}}
+                                                {{$item['minimum']}}
                                             </td>
                                             <td>
                                                 {{"Barang Dagangan"}}
                                             </td>
                                             <td>
-                                                {{0}}
+                                                {{$item['harga']}}
                                             </td>
                                             <td>
                                                 <div class="conbtn">
@@ -75,7 +74,6 @@
                                             </td>
                                         </tr>
                                         @endforeach
-                                        @endisset
 
                                     </tbody>
                                 </table>
@@ -104,7 +102,7 @@
             <div class="modal-body">
                 <form method="POST" action="/stok" class="form-horizontal" role="form">
                     @csrf
-                    <input type="hidden" id="edit">
+                    <input type="hidden" name="edit" id="val">
                     <div class="form-group">
                         <label class="col-md-4 control-label">Persediaan Minimum</label>
                         <div class="col-md-8">
@@ -147,7 +145,8 @@
 @section('script')
 <script>
     function edit(id) {
-        document.getElementById("edit").value = id;
+        console.log('edit: '+id);
+        document.getElementById("val").value = id;
     }
 </script>
 @endsection
