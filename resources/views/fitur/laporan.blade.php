@@ -59,1483 +59,1063 @@
                                     class="btn btn-success waves-effect waves-light m-l-10">Unduh</button>
                             </form>
                             <p>&nbsp;</p>
-                            <table style="border: none;border-collapse: collapse;width:783pt;">
+                            <table style="">
                                 <tbody>
                                     <tr>
                                         <td colspan="6"
-                                            style='color:windowtext;font-size:19px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:.5pt solid windowtext;background:#FFCC99;height:18.75pt;width:272pt;'>
+                                            style=''>
                                             AKTIVA</td>
                                         <td colspan="2"
-                                            style='color:windowtext;font-size:19px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:none;background:#FFCC99;width:205pt;'>
+                                            style=''>
                                             Rp.</td>
                                         <td colspan="5"
-                                            style='color:windowtext;font-size:19px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:#FFCC99;width:180pt;'>
+                                            style=''>
                                             PASIVA</td>
                                         <td
-                                            style='color:windowtext;font-size:19px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:.5pt solid windowtext;background:#FFCC99;width:126pt;'>
+                                            style=''>
                                             Rp.</td>
                                     </tr>
                                     <tr>
                                         <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:.5pt solid windowtext;background:yellow;height:15.0pt;'>
+                                            style=' '>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
+                                            style=' serif;text-align:general;vertical-align:bottom;background:yellow;'>
+                                            <br></td>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
+                                            style=' '>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:.5pt solid windowtext;background:yellow;border-top:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:.5pt solid windowtext;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border:.5pt solid windowtext;background:yellow;border-top:none;'>
+                                            style='background:yellow;'>
                                             <br></td>
                                     </tr>
                                     <tr>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;background:#CCFFCC;height:15.75pt;'>
+                                            style=''>
                                             1.</td>
                                         <td colspan="2"
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
                                             HARTA</td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
+                                            <br></td>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;border-top:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
                                             2.</td>
                                         <td colspan="3"
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
                                             HUTANG</td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;border-top:none;'>
+                                            style=''>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             1.1.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             Kas&nbsp;</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 23.800.000</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             2.1.</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
                                         <td colspan="2"
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                            >
                                             Hipotik/pinjaman</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="3"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Kas Jasa penjualan Gas</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             &nbsp;Rp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 5.512.500</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             2.2.</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             PADes</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="3"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Kas usaha Homestay</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;7.000.000
                                         </td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             2.3.</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Dana Sosial</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Kas &nbsp;Percetakan</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             2.4.</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Bonus Pengurus</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Kas &nbsp;Peternakan</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 12.675.000</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Kas SPP</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 13.551.500</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="4"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Kas pengolahan jasa pengangkutan Sampah</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Total Kas</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;62.539.000</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:right;vertical-align:bottom;border:none;'>
+                                            style=' serif;text-align:right;vertical-align:bottom;border:none;'>
                                             1,2</td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:left;vertical-align:bottom;border:none;'>
+                                            style=' serif;text-align:left;vertical-align:bottom;border:none;'>
                                             Bank</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2.363.692
                                         </td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:right;vertical-align:bottom;border:none;'>
+                                            style=' serif;text-align:right;vertical-align:bottom;border:none;'>
                                             1,3</td>
                                         <td colspan="3"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:left;vertical-align:bottom;border:none;'>
+                                            style=' serif;text-align:left;vertical-align:bottom;border:none;'>
                                             Persediaan Barang&nbsp;</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:right;vertical-align:bottom;border:none;'>
+                                            style=' serif;text-align:right;vertical-align:bottom;border:none;'>
                                             1.4.</td>
-                                        <td colspan="4"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Persediaan Barang Bumdes Mart</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:left;vertical-align:bottom;border:none;'>
+                                            style=' serif;text-align:left;vertical-align:bottom;border:none;'>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                            style=''>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;background:#CCFFFF;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;64.902.692</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             1.5.</td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Iventaris</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             1.5.1.</td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Nilai Iventaris</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             1.5.2.</td>
-                                        <td colspan="3"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Akumulasi Penyusutan</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             Total Hutang</td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;background:#CCFFFF;'>
+                                            style=''>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Nilai Buku Iventaris</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp;</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             1.7.</td>
-                                        <td colspan="3"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Rupa-rupa Aktiva</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;background:#CCFFCC;'>
+                                            style=''>
                                             3.</td>
                                         <td colspan="3"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;background:#CCFFCC;'>
+                                            style=''>
                                             MODAL</td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;background:#CCFFCC;'>
+                                            style=''>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="3"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             (Selisih Pencatatan)</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;background:#CCFFFF;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             3.1.</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Modal Dari PemDes</td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;background:#339933;'>
+                                            style='background:#339933;'>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;background:#CCFFFF;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Tahun 2018</td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;background:#339933;'>
+                                            style='background:#339933;'>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             140.000.000</td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;background:#CCFFFF;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Tahun 2019</td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;background:#339933;'>
+                                            style='background:#339933;'>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             179.000.000</td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;background:#CCFFFF;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Tahun 2020</td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;background:#339933;'>
+                                            style='background:#339933;'>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; 20.000.000</td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             3.2.</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Bantuan dari Pusat</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; 50.000.000</td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             1.6.</td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Aktiva Tetap</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             3.3.</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Modal Pihak ketiga</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             1.6.1.</td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Nilai Aktiva Tetap</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 15.000.000</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
+                                            <br></td>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:left;vertical-align:bottom;border:none;'>
+                                            style=' serif;text-align:left;vertical-align:bottom;border:none;'>
                                             3,4</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
                                         <td colspan="2"
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                            >
                                             Hibah Pihak Ketiga</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             1.6.2.</td>
-                                        <td colspan="3"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Akumulasi Penyusutan</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             50.000</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             3.5.</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Surplus/Defisit Ditahan</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Nilai Buku Aktiva Tetap</td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;background:#CCFFFF;'>
+                                            style=''>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 14.950.000</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             3.6.</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Surplus/Defisit Berjalan</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;background:#CCFFFF;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             Total Modal</td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;background:#CCFFFF;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             389.000.000</td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border:.5pt solid windowtext;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
                                         <td colspan="7"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:middle;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                            style=''>
                                             TOTAL AKTIVA</td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:.5pt solid windowtext;vertical-align:middle;background:#CCFFFF;border-top:none;border-left:none;'>
+                                            style=''>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;64.902.692</td>
                                         <td colspan="5"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:middle;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                            style=''>
                                             TOTAL PASIVA</td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:.5pt solid windowtext;vertical-align:middle;background:#CCFFFF;border-top:none;'>
+                                            style=''>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;389.000.000
                                         </td>
                                     </tr>
@@ -1575,1453 +1155,1057 @@
                                 <tbody>
                                     <tr>
                                         <td colspan="8"
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:center;vertical-align:bottom;border:none;height:15.0pt;width:601pt;">
+                                            style=" sans-serif;text-align:center;vertical-align:bottom;border:none;width:601pt;">
                                             LAPORAN LABA / RUGI KOMULATIF</td>
                                         <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;width:48pt;">
+                                            style="width:48pt;">
                                             <br></td>
                                     </tr>
                                     <tr>
                                         <td colspan="8"
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:center;vertical-align:bottom;border:none;height:15.0pt;">
+                                            style=" sans-serif;text-align:center;vertical-align:bottom;border:none;">
                                             BUMDES PUTRI NYALE DESA KUTA</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
                                         <td colspan="4"
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                            >
                                             PERIODE : s/d 31 &nbsp;DESEMBER 2020</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
                                         <td colspan="6"
-                                            style='color:windowtext;font-size:19px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:middle;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:.5pt solid windowtext;background:#FFCC99;height:18.75pt;width:384pt;'>
+                                            >
                                             U R A I A N</td>
-                                        <td
-                                            style='color:windowtext;font-size:19px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:middle;border:.5pt solid windowtext;background:#FFCC99;border-left:none;width:110pt;'>
+                                        <td>
                                             Rp.</td>
-                                        <td
-                                            style='color:windowtext;font-size:19px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:middle;border:.5pt solid windowtext;background:#FFCC99;border-left:none;width:107pt;'>
+                                        <td>
                                             Rp.</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
                                         <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:.5pt solid windowtext;background:yellow;height:15.0pt;'>
+                                            style=' '>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
+                                            style=''>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:13px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;border-left:none;background:yellow;'>
-                                            <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;background:#CCFFCC;height:15.75pt;'>
+                                            style=''>
                                             4.</td>
                                         <td colspan="2"
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
                                             PENDAPATAN</td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
+                                            <br></td>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                            style=''>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;border-top:none;'>
-                                            <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             4.1</td>
-                                        <td colspan="3"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Pendapatan Operasional</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             4.1.1.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Pendapatan Jasa penjualan Gas</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:right;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;">
+                                        <td>
                                             5.512.500</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp;22.914.500</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;background:white;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             4.1.2.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Pendapatan usaha Homestay</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;">
+                                        <td>
                                             &nbsp;Rp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp;9.000.000</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;background:white;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             4.1.3</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Pendapatan &nbsp;Percetakan</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:right;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;">
+                                        <td>
                                             0</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;background:white;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             4.1.4.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Pendapatan &nbsp;Peternakan</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:right;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;">
+                                        <td>
                                             1.020.000</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;background:white;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             4.1.5.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Pendapatan SPP</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:right;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;">
+                                        <td>
                                             7.382.000</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;background:white;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Pendapatan pengolahan jasa pengangkutan Sampah</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                         <td colspan="2"
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                            >
                                             Pendapatan Operasional Lain-lain</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;">
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp;- &nbsp;&nbsp;</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -
                                             &nbsp;&nbsp;</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             Total Pendapatan Operasional</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;22.914.500</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             4.2.</td>
-                                        <td colspan="3"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Pendapatan Non Operasional</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             4.2.1.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             Bunga Bank&nbsp;</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp;190.804</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             190.804</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             4.2.4.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Pendapatan Non Operasional Lian-lain</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.75pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Total Pendapatan Non Operasional</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;background:#CCFFFF;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 190.804
                                         </td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                            style='  '>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                            style=' '>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;border-left:.5pt solid windowtext;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;border-left:none;'>
-                                            <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
                                         <td colspan="6"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                            style=''>
                                             TOTAL PENDAPATAN</td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;border-left:none;border-top:none;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border:.5pt solid windowtext;background:#CCFFFF;border-top:none;border-left:none;'>
+                                            style=''>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;23.105.304</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;border-left:none;border-top:none;'>
+                                            style=''>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;background:#CCFFCC;height:15.75pt;'>
+                                            style=''>
                                             5.</td>
                                         <td colspan="2"
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
                                             BIAYA</td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:none;background:#CCFFCC;'>
+                                            style=''>
+                                            <br></td>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:16px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                            style=''>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:16px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;border-top:none;'>
-                                            <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             5,1,</td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Biaya Operasional</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             5.1.1.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             ATK</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp;640.000</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             640.000</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             5.1.2.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             Biaya Kantor</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             5.1.3.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Honor Pengurus dan karyawan</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp;2.000.000</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2.000.000
                                         </td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             5.1.4.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Biaya Penyusutan Inventaris</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             5.1.5.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Operasional Badan Pengawas dan Penasehat</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             5.1.7</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             Lainnya</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Total Biaya Operasional</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;background:#CCFFFF;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2.640.000</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             5.2.</td>
-                                        <td colspan="3"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Biaya Non Operasional</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             5.2.1.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Pajak Bunga Bank&nbsp;</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp;67.197</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; 67.197</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             5.2.2.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Administrasi Bank&nbsp;</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp;33.521</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp;33.521</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             5.2.3.</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Biaya Non Operasional Lain-lain</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td colspan="2"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td >
                                             Total Biaya Non Operasional</td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;background:#CCFFFF;'>
+                                        <td>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 100.718
                                         </td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:.5pt solid windowtext;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;'>
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
                                         <td colspan="7"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                            style=''>
                                             TOTAL BIAYA</td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;border-left:none;background:#CCFFFF;'>
+                                            style=''>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2.740.718
                                         </td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
+                                            <br></td>
+                                        <td>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                            style=''>
                                             <br></td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
+                                            style=' '>
                                             <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;'>
-                                            <br></td>
-                                        <td
-                                            style='color:windowtext;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;border-left:none;'>
-                                            <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
                                         <td colspan="7"
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:center;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:.5pt solid windowtext;height:15.0pt;'>
+                                            style=''>
                                             LABA / RUGI</td>
                                         <td
-                                            style='color:windowtext;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:"Times New Roman", serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;border-left:none;background:#CCFFFF;border-top:none;'>
+                                            style=''>
                                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;20.364.586</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                         <td colspan="2"
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                            >
                                             Diperiksa oleh</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             Dibuat oleh&nbsp;</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                         <td colspan="2"
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                            >
                                             &nbsp;Ketua Bumdes,</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             Bendahara,</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;height:15.0pt;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             ( Emur )</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             ( MARIANAH )</td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
-                                        <td
-                                            style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;">
+                                        <td>
                                             <br></td>
                                     </tr>
                                 </tbody>
@@ -3061,283 +2245,246 @@
                                 <table style="border: none;border-collapse: collapse;width:380pt;">
                                     <tbody>
                                         <tr>
-                                            <td colspan="2"
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:center;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid black;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;width:380pt;">
+                                            <td colspan="2">
                                                 BUMDes Kuta Desa Kuta</td>
                                         </tr>
                                         <tr>
-                                            <td colspan="2"
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:center;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid black;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                            <td colspan="2">
                                                 Laporan  Arus Kas</td>
                                         </tr>
                                         <tr>
-                                            <td colspan="2"
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:center;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid black;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                            <td colspan="2">
                                                 Untuk periode yang berakhir 31 Desember 2021</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 <br>
                                             </td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:.5pt solid windowtext;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 <br>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                            <td>
                                                 ARUS KAS DARI AKTIVITAS OPERASI</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 <br>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                            <td>
                                                 Arus Kas Masuk</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 <br>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                            <td>
                                                 Penerimaan Kas dari Pendapatan</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;10.000</td>
                                         </tr>
                                         <tr>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                            <td>
                                                 Jumlah arus kas masuk dari aktivitas operasi</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;10.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Arus Kas Keluar</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 <br>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Pengeluaran Kas untuk pembayaran beban-beban</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;10.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Jumlah arus kas keluar dari aktivitas operasi</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;10.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Arus kas bersih dari aktivitas operasi</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;20.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 <br>
                                             </td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 <br>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 ARUS KAS DARI AKTIVITAS INVESTASI</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 <br>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Arus Kas Masuk</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;10.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Penerimaan Kas dari Penjualan Investasi/Aset Tetap</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;10.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Jumlah arus kas masuk dari aktivitas Investasi</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 <br>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Arus Kas Keluar</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 <br>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Pengeluaran Kas untuk Pembelian Investasi/Aset Tetap</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;10.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Jumlah arus kas keluar dari aktivitas Investasi</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;10.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Arus kas bersih dari aktivitas Investasi</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;20.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 <br>
                                             </td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 <br>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 ARUS KAS DARI AKTIVITAS PEMBIAYAAN</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 <br>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Arus Kas Masuk</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 <br>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Penerimaan utang jangka panjang dan tambahan penyertaan modal</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;10.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Jumlah arus kas masuk dari aktivitas Pembiayaan</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;10.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Arus Kas Keluar</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 <br>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Pembayaran utang jangka panjang dan bagi hasil penyertaan modal</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;10.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Jumlah arus kas keluar dari aktivitas Pembiayaan</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;10.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Arus kas bersih dari aktivitas Pembiayaan</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;20.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 <br>
                                             </td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 <br>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Kenaikan (penurunan) Kas</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;60.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:none;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                >
                                                 Saldo kas awal tahun</td>
-                                            <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:none;border-left:none;">
+                                            <td>
                                                 &nbsp;Rp &nbsp;10.000</td>
                                         </tr>
                                         <tr>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:700;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:.5pt solid windowtext;height:15.0pt;">
+                                                style="sans-serif;text-align:general;vertical-align:bottom;border:none;">
                                                 Saldo kas akhir tahun</td>
                                             <td
-                                                style="color:black;font-size:15px;font-weight:400;font-style:normal;text-decoration:none;font-family:Calibri, sans-serif;text-align:general;vertical-align:bottom;border:none;border-top:none;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;border-left:none;">
+                                                >
                                                 &nbsp;Rp &nbsp;70.000</td>
                                         </tr>
                                     </tbody>
