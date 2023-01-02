@@ -41,6 +41,7 @@
                                             <th style="text-align: center;">Nama Usaha</th>
                                             <th style="text-align: center;">Nama Pelanggan</th>
                                             <th style="text-align: center;">Total Penghasilan</th>
+                                            <th style="text-align: center;">Nota</th>
                                             <th style="text-align: center;">Aksi</th>
                                         </tr>
                                     </thead>
@@ -69,6 +70,12 @@
                                             </td>
                                             <td>
                                                 {{$data ==[] ? 'kosong' : $item['penghasilan']}}    
+                                                {{-- {{"Rp200,000"}} --}}
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==[] ? 'kosong' : $item['penghasilan']}} --}}
+                                                
+                                                <img src="images/{{$item['file']}}" alt="nota" onclick="edit('images/{{$item['file']}}',{{$loop->index}})" data-toggle="modal" data-target="#gambar">      
                                                 {{-- {{"Rp200,000"}} --}}
                                             </td>
                                             <td>
@@ -163,6 +170,45 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
+<!-- sample modal content -->
+<div id="gambar" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Tambah Transaksi</h4>
+            </div>
+            <div class="modal-body">
+                <form action="/pendapatan" method="POST" class="form-horizontal" role="form" enctype="multipart/form-data">
+                    @csrf
+                    <img src="" alt="nota" id="gambar_src">
+                    <input type="hidden" id="gambar_id" name="id">
+                    <div class="form-group mt-3">
+                        <label class="col-md-2 control-label">Nota</label>
+                        <div class="col-md-8">
+                            <div class="input-group ">
+                                <input name="file" type="file" class="form-control" required>
+                                <span class="input-group-addon bg-custom b-0"><i class="mdi mdi-calendar text-white"></i></span>
+                            </div><!-- input-group -->
+                        </div>
+                        <div class="col-md-2"><button type="submit" class="btn btn-primary ">submit</button></div>
+                    </div>
 
+                </form>
+            </div>
 
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+@endsection
+
+@section('script')
+<script>
+    function edit(gambar,id) {
+        console.log('edit: '+gambar);
+        document.getElementById("gambar_id").value = id;
+        document.getElementById("gambar_src").src = gambar;
+    }
+</script>
 @endsection

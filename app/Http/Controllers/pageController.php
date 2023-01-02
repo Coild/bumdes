@@ -187,7 +187,8 @@ class pageController extends Controller
 
     public function pendapatan(Request $req)
     {
-        // Session::flush();     
+        // Session::flush();   
+        // dd($req);  
         $data = Session::get('pendapatan') == null ? [] : Session::get('pendapatan');
         $tambah = $req->post();
         if ($tambah != null) {
@@ -195,15 +196,20 @@ class pageController extends Controller
             $nama = $file->getClientOriginalName();
             $tujuan_upload = 'images/';
             $file->move($tujuan_upload, $nama);
-            $row = [
-                'file' => $nama,
-                'tanggal' => $req->tanggal,
-                'usaha' => $req->usaha,
-                'catatan' => $req->catatan,
-                'pelanggan' => $req->pelanggan,
-                'penghasilan' => 0
-            ];
-            array_push($data, $row);
+            if(isset($req->id)) {
+                $data[$req->id]['file'] = $nama;
+            }else {
+                $row = [
+                    'file' => $nama,
+                    'tanggal' => $req->tanggal,
+                    'usaha' => $req->usaha,
+                    'catatan' => $req->catatan,
+                    'pelanggan' => $req->pelanggan,
+                    'penghasilan' => 0
+                ];
+                array_push($data, $row);
+            }
+            
             Session::put('pendapatan', $data);
             // dd($data);
         }
