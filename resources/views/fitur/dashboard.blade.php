@@ -18,10 +18,9 @@
             <div class="col-sm-12">
                 <div class="page-header-title">
                     <h4 class="pull-left page-title">Dashboard</h4>
-                    <ol class="breadcrumb pull-right">
-                        <li><a href="#">Xadmino</a></li>
+                    {{-- <ol class="breadcrumb pull-right">
                         <li class="active">Dashboard</li>
-                    </ol>
+                    </ol> --}}
                     <div class="clearfix"></div>
                 </div>
             </div>
@@ -44,7 +43,7 @@
             <div class="col-lg-6">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Daftar Pengelola</h3>
+                        <h3 class="panel-title">Unit Usaha</h3>
 
                     </div>
 
@@ -55,11 +54,9 @@
                                     <thead>
                                         <tr>
                                             <th style="text-align: center;">No</th>
-                                            <th style="text-align: center;">Nama Pengelola</th>
-                                            <th style="text-align: center;">Status Posisi</th>
-                                            <th style="text-align: center;">Nomor Telepon</th>
-                                            <th style="text-align: center;">Foto Profil</th>
-                                            <th style="text-align: center;">Aksi</th>
+                                            <th style="text-align: center;">Nama Usaha</th>
+                                            <th style="text-align: center;">Jenis Usaha</th>
+                                            <th style="text-align: center;">Akumulasi Penghasilan</th>
                                         </tr>
                                     </thead>
 
@@ -70,24 +67,13 @@
                                                 1
                                             </td>
                                             <td>
-                                                <!-- <a href="#"> Klikit</a> -->
-                                                Ima
+                                                Homestay BUMDes
                                             </td>
                                             <td>
-                                                Bendahara
+                                                Jasa
                                             </td>
                                             <td>
-                                                083494117111
-                                            </td>
-                                            <td>
-                                                OnGoing
-                                            </td>
-                                            <td>
-                                                <div class="conbtn">
-                                                    <button class="btn btn-primary center" data-toggle="modal" data-target="#editIma"> Edit </button>
-                                                    <button class="btn btn-danger center" style="margin-left: 2%"> Hapus
-                                                    </button>
-                                                </div>
+                                                200000000000
                                             </td>
                                         </tr>
                                     </tbody>
@@ -99,102 +85,78 @@
                 </div>
             </div> <!-- col -->
         </div> <!-- End row-->
-
+        <hr>
         <div class="row">
-            <div class="col-sm-6 col-lg-3">
+            <div class="col-sm-6 col-lg-4">
                 <div class="panel panel-primary text-center">
                     <div class="panel-heading">
-                        <h4 class="panel-title">Total Subscription</h4>
+                        <h4 class="panel-title">Hutang Pelanggan pada Usaha Jasa</h4>
                     </div>
                     <div class="panel-body">
                         <h3 class=""><b>2568</b></h3>
-                        <p class="text-muted"><b>48%</b> From Last 24 Hours</p>
+                        {{-- <p class="text-muted"><b>48%</b> From Last 24 Hours</p> --}}
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-6 col-lg-3">
+            <div class="col-sm-6 col-lg-4">
                 <div class="panel panel-primary text-center">
                     <div class="panel-heading">
-                        <h4 class="panel-title">Order Status</h4>
+                        <h4 class="panel-title">Piutang BUMDes pada Usaha Jasa</h4>
                     </div>
                     <div class="panel-body">
                         <h3 class=""><b>3685</b></h3>
-                        <p class="text-muted"><b>15%</b> Orders in Last 10 months</p>
+                        {{-- <p class="text-muted"><b>15%</b> Orders in Last 10 months</p> --}}
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-6 col-lg-3">
+            <div class="col-sm-6 col-lg-4">
                 <div class="panel panel-primary text-center">
                     <div class="panel-heading">
-                        <h4 class="panel-title">Unique Visitors</h4>
+                        <h4 class="panel-title">Pembayaran Beban Usaha Jasa</h4>
                     </div>
                     <div class="panel-body">
                         <h3 class=""><b>25487</b></h3>
-                        <p class="text-muted"><b>65%</b> From Last 24 Hours</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-3">
-                <div class="panel panel-primary text-center">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">Monthly Earnings</h4>
-                    </div>
-                    <div class="panel-body">
-                        <h3 class=""><b>$2779.7</b></h3>
-                        <p class="text-muted"><b>31%</b> From Last 1 month</p>
+                        {{-- <p class="text-muted"><b>65%</b> From Last 24 Hours</p> --}}
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-sm-6 col-lg-3">
+            <div class="col-sm-6 col-lg-4">
                 <div class="panel panel-primary text-center">
                     <div class="panel-heading">
-                        <h4 class="panel-title">Total Subscription</h4>
+                        <h4 class="panel-title">Hutang Pelanggan pada Usaha Dagang</h4>
                     </div>
                     <div class="panel-body">
                         <h3 class=""><b>2568</b></h3>
-                        <p class="text-muted"><b>48%</b> From Last 24 Hours</p>
+                        {{-- <p class="text-muted"><b>48%</b> From Last 24 Hours</p> --}}
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-6 col-lg-3">
+            <div class="col-sm-6 col-lg-4">
                 <div class="panel panel-primary text-center">
                     <div class="panel-heading">
-                        <h4 class="panel-title">Order Status</h4>
+                        <h4 class="panel-title">Piutang BUMDes pada Usaha Dagang</h4>
                     </div>
                     <div class="panel-body">
                         <h3 class=""><b>3685</b></h3>
-                        <p class="text-muted"><b>15%</b> Orders in Last 10 months</p>
+                        {{-- <p class="text-muted"><b>15%</b> Orders in Last 10 months</p> --}}
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-6 col-lg-3">
+            <div class="col-sm-6 col-lg-4">
                 <div class="panel panel-primary text-center">
                     <div class="panel-heading">
-                        <h4 class="panel-title">Unique Visitors</h4>
+                        <h4 class="panel-title">Pembayaran Beban Usaha Jasa</h4>
                     </div>
                     <div class="panel-body">
                         <h3 class=""><b>25487</b></h3>
-                        <p class="text-muted"><b>65%</b> From Last 24 Hours</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-3">
-                <div class="panel panel-primary text-center">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">Monthly Earnings</h4>
-                    </div>
-                    <div class="panel-body">
-                        <h3 class=""><b>$2779.7</b></h3>
-                        <p class="text-muted"><b>31%</b> From Last 1 month</p>
+                        {{-- <p class="text-muted"><b>65%</b> From Last 24 Hours</p> --}}
                     </div>
                 </div>
             </div>

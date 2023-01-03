@@ -17,14 +17,17 @@ use Illuminate\Support\Facades\Session;
 
 
 Route::get('/', [pageController::class, 'dashboard']);
+Route::post('/', [pageController::class, 'dashboard']);
 
 Route::get('/datausaha', [pageController::class, 'datausaha']);
 Route::post('/datausaha', [pageController::class, 'datausaha']);
 
+Route::get('/jenisdatausaha', [pageController::class, 'jenisdatausaha']);
 Route::post('/jenisdatausaha', [pageController::class, 'jenisdatausaha']);
 
 Route::get('/pengelola', [pageController::class, 'pengelola']);
 Route::post('/pengelola', [pageController::class, 'pengelola']);
+Route::post('/editpengelola', [pageController::class, 'editpengelola']);
 
 Route::get('/akun', [pageController::class, 'akun']);
 

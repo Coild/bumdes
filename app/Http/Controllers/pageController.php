@@ -59,6 +59,7 @@ class pageController extends Controller
     public function pelanggan(Request $req)
     {
         // Session::flush();
+        
         $data = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
         $tambah = $req->post();
         if ($tambah != null) {
@@ -103,9 +104,37 @@ class pageController extends Controller
 
     public function pengelola(Request $req)
     {
-        $data = $req->all();
-        $data == null ? [] : $data;
-        return view('fitur.pengelola', ['data' => $data]);
+        // Session::flush();
+        $data = Session::get('pengelola') == null ? [] : Session::get('pengelola');
+        $tambah = $req->post();
+        // session()->put('liststatus', ['Bendahara', 'Pencatat Transaksi']);
+        // dd($data);
+        if ($tambah != null) {
+            $row = [
+                'nama' => $req->nama,
+                'status' => $req->status,
+                'nohp' => $req->nohp,
+                // 'profil' => $req->nohp
+            ];
+            array_push($data, $row);
+            Session::put('pengelola', $data);
+            // session()->put('liststatus', $req->liststatus);
+            // dd($data);
+        }
+        
+        return view('fitur.pengelola', compact('data'));
+    }
+
+    public function editpengelola(Request $req){
+        // dd($req);
+        $data = Session::get('pengelola');
+        dd($data);
+        array_push($data[$req->id]['nama'], $req->nama);
+        array_push($data[$req->id]['nohp'], $req->nohp);
+        array_push($data[$req->id]['status'], $req->status);
+        Session::put('pengelola', $data);
+
+        return view('fitur.pengelola', compact('data'));
     }
 
     public function akun(Request $req)
