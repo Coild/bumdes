@@ -65,9 +65,9 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="hidden-xs">
+                    {{-- <li class="hidden-xs">
                         <a href="#" id="btn-fullscreen" class="waves-effect waves-light"><i class="fa fa-crosshairs"></i></a>
-                    </li>
+                    </li> --}}
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle profile waves-effect waves-light" data-toggle="dropdown" aria-expanded="true"><img src={{ asset("images/users/avatar-1.jpg") }} alt="user-img" class="img-circle"> </a>
                         <ul class="dropdown-menu">
