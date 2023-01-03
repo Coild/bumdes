@@ -10,8 +10,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <link rel="shortcut icon" href={{ asset('images/favicon.png') }}>
-    <link rel="shortcut icon" href="/images/favicon.png">
-    <link rel="icon" href={{ asset('images/favicon.png') }}>
+    {{-- <link rel="shortcut icon" href="/images/favicon.png"> --}}
+    {{-- <link rel="icon" href={{ asset('images/favicon.png') }}> --}}
 
     <!-- DataTables -->
     <link href={{ asset('plugins/datatables/jquery.dataTables.min.css') }} rel="stylesheet" type="text/css" />
