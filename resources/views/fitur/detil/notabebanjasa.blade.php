@@ -177,7 +177,7 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Beban</h4>
             </div>
             <div class="modal-body">
-                <form method="POST" action=""{{ route('post.notabebanjasa') }}"" class="form-horizontal" role="form">
+                <form method="POST" action="{{ route('post.notabebanjasa') }}" class="form-horizontal" role="form">
                     @csrf
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Jenis Beban</label>

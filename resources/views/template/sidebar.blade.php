@@ -51,7 +51,7 @@
                 <li class="has_sub">
                     <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-shopping-basket"></i> <span> Dagang</span> <span class="pull-right"><i class="mdi mdi-plus"></i></span></a>
                     <ul class="list-unstyled">
-                        <li><a href="/pembelian">Pembelian</a></li>
+                        <li><a href="{{ route('get.pembelian') }}">Pembelian</a></li>
                         <li><a href="/penjualan">Penjualan</a></li>
                         <li><a href="{{ route('get.bebandagang') }}">Beban</a></li>
                     </ul>
