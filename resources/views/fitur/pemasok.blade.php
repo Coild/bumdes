@@ -65,7 +65,7 @@
                                                 <div class="conbtn">
                                                     <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
                                                     <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
-                                                    <button class="btn btn-success center mdi mdi-eye" style="margin-left: 2%" onclick="window.location.href='/detilpemasok?id={{ $loop->index}}'" > Barang</button>
+                                                    <button class="btn btn-success center mdi mdi-eye" style="margin-left: 2%" onclick="window.location.href='{{route('get.detilpemasok')}}?id={{ $loop->index}}'" > Barang</button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -95,7 +95,7 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Data Pemasok</h4>
             </div>
             <div class="modal-body">
-                <form action="/pemasok" method="POST" class="form-horizontal" role="form">
+                <form action="{{ route('post.pemasok') }}" method="POST" class="form-horizontal" role="form">
                     @csrf
                     <div class="form-group">
                         <label class="col-md-4 control-label">Nama Pemasok</label>

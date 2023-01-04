@@ -34,7 +34,7 @@
                         <li><a href="/datausaha">Data Usaha</a></li>
                         <li><a href="/pengelola">Pengelola</a></li>
                         <li><a href="/akun">Data Akun</a></li>
-                        <li><a href="/pemasok">Pemasok</a></li>
+                        <li><a href="{{ route('get.pemasok') }}">Pemasok</a></li>
                         <li><a href="/pelanggan">Pelanggan</a></li>
                         <!-- <li><a href="ui-progressbars.html">Data Investor</a></li> Note: Future Development -->
                     </ul>

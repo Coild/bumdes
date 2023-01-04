@@ -32,10 +32,10 @@ Route::get('/editpengelola', [pageController::class, 'pengelola']);
 
 Route::get('/akun', [pageController::class, 'akun']);
 
-Route::get('/pemasok', [pageController::class, 'pemasok']);
-Route::post('/pemasok', [pageController::class, 'pemasok']);
-Route::get('/detilpemasok', [pageController::class, 'detilpemasok']);
-Route::post('/detilpemasok', [pageController::class, 'detilpemasok']);
+Route::get('public/pemasok', [pageController::class, 'pemasok'])->name('get.pemasok');
+Route::post('public/pemasok', [pageController::class, 'pemasok'])->name('post.pemasok');
+Route::get('public/detilpemasok', [pageController::class, 'detilpemasok'])->name('get.detilpemasok');
+Route::post('public/detilpemasok', [pageController::class, 'detilpemasok'])->name('post.detilpemasok');
 
 Route::get('/pelanggan', [pageController::class, 'pelanggan']);
 Route::post('/pelanggan', [pageController::class, 'pelanggan']);
@@ -126,10 +126,7 @@ Route::get('cek', [pageController::class, 'dummy']);
 
 // Route::get('public/akunku', [pageController::class, 'akun'])->name('get.akun');
 
-// Route::get('public/pemasok', [pageController::class, 'pemasok'])->name('get.pemasok');
-// Route::post('public/pemasok', [pageController::class, 'pemasok'])->name('post.pemasok');
-// Route::get('public/detilpemasok', [pageController::class, 'detilpemasok'])->name('get.detilpemasok');
-// Route::post('public/detilpemasok', [pageController::class, 'detilpemasok'])->name('post.detilpemasok');
+
 
 // Route::get('public/pelanggan', [pageController::class, 'pelanggan'])->name('get.pelanggan');
 // Route::post('public/pelanggan', [pageController::class, 'pelanggan'])->name('post.pelanggan');

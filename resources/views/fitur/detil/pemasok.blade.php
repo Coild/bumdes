@@ -10,7 +10,7 @@
                     <div class="page-header-title">
                         <ol class="breadcrumb pull-right">
                             <li><a href="#">Master Data</a></li>
-                            <li><a href="/pemasok">Pemasok</a></li>
+                            <li><a href="{{ route('get.pemasok') }}">Pemasok</a></li>
                             <li class="active">Daftar Barang</li>
                         </ol>
                         <div class="clearfix"></div>
@@ -145,7 +145,7 @@
                     <h4 class="modal-title" id="myModalLabel">Tambah Data Barang</h4>
                 </div>
                 <div class="modal-body">
-                    <form method="POST" action="/detilpemasok" class="form-horizontal" role="form">
+                    <form method="POST" action="{{ route('get.detilpemasok') }}" class="form-horizontal" role="form">
                         @csrf
                         <div class="form-group">
                             <label class="col-md-4 control-label">Nama Barang</label>
