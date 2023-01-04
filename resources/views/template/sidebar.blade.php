@@ -43,9 +43,8 @@
                 <li class="has_sub">
                     <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-group"></i> <span> Jasa</span> <span class="pull-right"><i class="mdi mdi-plus"></i></span></a>
                     <ul class="list-unstyled">
-                        <li><a href="/pendapatan">Pendapatan</a></li>
+                        <li><a href="/pendapatan">Transaksi Jasa</a></li>
                         <li><a href="/bebanjasa">Beban</a></li>
-                        <li><a href="#">Transaksi Lainnya</a></li>
                     </ul>
                 </li>
 
@@ -54,8 +53,7 @@
                     <ul class="list-unstyled">
                         <li><a href="/pembelian">Pembelian</a></li>
                         <li><a href="/penjualan">Penjualan</a></li>
-                        <li><a href="/bebandagang">Beban</a></li>
-                        <li><a href="#">Transaksi Lainnya</a></li>
+                        <li><a href="{{ route('get.bebandagang') }}">Beban</a></li>
                     </ul>
                 </li>
 

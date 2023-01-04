@@ -500,6 +500,7 @@ class pageController extends Controller
             array_push($data, $row);
             Session::put('bebandagang', $data);
         }
+        // dd($data);
         return view('fitur.bebandagang', ['data' => $data]);
     }
 
