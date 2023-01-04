@@ -77,10 +77,10 @@
                                                     </td>
                                                     <td>
                                                         {{-- {{$data ==[] ? 'kosong' : $item['penghasilan']}} --}}
-                                                        <div>
+                                                        <div class="conbtn">
                                                             <img src="images/{{ $item['file'] }}" alt="nota"
                                                                 onclick="edit('images/{{ $item['file'] }}',{{ $loop->index }})"
-                                                                data-toggle="modal" data-target="#gambar" style="width: 100%; height: 100%;">
+                                                                data-toggle="modal" data-target="#gambar" style="width: 30px; height: 30px;">
                                                         </div>
 
                                                         {{-- {{"Rp200,000"}} --}}
@@ -143,8 +143,9 @@
                             <label class="col-sm-4 control-label">Nama Usaha</label>
                             <div class="col-sm-8">
                                 <select name="usaha" class="form-control" required>
-                                    <option value="Homestay Mandalika">Homestay Mandalika</option>
-                                    <option value="Homestay BUMDes">Homestay BUMDes</option>
+                                    @foreach ($jasa as $item)
+                                    <option value="{{$loop->index}}">{{$item['namajasa']}}</option>
+                                    @endforeach
                                 </select>
                             </div>
                         </div>
@@ -200,7 +201,9 @@
                     <form action="/pendapatan" method="POST" class="form-horizontal" role="form"
                         enctype="multipart/form-data">
                         @csrf
-                        <img src="" alt="nota" id="gambar_src" style="width: 100%; height: 100%;">
+                        <div class="conbtn">
+                            <img src="" alt="nota" id="gambar_src" style="width: 80%;">
+                        </div>
                         <input type="hidden" id="gambar_id" name="id">
                         <div style="margin-top: 20px;">
                             <label class="control-label">Edit Bukti Transaksi</label>

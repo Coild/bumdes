@@ -24,7 +24,7 @@
         <div id="sidebar-menu">
             <ul>
                 <li>
-                    <a href="/" class="waves-effect"><i class="ion-android-user-menu"></i><span> Dashboard </span></a>
+                    <a href="{{ route('get.dashboard') }}" class="waves-effect"><i class="ion-android-user-menu"></i><span> Dashboard </span></a>
                 </li>
 
 

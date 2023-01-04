@@ -236,6 +236,7 @@ class pageController extends Controller
     {
         // Session::flush();   
         // dd($req);  
+        $jasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
         $data = Session::get('pendapatan') == null ? [] : Session::get('pendapatan');
         $tambah = $req->post();
         if ($tambah != null) {
@@ -260,7 +261,7 @@ class pageController extends Controller
             Session::put('pendapatan', $data);
             // dd($data);
         }
-        return view('fitur.pendapatan', ['data' => $data]);
+        return view('fitur.pendapatan', compact('data','jasa'));
     }
 
     public function laporan(Request $req)
@@ -278,6 +279,7 @@ class pageController extends Controller
         Session::put('lokpen', $loc);
         // dd($loc);
         $pendapatan = Session::get('pendapatan') == null ? [] : Session::get('pendapatan');
+        $jasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
         $data = Session::get('notapendapatan') == null ? [] : Session::get('notapendapatan');
         $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0;
 
@@ -300,8 +302,8 @@ class pageController extends Controller
             Session::put('pendapatan', $pendapatan);
             // dd($data);
         }
-        // dd(count($data));
-        return view('fitur.detil.notapendapatan', compact('pendapatan', 'data', 'total', 'loc'));
+        // dd($pendapatan);
+        return view('fitur.detil.notapendapatan', compact('pendapatan', 'data','jasa', 'total', 'loc'));
     }
 
     public function penjualan(Request $req)
@@ -397,7 +399,6 @@ class pageController extends Controller
         Session::put('lokbeli', $loc);
         // dd($loc);
         $pembelian = Session::get('pembelian') == null ? [] : Session::get('pembelian');
-        $detilpemasok = Session::get('detilpemasok') == null ? [] : Session::get('detilpemasok');
         // dd($detilpemasok);
         $pemasok = Session::get('pemasok') == null ? [] : Session::get('pemasok');
         $data = Session::get('notapembelian') == null ? [] : Session::get('notapembelian');

@@ -187,9 +187,9 @@
                         <div class="col-sm-8">
                             <select name="jenis" class="form-control" required>
 
-                                <option value="sewa kamar - Homestay BUMDes">sewa kamar - Homestay BUMDes</option>
-                                <option value="sewa kamar - Homestay Mandalika">sewa kamar - Homestay Mandalika
-                                </option>
+                                @foreach ($jasa[$pendapatan[$loc]['usaha']]['jenis'] as $item)
+                                <option value="{{$item}}">{{$item}}</option>
+                                @endforeach
 
                             </select>
                         </div>
