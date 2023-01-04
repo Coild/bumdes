@@ -28,7 +28,7 @@ Route::post('/jenisdatausaha', [pageController::class, 'jenisdatausaha']);
 Route::get('/pengelola', [pageController::class, 'pengelola']);
 Route::post('/pengelola', [pageController::class, 'pengelola']);
 Route::post('/editpengelola', [pageController::class, 'editpengelola']);
-Route::get('/editpengelola', [pageController::class, 'editpengelola']);
+Route::get('/editpengelola', [pageController::class, 'pengelola']);
 
 Route::get('/akun', [pageController::class, 'akun']);
 

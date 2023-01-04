@@ -135,7 +135,7 @@ class pageController extends Controller
         
         Session::put('pengelola', $data);
 
-        return view('fitur.pengelola', compact('data'));
+        return redirect('pengelola');
     }
 
     public function akun(Request $req)
