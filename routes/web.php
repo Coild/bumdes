@@ -42,10 +42,10 @@ Route::post('/pelanggan', [pageController::class, 'pelanggan']);
 Route::get('/detilpelanggan', [pageController::class, 'detilpelanggan']);
 Route::post('/detilpelanggan', [pageController::class, 'detilpelanggan']);
 
-Route::get('/pendapatan', [pageController::class, 'pendapatan']);
-Route::post('/pendapatan', [pageController::class, 'pendapatan']);
-Route::get('/notapendapatan', [pageController::class, 'notapendapatan']);
-Route::post('/notapendapatan', [pageController::class, 'notapendapatan']);
+Route::get('public/pendapatan', [pageController::class, 'pendapatan'])->name('get.pendapatan');
+Route::post('public/pendapatan', [pageController::class, 'pendapatan'])->name('post.pendapatan');
+Route::get('public/notapendapatan', [pageController::class, 'notapendapatan'])->name('get.notapendapatan');
+Route::post('public/notapendapatan', [pageController::class, 'notapendapatan'])->name('post.notapendapatan');
 
 Route::get('public/penjualan', [pageController::class, 'penjualan'])->name('get.penjualan');
 Route::post('public/penjualan', [pageController::class, 'penjualan'])->name('post.penjualan');
@@ -133,10 +133,7 @@ Route::get('cek', [pageController::class, 'dummy']);
 // Route::get('public/detilpelanggan', [pageController::class, 'detilpelanggan'])->name('get.detilpelanggan');
 // Route::post('public/detilpelanggan', [pageController::class, 'detilpelanggan'])->name('post.detilpelanggan');
 
-// Route::get('public/pendapatan', [pageController::class, 'pendapatan'])->name('get.pendapatan');
-// Route::post('public/pendapatan', [pageController::class, 'pendapatan'])->name('post.pendapatan');
-// Route::get('public/notapendapatan', [pageController::class, 'notapendapatan'])->name('get.notapendapatan');
-// Route::post('public/notapendapatan', [pageController::class, 'notapendapatan'])->name('post.notapendapatan');
+
 
 
 
