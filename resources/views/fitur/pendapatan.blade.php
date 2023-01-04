@@ -93,7 +93,7 @@
                                                                 style="margin-left: 2%"></button>
                                                             <button class="btn btn-success center mdi mdi-eye"
                                                                 style="margin-left: 2%"
-                                                                onclick="window.location.href='/notapendapatan?id={{ $loop->index }}'">
+                                                                onclick="window.location.href='{{route('get.notapendapatan')}}?id={{ $loop->index}}'">
                                                                 Detail</button>
                                                         </div>
                                                     </td>
@@ -124,7 +124,7 @@
                     <h4 class="modal-title" id="myModalLabel">Tambah Transaksi</h4>
                 </div>
                 <div class="modal-body">
-                    <form action="/pendapatan" method="POST" class="form-horizontal" role="form"
+                    <form action="{{ route('post.pendapatan') }}" method="POST" class="form-horizontal" role="form"
                         enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">

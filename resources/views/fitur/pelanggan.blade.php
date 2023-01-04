@@ -65,7 +65,7 @@
                                                 <div class="conbtn">
                                                     <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
                                                     <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
-                                                    <button class="btn btn-success center mdi mdi-eye" style="margin-left: 2%" onclick="window.location.href='/detilpelanggan?id={{ $loop->index}}'" > Hutang</button>
+                                                    <button class="btn btn-success center mdi mdi-eye" style="margin-left: 2%" onclick="window.location.href='{{route('get.detilpelanggan')}}?id={{ $loop->index}}'" > Hutang</button>
                                                 </div>
                                             </td>
                                         </tr>

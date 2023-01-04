@@ -10,7 +10,7 @@
                 <div class="page-header-title">
                     <ol class="breadcrumb pull-right">
                         <li><a href="#">Transaksi Jasa</a></li>
-                        <li><a href="/pendapatan">Pendapatan</a></li>
+                        <li><a href="{{ route('get.pendapatan') }}">Pendapatan</a></li>
                         <li class="active">Nota Transaksi Pendapatan</li>
                     </ol>
                     <div class="clearfix"></div>
@@ -180,7 +180,7 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Barang</h4>
             </div>
             <div class="modal-body">
-                <form method="POST" action="/notapendapatan" class="form-horizontal" role="form">
+                <form method="POST" action="{{ route('post.notapendapatan') }}" class="form-horizontal" role="form">
                     @csrf
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Status Pengelola</label>

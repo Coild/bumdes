@@ -32,34 +32,45 @@ class pageController extends Controller
     public function datausaha(Request $req)
     {
         // Session::flush();
-        // dd('aku');
-        $data = Session::get('datausaha') == null ? [] : Session::get('datausaha');
-        $tambah = $req->post();
+        $datajasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
+        $datadagang = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
 
+        $tambah = $req->jenis;
         if ($tambah != []) {
-            $isi = [
-                'nama' => $req->nama,
-                'alamat' => $req->alamat,
-                'jenis' => [],
-            ];
-            array_push($data, $isi);
-            Session::put('datausaha', $data);
+            if($req->jenis ==1) {
+                $isi = [
+                    'namajasa' => $req->namajasa,
+                    'alamatjasa' => $req->alamatjasa,
+                    'jenis' => []
+                ];
+                array_push($datajasa, $isi);
+                Session::put('datausahajasa', $datajasa);
+            }
+            if ($req->jenis == 2) {
+                $isi = [
+                    'namadagang' => $req->namadagang,
+                    'alamatdagang' => $req->alamatdagang
+                ];
+                array_push($datadagang, $isi);
+                Session::put('datausahadagang', $datadagang);
+            }
         }
+
 
         // dd( gettype($data[0]['jenis']));
 
-        return view('fitur.datausaha', compact('data'));
+        return view('fitur.datausaha', compact('datajasa', 'datadagang'));
     }
 
     public function jenisdatausaha(Request $req)
     {
         // dd($req);
-        $data = Session::get('datausaha');
+        $data = Session::get('datausahajasa');
         // dd($req);
         array_push($data[$req->id]['jenis'], $req->jenis);
-        Session::put('datausaha', $data);
+        Session::put('datausahajasa', $data);
 
-        return view('fitur.datausaha', compact('data'));
+        return redirect('datausaha');
     }
 
     public function pelanggan(Request $req)
@@ -506,6 +517,7 @@ class pageController extends Controller
             array_push($data, $row);
             Session::put('bebandagang', $data);
         }
+        // dd($data);
         return view('fitur.bebandagang', ['data' => $data]);
     }
 

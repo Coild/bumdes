@@ -68,7 +68,7 @@
                                                     <td>
                                                         <div class="conbtn">
                                                             <img src="images/users/profil_holder.png"
-                                                                alt="placeholder profile" style="width: 20%; height: 20%;">
+                                                                alt="placeholder profile" style="width: 30px; height: 30px;">
                                                         </div>
                                                     </td>
                                                     <td>
@@ -108,7 +108,7 @@
                     <h4 class="modal-title" id="myModalLabel">Tambah Data Pengelola</h4>
                 </div>
                 <div class="modal-body">
-                    <form action="/pengelola" method="POST" class="form-horizontal" role="form">
+                    <form action="{{ route('post.pengelola') }}" method="POST" class="form-horizontal" role="form">
                         @csrf
 
                         <div class="form-group">
@@ -158,7 +158,7 @@
                     <h4 class="modal-title" id="myModalLabel">Edit Data Pengelola</h4>
                 </div>
                 <div class="modal-body">
-                    <form action="/editpengelola" method="POST" class="form-horizontal" role="form">
+                    <form action="{{ route('post.editpengelola') }}" method="POST" class="form-horizontal" role="form">
 
                         @csrf
                         <input type="hidden" name="id" id="id_p">
@@ -181,7 +181,7 @@
                         <div class="form-group">
                             <label class="col-sm-4 control-label">Status Pengelola</label>
                             <div class="col-sm-8">
-                                <select name="status" class="form-control" required onchange="changeStatus(this)">
+                                <select name="status" class="form-control" required>
                                     <option value="Bendahara" id="option-bendahara">Bendahara</option>
                                     <option value="Pencatat Transaksi" id="option-pencatat-transaksi">Pencatat Transaksi
                                     </option>
@@ -220,13 +220,6 @@
                 document.getElementById("option-pencatat-transaksi").selected = true;
             }
         }
-
-        function changeStatus(select) {
-            // Mengambil nilai yang dipilih
-            var status = select.value;
-            console.log('status: ' + status);
-            // Mengganti elemen "option" yang terpilih
-            
-        }
+        
     </script>
 @endsection
