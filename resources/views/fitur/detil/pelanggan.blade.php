@@ -10,7 +10,7 @@
                 <div class="page-header-title">
                     <ol class="breadcrumb pull-right">
                         <li><a href="#">Master Data</a></li>
-                        <li><a href="/pelanggan">Pelanggan</a></li>
+                        <li><a href="{{ route('get.pelanggan') }}">Pelanggan</a></li>
                         <li class="active">Daftar Hutang</li>
                     </ol>
                     <div class="clearfix"></div>

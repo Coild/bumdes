@@ -37,10 +37,10 @@ Route::post('public/pemasok', [pageController::class, 'pemasok'])->name('post.pe
 Route::get('public/detilpemasok', [pageController::class, 'detilpemasok'])->name('get.detilpemasok');
 Route::post('public/detilpemasok', [pageController::class, 'detilpemasok'])->name('post.detilpemasok');
 
-Route::get('/pelanggan', [pageController::class, 'pelanggan']);
-Route::post('/pelanggan', [pageController::class, 'pelanggan']);
-Route::get('/detilpelanggan', [pageController::class, 'detilpelanggan']);
-Route::post('/detilpelanggan', [pageController::class, 'detilpelanggan']);
+Route::get('public/pelanggan', [pageController::class, 'pelanggan'])->name('get.pelanggan');
+Route::post('public/pelanggan', [pageController::class, 'pelanggan'])->name('post.pelanggan');
+Route::get('public/detilpelanggan', [pageController::class, 'detilpelanggan'])->name('get.detilpelanggan');
+Route::post('public/detilpelanggan', [pageController::class, 'detilpelanggan'])->name('post.detilpelanggan');
 
 Route::get('public/pendapatan', [pageController::class, 'pendapatan'])->name('get.pendapatan');
 Route::post('public/pendapatan', [pageController::class, 'pendapatan'])->name('post.pendapatan');
@@ -125,23 +125,6 @@ Route::get('cek', [pageController::class, 'dummy']);
 // Route::post('public/pengelola', [pageController::class, 'pengelola'])->name('post.pengelola');
 
 // Route::get('public/akunku', [pageController::class, 'akun'])->name('get.akun');
-
-
-
-// Route::get('public/pelanggan', [pageController::class, 'pelanggan'])->name('get.pelanggan');
-// Route::post('public/pelanggan', [pageController::class, 'pelanggan'])->name('post.pelanggan');
-// Route::get('public/detilpelanggan', [pageController::class, 'detilpelanggan'])->name('get.detilpelanggan');
-// Route::post('public/detilpelanggan', [pageController::class, 'detilpelanggan'])->name('post.detilpelanggan');
-
-
-
-
-
-
-
-
-
-
 
 // Route::get('public/stok', [pageController::class, 'stok'])->name('get.stok');
 // Route::post('public/stok', [pageController::class, 'stok'])->name('post.stok');
