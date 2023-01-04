@@ -10,7 +10,7 @@
                     <div class="page-header-title">
                         <ol class="breadcrumb pull-right">
                             <li><a href="#">Transaksi Dagang</a></li>
-                            <li><a href="{{ route('get.bebandagang') }}">Beban</a></li>
+                            <li><a href="{{route('get.bebandagang')}}">Beban</a></li>
                             <li class="active">Nota Transaksi Beban</li>
                         </ol>
                         <div class="clearfix"></div>
