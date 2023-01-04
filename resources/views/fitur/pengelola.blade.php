@@ -181,7 +181,7 @@
                         <div class="form-group">
                             <label class="col-sm-4 control-label">Status Pengelola</label>
                             <div class="col-sm-8">
-                                <select name="status" class="form-control" required onchange="changeStatus(this)">
+                                <select name="status" class="form-control" required>
                                     <option value="Bendahara" id="option-bendahara">Bendahara</option>
                                     <option value="Pencatat Transaksi" id="option-pencatat-transaksi">Pencatat Transaksi
                                     </option>
@@ -211,13 +211,7 @@
             document.getElementById("id_p").value = id;
             document.getElementById("nama").value = nama;
             document.getElementById("nohp").value = nohp;
-        }
 
-        function changeStatus(select) {
-            // Mengambil nilai yang dipilih
-            var status = select.value;
-
-            // Mengganti elemen "option" yang terpilih
             if (status == "Bendahara") {
                 document.getElementById("option-bendahara").selected = true;
                 document.getElementById("option-pencatat-transaksi").selected = false;
@@ -226,5 +220,13 @@
                 document.getElementById("option-pencatat-transaksi").selected = true;
             }
         }
+
+        // function changeStatus(select) {
+        //     // Mengambil nilai yang dipilih
+        //     var status = select.value;
+
+        //     // Mengganti elemen "option" yang terpilih
+            
+        // }
     </script>
 @endsection
