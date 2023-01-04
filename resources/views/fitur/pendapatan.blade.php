@@ -154,8 +154,9 @@
                             <label class="col-sm-4 control-label">Nama Pelanggan</label>
                             <div class="col-sm-8">
                                 <select name="pelanggan" class="form-control" required>
-                                    <option value="Hasbi">Hasbi</option>
-                                    <option value="Ima">Ima</option>
+                                    @foreach ($pelanggan as $item)
+                                        <option value="{{$loop->index}}">{{$item['nama']}}</option>
+                                    @endforeach
                                 </select>
                             </div>
                         </div>

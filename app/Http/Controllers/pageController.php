@@ -238,6 +238,8 @@ class pageController extends Controller
         // dd($req);  
         $jasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
         $data = Session::get('pendapatan') == null ? [] : Session::get('pendapatan');
+        $pelanggan = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
+        // dd($pelanggan);
         $tambah = $req->post();
         if ($tambah != null) {
             $file = $req->file('file');
@@ -257,11 +259,11 @@ class pageController extends Controller
                 ];
                 array_push($data, $row);
             }
-            
+            // dd($data);
             Session::put('pendapatan', $data);
             // dd($data);
         }
-        return view('fitur.pendapatan', compact('data','jasa'));
+        return view('fitur.pendapatan', compact('data','jasa','pelanggan'));
     }
 
     public function laporan(Request $req)
