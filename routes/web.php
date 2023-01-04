@@ -16,6 +16,12 @@ use Illuminate\Support\Facades\Session;
 */
 
 
+
+Route::get('/login', [pageController::class, 'login']);
+Route::post('/login', [pageController::class, 'login']);
+
+
+
 Route::get('/', [pageController::class, 'dashboard']);
 Route::post('/', [pageController::class, 'dashboard']);
 

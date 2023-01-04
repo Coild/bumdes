@@ -1,72 +1,96 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Xadmino - Responsive Admin Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta content="Admin Dashboard" name="description" />
+        <meta content="ThemeDesign" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<head>
+        <link rel="shortcut icon" href="images/favicon.ico">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href={{ ("css/bootstrap.min.css") }} rel="stylesheet" type="text/css">
+        <link href={{ ("css/icons.css") }} rel="stylesheet" type="text/css">
+        <link href={{ ("css/style.css") }} rel="stylesheet" type="text/css">
 
-    <title>INSPINIA | Login 2</title>
+    </head>
 
-    <link href={{asset("css/bootstrap.min.css")}} rel="stylesheet">
-    <link href={{asset("font-awesome/css/font-awesome.css")}} rel="stylesheet">
 
-    <link href={{asset("css/animate.css")}} rel="stylesheet">
-    <link href={{asset("css/style.css")}} rel="stylesheet">
+    <body>
 
-</head>
+        <!-- Begin page -->
+        <div class="accountbg"></div>
+        <div class="wrapper-page">
+            <div class="panel panel-color panel-primary panel-pages">
 
-<body class="gray-bg">
+                <div class="panel-body">
+                    <h3 class="text-center m-t-0 m-b-30">
+                        <span class=""><img src={{ asset("images/logo_sementara.png") }} alt="logo" height="75"></span>
+                    </h3>
+                    <h4 class="text-muted text-center m-t-0"><b>Sign In</b></h4>
 
-    <div class="animated fadeInDown">
-        <div class="row col-lg-12">
+                    <form class="form-horizontal m-t-20" action="index.html">
 
-            <div class="col-lg-9  pt-5 pl-5 pr-2">
-               <img src="img/kiri.jpg" width="100%" />
-
-            </div>
-            <div class="col-lg-3 p-5">
-                <div class="logo" style=" margin:25px;">
-                    <center> 
-                        <img src="img/if.png" width="150px" />
-                        @if (Session::has('message'))
-                        <p class="alert alert-danger mt-2">{{ Session::get('message') }}</p>
-                    @endif
-                    </center>
-                </div>
-                <div class="ibox-content">
-                    <h1 class="black-text"> Login </h1>
-                    <form class="m-t" role="form" method="POST" action="/login">
-                        @csrf
                         <div class="form-group">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required="">
+                            <div class="col-xs-12">
+                                <input class="form-control" type="text" required="" placeholder="Username">
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <input type="password" name="password" class="form-control" placeholder="Password" required="">
-                        </div>
-                        <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
 
-                        <a href="#">
-                            <small>Forgot password?</small>
-                        </a>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input class="form-control" type="password" required="" placeholder="Password">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <div class="checkbox checkbox-primary">
+                                    <input id="checkbox-signup" type="checkbox">
+                                    <label for="checkbox-signup">
+                                        Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group text-center m-t-20">
+                            <div class="col-xs-12">
+                                <button class="btn btn-primary w-md waves-effect waves-light" type="submit">Log In</button>
+                            </div>
+                        </div>
+
+                        {{-- <div class="form-group m-t-30 m-b-0">
+                            <div class="col-sm-7">
+                                <a href="pages-recoverpw.html" class="text-muted"><i class="fa fa-lock m-r-5"></i> Forgot your password?</a>
+                            </div>
+                            <div class="col-sm-5 text-right">
+                                <a href="pages-register.html" class="text-muted">Create an account</a>
+                            </div>
+                        </div> --}}
                     </form>
-                    <p class="m-t">
-                        <small>CATC PSTI UNRAM &copy; 2022</small>
-                    </p>
                 </div>
+
             </div>
         </div>
-        <hr/>
-        <div class="row">
-            <div class="col-md-6">
-                Copyright Example Company
-            </div>
-            <div class="col-md-6 text-right">
-               <small>© 2022</small>
-            </div>
-        </div>
-    </div>
 
-</body>
 
+
+        <!-- jQuery  -->
+        <script src={{ asset("js/jquery.min.js") }}></script>
+        <script src={{ asset("js/bootstrap.min.js") }}></script>
+        <script src={{ asset("js/modernizr.min.js") }}></script>
+        <script src={{ asset("js/detect.js") }}></script>
+        <script src={{ asset("js/fastclick.js") }}></script>
+        <script src={{ asset("js/jquery.slimscroll.js") }}></script>
+        <script src={{ asset("js/jquery.blockUI.js") }}></script>
+        <script src={{ asset("js/waves.js") }}></script>
+        <script src={{ asset("js/wow.min.js") }}></script>
+        <script src={{ asset("js/jquery.nicescroll.js") }}></script>
+        <script src={{ asset("js/jquery.scrollTo.min.js") }}></script>
+
+        <script src={{ asset("js/app.js") }}></script>
+
+    </body>
 </html>

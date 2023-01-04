@@ -8,6 +8,12 @@ use Illuminate\Support\Collection;
 
 class pageController extends Controller
 {
+    public function login(Request $req)
+    {
+        $data = $req->all();
+        $data == null ? [] : $data;
+        return view('auth.login', ['data' => $data]);
+    }
 
     public function dummy()
     {
