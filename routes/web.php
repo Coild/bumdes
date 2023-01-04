@@ -57,10 +57,10 @@ Route::post('/pembelian', [pageController::class, 'pembelian']);
 Route::get('/notapembelian', [pageController::class, 'notapembelian']);
 Route::post('/notapembelian', [pageController::class, 'notapembelian']);
 
-Route::get('/bebanjasa', [pageController::class, 'bebanjasa']);
-Route::post('/bebanjasa', [pageController::class, 'bebanjasa']);
-Route::get('/notabebanjasa', [pageController::class, 'notabebanjasa']);
-Route::post('/notabebanjasa', [pageController::class, 'notabebanjasa']);
+Route::get('public/bebanjasa', [pageController::class, 'bebanjasa'])->name('get.bebanjasa');
+Route::post('public/bebanjasa', [pageController::class, 'bebanjasa'])->name('post.bebanjasa');
+Route::get('public/notabebanjasa', [pageController::class, 'notabebanjasa'])->name('get.notabebanjasa');
+Route::post('public/notabebanjasa', [pageController::class, 'notabebanjasa'])->name('post.notabebanjasa');
 
 Route::get('public/bebandagang', [pageController::class, 'bebandagang'])->name('get.bebandagang');
 Route::post('public/bebandagang', [pageController::class, 'bebandagang'])->name('post.bebandagang');
@@ -151,10 +151,7 @@ Route::get('cek', [pageController::class, 'dummy']);
 // Route::get('public/notapembelian', [pageController::class, 'notapembelian'])->name('get.notapembelian');
 // Route::post('public/notapembelian', [pageController::class, 'notapembelian'])->name('post.notapembelian');
 
-// Route::get('public/bebanjasa', [pageController::class, 'bebanjasa'])->name('get.bebanjasa');
-// Route::post('public/bebanjasa', [pageController::class, 'bebanjasa'])->name('post.bebanjasa');
-// Route::get('public/notabebanjasa', [pageController::class, 'notabebanjasa'])->name('get.notabebanjasa');
-// Route::post('public/notabebanjasa', [pageController::class, 'notabebanjasa'])->name('post.notabebanjasa');
+
 
 
 

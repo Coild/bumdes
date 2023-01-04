@@ -44,7 +44,7 @@
                     <a href="javascript:void(0);" class="waves-effect"><i class="fa fa-group"></i> <span> Jasa</span> <span class="pull-right"><i class="mdi mdi-plus"></i></span></a>
                     <ul class="list-unstyled">
                         <li><a href="/pendapatan">Transaksi Jasa</a></li>
-                        <li><a href="/bebanjasa">Beban</a></li>
+                        <li><a href="{{ route('get.bebanjasa') }}">Beban</a></li>
                     </ul>
                 </li>
 
