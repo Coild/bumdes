@@ -126,12 +126,18 @@ class pageController extends Controller
     }
 
     public function editpengelola(Request $req){
-        // dd($req);
+        
         $data = Session::get('pengelola');
-        dd($data);
-        array_push($data[$req->id]['nama'], $req->nama);
-        array_push($data[$req->id]['nohp'], $req->nohp);
-        array_push($data[$req->id]['status'], $req->status);
+        // dd($req);
+        $data[$req->id]['nama'] = $req->nama;
+        $data[$req->id]['status'] = $req->status;
+        $data[$req->id]['nohp'] = $req->nohp;
+        
+
+        // dd($req);
+        // array_push($data[$req->id]['nama'], $req->nama);
+        // array_push($data[$req->id]['nohp'], $req->nohp);
+        // array_push($data[$req->id]['status'], $req->status);
         Session::put('pengelola', $data);
 
         return view('fitur.pengelola', compact('data'));

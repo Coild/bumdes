@@ -161,7 +161,7 @@
                     <form action="/editpengelola" method="POST" class="form-horizontal" role="form">
 
                         @csrf
-                        <input type="hidden" name="id">
+                        <input type="hidden" name="id" id="id_p">
                         <div class="form-group">
                             <label class="col-md-4 control-label">Nama Pengelola</label>
                             <div class="col-md-8">
@@ -208,6 +208,7 @@
     <script>
         function edit_data(nama, status, nohp, id) {
             console.log('editdata: ' + id);
+            document.getElementById("id_p").value = id;
             document.getElementById("nama").value = nama;
             document.getElementById("nohp").value = nohp;
         }
