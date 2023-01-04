@@ -133,11 +133,6 @@ class pageController extends Controller
         $data[$req->id]['status'] = $req->status;
         $data[$req->id]['nohp'] = $req->nohp;
         
-
-        // dd($req);
-        // array_push($data[$req->id]['nama'], $req->nama);
-        // array_push($data[$req->id]['nohp'], $req->nohp);
-        // array_push($data[$req->id]['status'], $req->status);
         Session::put('pengelola', $data);
 
         return view('fitur.pengelola', compact('data'));
