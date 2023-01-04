@@ -66,10 +66,10 @@
                                                         <!-- Perlu dibahas kodenya gmn -->
                                                     </td>
                                                     <td>
-                                                        {{ $data == null ? 'kosong' : $item['usaha'] }}
+                                                        {{ $data == null ? 'kosong' : $jasa[$item['usaha']]['namajasa'] }}
                                                     </td>
                                                     <td>
-                                                        {{ $data == null ? 'kosong' : $item['pelanggan'] }}
+                                                        {{ $data == null ? 'kosong' : $pelanggan[$item['pelanggan']]['nama'] }}
                                                     </td>
                                                     <td>
                                                         {{ $data == [] ? 'kosong' : $item['penghasilan'] }}

@@ -286,7 +286,7 @@ class pageController extends Controller
         $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0;
 
         $isi = array_key_exists($loc, $data) ? $data[$loc]['nota'] : [];
-        // dd($tambah);
+        // dd($jasa);
         if ($req->jenis != null) {
             $nota = [
                 'jenis' => $req->jenis,
