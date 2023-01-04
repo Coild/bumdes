@@ -32,7 +32,7 @@
                     <a href="javascript:void(0);" class="waves-effect"><i class="ion-android-note"></i> <span> Master Data</span> <span class="pull-right"><i class="mdi mdi-plus"></i></span></a>
                     <ul class="list-unstyled">
                         <li><a href="/datausaha">Data Usaha</a></li>
-                        <li><a href="/pengelola">Pengelola</a></li>
+                        <li><a href="{{ route('get.pengelola') }}">Pengelola</a></li>
                         <li><a href="/akun">Data Akun</a></li>
                         <li><a href="{{ route('get.pemasok') }}">Pemasok</a></li>
                         <li><a href="{{ route('get.pelanggan') }}">Pelanggan</a></li>

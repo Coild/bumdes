@@ -63,7 +63,7 @@
 
 
                                             <tbody>
-                                                @foreach ($data as $item)
+                                                @foreach ($datajasa as $item)
                                                     <tr>
                                                         <td>
                                                             <div class="conbtn">
@@ -71,10 +71,10 @@
                                                             </div>
                                                         </td>
                                                         <td>
-                                                            {{ $item['nama'] }}
+                                                            {{ $item['namajasa'] }}
                                                         </td>
                                                         <td>
-                                                            {{ $item['alamat'] }}
+                                                            {{ $item['alamatjasa'] }}
                                                         </td>
                                                         <td>
                                                             <ul>
@@ -133,27 +133,30 @@
 
 
                                             <tbody>
-                                                <tr>
-                                                    <td>
-                                                        <div class="conbtn">
-                                                            1
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        Homestay BUMDes
-                                                    </td>
-                                                    <td>
-                                                        Kuta Barat
-                                                    </td>
-                                                    <td>
-                                                        <div class="conbtn">
-                                                            <button class="btn btn-primary center fa fa-edit"
-                                                                data-toggle="modal" data-target="#editdagang"></button>
-                                                            <button class="btn btn-danger center fa fa-trash"
-                                                                style="margin-left: 2%"></button>
-                                                        </div>
-                                                    </td>
-                                                </tr>
+                                                @foreach ($datadagang as $item)
+                                                    <tr>
+                                                        <td>
+                                                            <div class="conbtn">
+                                                                {{ $loop->index + 1 }}
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            {{ $item['namadagang'] }}
+                                                        </td>
+                                                        <td>
+                                                            {{ $item['alamatdagang'] }}
+                                                        </td>
+                                                        <td>
+                                                            <div class="conbtn">
+                                                                <button class="btn btn-primary center fa fa-edit"
+                                                                    data-toggle="modal" data-target="#editjasa"></button>
+                                                                <button class="btn btn-danger center fa fa-trash"
+                                                                    style="margin-left: 2%"></button> 
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                @endforeach
+
                                             </tbody>
                                         </table>
                                     </div>
@@ -183,10 +186,11 @@
                 <div class="modal-body">
                     <form class="form-horizontal" role="form" action="datausaha" method="post">
                         @csrf
+                        <input type="hidden" name="jenis" value=1>
                         <div class="form-group">
                             <label class="col-md-4 control-label">Nama Usaha</label>
                             <div class="col-md-8">
-                                <input name="nama" type="text" class="form-control"
+                                <input name="namajasa" type="text" class="form-control"
                                     placeholder="Nama Usaha atau Perusahaan" required>
                             </div>
                         </div>
@@ -194,7 +198,7 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label">Lokasi Usaha</label>
                             <div class="col-md-8">
-                                <input name="alamat" type="text" class="form-control"
+                                <input name="alamatjasa" type="text" class="form-control"
                                     placeholder="Alamat atau Lokasi Usaha" required />
                             </div>
                         </div>
@@ -221,12 +225,13 @@
                     <h4 class="modal-title" id="myModalLabel">Tambah Data Usaha</h4>
                 </div>
                 <div class="modal-body">
-                    <form class="form-horizontal" role="form">
-
+                    <form class="form-horizontal" role="form" action="datausaha" method="post">
+                        @csrf
+                        <input type="hidden" name="jenis" value=2>
                         <div class="form-group">
                             <label class="col-md-4 control-label">Nama Usaha</label>
                             <div class="col-md-8">
-                                <input name="nama" type="text" class="form-control"
+                                <input name="namadagang" type="text" class="form-control"
                                     placeholder="Nama Usaha atau Perusahaan" required>
                             </div>
                         </div>
@@ -234,7 +239,7 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label">Lokasi Usaha</label>
                             <div class="col-md-8">
-                                <input name="alamat" type="text" class="form-control"
+                                <input name="alamatdagang" type="text" class="form-control"
                                     placeholder="Alamat atau Lokasi Usaha" required />
                             </div>
                         </div>
@@ -251,7 +256,7 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-    <!-- sample modal edit -->
+    {{-- <!-- sample modal edit -->
     <div id="editjasa" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
         <div class="modal-dialog">
@@ -329,7 +334,7 @@
 
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+    </div><!-- /.modal --> --}}
 
     <!-- sample modal jenis pendapatan -->
     <div id="editjenis" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
