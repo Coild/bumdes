@@ -68,7 +68,7 @@
                                                     <td>
                                                         <div class="conbtn">
                                                             <img src="images/users/profil_holder.png"
-                                                                alt="placeholder profile" style="width: 20%; height: 20%;">
+                                                                alt="placeholder profile" style="width: 30px; height: 30px;">
                                                         </div>
                                                     </td>
                                                     <td>
@@ -181,7 +181,7 @@
                         <div class="form-group">
                             <label class="col-sm-4 control-label">Status Pengelola</label>
                             <div class="col-sm-8">
-                                <select name="status" class="form-control" required onchange="changeStatus(this)">
+                                <select name="status" class="form-control" required>
                                     <option value="Bendahara" id="option-bendahara">Bendahara</option>
                                     <option value="Pencatat Transaksi" id="option-pencatat-transaksi">Pencatat Transaksi
                                     </option>
@@ -221,12 +221,12 @@
             }
         }
 
-        function changeStatus(select) {
-            // Mengambil nilai yang dipilih
-            var status = select.value;
-            console.log('status: ' + status);
-            // Mengganti elemen "option" yang terpilih
+        // function changeStatus(select) {
+        //     // Mengambil nilai yang dipilih
+        //     var status = select.value;
+        //     console.log('status: ' + status);
+        //     // Mengganti elemen "option" yang terpilih
             
-        }
+        // }
     </script>
 @endsection
