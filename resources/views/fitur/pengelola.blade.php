@@ -220,13 +220,6 @@
                 document.getElementById("option-pencatat-transaksi").selected = true;
             }
         }
-
-        // function changeStatus(select) {
-        //     // Mengambil nilai yang dipilih
-        //     var status = select.value;
-        //     console.log('status: ' + status);
-        //     // Mengganti elemen "option" yang terpilih
-            
-        // }
+        
     </script>
 @endsection
