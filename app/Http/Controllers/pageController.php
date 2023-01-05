@@ -222,8 +222,8 @@ class pageController extends Controller
         $data = Session::get('pemasok');
         // dd($req);
         $data[$req->id]['nama'] = $req->nama;
-        $data[$req->id]['alamat'] = $req->alamat;
         $data[$req->id]['nohp'] = $req->nohp;
+        $data[$req->id]['alamat'] = $req->alamat;
 
         Session::put('pemasok', $data);
 

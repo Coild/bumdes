@@ -68,7 +68,7 @@
                                                         <div class="conbtn">
                                                             <button class="btn btn-primary center fa fa-edit"
                                                                 data-toggle="modal" data-target="#edit"
-                                                                onclick="edit_data('{{ $item['nama'] }}', '{{ $item['alamat'] }}', '{{ $item['nohp'] }}', {{ $loop->index }})"></button>
+                                                                onclick="edit_data('{{ $item['nama'] }}', '{{ $item['nohp'] }}', '{{ $item['alamat'] }}', {{ $loop->index }})"></button>
                                                             <button class="btn btn-danger center fa fa-trash"
                                                                 style="margin-left: 2%"></button>
                                                             <button class="btn btn-success center mdi mdi-eye"
@@ -153,11 +153,12 @@
                 </div>
                 <div class="modal-body">
 
-                    <form action="{{ route('post.editpemasok') }}" class="form-horizontal" role="form">
+                    <form action="{{ route('post.editpemasok') }}" method="POST" class="form-horizontal"
+                        role="form">
                         @csrf
                         <input type="hidden" name="id" id="id_p">
                         <div class="form-group">
-                            <label class="col-md-4 control-label">Nama Pengelola</label>
+                            <label class="col-md-4 control-label">Nama Pemasok</label>
                             <div class="col-md-8">
                                 <input name="nama" type="text" class="form-control" id="nama"
                                     placeholder="Nama Pemasok atau Nama Perusahaannya" required>
@@ -197,12 +198,12 @@
 
 @section('script')
     <script>
-        function edit_data(nama, alamat, nohp, id) {
+        function edit_data(nama, nohp, alamat, id) {
             console.log('editdata: ' + id);
             document.getElementById("id_p").value = id;
             document.getElementById("nama").value = nama;
-            document.getElementById("alamat").value = alamat;
             document.getElementById("nohp").value = nohp;
+            document.getElementById("alamat").value = alamat;
         }
     </script>
 @endsection
