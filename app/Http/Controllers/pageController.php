@@ -71,14 +71,14 @@ class pageController extends Controller
             if ($req->jenis == 1) {
                 $datajasa[$req->id]['namajasa'] = $req->namajasa;
                 $datajasa[$req->id]['alamatjasa'] = $req->alamatjasa;
-                Session::put('datausaha', $datajasa);
+                Session::put('datausahajasa', $datajasa);
                 
             }
             if ($req->jenis == 2) {
                 $datadagang[$req->id]['namadagang'] = $req->namadagang;
                 $datadagang[$req->id]['alamatdagang'] = $req->alamatdagang;
 
-                Session::put('datausaha', $datadagang);
+                Session::put('datausahadagang', $datadagang);
                 
             }
         }
