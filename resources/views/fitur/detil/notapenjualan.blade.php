@@ -184,7 +184,7 @@
                         <div class="col-sm-8">
                             <select name="barang" class="form-control" required>
                                 @foreach ($filteredData as $item)
-                                    <option value="{{$item['nama']}}">{{$item['nama']}}</option>
+                                    <option value="{{$item['nama']}}">{{$item['nama']}} ({{$item['harga']+$item['untung']}})</option>
                                 @endforeach
                             </select>
                             
