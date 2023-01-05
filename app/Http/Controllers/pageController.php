@@ -115,6 +115,20 @@ class pageController extends Controller
         return view('fitur.pelanggan', ['data' => $data]);
     }
 
+    public function editpelanggan(Request $req)
+    {
+
+        $data = Session::get('pelanggan');
+        // dd($req);
+        $data[$req->id]['nama'] = $req->nama;
+        $data[$req->id]['nohp'] = $req->nohp;
+        $data[$req->id]['alamat'] = $req->alamat;
+
+        Session::put('pelanggan', $data);
+
+        return redirect('pelanggan');
+    }
+
     public function detilpelanggan(Request $req)
     {
         // Session::flush();
@@ -265,16 +279,6 @@ class pageController extends Controller
             Session::put('barang', $barang);
         }
 
-        // if ($barang['id']['status'] == "Barang Dagangan") {
-        //     $barangdagang = [
-        //         'nama' => $barang['nama']
-        //     ];
-        //     array_push($dagangan, $barangdagang);
-        //     Session::put('dagangan', $dagangan);
-        // }
-
-
-        // dd($loc);
         return view('fitur.stok', compact('barang'));
     }
 

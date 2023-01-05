@@ -40,13 +40,15 @@ Route::get('akun', [pageController::class, 'akun']);
 
 Route::get('pemasok', [pageController::class, 'pemasok'])->name('get.pemasok');
 Route::post('pemasok', [pageController::class, 'pemasok'])->name('post.pemasok');
-Route::get('editpemasok', [pageController::class, 'editpemasok'])->name('get.editpemasok');
+Route::get('editpemasok', [pageController::class, 'pemasok'])->name('get.editpemasok');
 Route::post('editpemasok', [pageController::class, 'editpemasok'])->name('post.editpemasok');
 Route::get('detilpemasok', [pageController::class, 'detilpemasok'])->name('get.detilpemasok');
 Route::post('detilpemasok', [pageController::class, 'detilpemasok'])->name('post.detilpemasok');
 
 Route::get('pelanggan', [pageController::class, 'pelanggan'])->name('get.pelanggan');
 Route::post('pelanggan', [pageController::class, 'pelanggan'])->name('post.pelanggan');
+Route::get('editpelanggan', [pageController::class, 'pelanggan'])->name('get.editpelanggan');
+Route::post('editpelanggan', [pageController::class, 'editpelanggan'])->name('post.editpelanggan');
 Route::get('detilpelanggan', [pageController::class, 'detilpelanggan'])->name('get.detilpelanggan');
 Route::post('detilpelanggan', [pageController::class, 'detilpelanggan'])->name('post.detilpelanggan');
 
