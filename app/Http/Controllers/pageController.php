@@ -147,8 +147,6 @@ class pageController extends Controller
         // Session::flush();
         $data = Session::get('pengelola') == null ? [] : Session::get('pengelola');
         $tambah = $req->post();
-        // session()->put('liststatus', ['Bendahara', 'Pencatat Transaksi']);
-        // dd($data);
         if ($tambah != null) {
             $row = [
                 'nama' => $req->nama,
@@ -201,7 +199,21 @@ class pageController extends Controller
             Session::put('pemasok', $data);
             // dd($data);
         }
-        return view('fitur.pemasok', ['data' => $data]);
+        return view('fitur.pemasok', compact('data'));
+    }
+
+    public function editpemasok(Request $req)
+    {
+
+        $data = Session::get('pemasok');
+        // dd($req);
+        $data[$req->id]['nama'] = $req->nama;
+        $data[$req->id]['alamat'] = $req->alamat;
+        $data[$req->id]['nohp'] = $req->nohp;
+
+        Session::put('pemasok', $data);
+
+        return redirect('pemasok');
     }
 
     public function detilpemasok(Request $req)

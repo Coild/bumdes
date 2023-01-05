@@ -40,6 +40,8 @@ Route::get('akun', [pageController::class, 'akun']);
 
 Route::get('pemasok', [pageController::class, 'pemasok'])->name('get.pemasok');
 Route::post('pemasok', [pageController::class, 'pemasok'])->name('post.pemasok');
+Route::get('editpemasok', [pageController::class, 'editpemasok'])->name('get.editpemasok');
+Route::post('editpemasok', [pageController::class, 'editpemasok'])->name('post.editpemasok');
 Route::get('detilpemasok', [pageController::class, 'detilpemasok'])->name('get.detilpemasok');
 Route::post('detilpemasok', [pageController::class, 'detilpemasok'])->name('post.detilpemasok');
 
