@@ -385,7 +385,7 @@ class pageController extends Controller
             Session::put('penjualan', $penjualan);
             // dd($data);
         }
-        dd($listbarang);
+        // dd($listbarang);
         return view('fitur.detil.notapenjualan', compact('pelanggan', 'penjualan', 'data', 'dagang', 'total', 'loc', 'listbarang'));
     }
 
@@ -421,7 +421,7 @@ class pageController extends Controller
         $listbarang = Session::get('detilpemasok') == null ? [] : Session::get('detilpemasok');
 
         Session::put('lokbeli', $loc);
-        dd($loc);
+        // dd($loc);
         $pembelian = Session::get('pembelian') == null ? [] : Session::get('pembelian');
 
 

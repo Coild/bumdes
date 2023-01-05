@@ -182,11 +182,11 @@
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Jenis/Nama Barang</label>
                         <div class="col-sm-8">
-                            {{-- <select name="jenis" class="form-control" required>
-                                @foreach ($listbarang[$penjualan[$loc]['pelanggan']]['detil'] as $item)
+                            <select name="barang" class="form-control" required>
+                                @foreach ($listbarang as $item)
                                     <option value="{{$item['nama']}}">{{$item['nama']}}</option>
                                 @endforeach
-                            </select> --}}
+                            </select>
                         </div>
                     </div>
                     <div class="form-group">
