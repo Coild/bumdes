@@ -372,11 +372,13 @@ class pageController extends Controller
             $cariharga = array_column($listbarang, 'jual', 'nama');
             
             $nota = [
-                'barang' => $req->barang,
-                'harga' => $cariharga[$req->barang],
+                'barang' => $listbarang[$req->barang]['barang'],
+                'harga' => $listbarang[$req->barang]['harga']+$listbarang[$req->barang]['untung'],
                 'jumlah' => $req->jumlah,
-                'total' => $cariharga[$req->barang] * $req->jumlah,
+                'total' => ($listbarang[$req->barang]['harga']+$listbarang[$req->barang]['untung']) * $req->jumlah,
             ];
+
+            dd($nota);
 
             $total = $total + $nota['total'];
             array_push($isi, $nota);
