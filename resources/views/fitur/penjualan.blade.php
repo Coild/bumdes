@@ -41,6 +41,7 @@
                                             <th style="text-align: center;">Nama Usaha</th>
                                             <th style="text-align: center;">Nama Pelanggan</th>
                                             <th style="text-align: center;">Total Penghasilan</th>
+                                            <th style="text-align: center;">Gambar Bukti</th>
                                             <th style="text-align: center;">Aksi</th>
                                         </tr>
                                     </thead>
@@ -62,13 +63,23 @@
                                                 <!-- Perlu dibahas kodenya gmn -->
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $item['usaha']}}
+                                                {{$data ==null ? 'kosong' : $dagang[$item['usaha']]['namadagang']}}
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $item['pelanggan']}}
+                                                {{$data ==null ? 'kosong' : $pelanggan[$item['pelanggan']]['nama']}}
                                             </td>
                                             <td>
                                                 {{$data ==[] ? 'kosong' : $item['penghasilan']}} 
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==[] ? 'kosong' : $item['penghasilan']}} --}}
+                                                <div class="conbtn">
+                                                    <img src="images/{{ $item['file'] }}" alt="nota"
+                                                        onclick="edit('images/{{ $item['file'] }}',{{ $loop->index }})"
+                                                        data-toggle="modal" data-target="#gambar" style="width: 30px; height: 30px;">
+                                                </div>
+
+                                                {{-- {{"Rp200,000"}} --}}
                                             </td>
                                             <td>
                                                 <div class="conbtn">
@@ -120,8 +131,9 @@
                         <label class="col-sm-4 control-label">Nama Usaha</label>
                         <div class="col-sm-8">
                             <select name="usaha" class="form-control" required>
-                                <option value="Homestay Mandalika">Homestay Mandalika</option>
-                                <option value="Homestay BUMDes">Homestay BUMDes</option>
+                                @foreach ($dagang as $item)
+                                <option value="{{$loop->index}}">{{$item['namadagang']}}</option>
+                                @endforeach
                             </select>
                         </div>
                     </div>
@@ -130,8 +142,9 @@
                         <label class="col-sm-4 control-label">Nama Pelanggan</label>
                         <div class="col-sm-8">
                             <select name="pelanggan" class="form-control" required>
-                                <option value="Hasbi">Hasbi</option>
-                                <option value="Ima">Ima</option>
+                                @foreach ($pelanggan as $item)
+                                    <option value="{{$loop->index}}">{{$item['nama']}}</option>
+                                @endforeach
                             </select>
                         </div>
                     </div>
@@ -162,6 +175,14 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
+@endsection
 
-
+@section('script')
+    <script>
+        function edit(gambar, id) {
+            console.log('edit: ' + gambar);
+            document.getElementById("gambar_id").value = id;
+            document.getElementById("gambar_src").src = gambar;
+        }
+    </script>
 @endsection

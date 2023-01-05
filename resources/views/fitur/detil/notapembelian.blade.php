@@ -203,13 +203,12 @@
                     <form method="POST" action="{{ route('post.notapembelian') }}" class="form-horizontal" role="form">
                         @csrf
                         <div class="form-group">
-                            <label class="col-sm-4 control-label">Status Pengelola</label>
+                            <label class="col-sm-4 control-label">Jenis/Nama Barang</label>
                             <div class="col-sm-8">
                                 <select name="jenis" class="form-control" required>
-                                    @foreach ($detilpemasok[$pembelian[$loc]['pemasok']]['detil'] as $item)
+                                    @foreach ($listbarang[$pembelian[$loc]['pemasok']]['detil'] as $item)
                                         <option value="{{$item['nama']}}">{{$item['nama']}}</option>
                                     @endforeach
-
                                 </select>
                             </div>
                         </div>

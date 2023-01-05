@@ -56,7 +56,7 @@
                                                 <div class="form-group">
                                                     <label class="control-label">Nama Pelanggan</label>
                                                     <div class="">
-                                                        <input type="text" name="pelanggan" class="form-control" disabled="disabled" value="{{ $penjualan[$loc]['pelanggan']}}">
+                                                        <input type="text" name="pelanggan" class="form-control" disabled="disabled" value="{{ $pelanggan[$penjualan[$loc]['pelanggan']]['nama'] }}">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
@@ -180,15 +180,13 @@
                 <form method="POST" action="{{ route('post.notapenjualan') }}" class="form-horizontal" role="form">
                     @csrf
                     <div class="form-group">
-                        <label class="col-sm-4 control-label">Status Pengelola</label>
+                        <label class="col-sm-4 control-label">Jenis/Nama Barang</label>
                         <div class="col-sm-8">
-                            <select name="jenis" class="form-control" required>
-
-                                <option value="sewa kamar - Homestay BUMDes">sewa kamar - Homestay BUMDes</option>
-                                <option value="sewa kamar - Homestay Mandalika">sewa kamar - Homestay Mandalika
-                                </option>
-
-                            </select>
+                            {{-- <select name="jenis" class="form-control" required>
+                                @foreach ($listbarang[$penjualan[$loc]['pelanggan']]['detil'] as $item)
+                                    <option value="{{$item['nama']}}">{{$item['nama']}}</option>
+                                @endforeach
+                            </select> --}}
                         </div>
                     </div>
                     <div class="form-group">

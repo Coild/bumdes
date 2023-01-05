@@ -44,7 +44,7 @@
 
 
                                     <tbody>
-                                        @foreach ($barang as $item) //pasti salah, soalnya.. ntar gmn load $data nya? harusnya nama ni masuk $data
+                                        @foreach ($barang as $item) 
                                         <tr>
                                             <td>
                                                 <div class="conbtn">
@@ -61,10 +61,10 @@
                                                 {{$item['minimum']}}
                                             </td>
                                             <td>
-                                                {{"Barang Dagangan"}}
+                                                {{$item['status']}}
                                             </td>
                                             <td>
-                                                {{$item['harga']}}
+                                                {{$item['jual']}}
                                             </td>
                                             <td>
                                                 <div class="conbtn">

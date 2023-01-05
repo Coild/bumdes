@@ -92,7 +92,7 @@
                                                                 <button class="btn btn-success center fa fa-plus"
                                                                     style="margin-left: 2%" data-toggle="modal"
                                                                     data-target="#editjenis"
-                                                                    onclick='jenisdata({{$loop->index}}, @JSON($item['jenis']))'>
+                                                                    onclick='jenisdata({{ $loop->index }}, @JSON($item['jenis']))'>
                                                                     Jenis Pendapatan</button>
                                                             </div>
                                                         </td>
@@ -131,7 +131,6 @@
                                                 </tr>
                                             </thead>
 
-
                                             <tbody>
                                                 @foreach ($datadagang as $item)
                                                     <tr>
@@ -151,7 +150,7 @@
                                                                 <button class="btn btn-primary center fa fa-edit"
                                                                     data-toggle="modal" data-target="#editjasa"></button>
                                                                 <button class="btn btn-danger center fa fa-trash"
-                                                                    style="margin-left: 2%"></button> 
+                                                                    style="margin-left: 2%"></button>
                                                             </div>
                                                         </td>
                                                     </tr>

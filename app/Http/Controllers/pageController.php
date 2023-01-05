@@ -37,7 +37,7 @@ class pageController extends Controller
 
         $tambah = $req->jenis;
         if ($tambah != []) {
-            if($req->jenis ==1) {
+            if ($req->jenis == 1) {
                 $isi = [
                     'namajasa' => $req->namajasa,
                     'alamatjasa' => $req->alamatjasa,
@@ -58,7 +58,7 @@ class pageController extends Controller
 
 
         // dd( gettype($data[0]['jenis']));
-
+        // dd($datadagang);
         return view('fitur.datausaha', compact('datajasa', 'datadagang'));
     }
 
@@ -76,7 +76,7 @@ class pageController extends Controller
     public function pelanggan(Request $req)
     {
         // Session::flush();
-        
+
         $data = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
         $tambah = $req->post();
         if ($tambah != null) {
@@ -138,18 +138,19 @@ class pageController extends Controller
             // session()->put('liststatus', $req->liststatus);
             // dd($data);
         }
-        
+
         return view('fitur.pengelola', compact('data'));
     }
 
-    public function editpengelola(Request $req){
-        
+    public function editpengelola(Request $req)
+    {
+
         $data = Session::get('pengelola');
         // dd($req);
         $data[$req->id]['nama'] = $req->nama;
         $data[$req->id]['status'] = $req->status;
         $data[$req->id]['nohp'] = $req->nohp;
-        
+
         Session::put('pengelola', $data);
 
         return redirect('pengelola');
@@ -182,7 +183,7 @@ class pageController extends Controller
 
     public function detilpemasok(Request $req)
     {
-        // Session::flush();
+
         $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('locpasok');
         Session::put('locpasok', $loc);
         // dd($loc);
@@ -202,33 +203,43 @@ class pageController extends Controller
 
             Session::put('detilpemasok', $data);
             Session::put('pemasok', $pemasok);
-            // dd($data);
         }
+        // dd($data);
         // dd($pemasok);
         return view('fitur.detil.pemasok', compact('data', 'loc', 'pemasok'));
     }
 
     public function stok(Request $req)
     {
-
+        // Session::flush();
         // Session::forget('barang');
         $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('locstok');
         Session::put('locstok', $loc);
-        
+
         $barang = Session::get('barang') == null ? [] : Session::get('barang');
-        // dd($barang);
+        $dagangan = Session::get('dagangan') == null ? [] : Session::get('dagangan');
+        // dd($loc);
         $edit = $req->get('edit');
-        if ($edit != null)  {
+        if ($edit != null) {
             $barang[$edit]['minimum'] = $req->minimum;
             $barang[$edit]['status'] = $req->status;
             $barang[$edit]['untung'] = $req->untung;
+            $barang[$edit]['jual'] = $barang[$edit]['harga'] + $barang[$edit]['untung'];
             // dd($barang);
-            
 
             Session::put('barang', $barang);
         }
 
-        // dd($barang);
+        // if ($barang['id']['status'] == "Barang Dagangan") {
+        //     $barangdagang = [
+        //         'nama' => $barang['nama']
+        //     ];
+        //     array_push($dagangan, $barangdagang);
+        //     Session::put('dagangan', $dagangan);
+        // }
+
+
+        // dd($loc);
         return view('fitur.stok', compact('barang'));
     }
 
@@ -239,16 +250,16 @@ class pageController extends Controller
         $jasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
         $data = Session::get('pendapatan') == null ? [] : Session::get('pendapatan');
         $pelanggan = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
-        // dd($pelanggan);
+
         $tambah = $req->post();
         if ($tambah != null) {
             $file = $req->file('file');
             $nama = $file->getClientOriginalName();
             $tujuan_upload = 'images/';
             $file->move($tujuan_upload, $nama);
-            if(isset($req->id)) {
+            if (isset($req->id)) {
                 $data[$req->id]['file'] = $nama;
-            }else {
+            } else {
                 $row = [
                     'file' => $nama,
                     'tanggal' => $req->tanggal,
@@ -263,7 +274,7 @@ class pageController extends Controller
             Session::put('pendapatan', $data);
             // dd($data);
         }
-        return view('fitur.pendapatan', compact('data','jasa','pelanggan'));
+        return view('fitur.pendapatan', compact('data', 'jasa', 'pelanggan'));
     }
 
     public function laporan(Request $req)
@@ -284,7 +295,8 @@ class pageController extends Controller
         $jasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
         $data = Session::get('notapendapatan') == null ? [] : Session::get('notapendapatan');
         $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0;
-
+        // dd($pendapatan);
+        // dd($jasa);
         $isi = array_key_exists($loc, $data) ? $data[$loc]['nota'] : [];
         // dd($jasa);
         if ($req->jenis != null) {
@@ -305,47 +317,56 @@ class pageController extends Controller
             // dd($data);
         }
         // dd($pendapatan);
-        return view('fitur.detil.notapendapatan', compact('pendapatan', 'data','jasa', 'total', 'loc'));
+        return view('fitur.detil.notapendapatan', compact('pendapatan', 'data', 'jasa', 'total', 'loc'));
     }
 
     public function penjualan(Request $req)
     {
-        // Session::flush();     
+        // Session::flush(); 
+        $dagang = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
         $data = Session::get('penjualan') == null ? [] : Session::get('penjualan');
+        $pelanggan = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
         $tambah = $req->post();
         if ($tambah != null) {
             $file = $req->file('file');
             $nama = $file->getClientOriginalName();
             $tujuan_upload = 'images/';
             $file->move($tujuan_upload, $nama);
-            $row = [
-                'file' => $nama,
-                'tanggal' => $req->tanggal,
-                'usaha' => $req->usaha,
-                'catatan' => $req->catatan,
-                'pelanggan' => $req->pelanggan,
-                'penghasilan' => 0
-            ];
-            array_push($data, $row);
+            if (isset($req->id)) {
+                $data[$req->id]['file'] = $nama;
+            } else {
+                $row = [
+                    'file' => $nama,
+                    'tanggal' => $req->tanggal,
+                    'usaha' => $req->usaha,
+                    'catatan' => $req->catatan,
+                    'pelanggan' => $req->pelanggan,
+                    'penghasilan' => 0
+                ];
+                array_push($data, $row);
+            }
+            // dd($data);
             Session::put('penjualan', $data);
             // dd($data);
         }
-        return view('fitur.penjualan', ['data' => $data]);
+        return view('fitur.penjualan', compact('data', 'dagang', 'pelanggan'));
     }
 
     public function notapenjualan(Request $req)
     {
 
         $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
-
+        $listbarang = Session::get('barang') == null ? [] : Session::get('barang');
         Session::put('lokpen', $loc);
-        // dd($loc);
+
+        $pelanggan = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
         $penjualan = Session::get('penjualan') == null ? [] : Session::get('penjualan');
+        $dagang = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
         $data = Session::get('notapenjualan') == null ? [] : Session::get('notapenjualan');
         $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0;
 
         $isi = array_key_exists($loc, $data) ? $data[$loc]['nota'] : [];
-        // dd($tambah);
+
         if ($req->jenis != null) {
             $nota = [
                 'jenis' => $req->jenis,
@@ -353,18 +374,19 @@ class pageController extends Controller
                 'jumlah' => $req->jumlah,
                 'total' => $req->harga * $req->jumlah,
             ];
+
             $total = $total + $nota['total'];
             array_push($isi, $nota);
             $data[$loc]['nota'] = $isi;
             $data[$loc]['total'] = $total;
             $penjualan[$loc]['penghasilan'] = $total;
-            // dd($loc);   
+            // dd($loc);  
             Session::put('notapenjualan', $data);
             Session::put('penjualan', $penjualan);
             // dd($data);
         }
-        // dd(count($data));
-        return view('fitur.detil.notapenjualan', compact('penjualan', 'data', 'total', 'loc'));
+        dd($listbarang);
+        return view('fitur.detil.notapenjualan', compact('pelanggan', 'penjualan', 'data', 'dagang', 'total', 'loc', 'listbarang'));
     }
 
     public function pembelian(Request $req)
@@ -397,16 +419,18 @@ class pageController extends Controller
 
         $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokbeli');
         $listbarang = Session::get('detilpemasok') == null ? [] : Session::get('detilpemasok');
-        
+
         Session::put('lokbeli', $loc);
-        // dd($loc);
+        dd($loc);
         $pembelian = Session::get('pembelian') == null ? [] : Session::get('pembelian');
-        // dd($detilpemasok);
+
+
+        $detilpemasok = Session::get('detilpemasok') == null ? [] : Session::get('detilpemasok');
         $pemasok = Session::get('pemasok') == null ? [] : Session::get('pemasok');
         $data = Session::get('notapembelian') == null ? [] : Session::get('notapembelian');
         $barang = Session::get('barang') == null ? [] : Session::get('barang');
         $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0;
-
+        // dd($listbarang);
         $isi = array_key_exists($loc, $data) ? $data[$loc]['nota'] : [];
         // dd($tambah);
         if ($req->jenis != null) {
@@ -421,8 +445,9 @@ class pageController extends Controller
                 'harga' => $req->harga,
                 'jumlah' => $req->jumlah,
                 'minimum' => 0,
-                'status' => 0,
-                'untung' => 0
+                'status' => "Barang Dagangan",
+                'untung' => 0,
+                'jual' => 0
             ];
             $total = $total + $nota['total'];
             array_push($isi, $nota);
@@ -437,8 +462,8 @@ class pageController extends Controller
             Session::put('pembelian', $pembelian);
             // dd($data);
         }
-        // dd(count($data));
-        return view('fitur.detil.notapembelian', compact('pemasok','pembelian', 'data', 'total', 'loc', 'listbarang', 'detilpemasok'));
+        // dd($listbarang);
+        return view('fitur.detil.notapembelian', compact('pemasok', 'pembelian', 'data', 'total', 'loc', 'listbarang', 'detilpemasok'));
     }
 
     public function bebanjasa(Request $req)
