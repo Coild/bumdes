@@ -367,12 +367,15 @@ class pageController extends Controller
 
         $isi = array_key_exists($loc, $data) ? $data[$loc]['nota'] : [];
 
-        if ($req->jenis != null) {
+        if ($req->barang != null) {
+
+            $cariharga = array_column($listbarang, 'jual', 'nama');
+            
             $nota = [
-                'jenis' => $req->jenis,
-                'harga' => $req->harga,
+                'barang' => $req->barang,
+                'harga' => $cariharga[$req->barang],
                 'jumlah' => $req->jumlah,
-                'total' => $req->harga * $req->jumlah,
+                'total' => $cariharga[$req->barang] * $req->jumlah,
             ];
 
             $total = $total + $nota['total'];
@@ -383,8 +386,9 @@ class pageController extends Controller
             // dd($loc);  
             Session::put('notapenjualan', $data);
             Session::put('penjualan', $penjualan);
-            // dd($data);
+            
         }
+        // dd($data);
         // dd($listbarang);
         $filteredData = array_filter($listbarang, function ($item) {
             return $item['status'] == 'Barang Dagangan';

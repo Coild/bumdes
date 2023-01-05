@@ -97,7 +97,7 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                {{ $data == null ? 'kosong' : $item['jenis'] }}
+                                                {{ $data == null ? 'kosong' : $item['barang'] }}
                                             </td>
                                             <td>
                                                 {{ $data == null ? 'kosong' : $item['harga'] }}
@@ -187,14 +187,15 @@
                                     <option value="{{$item['nama']}}">{{$item['nama']}}</option>
                                 @endforeach
                             </select>
+                            
                         </div>
                     </div>
-                    <div class="form-group">
+                    {{-- <div class="form-group">
                         <label class="col-md-4 control-label">Harga</label>
                         <div class="col-md-8">
                             <input name="harga" data-parsley-type="number" type="text" class="form-control" placeholder="Harga Barang" required>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="form-group">
                         <label class="col-md-4 control-label">Jumlah</label>
                         <div class="col-md-8">
