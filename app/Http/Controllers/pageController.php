@@ -386,7 +386,10 @@ class pageController extends Controller
             // dd($data);
         }
         // dd($listbarang);
-        return view('fitur.detil.notapenjualan', compact('pelanggan', 'penjualan', 'data', 'dagang', 'total', 'loc', 'listbarang'));
+        $filteredData = array_filter($listbarang, function ($item) {
+            return $item['status'] == 'Barang Dagangan';
+        });
+        return view('fitur.detil.notapenjualan', compact('pelanggan', 'penjualan', 'data', 'dagang', 'total', 'loc', 'listbarang', 'filteredData'));
     }
 
     public function pembelian(Request $req)

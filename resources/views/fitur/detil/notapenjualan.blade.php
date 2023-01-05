@@ -183,7 +183,7 @@
                         <label class="col-sm-4 control-label">Jenis/Nama Barang</label>
                         <div class="col-sm-8">
                             <select name="barang" class="form-control" required>
-                                @foreach ($listbarang as $item)
+                                @foreach ($filteredData as $item)
                                     <option value="{{$item['nama']}}">{{$item['nama']}}</option>
                                 @endforeach
                             </select>
