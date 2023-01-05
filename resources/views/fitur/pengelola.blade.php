@@ -68,7 +68,8 @@
                                                     <td>
                                                         <div class="conbtn">
                                                             <img src="images/users/profil_holder.png"
-                                                                alt="placeholder profile" style="width: 30px; height: 30px;">
+                                                                alt="placeholder profile"
+                                                                style="width: 30px; height: 30px;">
                                                         </div>
                                                     </td>
                                                     <td>
@@ -158,8 +159,8 @@
                     <h4 class="modal-title" id="myModalLabel">Edit Data Pengelola</h4>
                 </div>
                 <div class="modal-body">
-                    <form action="{{ route('post.editpengelola') }}" method="POST" class="form-horizontal" role="form">
-
+                    <form action="{{ route('post.editpengelola') }}" method="POST" class="form-horizontal"
+                        role="form">
                         @csrf
                         <input type="hidden" name="id" id="id_p">
                         <div class="form-group">
@@ -220,6 +221,5 @@
                 document.getElementById("option-pencatat-transaksi").selected = true;
             }
         }
-        
     </script>
 @endsection

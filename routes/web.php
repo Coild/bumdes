@@ -23,18 +23,20 @@ Route::post('/', [pageController::class, 'login'])->name('post.login');
 Route::get('dashboard', [pageController::class, 'dashboard'])->name('get.dashboard');
 Route::post('dashboard', [pageController::class, 'dashboard'])->name('post.dashboard');
 
-Route::get('/datausaha', [pageController::class, 'datausaha']);
-Route::post('/datausaha', [pageController::class, 'datausaha']);
+Route::get('datausaha', [pageController::class, 'datausaha'])->name('get.datausaha');
+Route::post('datausaha', [pageController::class, 'datausaha'])->name('post.datausaha');
+Route::get('editdatausaha', [pageController::class, 'datausaha'])->name('get.editdatausaha');
+Route::post('editdatausaha', [pageController::class, 'editdatausaha'])->name('post.editdatausaha');
 
-Route::get('/jenisdatausaha', [pageController::class, 'jenisdatausaha']);
-Route::post('/jenisdatausaha', [pageController::class, 'jenisdatausaha']);
+Route::get('jenisdatausaha', [pageController::class, 'datausaha'])->name('get.jenisdatausaha');
+Route::post('jenisdatausaha', [pageController::class, 'jenisdatausaha'])->name('post.jenisdatausaha');
 
 Route::get('pengelola', [pageController::class, 'pengelola'])->name('get.pengelola');
 Route::post('pengelola', [pageController::class, 'pengelola'])->name('post.pengelola');
 Route::get('editpengelola', [pageController::class, 'pengelola'])->name('get.editpengelola');
 Route::post('editpengelola', [pageController::class, 'editpengelola'])->name('post.editpengelola');
 
-Route::get('/akun', [pageController::class, 'akun']);
+Route::get('akun', [pageController::class, 'akun']);
 
 Route::get('pemasok', [pageController::class, 'pemasok'])->name('get.pemasok');
 Route::post('pemasok', [pageController::class, 'pemasok'])->name('post.pemasok');

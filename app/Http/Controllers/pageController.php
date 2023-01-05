@@ -55,11 +55,34 @@ class pageController extends Controller
                 Session::put('datausahadagang', $datadagang);
             }
         }
+        // dd($datajasa);
 
-
-        // dd( gettype($data[0]['jenis']));
-        // dd($datadagang);
         return view('fitur.datausaha', compact('datajasa', 'datadagang'));
+    }
+
+    public function editdatausaha(Request $req)
+    {
+
+        $datajasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
+        $datadagang = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
+        // dd($req);
+        $edit = $req->jenis;
+        if ($edit != []) {
+            if ($req->jenis == 1) {
+                $datajasa[$req->id]['namajasa'] = $req->namajasa;
+                $datajasa[$req->id]['alamatjasa'] = $req->alamatjasa;
+                Session::put('datausaha', $datajasa);
+                
+            }
+            if ($req->jenis == 2) {
+                $datadagang[$req->id]['namadagang'] = $req->namadagang;
+                $datadagang[$req->id]['alamatdagang'] = $req->alamatdagang;
+
+                Session::put('datausaha', $datadagang);
+                
+            }
+        }
+        return redirect('datausaha');
     }
 
     public function jenisdatausaha(Request $req)
@@ -370,12 +393,12 @@ class pageController extends Controller
         if ($req->barang != null) {
 
             $cariharga = array_column($listbarang, 'jual', 'nama');
-            
+
             $nota = [
                 'barang' => $listbarang[$req->barang]['barang'],
-                'harga' => $listbarang[$req->barang]['harga']+$listbarang[$req->barang]['untung'],
+                'harga' => $listbarang[$req->barang]['harga'] + $listbarang[$req->barang]['untung'],
                 'jumlah' => $req->jumlah,
-                'total' => ($listbarang[$req->barang]['harga']+$listbarang[$req->barang]['untung']) * $req->jumlah,
+                'total' => ($listbarang[$req->barang]['harga'] + $listbarang[$req->barang]['untung']) * $req->jumlah,
             ];
 
             dd($nota);
@@ -388,7 +411,6 @@ class pageController extends Controller
             // dd($loc);  
             Session::put('notapenjualan', $data);
             Session::put('penjualan', $penjualan);
-            
         }
         // dd($data);
         // dd($listbarang);

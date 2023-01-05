@@ -86,7 +86,8 @@
                                                         <td>
                                                             <div class="conbtn">
                                                                 <button class="btn btn-primary center fa fa-edit"
-                                                                    data-toggle="modal" data-target="#editjasa"></button>
+                                                                    data-toggle="modal" data-target="#editjasa"
+                                                                    onclick="edit_datajasa('{{ $item['namajasa'] }}', '{{ $item['alamatjasa'] }}', {{ $loop->index }})"></button>
                                                                 <button class="btn btn-danger center fa fa-trash"
                                                                     style="margin-left: 2%"></button>
                                                                 <button class="btn btn-success center fa fa-plus"
@@ -148,7 +149,7 @@
                                                         <td>
                                                             <div class="conbtn">
                                                                 <button class="btn btn-primary center fa fa-edit"
-                                                                    data-toggle="modal" data-target="#editjasa"></button>
+                                                                    data-toggle="modal" data-target="#editdagang"></button>
                                                                 <button class="btn btn-danger center fa fa-trash"
                                                                     style="margin-left: 2%"></button>
                                                             </div>
@@ -183,9 +184,9 @@
                     <h4 class="modal-title" id="myModalLabel">Tambah Data Usaha</h4>
                 </div>
                 <div class="modal-body">
-                    <form class="form-horizontal" role="form" action="datausaha" method="post">
+                    <form class="form-horizontal" role="form" action="{{ route('post.datausaha') }}" method="post">
                         @csrf
-                        <input type="hidden" name="jenis" value=1>
+                        <input type="hidden" name="jenis" value=1> {{-- lempar jenis --}}
                         <div class="form-group">
                             <label class="col-md-4 control-label">Nama Usaha</label>
                             <div class="col-md-8">
@@ -215,6 +216,49 @@
     </div><!-- /.modal -->
 
     <!-- sample modal content -->
+    <div id="editjasa" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel">Edit Data Usaha</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" role="form" action="{{ route('post.editdatausaha') }}"
+                        method="post">
+                        @csrf
+                        <input type="hidden" name="jenis" value=1> {{-- lempar jenis --}}
+                        <input type="hidden" name="id" id="id_jasa">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Nama Usaha</label>
+                            <div class="col-md-8">
+                                <input name="namajasa" type="text" class="form-control" id="namajasa"
+                                    placeholder="Nama Usaha atau Perusahaan" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Lokasi Usaha</label>
+                            <div class="col-md-8">
+                                <input name="alamatjasa" type="text" class="form-control" id="alamatjasa"
+                                    placeholder="Alamat atau Lokasi Usaha" required />
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default waves-effect m-l-5"
+                                data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- sample modal content -->
     <div id="tambahdatadagang" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
         <div class="modal-dialog">
@@ -224,7 +268,7 @@
                     <h4 class="modal-title" id="myModalLabel">Tambah Data Usaha</h4>
                 </div>
                 <div class="modal-body">
-                    <form class="form-horizontal" role="form" action="datausaha" method="post">
+                    <form class="form-horizontal" role="form" action="{{ route('post.datausaha') }}" method="post">
                         @csrf
                         <input type="hidden" name="jenis" value=2>
                         <div class="form-group">
@@ -255,86 +299,6 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-    {{-- <!-- sample modal edit -->
-    <div id="editjasa" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title" id="myModalLabel">Tambah Data Usaha</h4>
-                </div>
-                <div class="modal-body">
-                    <form class="form-horizontal" role="form">
-
-                        <div class="form-group">
-                            <label class="col-md-4 control-label">Nama Usaha</label>
-                            <div class="col-md-8">
-                                <input name="nama" type="text" class="form-control"
-                                    value="Nama Usaha atau Perusahaan" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="col-md-4 control-label">Lokasi Usaha</label>
-                            <div class="col-md-8">
-                                <input name="alamat" type="text" class="form-control"
-                                    value="Alamat atau Lokasi Usaha" required />
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default waves-effect m-l-5"
-                                data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
-                        </div>
-                    </form>
-                </div>
-
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-    <!-- sample modal edit -->
-    <div id="editdagang" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title" id="myModalLabel">Tambah Data Usaha</h4>
-                </div>
-                <div class="modal-body">
-                    <form class="form-horizontal" role="form">
-
-                        <div class="form-group">
-                            <label class="col-md-4 control-label">Nama Usaha</label>
-                            <div class="col-md-8">
-                                <input name="nama" type="text" class="form-control"
-                                    value="Nama Usaha atau Perusahaan" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="col-md-4 control-label">Lokasi Usaha</label>
-                            <div class="col-md-8">
-                                <input name="alamat" type="text" class="form-control"
-                                    value="Alamat atau Lokasi Usaha" required />
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default waves-effect m-l-5"
-                                data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
-                        </div>
-                    </form>
-                </div>
-
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal --> --}}
-
     <!-- sample modal jenis pendapatan -->
     <div id="editjenis" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
@@ -346,7 +310,7 @@
                 </div>
                 <div class="modal-body">
                     <form class="form-horizontal" role="form" style="margin-left: 5px;" method="post"
-                        action="jenisdatausaha">
+                        action="{{ route('post.jenisdatausaha') }}">
                         @csrf
 
                         <input type="hidden" id="isidata" name="id">
@@ -392,10 +356,18 @@
                 isi = isi +
                     '<form action="#">                                <tr>                                    <td>                                        <div class="">                                            <!-- <label class="control-label m-l-10" style="display: flex; justify-content: left; align-items: left; margin-bottom: 5px;">Data Jenis Pendapatan Baru</label> -->                                            <div class="">                                                <input name="jenis" type="text" class="form-control"                                                    placeholder="Contoh" value="' +
                     element +
-                    '">                                            </div>                                        </div>                                    </td>                                    <td>                                        <div class="conbtn pt-3">                                            <button class="btn btn-primary center" data-toggle="modal"                                                data-target="#jenis" style="padding: 7px;"> Simpan</button>                                        </div>                                    </td>                                </tr>                            </form>';
+                    '">                                            </div>                                        </div>                                    </td>                                    <td>                                        <div class="conbtn pt-3">                                            <button class="btn btn-primary center fa fa-plus" data-toggle="modal"                                                data-target="#jenis" style="padding: 7px;"></button>                                        <button class="btn btn-danger center fa fa-trash"                                        style="padding: 7px;margin-left: 2%;"></button>                                    </div>                                    </td>                                </tr>                            </form>';
             });
-
+            
+                                                                    
             document.querySelector('#place_here').innerHTML = atas + isi + bawah;
+        }
+
+        function edit_datajasa(namajasa, alamatjasa, id) {
+            console.log('edit datajasa: ' + id);
+            document.getElementById("id_jasa").value = id;
+            document.getElementById("namajasa").value = namajasa;
+            document.getElementById("alamatjasa").value = alamatjasa;
         }
     </script>
 @endsection
