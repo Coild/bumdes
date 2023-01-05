@@ -149,7 +149,7 @@
                                                         <td>
                                                             <div class="conbtn">
                                                                 <button class="btn btn-primary center fa fa-edit"
-                                                                    data-toggle="modal" data-target="#editdagang"></button>
+                                                                    data-toggle="modal" data-target="#editdagang" onclick="edit_datadagang('{{ $item['namadagang'] }}', '{{ $item['alamatdagang'] }}', {{ $loop->index }})"></button>
                                                                 <button class="btn btn-danger center fa fa-trash"
                                                                     style="margin-left: 2%"></button>
                                                             </div>
@@ -299,6 +299,49 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+    <!-- sample modal content -->
+    <div id="editdagang" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel">Edit Data Usaha</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" role="form" action="{{ route('post.editdatausaha') }}"
+                        method="post">
+                        @csrf
+                        <input type="hidden" name="jenis" value=2> {{-- lempar jenis --}}
+                        <input type="hidden" name="id" id="id_dagang">
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Nama Usaha</label>
+                            <div class="col-md-8">
+                                <input name="namadagang" type="text" class="form-control" id="namadagang"
+                                    placeholder="Nama Usaha atau Perusahaan" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Lokasi Usaha</label>
+                            <div class="col-md-8">
+                                <input name="alamatdagang" type="text" class="form-control" id="alamatdagang"
+                                    placeholder="Alamat atau Lokasi Usaha" required />
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default waves-effect m-l-5"
+                                data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
     <!-- sample modal jenis pendapatan -->
     <div id="editjenis" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
@@ -368,6 +411,13 @@
             document.getElementById("id_jasa").value = id;
             document.getElementById("namajasa").value = namajasa;
             document.getElementById("alamatjasa").value = alamatjasa;
+        }
+
+        function edit_datadagang(namadagang, alamatdagang, id) {
+            console.log('edit datadagang: ' + id);
+            document.getElementById("id_dagang").value = id;
+            document.getElementById("namadagang").value = namadagang;
+            document.getElementById("alamatdagang").value = alamatdagang;
         }
     </script>
 @endsection
