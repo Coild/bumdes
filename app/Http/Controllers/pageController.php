@@ -556,7 +556,7 @@ class pageController extends Controller
             Session::put('pembelian', $pembelian);
             // dd($data);
         }
-        // dd($listbarang);
+        // if ($listbarang[$pembelian[$loc]['pemasok']]) 
         return view('fitur.detil.notapembelian', compact('pemasok', 'pembelian', 'data', 'total', 'loc', 'listbarang', 'detilpemasok'));
     }
 

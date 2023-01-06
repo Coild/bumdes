@@ -200,15 +200,20 @@
                     <h4 class="modal-title" id="myModalLabel">Tambah Barang</h4>
                 </div>
                 <div class="modal-body">
-                    <form method="POST" action="{{ route('post.notapembelian') }}" class="form-horizontal" role="form">
+                    <form method="POST" action="{{ route('post.notapembelian') }}" class="form-horizontal"
+                        role="form">
                         @csrf
                         <div class="form-group">
                             <label class="col-sm-4 control-label">Jenis/Nama Barang</label>
                             <div class="col-sm-8">
                                 <select name="jenis" class="form-control" required>
-                                    @foreach ($listbarang[$pembelian[$loc]['pemasok']]['detil'] as $item)
-                                        <option value="{{$item['nama']}}">{{$item['nama']}}</option>
-                                    @endforeach
+                                    @if (isset($listbarang[$pembelian[$loc]['pemasok']]) > 0)
+                                        @foreach ($listbarang[$pembelian[$loc]['pemasok']]['detil'] as $item)
+                                            <option value="{{ $item['nama'] }}">{{ $item['nama'] }}</option>
+                                        @endforeach
+                                        @else
+                                        <option>kosong</option>
+                                    @endif
                                 </select>
                             </div>
                         </div>
