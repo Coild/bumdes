@@ -14,6 +14,13 @@ class pageController extends Controller
         $data == null ? [] : $data;
         return view('auth.login', ['data' => $data]);
     }
+    
+    public function laporan(Request $req)
+    {
+        $data = $req->all();
+        $data == null ? [] : $data;
+        return view('fitur.laporan', ['data' => $data]);
+    }
 
     public function dummy()
     {
@@ -313,14 +320,23 @@ class pageController extends Controller
             Session::put('pendapatan', $data);
             // dd($data);
         }
+        // dd($data);
         return view('fitur.pendapatan', compact('data', 'jasa', 'pelanggan'));
     }
 
-    public function laporan(Request $req)
+    public function editpendapatan(Request $req)
     {
-        $data = $req->all();
-        $data == null ? [] : $data;
-        return view('fitur.laporan', ['data' => $data]);
+
+        $data = Session::get('pendapatan');
+        // dd($req);
+        $data[$req->id]['tanggal'] = $req->tanggal;
+        $data[$req->id]['usaha'] = $req->usaha;
+        $data[$req->id]['pelanggan'] = $req->pelanggan;
+        $data[$req->id]['catatan'] = $req->catatan;
+
+        Session::put('pendapatan', $data);
+
+        return redirect('pendapatan');
     }
 
     public function notapendapatan(Request $req)

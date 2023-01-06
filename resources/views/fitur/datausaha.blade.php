@@ -363,7 +363,7 @@
                                 Jenis Pendapatan Baru</label>
                             <div class="col-md-10">
                                 <input name="jenis" type="text" class="form-control"
-                                    placeholder="Nama Jenis Pendapatan">
+                                    placeholder="Nama Jenis Pendapatan" required>
                             </div>
                             <div class="col-md-2">
                                 <button type="submit" class="btn btn-primary waves-effect waves-light"

@@ -63,6 +63,7 @@
                                                     </td>
                                                     <td>
                                                         {{ $data == null ? 'kosong' : $item['alamat'] }}
+                                                        <input type="hidden" name="id" id="id_p">
                                                     </td>
                                                     <td>
                                                         <div class="conbtn">
