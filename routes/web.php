@@ -57,6 +57,7 @@ Route::post('pendapatan', [pageController::class, 'pendapatan'])->name('post.pen
 Route::get('notapendapatan', [pageController::class, 'notapendapatan'])->name('get.notapendapatan');
 Route::post('notapendapatan', [pageController::class, 'notapendapatan'])->name('post.notapendapatan');
 Route::post('editpendapatan', [pageController::class, 'editpendapatan'])->name('post.editpendapatan');
+Route::post('editnotapendapatan', [pageController::class, 'editnotapendapatan'])->name('post.editnotapendapatan');
 
 Route::get('penjualan', [pageController::class, 'penjualan'])->name('get.penjualan');
 Route::post('penjualan', [pageController::class, 'penjualan'])->name('post.penjualan');

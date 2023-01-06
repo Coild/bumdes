@@ -377,6 +377,20 @@ class pageController extends Controller
         return view('fitur.detil.notapendapatan', compact('pendapatan', 'data', 'jasa', 'total', 'loc', 'pelanggan'));
     }
 
+    public function editnotapendapatan(Request $req)
+    {
+
+        $data = Session::get('notapendapatan');
+        // dd($req);
+        $data[$req->id]['jenis'] = $req->jenis;
+        $data[$req->id]['harga'] = $req->harga;
+        $data[$req->id]['jumlah'] = $req->jumlah;
+
+        Session::put('notapendapatan', $data);
+        // dd($data);
+        return redirect('notapendapatan');
+    }
+
     public function penjualan(Request $req)
     {
         // Session::flush(); 

@@ -212,7 +212,7 @@
                                             <option value="{{ $item['nama'] }}">{{ $item['nama'] }}</option>
                                         @endforeach
                                         @else
-                                        <option>kosong</option>
+                                        <option>Barang kosong</option>
                                     @endif
                                 </select>
                             </div>
