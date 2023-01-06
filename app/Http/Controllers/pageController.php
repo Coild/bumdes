@@ -569,17 +569,36 @@ class pageController extends Controller
             $nama = $file->getClientOriginalName();
             $tujuan_upload = 'images/';
             $file->move($tujuan_upload, $nama);
-            $row = [
-                'file' => $nama,
-                'tanggal' => $req->tanggal,
-                'catatan' => $req->catatan,
-                'namabeban' => $req->namabeban,
-                'bebanjasa' => 0
-            ];
-            array_push($data, $row);
+            if (isset($req->id)) {
+                $data[$req->id]['file'] = $nama;
+            } else {
+                $row = [
+                    'file' => $nama,
+                    'tanggal' => $req->tanggal,
+                    'catatan' => $req->catatan,
+                    'namabeban' => $req->namabeban,
+                    'bebanjasa' => 0
+                ];
+                array_push($data, $row);
+            }
+            
             Session::put('bebanjasa', $data);
         }
-        return view('fitur.bebanjasa', ['data' => $data]);
+        return view('fitur.bebanjasa', compact('data'));
+    }
+
+    public function editbebanjasa(Request $req)
+    {
+
+        $data = Session::get('bebanjasa');
+        // dd($req);
+        $data[$req->id]['tanggal'] = $req->tanggal;
+        $data[$req->id]['namabeban'] = $req->namabeban;
+        $data[$req->id]['catatan'] = $req->catatan;
+
+        Session::put('bebanjasa', $data);
+
+        return redirect('bebanjasa');
     }
 
     public function notabebanjasa(Request $req)

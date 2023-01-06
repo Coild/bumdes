@@ -74,6 +74,7 @@ Route::get('bebanjasa', [pageController::class, 'bebanjasa'])->name('get.bebanja
 Route::post('bebanjasa', [pageController::class, 'bebanjasa'])->name('post.bebanjasa');
 Route::get('notabebanjasa', [pageController::class, 'notabebanjasa'])->name('get.notabebanjasa');
 Route::post('notabebanjasa', [pageController::class, 'notabebanjasa'])->name('post.notabebanjasa');
+Route::post('editbebanjasa', [pageController::class, 'editbebanjasa'])->name('post.editbebanjasa');
 
 Route::get('bebandagang', [pageController::class, 'bebandagang'])->name('get.bebandagang');
 Route::post('bebandagang', [pageController::class, 'bebandagang'])->name('post.bebandagang');
