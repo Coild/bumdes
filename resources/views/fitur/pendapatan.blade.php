@@ -270,7 +270,7 @@
                     <h4 class="modal-title" id="myModalLabel">Bukti Transaksi</h4>
                 </div>
                 <div class="modal-body">
-                    <form action="/pendapatan" method="POST" class="form-horizontal" role="form"
+                    <form action="{{ route('post.pendapatan') }}" method="POST" class="form-horizontal" role="form"
                         enctype="multipart/form-data">
                         @csrf
                         <div class="conbtn">

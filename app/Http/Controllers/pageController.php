@@ -492,6 +492,20 @@ class pageController extends Controller
         return view('fitur.pembelian', compact('pemasok', 'data'));
     }
 
+    public function editpembelian(Request $req)
+    {
+
+        $data = Session::get('pembelian');
+        // dd($req);
+        $data[$req->id]['tanggal'] = $req->tanggal;
+        $data[$req->id]['pemasok'] = $req->pemasok;
+        $data[$req->id]['catatan'] = $req->catatan;
+
+        Session::put('pembelian', $data);
+
+        return redirect('pembelian');
+    }
+
     public function notapembelian(Request $req)
     {
 
