@@ -64,6 +64,7 @@ Route::post('penjualan', [pageController::class, 'penjualan'])->name('post.penju
 Route::get('notapenjualan', [pageController::class, 'notapenjualan'])->name('get.notapenjualan');
 Route::post('notapenjualan', [pageController::class, 'notapenjualan'])->name('post.notapenjualan');
 Route::post('editpenjualan', [pageController::class, 'editpenjualan'])->name('post.editpenjualan');
+Route::post('editnotapenjualan', [pageController::class, 'editnotapenjualan'])->name('post.editnotapenjualan');
 
 Route::get('pembelian', [pageController::class, 'pembelian'])->name('get.pembelian');
 Route::post('pembelian', [pageController::class, 'pembelian'])->name('post.pembelian');

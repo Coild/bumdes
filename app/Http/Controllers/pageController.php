@@ -25,8 +25,6 @@ class pageController extends Controller
     public function dummy()
     {
         $data = Session::get('notapendapatan');
-        // Session::put('pendapatan', [$data[0]]);
-        // $data[0]['penghasilan'] =15000;
         dd($data);
         Session::put('pendapatan', [$data[0]]);
     }
@@ -446,7 +444,7 @@ class pageController extends Controller
 
     public function notapenjualan(Request $req)
     {
-
+        // Session::flush();
         $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
         $listbarang = Session::get('barang') == null ? [] : Session::get('barang');
         Session::put('lokpen', $loc);
@@ -464,7 +462,7 @@ class pageController extends Controller
             $cariharga = array_column($listbarang, 'jual', 'nama');
 
             $nota = [
-                'barang' => $listbarang[$req->barang]['nama'],
+                'barang' => $req->barang,
                 'harga' => $listbarang[$req->barang]['harga'] + $listbarang[$req->barang]['untung'],
                 'jumlah' => $req->jumlah,
                 'total' => ($listbarang[$req->barang]['harga'] + $listbarang[$req->barang]['untung']) * $req->jumlah,
@@ -487,6 +485,28 @@ class pageController extends Controller
             return $item['status'] == 'Barang Dagangan';
         });
         return view('fitur.detil.notapenjualan', compact('pelanggan', 'penjualan', 'data', 'dagang', 'total', 'loc', 'listbarang', 'filteredData'));
+    }
+
+    public function editnotapenjualan(Request $req)
+    {
+
+        $data = Session::get('notapenjualan');
+        $listbarang = Session::get('barang') == null ? [] : Session::get('barang');
+        $loc = Session::get('lokpen');
+        // dd($data);
+        Session::forget('notapenjualan');
+        // dd($req);
+        $total = $data[$loc]['nota'][$req->id]['harga']*$data[$loc]['nota'][$req->id]['jumlah'];
+// dd($total);
+        $data[$loc]['nota'][$req->id]['barang'] = $req->barang;
+        $data[$loc]['nota'][$req->id]['harga'] = $listbarang[$req->barang]['harga'];
+        $data[$loc]['nota'][$req->id]['jumlah'] = $req->jumlah;
+        $data[$loc]['nota'][$req->id]['total'] = $listbarang[$req->barang]['harga']*$req->jumlah;
+        $data[$loc]['total'] = $data[$loc]['total'] + ($listbarang[$req->barang]['harga']*$req->jumlah) - $total;
+        // dd($data);
+        Session::put('notapenjualan', $data);
+        // dd($data);
+        return redirect('notapenjualan');
     }
 
     public function pembelian(Request $req)
