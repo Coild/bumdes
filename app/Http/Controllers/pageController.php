@@ -407,6 +407,21 @@ class pageController extends Controller
         return view('fitur.penjualan', compact('data', 'dagang', 'pelanggan'));
     }
 
+    public function editpenjualan(Request $req)
+    {
+
+        $data = Session::get('penjualan');
+        // dd($req);
+        $data[$req->id]['tanggal'] = $req->tanggal;
+        $data[$req->id]['usaha'] = $req->usaha;
+        $data[$req->id]['pelanggan'] = $req->pelanggan;
+        $data[$req->id]['catatan'] = $req->catatan;
+
+        Session::put('penjualan', $data);
+
+        return redirect('penjualan');
+    }
+
     public function notapenjualan(Request $req)
     {
 

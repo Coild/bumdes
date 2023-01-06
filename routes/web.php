@@ -25,7 +25,7 @@ Route::post('dashboard', [pageController::class, 'dashboard'])->name('post.dashb
 
 Route::get('datausaha', [pageController::class, 'datausaha'])->name('get.datausaha');
 Route::post('datausaha', [pageController::class, 'datausaha'])->name('post.datausaha');
-Route::get('editdatausaha', [pageController::class, 'datausaha'])->name('get.editdatausaha');
+// Route::get('editdatausaha', [pageController::class, 'datausaha'])->name('get.editdatausaha');
 Route::post('editdatausaha', [pageController::class, 'editdatausaha'])->name('post.editdatausaha');
 
 Route::get('jenisdatausaha', [pageController::class, 'datausaha'])->name('get.jenisdatausaha');
@@ -33,21 +33,21 @@ Route::post('jenisdatausaha', [pageController::class, 'jenisdatausaha'])->name('
 
 Route::get('pengelola', [pageController::class, 'pengelola'])->name('get.pengelola');
 Route::post('pengelola', [pageController::class, 'pengelola'])->name('post.pengelola');
-Route::get('editpengelola', [pageController::class, 'pengelola'])->name('get.editpengelola');
+// Route::get('editpengelola', [pageController::class, 'pengelola'])->name('get.editpengelola');
 Route::post('editpengelola', [pageController::class, 'editpengelola'])->name('post.editpengelola');
 
 Route::get('akun', [pageController::class, 'akun']);
 
 Route::get('pemasok', [pageController::class, 'pemasok'])->name('get.pemasok');
 Route::post('pemasok', [pageController::class, 'pemasok'])->name('post.pemasok');
-Route::get('editpemasok', [pageController::class, 'pemasok'])->name('get.editpemasok');
+// Route::get('editpemasok', [pageController::class, 'pemasok'])->name('get.editpemasok');
 Route::post('editpemasok', [pageController::class, 'editpemasok'])->name('post.editpemasok');
 Route::get('detilpemasok', [pageController::class, 'detilpemasok'])->name('get.detilpemasok');
 Route::post('detilpemasok', [pageController::class, 'detilpemasok'])->name('post.detilpemasok');
 
 Route::get('pelanggan', [pageController::class, 'pelanggan'])->name('get.pelanggan');
 Route::post('pelanggan', [pageController::class, 'pelanggan'])->name('post.pelanggan');
-Route::get('editpelanggan', [pageController::class, 'pelanggan'])->name('get.editpelanggan');
+// Route::get('editpelanggan', [pageController::class, 'pelanggan'])->name('get.editpelanggan');
 Route::post('editpelanggan', [pageController::class, 'editpelanggan'])->name('post.editpelanggan');
 Route::get('detilpelanggan', [pageController::class, 'detilpelanggan'])->name('get.detilpelanggan');
 Route::post('detilpelanggan', [pageController::class, 'detilpelanggan'])->name('post.detilpelanggan');
@@ -62,6 +62,7 @@ Route::get('penjualan', [pageController::class, 'penjualan'])->name('get.penjual
 Route::post('penjualan', [pageController::class, 'penjualan'])->name('post.penjualan');
 Route::get('notapenjualan', [pageController::class, 'notapenjualan'])->name('get.notapenjualan');
 Route::post('notapenjualan', [pageController::class, 'notapenjualan'])->name('post.notapenjualan');
+Route::post('editpenjualan', [pageController::class, 'editpenjualan'])->name('post.editpenjualan');
 
 Route::get('pembelian', [pageController::class, 'pembelian'])->name('get.pembelian');
 Route::post('pembelian', [pageController::class, 'pembelian'])->name('post.pembelian');
