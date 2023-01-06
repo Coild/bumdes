@@ -346,6 +346,8 @@ class pageController extends Controller
 
         Session::put('lokpen', $loc);
         // dd($loc);
+
+        $pelanggan = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
         $pendapatan = Session::get('pendapatan') == null ? [] : Session::get('pendapatan');
         $jasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
         $data = Session::get('notapendapatan') == null ? [] : Session::get('notapendapatan');
@@ -372,7 +374,7 @@ class pageController extends Controller
             // dd($data);
         }
         // dd($pendapatan);
-        return view('fitur.detil.notapendapatan', compact('pendapatan', 'data', 'jasa', 'total', 'loc'));
+        return view('fitur.detil.notapendapatan', compact('pendapatan', 'data', 'jasa', 'total', 'loc', 'pelanggan'));
     }
 
     public function penjualan(Request $req)

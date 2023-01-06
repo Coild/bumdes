@@ -56,7 +56,7 @@
                                                 <div class="form-group">
                                                     <label class="control-label">Nama Pelanggan</label>
                                                     <div class="">
-                                                        <input type="text" name="pelanggan" class="form-control" disabled="disabled" value="{{ $jasa[$pendapatan[$loc]['pelanggan']]['namajasa']}}">
+                                                        <input type="text" name="pelanggan" class="form-control" disabled="disabled" value="{{ $pelanggan[$pendapatan[$loc]['pelanggan']]['nama'] }}">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
