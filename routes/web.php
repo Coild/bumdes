@@ -80,6 +80,7 @@ Route::get('bebandagang', [pageController::class, 'bebandagang'])->name('get.beb
 Route::post('bebandagang', [pageController::class, 'bebandagang'])->name('post.bebandagang');
 Route::get('notabebandagang', [pageController::class, 'notabebandagang'])->name('get.notabebandagang');
 Route::post('notabebandagang', [pageController::class, 'notabebandagang'])->name('post.notabebandagang');
+Route::post('editbebanjasa', [pageController::class, 'editbebandagang'])->name('post.editbebandagang');
 
 Route::get('/stok', [pageController::class, 'stok']);
 Route::post('/stok', [pageController::class, 'stok']);

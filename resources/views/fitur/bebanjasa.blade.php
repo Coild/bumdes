@@ -180,7 +180,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title" id="myModalLabel">Edit Transaksi Jasa</h4>
+                    <h4 class="modal-title" id="myModalLabel">Edit Transaksi Beban Jasa</h4>
                 </div>
                 <div class="modal-body">
                     <form action="{{ route('post.editbebanjasa') }}" method="POST" class="form-horizontal"

@@ -660,6 +660,20 @@ class pageController extends Controller
         return view('fitur.bebandagang', ['data' => $data]);
     }
 
+    public function editbebandagang(Request $req)
+    {
+
+        $data = Session::get('bebandagang');
+        // dd($req);
+        $data[$req->id]['tanggal'] = $req->tanggal;
+        $data[$req->id]['namabeban'] = $req->namabeban;
+        $data[$req->id]['catatan'] = $req->catatan;
+
+        Session::put('bebandagang', $data);
+
+        return redirect('bebandagang');
+    }
+
     public function notabebandagang(Request $req)
     {
 
