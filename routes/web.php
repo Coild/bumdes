@@ -111,9 +111,9 @@ Route::get('dummy' , function()
     
     // dd ($data); 
     $data['harga'] = 1000;
-    dd ($data);
+    // dd ($data);
 
-    // return view('print.buku');
+    return view('fitur.profil');
 });
 
 Route::get('cek', [pageController::class, 'dummy']);
