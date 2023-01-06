@@ -381,11 +381,13 @@ class pageController extends Controller
     {
 
         $data = Session::get('notapendapatan');
-        // dd($req);
-        $data[$req->id]['jenis'] = $req->jenis;
-        $data[$req->id]['harga'] = $req->harga;
-        $data[$req->id]['jumlah'] = $req->jumlah;
-
+        $loc = Session::get('lokpen');
+        // Session::forget('notapendapatan');
+        // dd($data);
+        $data[$loc]['nota'][$req->id]['jenis'] = $req->jenis;
+        $data[$loc]['nota'][$req->id]['harga'] = $req->harga;
+        $data[$loc]['nota'][$req->id]['jumlah'] = $req->jumlah;
+        // dd($data);
         Session::put('notapendapatan', $data);
         // dd($data);
         return redirect('notapendapatan');
