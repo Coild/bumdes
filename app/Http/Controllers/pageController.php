@@ -389,7 +389,8 @@ class pageController extends Controller
         $data[$loc]['nota'][$req->id]['jenis'] = $req->jenis;
         $data[$loc]['nota'][$req->id]['harga'] = $req->harga;
         $data[$loc]['nota'][$req->id]['jumlah'] = $req->jumlah;
-        $data[$loc]['total'] = $data[$loc]['total'] + $req->harga*$req->jumlah - $total;
+        $data[$loc]['nota'][$req->id]['total'] = $req->harga*$req->jumlah;
+        $data[$loc]['total'] = $data[$loc]['total'] + ($req->harga*$req->jumlah) - $total;
         // dd($data);
         Session::put('notapendapatan', $data);
         // dd($data);
