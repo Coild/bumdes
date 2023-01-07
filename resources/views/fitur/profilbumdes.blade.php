@@ -49,7 +49,7 @@
                                                             onchange="document.getElementById('file-name').innerHTML = this.files[0].name"
                                                             style="display: none">
                                                         {{-- <button class="btn btn-primary waves-effect waves-light" onclick="diklik()">Pilih gambar</button> --}}
-                                                        <button
+                                                        <button class="btn btn-primary"
                                                             onclick="document.getElementsByName('file')[0].click()">Pilih
                                                             gambar</button>
                                                     </div>

@@ -112,7 +112,7 @@
                                             </td>
                                             <td>
                                                 <div class="conbtn">
-                                                    <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
+                                                    <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit" onclick='edit_data(@json($item),{{$loop->index}})'></button>
                                                     <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
                                                 </div>
                                             </td>
@@ -213,14 +213,75 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+<!-- sample modal content -->
+<div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel">Edit Nota Transaksi Jasa</h4>
+        </div>
+        <div class="modal-body">
+            <form action="{{ route('post.editnotabebanjasa') }}" method="POST" class="form-horizontal"
+                role="form" enctype="multipart/form-data">
+                @csrf
+                <input type="hidden" name="id" id="edit_id">
+
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">Jenis Usaha Jasa</label>
+                    <div class="col-sm-8">
+                        <select id="edit_jenis" name="jenis" class="form-control" required>
+                           
+                                <option value="Listrik Toko A">Listrik Toko A</option>
+                                <option value="Air PAM Toko B">Air PAM Toko B</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Harga</label>
+                    <div class="col-md-8">
+                        <input name="harga" data-parsley-type="number" type="text" class="form-control"
+                            placeholder="Harga Jasa" id="edit_harga" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Jumlah</label>
+                    <div class="col-md-8">
+                        <input name="jumlah" data-parsley-type="number" type="text" class="form-control"
+                            placeholder="Jumlah atau Berapa Kali Jasa" id="edit_jumlah" required>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default waves-effect m-l-5"
+                        data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
+                </div>
+
+            </form>
+        </div>
+
+    </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 @endsection
 
 @section('script')
-<script>
-    function bayar() {
-        totaltr = document.getElementById("totaltr").value;
-        totalbyr = document.getElementById("totalbyr").value;
-        document.getElementById("hasil").value = totalbyr - totaltr;
-    }
-</script>
+    <script>
+        function bayar() {
+            totaltr = document.getElementById("totaltr").value;
+            totalbyr = document.getElementById("totalbyr").value;
+            document.getElementById("hasil").value = totalbyr - totaltr;
+        }
+
+        function edit_data(data, id) {
+            document.getElementById("edit_id").value = id;
+            // document.getElementById("edit_jenis").value = data['jenis'];
+            document.getElementById("edit_harga").value = data['harga'];
+            document.getElementById("edit_jumlah").value = data['jumlah'];
+        }
+    </script>
 @endsection
