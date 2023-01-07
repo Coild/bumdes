@@ -4,13 +4,13 @@
     <div class="sidebar-inner slimscrollleft">
         <div class="user-details">
             <div class="text-center">
-                <img src={{ asset("images/users/avatar-1.jpg") }} alt="" class="img-circle">
+                <a href="{{ route('get.profilbumdes') }}"></a><img src={{ asset("images/users/avatar-1.jpg") }} alt="" class="img-circle"></a>
             </div>
             <div class="user-info">
                 <div class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">BUMDes Kuta Mandalika</a>
                     <ul class="dropdown-menu">
-                        <li><a href="javascript:void(0)"> Profil BUMDes</a></li>
+                        <li><a href="{{ route('get.profilbumdes') }}"> Profil BUMDes</a></li>
                         <li><a href="javascript:void(0)"> Pengaturan</a></li>
                         <li class="divider"></li>
                         <li><a href="javascript:void(0)"> Logout</a></li>

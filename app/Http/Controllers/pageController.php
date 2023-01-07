@@ -14,6 +14,37 @@ class pageController extends Controller
         $data == null ? [] : $data;
         return view('auth.login', ['data' => $data]);
     }
+
+    public function profilbumdes(Request $req)
+    {
+        // Session::flush();
+        $datajasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
+        $datadagang = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
+
+        $tambah = $req->jenis;
+        if ($tambah != []) {
+            if ($req->jenis == 1) {
+                $isi = [
+                    'namajasa' => $req->namajasa,
+                    'alamatjasa' => $req->alamatjasa,
+                    'jenis' => []
+                ];
+                array_push($datajasa, $isi);
+                Session::put('datausahajasa', $datajasa);
+            }
+            if ($req->jenis == 2) {
+                $isi = [
+                    'namadagang' => $req->namadagang,
+                    'alamatdagang' => $req->alamatdagang
+                ];
+                array_push($datadagang, $isi);
+                Session::put('datausahadagang', $datadagang);
+            }
+        }
+        // dd($datajasa);
+
+        return view('fitur.profilbumdes', compact('datajasa', 'datadagang'));
+    }
     
     public function laporan(Request $req)
     {
@@ -21,13 +52,6 @@ class pageController extends Controller
         $data == null ? [] : $data;
         return view('fitur.laporan', ['data' => $data]);
     }
-
-    // public function dummy()
-    // {
-    //     $data = Session::get('notapendapatan');
-    //     dd($data);
-    //     Session::put('pendapatan', [$data[0]]);
-    // }
 
     public function dashboard(Request $req)
     {

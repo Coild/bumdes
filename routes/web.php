@@ -20,6 +20,9 @@ use Illuminate\Support\Facades\Session;
 Route::get('/', [pageController::class, 'login'])->name('get.login');
 Route::post('/', [pageController::class, 'login'])->name('post.login');
 
+Route::get('profilbumdes', [pageController::class, 'profilbumdes'])->name('get.profilbumdes');
+Route::post('profilbumdes', [pageController::class, 'profilbumdes'])->name('post.profilbumdes');
+
 Route::get('dashboard', [pageController::class, 'dashboard'])->name('get.dashboard');
 Route::post('dashboard', [pageController::class, 'dashboard'])->name('post.dashboard');
 
@@ -91,35 +94,35 @@ Route::post('/stok', [pageController::class, 'stok']);
 
 Route::get('/laporan', [pageController::class, 'laporan']);
 
-Route::get('dummy' , function()
-{
-    // $arr = [
-    //     ['toko' => 'serba ada', 'barang' => ['gas', 'batu']],
-    //     ['toko' => 'serba bisa', 'barang' => ['paku', 'palu']]
-    // ];
-    // foreach ($arr as $item) {
-    //     echo '***'.$item['toko'].'****';
-    //     foreach($item['barang'] as $barang) {
-    //         echo '   -'.$barang;
-    //     }
-    // }
+// Route::get('dummy' , function()
+// {
+//     // $arr = [
+//     //     ['toko' => 'serba ada', 'barang' => ['gas', 'batu']],
+//     //     ['toko' => 'serba bisa', 'barang' => ['paku', 'palu']]
+//     // ];
+//     // foreach ($arr as $item) {
+//     //     echo '***'.$item['toko'].'****';
+//     //     foreach($item['barang'] as $barang) {
+//     //         echo '   -'.$barang;
+//     //     }
+//     // }
             
-    $data = [
-        'file' => 'aku',
-        'tanggal' => 'dia',
-        'usaha' => 'merala',
-        'catatan' => 'ksosng',
-        'pelanggan' => 'laper'
-    ];
+//     $data = [
+//         'file' => 'aku',
+//         'tanggal' => 'dia',
+//         'usaha' => 'merala',
+//         'catatan' => 'ksosng',
+//         'pelanggan' => 'laper'
+//     ];
     
-    // dd ($data); 
-    $data['harga'] = 1000;
-    // dd ($data);
+//     // dd ($data); 
+//     $data['harga'] = 1000;
+//     // dd ($data);
 
-    return view('fitur.profilbumdes');
-});
+//     return view('fitur.profilbumdes');
+// });
 
-Route::get('cek', [pageController::class, 'dummy']);
+// Route::get('cek', [pageController::class, 'dummy']);
 
 /*
 |--------------------------------------------------------------------------
