@@ -206,6 +206,7 @@ class pageController extends Controller
     public function pemasok(Request $req)
     {
         // Session::flush();
+        
         $data = Session::get('pemasok') == null ? [] : Session::get('pemasok');
         $tambah = $req->post();
         if ($tambah != null) {
@@ -237,7 +238,7 @@ class pageController extends Controller
 
     public function detilpemasok(Request $req)
     {
-
+        // Session::forget('detilpemasok');
         $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('locpasok');
         Session::put('locpasok', $loc);
         // dd($loc);
@@ -246,7 +247,7 @@ class pageController extends Controller
 
 
         $isi = array_key_exists($loc, $data) ? $data[$loc]['detil'] : [];
-        // dd($tambah);
+        // dd($data);
         if ($req->nama != null) {
             $detil = [
                 'nama' => $req->nama
@@ -261,6 +262,19 @@ class pageController extends Controller
         // dd($data);
         // dd($pemasok);
         return view('fitur.detil.pemasok', compact('data', 'loc', 'pemasok'));
+    }
+
+    public function editdetilpemasok(Request $req)
+    {
+
+        $data = Session::get('detilpemasok');
+        $loc = Session::get('locpasok');
+        // dd($req);
+        $data[$loc]['detil'][$req->id]['nama'] = $req->nama;
+// dd($data);
+        Session::put('detilpemasok', $data);
+
+        return redirect('detilpemasok');
     }
 
     public function stok(Request $req)
@@ -494,7 +508,7 @@ class pageController extends Controller
         $listbarang = Session::get('barang') == null ? [] : Session::get('barang');
         $loc = Session::get('lokpen');
         // dd($data);
-        Session::forget('notapenjualan');
+        // Session::forget('notapenjualan');
         // dd($req);
         $total = $data[$loc]['nota'][$req->id]['harga']*$data[$loc]['nota'][$req->id]['jumlah'];
 // dd($total);
