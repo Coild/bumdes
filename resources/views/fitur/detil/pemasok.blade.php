@@ -112,7 +112,7 @@
                                                         <td>
                                                             <div class="conbtn">
                                                                 <button class="btn btn-primary center fa fa-edit"
-                                                                    data-toggle="modal" data-target="#edit"></button>
+                                                                    data-toggle="modal" data-target="#edit" onclick='edit_data(@json($item),{{$loop->index}})'></button>
                                                                 <button class="btn btn-danger center fa fa-trash"
                                                                     style="margin-left: 2%"></button>
                                                             </div>
@@ -145,7 +145,7 @@
                     <h4 class="modal-title" id="myModalLabel">Tambah Data Barang</h4>
                 </div>
                 <div class="modal-body">
-                    <form method="POST" action="{{ route('get.detilpemasok') }}" class="form-horizontal" role="form">
+                    <form method="POST" action="{{ route('post.detilpemasok') }}" class="form-horizontal" role="form">
                         @csrf
                         <div class="form-group">
                             <label class="col-md-4 control-label">Nama Barang</label>
@@ -178,13 +178,13 @@
                 </div>
                 <div class="modal-body">
 
-                    <form class="form-horizontal" role="form">
-
-
+                    <form class="form-horizontal" role="form" method="POST" action="{{ route('post.editdetilpemasok') }}">
+                        @csrf
+                        <input type="hidden" id="edit_id" name="id">
                         <div class="form-group">
                             <label class="col-md-4 control-label">Nama Barang</label>
                             <div class="col-md-8">
-                                <input name="nama" type="text" class="form-control" value=""
+                                <input name="nama" type="text" class="form-control" id="edit_nama"
                                     placeholder="Nama Barang" required>
                             </div>
                         </div>
@@ -202,4 +202,15 @@
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
+@endsection
+
+@section('script')
+    <script>
+
+        function edit_data(data,id) {
+            console.log('editdata: ' + data['nama']);
+            document.getElementById("edit_id").value = id;
+            document.getElementById("edit_nama").value = data['nama'];
+        }
+    </script>
 @endsection
