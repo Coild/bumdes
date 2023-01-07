@@ -22,12 +22,12 @@ class pageController extends Controller
         return view('fitur.laporan', ['data' => $data]);
     }
 
-    public function dummy()
-    {
-        $data = Session::get('notapendapatan');
-        dd($data);
-        Session::put('pendapatan', [$data[0]]);
-    }
+    // public function dummy()
+    // {
+    //     $data = Session::get('notapendapatan');
+    //     dd($data);
+    //     Session::put('pendapatan', [$data[0]]);
+    // }
 
     public function dashboard(Request $req)
     {

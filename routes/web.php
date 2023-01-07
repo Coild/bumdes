@@ -116,7 +116,7 @@ Route::get('dummy' , function()
     $data['harga'] = 1000;
     // dd ($data);
 
-    return view('fitur.profil');
+    return view('fitur.profilbumdes');
 });
 
 Route::get('cek', [pageController::class, 'dummy']);
