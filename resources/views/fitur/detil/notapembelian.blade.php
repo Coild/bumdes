@@ -107,7 +107,7 @@
                                                             </div>
                                                         </td>
                                                         <td>
-                                                            {{ $data == null ? 'kosong' : $item['jenis'] }}
+                                                            {{ $data == null ? 'kosong' : $item['nama'] }}
                                                         </td>
                                                         <td>
                                                             {{ $data == null ? 'kosong' : $item['harga'] }}
@@ -123,7 +123,8 @@
                                                         <td>
                                                             <div class="conbtn">
                                                                 <button class="btn btn-primary center fa fa-edit"
-                                                                    data-toggle="modal" data-target="#edit"></button>
+                                                                    data-toggle="modal" data-target="#edit"
+                                                                    onclick='edit_data(@json($item),{{ $loop->index }})'></button>
                                                                 <button class="btn btn-danger center fa fa-trash"
                                                                     style="margin-left: 2%"></button>
                                                             </div>
@@ -131,7 +132,6 @@
                                                     </tr>
                                                 @endforeach
                                             @endisset
-
                                         </tbody>
                                     </table>
                                 </div>
@@ -206,7 +206,7 @@
                         <div class="form-group">
                             <label class="col-sm-4 control-label">Jenis/Nama Barang</label>
                             <div class="col-sm-8">
-                                <select name="jenis" class="form-control" required>
+                                <select name="nama" class="form-control" required>
                                     @if (isset($listbarang[$pembelian[$loc]['pemasok']]) > 0)
                                         @foreach ($listbarang[$pembelian[$loc]['pemasok']]['detil'] as $item)
                                             <option value="{{ $item['nama'] }}">{{ $item['nama'] }}</option>
@@ -243,6 +243,59 @@
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
+
+    <!-- sample modal content -->
+    <div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel">Edit Nota Transaksi Jasa</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="{{ route('post.editnotapembelian') }}" method="POST" class="form-horizontal"
+                        role="form" enctype="multipart/form-data">
+                        @csrf
+                        <input type="hidden" name="id" id="edit_id">
+
+                        {{-- <div class="form-group">
+                            <label class="col-sm-4 control-label">Jenis Usaha Jasa</label>
+                            <div class="col-sm-8">
+                                <select id="edit_jenis" name="jenis" class="form-control" required>
+                                    @foreach ($usaha[$pembelian[$loc]['usaha']]['jenis'] as $item)
+                                        <option value="{{ $item }}">{{ $item }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div> --}}
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Harga</label>
+                            <div class="col-md-8">
+                                <input name="harga" id="edit_harga" data-parsley-type="number" type="text" class="form-control"
+                                    placeholder="Harga Jasa" id="edit_harga" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Jumlah</label>
+                            <div class="col-md-8">
+                                <input name="jumlah" data-parsley-type="number" type="text" class="form-control"
+                                    placeholder="Jumlah atau Berapa Kali Jasa" id="edit_jumlah" required>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default waves-effect m-l-5"
+                                data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 @endsection
 
 @section('script')
@@ -251,6 +304,13 @@
             totaltr = document.getElementById("totaltr").value;
             totalbyr = document.getElementById("totalbyr").value;
             document.getElementById("hasil").value = totalbyr - totaltr;
+        }
+
+        function edit_data(data, id) {
+            document.getElementById("edit_id").value = id;
+            document.getElementById("edit_jumlah").value = data['jumlah'];
+            document.getElementById("edit_harga").value = data['harga'];
+            // document.getElementById("edit_jumlah").value = data['jumlah'];
         }
     </script>
 @endsection

@@ -43,6 +43,7 @@
                                                 <th style="text-align: center;">Kode Transaksi</th>
                                                 <th style="text-align: center;">Nama Pemasok</th>
                                                 <th style="text-align: center;">Total Pembelian</th>
+                                                <th style="text-align: center;">Usaha</th>
                                                 <th style="text-align: center;">Gambar Bukti</th>
                                                 <th style="text-align: center;">Aksi</th>
                                             </tr>
@@ -69,6 +70,10 @@
                                                     </td>
                                                     <td>
                                                         {{ $data == [] ? 'kosong' : $item['pembelian'] }}
+                                                        {{-- {{"Rp200,000"}} --}}
+                                                    </td>
+                                                    <td>
+                                                        {{ $data == [] ? 'kosong' : $usaha[$item['usaha']]['namadagang'] }}
                                                         {{-- {{"Rp200,000"}} --}}
                                                     </td>
                                                     <td>
@@ -149,6 +154,17 @@
                         </div>
 
                         <div class="form-group">
+                            <label class="col-sm-4 control-label">Nama Usaha</label>
+                            <div class="col-sm-8">
+                                <select name="usaha" class="form-control" required>
+                                    @foreach ($usaha as $isi)
+                                        <option value="{{ $loop->index }}">{{ $isi['namadagang'] }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
                             <label class="col-md-4 control-label">Catatan Transaksi</label>
                             <div class="col-md-8">
                                 <input name="catatan" type="text" class="form-control"
@@ -212,6 +228,17 @@
                                 </div>
                             </div>
     
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label">Nama Pemasok</label>
+                                <div class="col-sm-8">
+                                    <select id="edit_usaha" name="usaha" class="form-control" required>
+                                        @foreach ($usaha as $item)
+                                            <option value="{{ $loop->index }}">{{ $item['namadagang'] }}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Catatan Transaksi</label>
                                 <div class="col-md-8">
@@ -284,10 +311,11 @@
         }
 
         function edit_data(data,id) {
-            console.log('editdata: ' + data['tanggal']);
+            console.log('editdata: ' + data['usaha']);
             document.getElementById("edit_id").value = id;
             document.getElementById("datepicker-autoclose2").value = data['tanggal'];
             document.getElementById("edit_pemasok").value = data['pemasok'];
+            document.getElementById("edit_usaha").value = data['usaha'];
             document.getElementById("edit_catat").value = data['catatan'];
         }
     </script>

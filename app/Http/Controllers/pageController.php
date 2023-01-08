@@ -572,9 +572,11 @@ class pageController extends Controller
 
     public function pembelian(Request $req)
     {
-        // Session::flush();     
+        // Session::flush();   
+        // Session::forget('pembelian');  
         $data = Session::get('pembelian') == null ? [] : Session::get('pembelian');
         $pemasok = Session::get('pemasok') == null ? [] : Session::get('pemasok');
+        $usaha = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
         // dd($pemasok);
         $tambah = $req->post();
         if ($tambah != null) {
@@ -587,12 +589,13 @@ class pageController extends Controller
                 'tanggal' => $req->tanggal,
                 'catatan' => $req->catatan,
                 'pemasok' => $req->pemasok,
+                'usaha' => $req->usaha,
                 'pembelian' => 0
             ];
             array_push($data, $row);
             Session::put('pembelian', $data);
         }
-        return view('fitur.pembelian', compact('pemasok', 'data'));
+        return view('fitur.pembelian', compact('pemasok', 'data','usaha'));
     }
 
     public function editpembelian(Request $req)
@@ -602,6 +605,7 @@ class pageController extends Controller
         // dd($req);
         $data[$req->id]['tanggal'] = $req->tanggal;
         $data[$req->id]['pemasok'] = $req->pemasok;
+        $data[$req->id]['usaha'] = $req->usaha;
         $data[$req->id]['catatan'] = $req->catatan;
 
         Session::put('pembelian', $data);
@@ -614,9 +618,11 @@ class pageController extends Controller
 
         $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokbeli');
         $listbarang = Session::get('detilpemasok') == null ? [] : Session::get('detilpemasok');
+        $usaha = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
 
         Session::put('lokbeli', $loc);
         // dd($loc);
+        // Session::forget('notapembelian');
         $pembelian = Session::get('pembelian') == null ? [] : Session::get('pembelian');
 
 
@@ -625,22 +631,22 @@ class pageController extends Controller
         $data = Session::get('notapembelian') == null ? [] : Session::get('notapembelian');
         $barang = Session::get('barang') == null ? [] : Session::get('barang');
         $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0;
-        // dd($listbarang);
+        // dd($data);
         $isi = array_key_exists($loc, $data) ? $data[$loc]['nota'] : [];
         // dd($tambah);
-        if ($req->jenis != null) {
+        if ($req->nama != null) {
             $nota = [
-                'jenis' => $req->jenis,
+                'nama' => $req->nama,
                 'harga' => $req->harga,
                 'jumlah' => $req->jumlah,
                 'total' => $req->harga * $req->jumlah,
             ];
             $brg = [
-                'nama' => $req->jenis,
+                'nama' => $req->nama,
                 'harga' => $req->harga,
                 'jumlah' => $req->jumlah,
                 'minimum' => 0,
-                'status' => "Barang Dagangan",
+                'status' => $req->usaha,
                 'untung' => 0,
                 'jual' => 0
             ];
@@ -658,7 +664,27 @@ class pageController extends Controller
             // dd($data);
         }
         // if ($listbarang[$pembelian[$loc]['pemasok']]) 
-        return view('fitur.detil.notapembelian', compact('pemasok', 'pembelian', 'data', 'total', 'loc', 'listbarang', 'detilpemasok'));
+        return view('fitur.detil.notapembelian', compact('pemasok', 'pembelian', 'data', 'total', 'loc', 'listbarang', 'detilpemasok', 'usaha'));
+    }
+
+    public function editnotapembelian(Request $req)
+    {
+
+        $data = Session::get('notapembelian');
+        $loc = Session::get('lokbeli');
+        // Session::forget('notapendapatan');
+        // dd($data);
+        $total = $data[$loc]['nota'][$req->id]['harga']*$data[$loc]['nota'][$req->id]['jumlah'];
+
+        $data[$loc]['nota'][$req->id]['jenis'] = $req->jenis;
+        $data[$loc]['nota'][$req->id]['harga'] = $req->harga;
+        $data[$loc]['nota'][$req->id]['jumlah'] = $req->jumlah;
+        $data[$loc]['nota'][$req->id]['total'] = $req->harga*$req->jumlah;
+        $data[$loc]['total'] = $data[$loc]['total'] + ($req->harga*$req->jumlah) - $total;
+        // dd($data);
+        Session::put('notapembelian', $data);
+        // dd($data);
+        return redirect('notapembelian');
     }
 
     public function bebanjasa(Request $req)
