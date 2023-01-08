@@ -84,6 +84,7 @@ class pageController extends Controller
         // Session::flush();
         $datajasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
         $datadagang = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
+        $Tab = 'jasa';
 
         $tambah = $req->jenis;
         if ($tambah != []) {
@@ -101,13 +102,14 @@ class pageController extends Controller
                     'namadagang' => $req->namadagang,
                     'alamatdagang' => $req->alamatdagang
                 ];
+                $Tab = 'dagang';
                 array_push($datadagang, $isi);
                 Session::put('datausahadagang', $datadagang);
             }
         }
         // dd($datajasa);
 
-        return view('fitur.datausaha', compact('datajasa', 'datadagang'));
+        return view('fitur.datausaha', compact('datajasa', 'datadagang','Tab'));
     }
 
     public function editdatausaha(Request $req)

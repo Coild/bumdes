@@ -19,14 +19,15 @@
 
 
             <div class="row">
+                {{-- {{dd($Tab == "jasa")}} --}}
                 <ul class="nav nav-tabs navtab-bg nav-justified">
-                    <li class="active">
+                    <li class= {{$Tab == "jasa" ? "active" : "" }}>
                         <a href="#home1" data-toggle="tab" aria-expanded="false">
                             <span class="visible-xs"><i class="fa fa-shopping-basket"></i></span>
                             <span class="hidden-xs">Usaha Jasa</span>
                         </a>
                     </li>
-                    <li class="">
+                    <li class= {{$Tab == "dagang" ? "active" : "" }}>
                         <a href="#profile1" data-toggle="tab" aria-expanded="true">
                             <span class="visible-xs"><i class="fa fa-group"></i></span>
                             <span class="hidden-xs">Usaha Dagang</span>
@@ -36,7 +37,7 @@
 
                 <!-- Tab Content -->
                 <div class="tab-content">
-                    <div class="tab-pane active" id="home1">
+                    <div class="tab-pane {{$Tab == "jasa" ? "active" : "" }}" id="home1">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Data Usaha Jasa</h3>
@@ -108,7 +109,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane" id="profile1">
+                    <div class="tab-pane {{$Tab == "dagang" ? "active" : "" }}" id="profile1">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Data Usaha Dagang</h3>
