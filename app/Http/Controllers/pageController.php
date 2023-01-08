@@ -17,7 +17,8 @@ class pageController extends Controller
 
     public function profilbumdes(Request $req)
     {
-        // Session::flush();
+        // Session::forget('bumdes');
+        $bumdes = Session::get('bumdes') == null ? [] : Session::get('bumdes');
         $datajasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
         $datadagang = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
 
@@ -40,10 +41,30 @@ class pageController extends Controller
                 array_push($datadagang, $isi);
                 Session::put('datausahadagang', $datadagang);
             }
+            if ($req->jenis == 3) {
+                $file = $req->file('file');
+                $nama = $file->getClientOriginalName();
+                $tujuan_upload = 'images/';
+                $file->move($tujuan_upload, $nama);
+                $bumdes['file'] = $nama;
+                // dd($bumdes);
+                Session::put('bumdes', $bumdes);
+            }
+            if ($req->jenis == 4) {
+                $bumdes = [
+                    'nama' => $req->nama,
+                    'alamat' => $req->alamat,
+                    'no_ketua' => $req->no_ketua,
+                    'no_benda' => $req->no_benda,
+                    'file' => 'foto.png'
+                ];
+                // array_push($datadagang, $isi);
+                Session::put('bumdes', $bumdes);
+            }
         }
-        // dd($datajasa);
+        // dd($bumdes);
 
-        return view('fitur.profilbumdes', compact('datajasa', 'datadagang'));
+        return view('fitur.profilbumdes', compact('datajasa', 'datadagang', 'bumdes'));
     }
     
     public function laporan(Request $req)

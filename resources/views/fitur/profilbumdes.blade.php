@@ -40,17 +40,19 @@
                                         <div class="mx-auto text-center">
                                             <form style="padding-right: 25px">
                                                 <img class="rounded-circle m-b-5"
-                                                    src="{{ asset('images/placeholder.jpg') }}" alt="">
-                                                <p id="file-name">Nama_File</p>
+                                                    @if (count($bumdes) > 0) src="{{ asset('images/' . $bumdes['file']) }}"
+                                                    @else src="{{ asset('images/placeholder.jpg') }}" @endif
+                                                    alt="">
+                                                <p id="file-name">Nama User</p>
                                                 <div class="modal-footer m-t-8">
                                                     <div class="mx-auto text-right">
 
-                                                        <input type="file" name="file"
+                                                        {{-- <input type="file" name="file"
                                                             onchange="document.getElementById('file-name').innerHTML = this.files[0].name"
-                                                            style="display: none">
+                                                            style="display: none"> --}}
                                                         {{-- <button class="btn btn-primary waves-effect waves-light" onclick="diklik()">Pilih gambar</button> --}}
-                                                        <button class="btn btn-primary"
-                                                            onclick="document.getElementsByName('file')[0].click()">Pilih
+                                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                            data-target="#foto">Pilih
                                                             gambar</button>
                                                     </div>
                                                 </div>
@@ -63,26 +65,33 @@
                                     <div class="row mt-5">
 
                                         <div class="mx-auto text-left">
-                                            <form style="padding-right: 25px">
+                                            <form style="padding-right: 25px" method="POST"
+                                                action="{{ route('post.profilbumdes') }}">
+                                                @csrf
+                                                <input type="hidden" name="jenis" value=4>
                                                 <div class="form-group">
                                                     <label for="exampleFormControlInput1">Nama BUMDes</label>
-                                                    <input type="email" class="form-control" name="nama"
+                                                    <input type="text" class="form-control" name="nama"
+                                                        @if (count($bumdes) > 0) value="{{ $bumdes['nama'] }}" @endif
                                                         placeholder="name@example.com">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="exampleFormControlInput1">Alamat BUMDes</label>
-                                                    <input type="email" class="form-control" name="alamat"
+                                                    <input type="text" class="form-control" name="alamat"
+                                                        @if (count($bumdes) > 0) value="{{ $bumdes['nama'] }}" @endif
                                                         placeholder="name@example.com">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="exampleFormControlInput1">Nomor Telepon Ketua BUMDes</label>
-                                                    <input type="email" class="form-control" name="hpketua"
+                                                    <input type="text" class="form-control" name="no_ketua"
+                                                        @if (count($bumdes) > 0) value="{{ $bumdes['no_ketua'] }}" @endif
                                                         placeholder="name@example.com">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="exampleFormControlInput1">Nomor Telepon Bendahara
                                                         BUMDes</label>
-                                                    <input type="email" class="form-control" name="hpbendahara"
+                                                    <input type="text" class="form-control" name="no_benda"
+                                                        @if (count($bumdes) > 0) value="{{ $bumdes['no_benda'] }}" @endif
                                                         placeholder="name@example.com">
                                                 </div>
                                                 <div class="modal-footer">
@@ -309,7 +318,8 @@
                     <h4 class="modal-title" id="myModalLabel">Tambah Data Usaha</h4>
                 </div>
                 <div class="modal-body">
-                    <form class="form-horizontal" role="form" action="{{ route('post.datausaha') }}" method="post">
+                    <form class="form-horizontal" role="form" action="{{ route('post.profilbumdes') }}"
+                        method="post">
                         @csrf
                         <input type="hidden" name="jenis" value=1> {{-- lempar jenis --}}
                         <div class="form-group">
@@ -393,7 +403,8 @@
                     <h4 class="modal-title" id="myModalLabel">Tambah Data Usaha</h4>
                 </div>
                 <div class="modal-body">
-                    <form class="form-horizontal" role="form" action="{{ route('post.datausaha') }}" method="post">
+                    <form class="form-horizontal" role="form" action="{{ route('post.profilbumdes') }}"
+                        method="post">
                         @csrf
                         <input type="hidden" name="jenis" value=2>
                         <div class="form-group">
@@ -467,6 +478,40 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+
+        <!-- sample modal edit foto -->
+        <div id="foto" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="myModalLabel">Tambah Transaksi</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="{{ route('post.profilbumdes') }}" method="POST" class="form-horizontal" role="form"
+                            enctype="multipart/form-data">
+                            @csrf
+                            <input type="hidden" name="jenis" value=3>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Foto</label>
+                                <div class="col-md-8">
+                                    <input class="form-control" name="file" type="file" required />
+                                </div>
+                            </div>
+    
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default waves-effect m-l-5"
+                                    data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
+                            </div>
+    
+                        </form>
+                    </div>
+    
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
     <!-- sample modal jenis pendapatan -->
     <div id="editjenis" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
@@ -507,6 +552,7 @@
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
+
 
     {{-- </div>
     </div> --}}
