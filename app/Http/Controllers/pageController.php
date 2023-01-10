@@ -21,7 +21,7 @@ class pageController extends Controller
         $bumdes = Session::get('bumdes') == null ? [] : Session::get('bumdes');
         $datajasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
         $datadagang = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
-
+        dd($bumdes);
         $tambah = $req->jenis;
         if ($tambah != []) {
             if ($req->jenis == 1) {
@@ -46,7 +46,17 @@ class pageController extends Controller
                 $nama = $file->getClientOriginalName();
                 $tujuan_upload = 'images/';
                 $file->move($tujuan_upload, $nama);
-                $bumdes['file'] = $nama;
+                if(isset($bumdes['nama'])) {
+                    $bumdes['file'] = $nama;
+                }else {
+                    $bumdes = [
+                        'nama' => '',
+                        'alamat' => '',
+                        'no_ketua' => '',
+                        'no_benda' => '',
+                        'file' => 'foto.png'
+                    ];
+                }
                 // dd($bumdes);
                 Session::put('bumdes', $bumdes);
             }
