@@ -90,6 +90,7 @@ Route::post('bebandagang', [pageController::class, 'bebandagang'])->name('post.b
 Route::get('notabebandagang', [pageController::class, 'notabebandagang'])->name('get.notabebandagang');
 Route::post('notabebandagang', [pageController::class, 'notabebandagang'])->name('post.notabebandagang');
 Route::post('editbebandagang', [pageController::class, 'editbebandagang'])->name('post.editbebandagang');
+Route::post('editnotabebandagang', [pageController::class, 'editnotabebandagang'])->name('post.editnotabebandagang');
 
 Route::get('/stok', [pageController::class, 'stok']);
 Route::post('/stok', [pageController::class, 'stok']);

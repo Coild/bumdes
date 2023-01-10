@@ -856,4 +856,24 @@ class pageController extends Controller
         // dd(count($data));
         return view('fitur.detil.notabebandagang', compact('bebandagang', 'data', 'total', 'loc'));
     }
+
+    public function editnotabebandagang(Request $req)
+    {
+        $data = Session::get('notabebandagang');
+        $loc = Session::get('lokbebandagang');
+        // Session::forget('notapendapatan');
+        // dd($req);
+        $total = $data[$loc]['nota'][$req->id]['harga']*$data[$loc]['nota'][$req->id]['jumlah'];
+        // dd($data);
+        $data[$loc]['nota'][$req->id]['jenis'] = $req->jenis;
+        $data[$loc]['nota'][$req->id]['harga'] = $req->harga;
+        $data[$loc]['nota'][$req->id]['jumlah'] = $req->jumlah;
+        $data[$loc]['nota'][$req->id]['total'] = $req->harga*$req->jumlah;
+        $data[$loc]['total'] = $data[$loc]['total'] + ($req->harga*$req->jumlah) - $total;
+        // dd($data);
+        Session::put('notabebandagang', $data);
+        // dd($data);
+        return redirect('notabebandagang');
+      
+    }
 }
