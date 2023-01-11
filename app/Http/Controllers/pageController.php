@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Collection;
+use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class pageController extends Controller
 {
@@ -66,7 +67,7 @@ class pageController extends Controller
                     'alamat' => $req->alamat,
                     'no_ketua' => $req->no_ketua,
                     'no_benda' => $req->no_benda,
-                    'file' => 'foto.png'
+                    'file' => $bumdes['file'] ?? 'foto.png'
                 ];
                 // array_push($datadagang, $isi);
                 Session::put('bumdes', $bumdes);
