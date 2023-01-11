@@ -16,13 +16,75 @@ class pageController extends Controller
         return view('auth.login', ['data' => $data]);
     }
 
+    public function profiluser(Request $req)
+    {
+        // Session::forget('bumdes');
+        $bumdes = Session::get('bumdes') == null ? [] : Session::get('bumdes');
+        $datajasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
+        $datadagang = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
+        // dd($bumdes);
+        $tambah = $req->jenis;
+        if ($tambah != []) {
+            if ($req->jenis == 1) {
+                $isi = [
+                    'namajasa' => $req->namajasa,
+                    'alamatjasa' => $req->alamatjasa,
+                    'jenis' => []
+                ];
+                array_push($datajasa, $isi);
+                Session::put('datausahajasa', $datajasa);
+            }
+            if ($req->jenis == 2) {
+                $isi = [
+                    'namadagang' => $req->namadagang,
+                    'alamatdagang' => $req->alamatdagang
+                ];
+                array_push($datadagang, $isi);
+                Session::put('datausahadagang', $datadagang);
+            }
+            if ($req->jenis == 3) {
+                $file = $req->file('file');
+                $nama = $file->getClientOriginalName();
+                $tujuan_upload = 'images/';
+                $file->move($tujuan_upload, $nama);
+                if(isset($bumdes['nama'])) {
+                    $bumdes['file'] = $nama;
+                }else {
+                    $bumdes = [
+                        'nama' => '',
+                        'alamat' => '',
+                        'no_ketua' => '',
+                        'no_benda' => '',
+                        'file' => 'foto.png'
+                    ];
+                }
+                // dd($bumdes);
+                Session::put('bumdes', $bumdes);
+            }
+            if ($req->jenis == 4) {
+                $bumdes = [
+                    'nama' => $req->nama,
+                    'alamat' => $req->alamat,
+                    'no_ketua' => $req->no_ketua,
+                    'no_benda' => $req->no_benda,
+                    'file' => $bumdes['file'] ?? 'foto.png'
+                ];
+                // array_push($datadagang, $isi);
+                Session::put('bumdes', $bumdes);
+            }
+        }
+        // dd($bumdes);
+
+        return view('fitur.profiluser', compact('datajasa', 'datadagang', 'bumdes'));
+    }
+
     public function profilbumdes(Request $req)
     {
         // Session::forget('bumdes');
         $bumdes = Session::get('bumdes') == null ? [] : Session::get('bumdes');
         $datajasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
         $datadagang = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
-        dd($bumdes);
+        // dd($bumdes);
         $tambah = $req->jenis;
         if ($tambah != []) {
             if ($req->jenis == 1) {
