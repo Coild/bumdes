@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Xadmino - Responsive Admin Dashboard Template</title>
+        <title>BUMDES - Login</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta content="Admin Dashboard" name="description" />
         <meta content="ThemeDesign" name="author" />
@@ -26,7 +26,7 @@
 
                 <div class="panel-body">
                     <h3 class="text-center m-t-0 m-b-30">
-                        <span class=""><img src={{ asset("images/logo_sementara.png") }} alt="logo" height="75"></span>
+                        <span class=""><img src={{ asset("images/dark.png") }} alt="logo" height="125"></span>
                     </h3>
                     <h4 class="text-muted text-center m-t-0"><b>Sign In</b></h4>
 

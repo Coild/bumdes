@@ -1,10 +1,10 @@
 <!-- ========== Left Sidebar Start ========== -->
-
+<?php $foto = Session::get('bumdes') == null ? 'profil_holder.png' : Session::get('bumdes')['file'];  ?>
 <div class="left side-menu">
     <div class="sidebar-inner slimscrollleft">
         <div class="user-details">
             <div class="text-center">
-                <a href="{{ route('get.profilbumdes') }}"></a><img src={{ asset("images/users/avatar-1.jpg") }} alt="" class="img-circle"></a>
+                <a href="{{ route('get.profilbumdes') }}"></a><img src={{ asset("images/".$foto) }} alt="" class="img-circle"></a>
             </div>
             <div class="user-info">
                 <div class="dropdown">

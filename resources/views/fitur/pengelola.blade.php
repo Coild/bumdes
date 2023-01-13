@@ -129,6 +129,14 @@
                         </div>
 
                         <div class="form-group">
+                            <label class="col-md-4 control-label">Password</label>
+                            <div class="col-md-8">
+                                <input name="pass" data-parsley-type="string" type="text" class="form-control"
+                                    id="pass" placeholder="password" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
                             <label class="col-sm-4 control-label">Status Pengelola</label>
                             <div class="col-sm-8">
                                 <select name="status" class="form-control" required>
@@ -176,6 +184,14 @@
                             <div class="col-md-8">
                                 <input name="nohp" data-parsley-type="number" type="text" class="form-control"
                                     id="nohp"placeholder="08XXXXXXXXXX" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Password</label>
+                            <div class="col-md-8">
+                                <input name="pass" data-parsley-type="string" type="text" class="form-control"
+                                    id="pass" placeholder="password" required />
                             </div>
                         </div>
 

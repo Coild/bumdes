@@ -45,7 +45,7 @@
 
 
                                     <tbody>
-                                        @if ($data != null)
+                                        
                                         <tr>
                                             <td>
                                                 <div class="conbtn">
@@ -53,16 +53,20 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $data['kode']}}
+                                                {{-- {{$data ==null ? 'kosong' : $data['kode']}} --}}
+                                                1-00000
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $data['nama']}}
+                                                {{-- {{$data ==null ? 'kosong' : $data['nama']}} --}}
+                                                Kas
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $data['jenis']}}
+                                                {{-- {{$data ==null ? 'kosong' : $data['jenis']}} --}}
+                                                Header
                                             </td>
                                             <td>
-                                                {{$data ==null ? 'kosong' : $data['klasifikasi']}}
+                                                {{-- {{$data ==null ? 'kosong' : $data['klasifikasi']}} --}}
+                                                Kredit
                                             </td>
                                             {{-- <td>
                                                 {{$data ==null ? 'kosong' : $data['nilai']}}
@@ -74,7 +78,7 @@
                                                 </div>
                                             </td>
                                         </tr>
-                                        @endif
+                                        
                                     </tbody>
                                 </table>
                             </div>

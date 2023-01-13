@@ -1,10 +1,12 @@
+ 
+ <?php $foto = Session::get('bumdes') == null ? 'profil_holder.png' : Session::get('bumdes')['file'];  ?>
  <!-- Top Bar Start -->
  <div class="topbar">
     <!-- LOGO -->
     <div class="topbar-left">
         <div class="text-center">
-            <a href="index.html" class="logo"><img src={{ asset("images/logo_sementara.png") }} height="60"></a>
-            <a href="index.html" class="logo-sm"><img src={{ asset("images/logo_sm.png") }} height="36"></a>
+            <a href="index.html" class="logo"><img src={{ asset("images/horizon.png") }} width="200"></a>
+            <a href="index.html" class="logo-sm"><img src={{ asset("images/".$foto) }} height="36"></a>
         </div>
     </div>
     <!-- Button mobile view to collapse sidebar menu -->
@@ -69,7 +71,7 @@
                         <a href="#" id="btn-fullscreen" class="waves-effect waves-light"><i class="fa fa-crosshairs"></i></a>
                     </li> --}}
                     <li class="dropdown">
-                        <a href="" class="dropdown-toggle profile waves-effect waves-light" data-toggle="dropdown" aria-expanded="true"><img src={{ asset("images/users/avatar-1.jpg") }} alt="user-img" class="img-circle"> </a>
+                        <a href="" class="dropdown-toggle profile waves-effect waves-light" data-toggle="dropdown" aria-expanded="true"><img src={{ asset("images/".$foto) }} alt="user-img" class="img-circle"> </a>
                         <ul class="dropdown-menu">
                             <li><a href="javascript:void(0)"> Profile</a></li>
                             <li><a href="javascript:void(0)"><span class="badge badge-success pull-right">5</span> Settings </a></li>

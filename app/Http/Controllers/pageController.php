@@ -109,7 +109,7 @@ class pageController extends Controller
                 $nama = $file->getClientOriginalName();
                 $tujuan_upload = 'images/';
                 $file->move($tujuan_upload, $nama);
-                if(isset($bumdes['nama'])) {
+                if(isset($bumdes['file'])) {
                     $bumdes['file'] = $nama;
                 }else {
                     $bumdes = [
@@ -117,7 +117,7 @@ class pageController extends Controller
                         'alamat' => '',
                         'no_ketua' => '',
                         'no_benda' => '',
-                        'file' => 'foto.png'
+                        'file' => 'profil_holder.png'
                     ];
                 }
                 // dd($bumdes);

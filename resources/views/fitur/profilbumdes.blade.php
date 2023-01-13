@@ -41,7 +41,7 @@
                                             <form style="padding-right: 25px">
                                                 <img class="rounded-circle m-b-5"
                                                     @if (count($bumdes) > 0) src="{{ asset('images/' . $bumdes['file']) }}"
-                                                    @else src="{{ asset('images/placeholder.jpg') }}" @endif
+                                                    @else src="{{ asset('images/profil_holder.png') }}" @endif
                                                     alt="">
                                                 <p id="file-name">Nama User</p>
                                                 <div class="modal-footer m-t-8">
