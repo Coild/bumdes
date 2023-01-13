@@ -31,11 +31,12 @@
                 <li class="has_sub">
                     <a href="javascript:void(0);" class="waves-effect"><i class="ion-android-note"></i> <span> Master Data</span> <span class="pull-right"><i class="mdi mdi-plus"></i></span></a>
                     <ul class="list-unstyled">
-                        <li><a href="{{ route('get.datausaha') }}">Data Usaha</a></li>
+                        {{-- <li><a href="{{ route('get.datausaha') }}">Data Usaha</a></li> --}}
                         <li><a href="{{ route('get.pengelola') }}">Pengelola</a></li>
                         <li><a href="/akun">Data Akun</a></li>
                         <li><a href="{{ route('get.pemasok') }}">Pemasok</a></li>
                         <li><a href="{{ route('get.pelanggan') }}">Pelanggan</a></li>
+                        <li><a href="{{ route('get.datahutang') }}">Data hutang</a></li>
                         <!-- <li><a href="ui-progressbars.html">Data Investor</a></li> Note: Future Development -->
                     </ul>
                 </li>

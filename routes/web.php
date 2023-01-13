@@ -33,6 +33,16 @@ Route::post('datausaha', [pageController::class, 'datausaha'])->name('post.datau
 // Route::get('editdatausaha', [pageController::class, 'datausaha'])->name('get.editdatausaha');
 Route::post('editdatausaha', [pageController::class, 'editdatausaha'])->name('post.editdatausaha');
 
+Route::get('datahutang', [pageController::class, 'datahutang'])->name('get.datahutang');
+Route::post('datahutang', [pageController::class, 'datahutang'])->name('post.datahutang');
+
+Route::get('hutangpelanggan', [pageController::class, 'hutangpelanggan'])->name('get.hutangpelanggan');
+Route::post('hutangpelanggan', [pageController::class, 'hutangpelanggan'])->name('post.hutangpelanggan');
+Route::get('hutangusaha', [pageController::class, 'hutangusaha'])->name('get.hutangusaha');
+Route::post('hutangusaha', [pageController::class, 'hutangusaha'])->name('post.hutangusaha');
+// Route::get('editdatahutang', [pageController::class, 'datahutang'])->name('get.editdatahutang');
+Route::post('editdatahutang', [pageController::class, 'editdatahutang'])->name('post.editdatahutang');
+
 Route::get('jenisdatausaha', [pageController::class, 'datausaha'])->name('get.jenisdatausaha');
 Route::post('jenisdatausaha', [pageController::class, 'jenisdatausaha'])->name('post.jenisdatausaha');
 

@@ -221,6 +221,115 @@ class pageController extends Controller
         return redirect('datausaha');
     }
 
+    public function datahutang(Request $req)
+    {
+        // Session::flush();
+        $datajasa = Session::get('datahutangpelanggan') == null ? [] : Session::get('datahutangpelanggan');
+        $datadagang = Session::get('datahutangbumdes') == null ? [] : Session::get('datahutangbumdes');
+        $Tab = 'jasa';
+
+        $tambah = $req->jenis;
+        if ($tambah != []) {
+            if ($req->jenis == 1) {
+                $isi = [
+                    'namajasa' => $req->namajasa,
+                    'alamatjasa' => $req->alamatjasa,
+                    'jenis' => []
+                ];
+                array_push($datajasa, $isi);
+                Session::put('datahutangpelanggan', $datajasa);
+            }
+            if ($req->jenis == 2) {
+                $isi = [
+                    'namadagang' => $req->namadagang,
+                    'alamatdagang' => $req->alamatdagang
+                ];
+                $Tab = 'dagang';
+                array_push($datadagang, $isi);
+                Session::put('datahutangbumdes', $datadagang);
+            }
+        }
+        // dd($datajasa);
+
+        return view('fitur.datahutang', compact('datajasa', 'datadagang','Tab'));
+    }
+
+    public function hutangpelanggan(Request $req)
+    {
+
+        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
+
+        Session::put('lokpen', $loc);
+        // dd($loc);
+
+        $pelanggan = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
+        $pendapatan = Session::get('pendapatan') == null ? [] : Session::get('pendapatan');
+        $jasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
+        $data = Session::get('notapendapatan') == null ? [] : Session::get('notapendapatan');
+        $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0;
+        // dd($pendapatan);
+        // dd($jasa);
+        $isi = array_key_exists($loc, $data) ? $data[$loc]['nota'] : [];
+        // dd($jasa);
+        if ($req->jenis != null) {
+            $nota = [
+                'jenis' => $req->jenis,
+                'harga' => $req->harga,
+                'jumlah' => $req->jumlah,
+                'total' => $req->harga * $req->jumlah,
+            ];
+            $total = $total + $nota['total'];
+            array_push($isi, $nota);
+            $data[$loc]['nota'] = $isi;
+            $data[$loc]['total'] = $total;
+            $pendapatan[$loc]['penghasilan'] = $total;
+            // dd($loc);   
+            Session::put('notapendapatan', $data);
+            Session::put('pendapatan', $pendapatan);
+            // dd($data);
+        }
+        // dd($pendapatan);
+        return view('fitur.detil.hutangpelanggan', compact('pendapatan', 'data', 'jasa', 'total', 'loc', 'pelanggan'));
+    }
+
+    public function hutangusaha(Request $req)
+    {
+
+        $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('lokpen');
+
+        Session::put('lokpen', $loc);
+        // dd($loc);
+
+        $pelanggan = Session::get('pelanggan') == null ? [] : Session::get('pelanggan');
+        $pendapatan = Session::get('pendapatan') == null ? [] : Session::get('pendapatan');
+        $jasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
+        $data = Session::get('notapendapatan') == null ? [] : Session::get('notapendapatan');
+        $total = isset($data[$loc]['total']) ? $data[$loc]['total'] : 0;
+        // dd($pendapatan);
+        // dd($jasa);
+        $isi = array_key_exists($loc, $data) ? $data[$loc]['nota'] : [];
+        // dd($jasa);
+        if ($req->jenis != null) {
+            $nota = [
+                'jenis' => $req->jenis,
+                'harga' => $req->harga,
+                'jumlah' => $req->jumlah,
+                'total' => $req->harga * $req->jumlah,
+            ];
+            $total = $total + $nota['total'];
+            array_push($isi, $nota);
+            $data[$loc]['nota'] = $isi;
+            $data[$loc]['total'] = $total;
+            $pendapatan[$loc]['penghasilan'] = $total;
+            // dd($loc);   
+            Session::put('notapendapatan', $data);
+            Session::put('pendapatan', $pendapatan);
+            // dd($data);
+        }
+        // dd($pendapatan);
+        return view('fitur.detil.hutangusaha', compact('pendapatan', 'data', 'jasa', 'total', 'loc', 'pelanggan'));
+    }
+
     public function pelanggan(Request $req)
     {
         // Session::flush();

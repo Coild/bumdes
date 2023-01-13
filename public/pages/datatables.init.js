@@ -49,6 +49,7 @@
         $('#datatable').dataTable();
         $('#datatable-keytable').DataTable({keys: true});
         $('#datatable-responsive').DataTable();
+        $('#datatable-responsive2').DataTable();
         $('#datatable-scroller').DataTable({
             ajax: "assets/plugins/datatables/json/scroller-demo.json",
             deferRender: true,
