@@ -187,14 +187,13 @@
                 <div class="col-lg-12">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Data Usaha Jasa</h3>
+                            <h3 class="panel-title">Data Usaha Dagang</h3>
                         </div>
 
                         <div class="panel-body">
                             <div class="row mt-2">
-                                <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal"
-                                    data-target="#tambahdatajasa"> Tambah Data Usaha
-                                </button>
+                                <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px"
+                                    data-toggle="modal" data-target="#tambahdatadagang"> Tambah Data Dagang </button>
 
                                 <div class="col-md-12 col-sm-12 col-xs-12">
                                     <table id="datatable-responsive"
@@ -208,6 +207,7 @@
                                                 <th style="text-align: center;">Aksi</th>
                                             </tr>
                                         </thead>
+
                                         <tbody>
                                             @foreach ($datadagang as $item)
                                                 <tr>
@@ -225,8 +225,7 @@
                                                     <td>
                                                         <div class="conbtn">
                                                             <button class="btn btn-primary center fa fa-edit"
-                                                                data-toggle="modal" data-target="#editdagang"
-                                                                onclick="edit_datadagang('{{ $item['namadagang'] }}', '{{ $item['alamatdagang'] }}', {{ $loop->index }})"></button>
+                                                                data-toggle="modal" data-target="#editdagang" onclick="edit_datadagang('{{ $item['namadagang'] }}', '{{ $item['alamatdagang'] }}', {{ $loop->index }})"></button>
                                                             <button class="btn btn-danger center fa fa-trash"
                                                                 style="margin-left: 2%"></button>
                                                         </div>

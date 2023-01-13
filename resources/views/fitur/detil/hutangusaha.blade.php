@@ -36,7 +36,7 @@
                                             <div class="m-t-5">
                                                 <form class="form" role="form">
                                                     <div class="form-group">
-                                                        <label class="control-label">Nama Pelanggan</label>
+                                                        <label class="control-label">Bumdes</label>
                                                         <div class="">
                                                             <input type="text" name="nota" class="form-control"
                                                                 disabled="disabled" value="{{ 'Halo' }}">
