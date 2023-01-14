@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Session;
 
 Route::get('/', [pageController::class, 'login'])->name('get.login');
 Route::post('/', [pageController::class, 'login'])->name('post.login');
+Route::get('lupa', [pageController::class, 'lupa'])->name('get.llupa');
 
 Route::get('profiluser', [pageController::class, 'profiluser'])->name('get.profiluser');
 Route::post('profiluser', [pageController::class, 'profiluser'])->name('post.profiluser');

@@ -62,14 +62,14 @@
                                                                 disabled="disabled" value="Desa kuta">
                                                         </div>
                                                     </div>
-                                                    {{-- <div class="form-group">
-                                                        <label class="control-label">Catatan Transaksi</label>
+                                                    <div class="form-group">
+                                                        <label class="control-label">Nomor HP</label>
                                                         <div class="">
                                                             <input type="text" name="catatan" class="form-control"
                                                                 disabled="disabled"
                                                                 value="">
                                                         </div>
-                                                    </div> --}}
+                                                    </div>
                                                 </form>
                                             </div>
                                         </div>

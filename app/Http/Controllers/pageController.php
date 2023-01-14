@@ -16,6 +16,13 @@ class pageController extends Controller
         return view('auth.login', ['data' => $data]);
     }
 
+    public function lupa(Request $req)
+    {
+        $data = $req->all();
+        $data == null ? [] : $data;
+        return view('auth.ganti_password', ['data' => $data]);
+    }
+
     public function profiluser(Request $req)
     {
         // Session::forget('bumdes');

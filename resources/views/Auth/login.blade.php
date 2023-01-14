@@ -48,7 +48,7 @@
                             <div class="col-xs-12">
                                 <div>
                                     {{-- <input id="checkbox-signup" type="checkbox"> --}}
-                                    <button class="btn-link">
+                                    <button class="btn-link" onclick="window.location.href='lupa'">
                                         Lupa Kata Sandi
                                     </button>
                                 </div>
