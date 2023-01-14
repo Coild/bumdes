@@ -84,6 +84,7 @@ class pageController extends Controller
         $bumdes = Session::get('bumdes') == null ? [] : Session::get('bumdes');
         $datajasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
         $datadagang = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
+        $Tab = 'jasa';
         // dd($bumdes);
         $tambah = $req->jenis;
         if ($tambah != []) {
@@ -101,6 +102,7 @@ class pageController extends Controller
                     'namadagang' => $req->namadagang,
                     'alamatdagang' => $req->alamatdagang
                 ];
+                $Tab = 'dagang';
                 array_push($datadagang, $isi);
                 Session::put('datausahadagang', $datadagang);
             }
@@ -137,7 +139,7 @@ class pageController extends Controller
         }
         // dd($bumdes);
 
-        return view('fitur.profilbumdes', compact('datajasa', 'datadagang', 'bumdes'));
+        return view('fitur.profilbumdes', compact('datajasa', 'datadagang', 'bumdes','Tab'));
     }
     
     public function laporan(Request $req)

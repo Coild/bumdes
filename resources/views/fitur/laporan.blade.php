@@ -51,14 +51,14 @@
                                         placeholder="Password">
                                 </div>
 
-                                <div class="form-group">
+                                {{-- <div class="form-group">
                                     Jenis Usaha
                                     <select name="status" class="form-control"
                                         style="margin-left: 15px; margin-right: 15px;" required>
                                         <option>Bendahara</option>
                                         <option>Pencatat Transaksi</option>
                                     </select>
-                                </div>
+                                </div> --}}
 
                                 <button type="submit"
                                     class="btn btn-success waves-effect waves-light m-l-10">Unduh</button>
@@ -451,14 +451,14 @@
                                         placeholder="Password">
                                 </div>
 
-                                <div class="form-group">
+                                {{-- <div class="form-group">
                                     Jenis Usaha
                                     <select name="status" class="form-control"
                                         style="margin-left: 15px; margin-right: 15px;" required>
                                         <option>Bendahara</option>
                                         <option>Pencatat Transaksi</option>
                                     </select>
-                                </div>
+                                </div> --}}
 
                                 <button type="submit"
                                     class="btn btn-success waves-effect waves-light m-l-10">Unduh</button>
@@ -914,14 +914,14 @@
                                         placeholder="Password">
                                 </div>
 
-                                <div class="form-group">
+                                {{-- <div class="form-group">
                                     Jenis Usaha
                                     <select name="status" class="form-control"
                                         style="margin-left: 15px; margin-right: 15px;" required>
                                         <option>Bendahara</option>
                                         <option>Pencatat Transaksi</option>
                                     </select>
-                                </div>
+                                </div> --}}
 
                                 <button type="submit"
                                     class="btn btn-success waves-effect waves-light m-l-10">Unduh</button>

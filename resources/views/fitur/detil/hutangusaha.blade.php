@@ -108,7 +108,7 @@
                                         <th style="text-align: center;">Tanggal Transaksi</th>
                                         <th style="text-align: center;">Total Transaksi</th>
                                         <th style="text-align: center;">Hutang</th>
-                                        <th style="text-align: center;">Aksi</th>
+                                        {{-- <th style="text-align: center;">Aksi</th> --}}
                                     </tr>
                                 </thead>
 
@@ -121,7 +121,7 @@
                                         <td style="text-align: center;">03 Desember 2022</td>
                                         <td style="text-align: center;">70000</td>
                                         <td style="text-align: center;">25000</td>
-                                        <td style="text-align: center;"><Button class="btn btn-primary">Bayar</Button></td>
+                                        {{-- <td style="text-align: center;"><Button class="btn btn-primary">Bayar</Button></td> --}}
                                     </tr>
 
 
@@ -148,7 +148,7 @@
                                         <th style="text-align: center;">Tanggal Transaksi</th>
                                         <th style="text-align: center;">Total Transaksi</th>
                                         <th style="text-align: center;">Sisa Hutang</th>
-                                        <th style="text-align: center;">Aksi</th>
+                                        {{-- <th style="text-align: center;">Aksi</th> --}}
                                     </tr>
                                 </thead>
 
@@ -161,7 +161,7 @@
                                         <td style="text-align: center;">05 Desember 2022</td>
                                         <td style="text-align: center;">20000</td>
                                         <td style="text-align: center;">5000</td>
-                                        <td style="text-align: center;"><Button class="btn btn-primary">Bayar</Button></td>
+                                        {{-- <td style="text-align: center;"><Button class="btn btn-primary">Bayar</Button></td> --}}
                                     </tr>
 
 

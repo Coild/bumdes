@@ -111,196 +111,157 @@
                     </div>
                 </div>
             </div>
-            {{-- Data Usaha --}}
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Data Usaha Jasa</h3>
-                        </div>
+            {<div class="row">
+                {{-- {{dd($Tab == "jasa")}} --}}
+                <ul class="nav nav-tabs navtab-bg nav-justified">
+                    <li class= {{$Tab == "jasa" ? "active" : "" }}>
+                        <a href="#home1" data-toggle="tab" aria-expanded="false">
+                            <span class="visible-xs"><i class="fa fa-shopping-basket"></i></span>
+                            <span class="hidden-xs">Usaha Jasa</span>
+                        </a>
+                    </li>
+                    <li class= {{$Tab == "dagang" ? "active" : "" }}>
+                        <a href="#profile1" data-toggle="tab" aria-expanded="true">
+                            <span class="visible-xs"><i class="fa fa-group"></i></span>
+                            <span class="hidden-xs">Usaha Dagang</span>
+                        </a>
+                    </li>
+                </ul>
 
-                        <div class="panel-body">
-                            <div class="row mt-2">
-                                <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal"
-                                    data-target="#tambahdatajasa"> Tambah Data Usaha
-                                </button>
+                <!-- Tab Content -->
+                <div class="tab-content">
+                    <div class="tab-pane {{$Tab == "jasa" ? "active" : "" }}" id="home1">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Data Usaha Jasa</h3>
+                            </div>
 
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <table id="datatable-responsive"
-                                        class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0"
-                                        width="100%">
-                                        <thead>
-                                            <tr>
-                                                <th style="text-align: center;">No</th>
-                                                <th style="text-align: center;">Nama Usaha</th>
-                                                <th style="text-align: center;">Lokasi Usaha</th>
-                                                <th style="text-align: center;">Jenis Pendapatan</th>
-                                                <th style="text-align: center;">Aksi</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            @foreach ($datajasa as $item)
+                            <div class="panel-body">
+                                <div class="row mt-2">
+                                    <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px"
+                                        data-toggle="modal" data-target="#tambahdatajasa"> Tambah Data Usaha </button>
+
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <table id="datatable-responsive"
+                                            class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0"
+                                            width="100%">
+                                            <thead>
                                                 <tr>
-                                                    <td>
-                                                        <div class="conbtn">
-                                                            {{ $loop->index + 1 }}
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        {{ $item['namajasa'] }}
-                                                    </td>
-                                                    <td>
-                                                        {{ $item['alamatjasa'] }}
-                                                    </td>
-                                                    <td>
-                                                        <ul>
-                                                            @foreach ($item['jenis'] as $isi)
-                                                                <li>{{ $isi }}</li>
-                                                            @endforeach
-                                                        </ul>
-                                                    </td>
-                                                    <td>
-                                                        <div class="conbtn">
-                                                            <button class="btn btn-primary center fa fa-edit"
-                                                                data-toggle="modal" data-target="#editjasa"
-                                                                onclick="edit_datajasa('{{ $item['namajasa'] }}', '{{ $item['alamatjasa'] }}', {{ $loop->index }})"></button>
-                                                            <button class="btn btn-danger center fa fa-trash"
-                                                                style="margin-left: 2%"></button>
-                                                            <button class="btn btn-success center fa fa-plus"
-                                                                style="margin-left: 2%" data-toggle="modal"
-                                                                data-target="#editjenis"
-                                                                onclick='jenisdata({{ $loop->index }}, @JSON($item['jenis']))'>
-                                                                Jenis Pendapatan</button>
-                                                        </div>
-                                                    </td>
+                                                    <th style="text-align: center;">No</th>
+                                                    <th style="text-align: center;">Nama Usaha</th>
+                                                    <th style="text-align: center;">Lokasi Usaha</th>
+                                                    <th style="text-align: center;">Jenis Pendapatan</th>
+                                                    <th style="text-align: center;">Aksi</th>
                                                 </tr>
-                                            @endforeach
+                                            </thead>
 
-                                        </tbody>
-                                    </table>
+
+                                            <tbody>
+                                                @foreach ($datajasa as $item)
+                                                    <tr>
+                                                        <td>
+                                                            <div class="conbtn">
+                                                                {{ $loop->index + 1 }}
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            {{ $item['namajasa'] }}
+                                                        </td>
+                                                        <td>
+                                                            {{ $item['alamatjasa'] }}
+                                                        </td>
+                                                        <td>
+                                                            <ul>
+                                                                @foreach ($item['jenis'] as $isi)
+                                                                    <li>{{ $isi }}</li>
+                                                                @endforeach
+                                                            </ul>
+                                                        </td>
+                                                        <td>
+                                                            <div class="conbtn">
+                                                                <button class="btn btn-primary center fa fa-edit"
+                                                                    data-toggle="modal" data-target="#editjasa"
+                                                                    onclick="edit_datajasa('{{ $item['namajasa'] }}', '{{ $item['alamatjasa'] }}', {{ $loop->index }})"></button>
+                                                                <button class="btn btn-danger center fa fa-trash"
+                                                                    style="margin-left: 2%"></button>
+                                                                <button class="btn btn-success center fa fa-plus"
+                                                                    style="margin-left: 2%" data-toggle="modal"
+                                                                    data-target="#editjenis"
+                                                                    onclick='jenisdata({{ $loop->index }}, @JSON($item['jenis']))'>
+                                                                    Jenis Pendapatan</button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                @endforeach
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+
                                 </div>
-
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Data Usaha Dagang</h3>
-                        </div>
+                    <div class="tab-pane {{$Tab == "dagang" ? "active" : "" }}" id="profile1">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Data Usaha Dagang</h3>
+                            </div>
 
-                        <div class="panel-body">
-                            <div class="row mt-2">
-                                <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px"
-                                    data-toggle="modal" data-target="#tambahdatadagang"> Tambah Data Dagang </button>
+                            <div class="panel-body">
+                                <div class="row mt-2">
+                                    <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px"
+                                        data-toggle="modal" data-target="#tambahdatadagang"> Tambah Data Dagang </button>
 
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <table id="datatable-responsive2"
-                                        class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0"
-                                        width="100%">
-                                        <thead>
-                                            <tr>
-                                                <th style="text-align: center;">No</th>
-                                                <th style="text-align: center;">Nama Usaha</th>
-                                                <th style="text-align: center;">Lokasi Usaha</th>
-                                                <th style="text-align: center;">Aksi</th>
-                                            </tr>
-                                        </thead>
-
-                                        <tbody>
-                                            @foreach ($datadagang as $item)
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <table id="datatable-responsive"
+                                            class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0"
+                                            width="100%">
+                                            <thead>
                                                 <tr>
-                                                    <td>
-                                                        <div class="conbtn">
-                                                            {{ $loop->index + 1 }}
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        {{ $item['namadagang'] }}
-                                                    </td>
-                                                    <td>
-                                                        {{ $item['alamatdagang'] }}
-                                                    </td>
-                                                    <td>
-                                                        <div class="conbtn">
-                                                            <button class="btn btn-primary center fa fa-edit"
-                                                                data-toggle="modal" data-target="#editdagang" onclick="edit_datadagang('{{ $item['namadagang'] }}', '{{ $item['alamatdagang'] }}', {{ $loop->index }})"></button>
-                                                            <button class="btn btn-danger center fa fa-trash"
-                                                                style="margin-left: 2%"></button>
-                                                        </div>
-                                                    </td>
+                                                    <th style="text-align: center;">No</th>
+                                                    <th style="text-align: center;">Nama Usaha</th>
+                                                    <th style="text-align: center;">Lokasi Usaha</th>
+                                                    <th style="text-align: center;">Aksi</th>
                                                 </tr>
-                                            @endforeach
+                                            </thead>
 
-                                        </tbody>
-                                    </table>
+                                            <tbody>
+                                                @foreach ($datadagang as $item)
+                                                    <tr>
+                                                        <td>
+                                                            <div class="conbtn">
+                                                                {{ $loop->index + 1 }}
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            {{ $item['namadagang'] }}
+                                                        </td>
+                                                        <td>
+                                                            {{ $item['alamatdagang'] }}
+                                                        </td>
+                                                        <td>
+                                                            <div class="conbtn">
+                                                                <button class="btn btn-primary center fa fa-edit"
+                                                                    data-toggle="modal" data-target="#editdagang" onclick="edit_datadagang('{{ $item['namadagang'] }}', '{{ $item['alamatdagang'] }}', {{ $loop->index }})"></button>
+                                                                <button class="btn btn-danger center fa fa-trash"
+                                                                    style="margin-left: 2%"></button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                @endforeach
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+
                                 </div>
-
                             </div>
                         </div>
                     </div>
-                </div>
-                {{-- <div class="col-lg-6">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Data Usaha Dagang</h3>
-                        </div>
+                </div> <!-- End Tab Content -->
 
-                        <div class="panel-body">
-                            <div class="row mt-2">
-                                <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal"
-                                    data-target="#tambahdatadagang"> Tambah Data
-                                    Dagang 
-                                </button>
-
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <table id="datatable-responsive"
-                                        class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0"
-                                        width="100%">
-                                        <thead>
-                                            <tr>
-                                                <th style="text-align: center;">No</th>
-                                                <th style="text-align: center;">Nama Usaha</th>
-                                                <th style="text-align: center;">Lokasi Usaha</th>
-                                                <th style="text-align: center;">Aksi</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            @foreach ($datadagang as $item)
-                                                <tr>
-                                                    <td>
-                                                        <div class="conbtn">
-                                                            {{ $loop->index + 1 }}
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        {{ $item['namadagang'] }}
-                                                    </td>
-                                                    <td>
-                                                        {{ $item['alamatdagang'] }}
-                                                    </td>
-                                                    <td>
-                                                        <div class="conbtn">
-                                                            <button class="btn btn-primary center fa fa-edit"
-                                                                data-toggle="modal" data-target="#editdagang"
-                                                                onclick="edit_datadagang('{{ $item['namadagang'] }}', '{{ $item['alamatdagang'] }}', {{ $loop->index }})"></button>
-                                                            <button class="btn btn-danger center fa fa-trash"
-                                                                style="margin-left: 2%"></button>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            @endforeach
-
-                                        </tbody>
-                                    </table>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
-            </div>
+            </div> <!-- End Row -->
         </div>
 
     </div> <!-- container -->
