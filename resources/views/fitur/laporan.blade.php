@@ -128,8 +128,8 @@
                                             <td class="column7 style11 null"></td>
                                         </tr>
                                         <tr class="row7">
-                                            <td class="column0 style26 s">1.1</td>
-                                            <td class="column1 style22 s">Kas </td>
+                                            <td class="column0 style50 s">1.1</td>
+                                            <td class="column1 style50 s style36"> Kas </td>
                                             <td class="column2 style27 n">&nbsp;Rp 23,800,000 </td>
                                             <td class="column3 style28 s">2.1</td>
                                             <td class="column4 style35 s">Hipotik/Pinjaman</td>
@@ -139,7 +139,7 @@
                                         </tr>
                                         <tr class="row8">
                                             <td class="column0 style50 s">1.1.1</td>
-                                            <td class="column1 style23 s">Kas Jasa penjualan Gas</td>
+                                            <td class="column1 style50 s style36">Kas Jasa penjualan Gas</td>
                                             <td class="column2 style27 n">&nbsp;Rp 5,512,500 </td>
                                             <td class="column3 style28 s">2.2</td>
                                             <td class="column4 style36 s">PADes</td>
@@ -149,7 +149,7 @@
                                         </tr>
                                         <tr class="row9">
                                             <td class="column0 style50 s">1.1.2</td>
-                                            <td class="column1 style23 s">Kas usaha Homestay</td>
+                                            <td class="column1 style50 s style36">Kas usaha Homestay</td>
                                             <td class="column2 style27 n">&nbsp;Rp 7,000,000 </td>
                                             <td class="column3 style28 s">2.3</td>
                                             <td class="column4 style36 s">Dana Sosial</td>
@@ -159,7 +159,7 @@
                                         </tr>
                                         <tr class="row10">
                                             <td class="column0 style50 s">1.1.3</td>
-                                            <td class="column1 style23 s">Kas Percetakan</td>
+                                            <td class="column1 style50 s style36">Kas Percetakan</td>
                                             <td class="column2 style27 n">0</td>
                                             <td class="column3 style28 s">2.4</td>
                                             <td class="column4 style36 s">Bonus Pengurus</td>
@@ -169,7 +169,7 @@
                                         </tr>
                                         <tr class="row11">
                                             <td class="column0 style50 s">1.1.4</td>
-                                            <td class="column1 style23 s">Kas Peternakan</td>
+                                            <td class="column1 style50 s style36">Kas Peternakan</td>
                                             <td class="column2 style27 n">&nbsp;Rp 12,675,000 </td>
                                             <td class="column3 style129 s style130" colspan="2">Total Hutang</td>
                                             <td class="column5 style56 n">0</td>
@@ -178,7 +178,7 @@
                                         </tr>
                                         <tr class="row12">
                                             <td class="column0 style50 s">1.1.5</td>
-                                            <td class="column1 style23 s">Kas SPP</td>
+                                            <td class="column1 style50 s style36">Kas SPP</td>
                                             <td class="column2 style27 n">&nbsp;Rp 13,551,500 </td>
                                             <td class="column3 style19 null"></td>
                                             <td class="column4 style45 null"></td>
@@ -188,7 +188,7 @@
                                         </tr>
                                         <tr class="row13">
                                             <td class="column0 style50 s">1.1.6</td>
-                                            <td class="column1 style23 s">Kas pengolahan jasa pengangkutan Sampah</td>
+                                            <td class="column1 style50 s style36">Kas pengolahan jasa pengangkutan Sampah</td>
                                             <td class="column2 style27 n">0</td>
                                             <td class="column3 style127 s style128" colspan="2">3. MODAL</td>
                                             <td class="column5 style43 s">Rp.</td>
@@ -197,7 +197,7 @@
                                         </tr>
                                         <tr class="row14">
                                             <td class="column0 style50 s">1.1.7</td>
-                                            <td class="column1 style24 s">Total Kas</td>
+                                            <td class="column1 style50 s style36">Total Kas</td>
                                             <td class="column2 style38 f">&nbsp;Rp 62,539,000 </td>
                                             <td class="column3 style28 s">3.1</td>
                                             <td class="column4 style31 s">Modal Dari PemDes (akumulasi)</td>
@@ -206,8 +206,8 @@
                                             <td class="column7 style11 null"></td>
                                         </tr>
                                         <tr class="row15">
-                                            <td class="column0 style1 s">1.2</td>
-                                            <td class="column1 style21 s">Bank</td>
+                                            <td class="column0 style50 s">1.2</td>
+                                            <td class="column1 style50 s style36">Bank</td>
                                             <td class="column2 style39 n">&nbsp;Rp 2,363,692 </td>
                                             <td class="column3 style28 s">3.2</td>
                                             <td class="column4 style31 s">Bantuan dari Pusat</td>
@@ -216,8 +216,8 @@
                                             <td class="column7 style11 null"></td>
                                         </tr>
                                         <tr class="row16">
-                                            <td class="column0 style26 s">1.3</td>
-                                            <td class="column1 style25 s">Persediaan Barang </td>
+                                            <td class="column0 style50 s">1.3</td>
+                                            <td class="column1 style50 s style36">Persediaan Barang </td>
                                             <td class="column2 style40 n">0</td>
                                             <td class="column3 style28 s">3.3</td>
                                             <td class="column4 style31 s">Modal Pihak ketiga</td>
@@ -226,8 +226,8 @@
                                             <td class="column7 style11 null"></td>
                                         </tr>
                                         <tr class="row17">
-                                            <td class="column0 style26 s">1.4</td>
-                                            <td class="column1 style25 s">Persediaan Barang Bumdes Mart</td>
+                                            <td class="column0 style50 s">1.4</td>
+                                            <td class="column1 style50 s style36">Persediaan Barang Bumdes Mart</td>
                                             <td class="column2 style41 n">0</td>
                                             <td class="column3 style28 s">3.4</td>
                                             <td class="column4 style29 s">Hibah Pihak Ketiga</td>
@@ -236,8 +236,8 @@
                                             <td class="column7 style11 null"></td>
                                         </tr>
                                         <tr class="row18">
-                                            <td class="column0 style122 s style123" colspan="2">o<br />
-                                                T<br />
+                                            <td class="column0 style122 s style123" colspan="2"><br />
+                                                <br />
                                                 Total Aktiva Lancar</td>
                                             <td class="column2 style49 f">&nbsp;Rp 64,902,692 </td>
                                             <td class="column3 style28 s">3.5</td>
@@ -266,7 +266,7 @@
                                         </tr>
                                         <tr class="row21">
                                             <td class="column0 style50 s">1.5.1</td>
-                                            <td class="column1 style54 s">Nilai Aktiva Tetap</td>
+                                            <td class="column1 style50 s style36">Nilai Aktiva Tetap</td>
                                             <td class="column2 style51 n">&nbsp;Rp 15,000,000 </td>
                                             <td class="column3 style58 null"></td>
                                             <td class="column4 style9">&nbsp;</td>
@@ -276,7 +276,7 @@
                                         </tr>
                                         <tr class="row22">
                                             <td class="column0 style28 s">1.5.2</td>
-                                            <td class="column1 style47 s">Akumulasi Penyusutan</td>
+                                            <td class="column1 style50 s style36">Akumulasi Penyusutan</td>
                                             <td class="column2 style55 n">&nbsp;Rp 50,000 </td>
                                             <td class="column3 style58 null"></td>
                                             <td class="column4 style9">&nbsp;</td>
@@ -285,8 +285,8 @@
                                             <td class="column7 style11 null"></td>
                                         </tr>
                                         <tr class="row23">
-                                            <td class="column0 style113 s style114" colspan="2">o<br />
-                                                T<br />
+                                            <td class="column0 style113 s style114" colspan="2"><br />
+                                                <br />
                                                 Total Aktiva Lancar</td>
                                             <td class="column2 style42 f">&nbsp;Rp 14,950,000 </td>
                                             <td class="column3 style58 null"></td>
@@ -295,8 +295,8 @@
                                             <td class="column6 style11 null"></td>
                                             <td class="column7 style11 null"></td>
                                         </tr>
-                                        <tr class="row24">
-                                            <td class="column0 style14 null"></td>
+                                        {{-- <tr class="row24">
+                                            <td class="column0 style50 null"></td>
                                             <td class="column1 style14 null"></td>
                                             <td class="column2 style27 null"></td>
                                             <td class="column3 style58 null"></td>
@@ -304,9 +304,9 @@
                                             <td class="column5 style59 null"></td>
                                             <td class="column6 style11 null"></td>
                                             <td class="column7 style11 null"></td>
-                                        </tr>
+                                        </tr> --}}
                                         <tr class="row25">
-                                            <td class="column0 style28 s">1.6</td>
+                                            <td class="column0 style50 s">1.6</td>
                                             <td class="column1 style121 s style115" colspan="2">Rupa-rupa Aktiva</td>
                                             <td class="column3 style18 null"></td>
                                             <td class="column4 style13 null"></td>
@@ -324,7 +324,7 @@
                                             <td class="column7 style11 null"></td>
                                         </tr>
                                         <tr class="row27">
-                                            <td class="column0 style14 null"></td>
+                                            <td class="column0 style50 null"></td>
                                             <td class="column1">&nbsp;</td>
                                             <td class="column2 style48 null"></td>
                                             <td class="column3 style18 null"></td>
@@ -666,7 +666,7 @@
                                         <td class="column5 style3 null">&nbsp;</td>
                                     </tr>
                                     <tr class="row25">
-                                        <td class="column0 style65 s">5.1</td>
+                                        <td class="column0 style69 s">5.1</td>
                                         <td style="width:700px" class="column1 style4 s">Biaya Operasional</td>
                                         <td style="width:200px" class="column2 style7 null"></td>
                                         <td class="column3 style3 null">&nbsp;</td>
@@ -674,7 +674,7 @@
                                         <td class="column5 style3 null">&nbsp;</td>
                                     </tr>
                                     <tr class="row26">
-                                        <td class="column0 style2 s">5.1.1</td>
+                                        <td class="column0 style69 s">5.1.1</td>
                                         <td style="width:700px" class="column1 style6 s">ATK</td>
                                         <td style="width:200px" class="column2 style5 null"></td>
                                         <td class="column3 style3 null">&nbsp;</td>
@@ -682,7 +682,7 @@
                                         <td class="column5 style3 null">&nbsp;</td>
                                     </tr>
                                     <tr class="row27">
-                                        <td class="column0 style2 s">5.1.2</td>
+                                        <td class="column0 style69 s">5.1.2</td>
                                         <td style="width:700px" class="column1 style3 s">Biaya Kantor</td>
                                         <td style="width:200px" class="column2 style5 null"></td>
                                         <td class="column3 style3 null">&nbsp;</td>
@@ -690,7 +690,7 @@
                                         <td class="column5 style3 null">&nbsp;</td>
                                     </tr>
                                     <tr class="row28">
-                                        <td class="column0 style2 s">5.1.3</td>
+                                        <td class="column0 style69 s">5.1.3</td>
                                         <td style="width:700px" class="column1 style6 s">Honor Pengurus dan karyawan</td>
                                         <td style="width:200px" class="column2 style5 null"></td>
                                         <td class="column3 style3 null">&nbsp;</td>
@@ -698,7 +698,7 @@
                                         <td class="column5 style3 null">&nbsp;</td>
                                     </tr>
                                     <tr class="row29">
-                                        <td class="column0 style2 s">5.1.4</td>
+                                        <td class="column0 style69 s">5.1.4</td>
                                         <td style="width:700px" class="column1 style6 s">Biaya Penyusutan Inventaris</td>
                                         <td style="width:200px" class="column2 style5 null"></td>
                                         <td class="column3 style3 null">&nbsp;</td>
@@ -706,7 +706,7 @@
                                         <td class="column5 style3 null">&nbsp;</td>
                                     </tr>
                                     <tr class="row30">
-                                        <td class="column0 style2 s">5.1.5</td>
+                                        <td class="column0 style69 s">5.1.5</td>
                                         <td style="width:700px" class="column1 style6 s">Operasional Badan Pengawas dan Penasehat</td>
                                         <td style="width:200px" class="column2 style5 null"></td>
                                         <td class="column3 style3 null">&nbsp;</td>
@@ -714,7 +714,7 @@
                                         <td class="column5 style3 null">&nbsp;</td>
                                     </tr>
                                     <tr class="row31">
-                                        <td class="column0 style2 s">5.1.6</td>
+                                        <td class="column0 style69 s">5.1.6</td>
                                         <td style="width:700px" class="column1 style6 s">Lainnya</td>
                                         <td style="width:200px" class="column2 style7 null"></td>
                                         <td class="column3 style3 null">&nbsp;</td>
