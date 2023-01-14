@@ -97,8 +97,8 @@
                                                                     data-toggle="modal" data-target="#editjasad"
                                                                     onclick="window.location.href='{{ route('get.hutangpelanggan') }}?id={{ 1 }}'">
                                                                 </button>
-                                                                <button class="btn btn-danger center fa fa-trash"
-                                                                    style="margin-left: 2%"></button>
+                                                                {{-- <button class="btn btn-danger center fa fa-trash"
+                                                                    style="margin-left: 2%"></button> --}}
                                                                 {{-- <button class="btn btn-success center fa fa-plus"
                                                                     style="margin-left: 2%" data-toggle="modal"
                                                                     data-target="#editjenis">
