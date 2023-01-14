@@ -28,7 +28,7 @@
                     <h3 class="text-center m-t-0 m-b-30">
                         <span class=""><img src={{ asset("images/dark.png") }} alt="logo" height="125"></span>
                     </h3>
-                    <h4 class="text-muted text-center m-t-0"><b>Sign In</b></h4>
+                    {{-- <h4 class="text-muted text-center m-t-0"><b>Sign In</b></h4> --}}
 
                     <form class="form-horizontal m-t-20" action="index.html">
 
