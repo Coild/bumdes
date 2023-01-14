@@ -196,7 +196,7 @@
                                     data-toggle="modal" data-target="#tambahdatadagang"> Tambah Data Dagang </button>
 
                                 <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <table id="datatable-responsive"
+                                    <table id="datatable-responsive2"
                                         class="table table-hover table-bordered dt-responsive nowrap" cellspacing="0"
                                         width="100%">
                                         <thead>

@@ -10,7 +10,7 @@
                     <div class="page-header-title">
                         <ol class="breadcrumb pull-right">
                             <li><a href="#">Master Data</a></li>
-                            <li class="active">Data Usaha</li>
+                            <li class="active">Data Hutang</li>
                         </ol>
                         <div class="clearfix"></div>
                     </div>
