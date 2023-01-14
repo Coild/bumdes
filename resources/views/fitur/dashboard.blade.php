@@ -73,7 +73,21 @@
                                                 Jasa
                                             </td>
                                             <td>
-                                                200000000000
+                                                Rp2000000
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                2
+                                            </td>
+                                            <td>
+                                                Ruko BUMDes
+                                            </td>
+                                            <td>
+                                                Dagang
+                                            </td>
+                                            <td>
+                                                Rp3040000
                                             </td>
                                         </tr>
                                     </tbody>
@@ -93,7 +107,7 @@
                         <h4 class="panel-title">Hutang Pelanggan pada Usaha Jasa</h4>
                     </div>
                     <div class="panel-body">
-                        <h3 class=""><b>2568</b></h3>
+                        <h3 class=""><b>Rp568000</b></h3>
                         {{-- <p class="text-muted"><b>48%</b> From Last 24 Hours</p> --}}
                     </div>
                 </div>
@@ -105,7 +119,7 @@
                         <h4 class="panel-title">Piutang BUMDes pada Usaha Jasa</h4>
                     </div>
                     <div class="panel-body">
-                        <h3 class=""><b>3685</b></h3>
+                        <h3 class=""><b>Rp368000</b></h3>
                         {{-- <p class="text-muted"><b>15%</b> Orders in Last 10 months</p> --}}
                     </div>
                 </div>
@@ -117,7 +131,7 @@
                         <h4 class="panel-title">Pembayaran Beban Usaha Jasa</h4>
                     </div>
                     <div class="panel-body">
-                        <h3 class=""><b>25487</b></h3>
+                        <h3 class=""><b>Rp248000</b></h3>
                         {{-- <p class="text-muted"><b>65%</b> From Last 24 Hours</p> --}}
                     </div>
                 </div>
@@ -131,7 +145,7 @@
                         <h4 class="panel-title">Hutang Pelanggan pada Usaha Dagang</h4>
                     </div>
                     <div class="panel-body">
-                        <h3 class=""><b>2568</b></h3>
+                        <h3 class=""><b>Rp256000</b></h3>
                         {{-- <p class="text-muted"><b>48%</b> From Last 24 Hours</p> --}}
                     </div>
                 </div>
@@ -143,7 +157,7 @@
                         <h4 class="panel-title">Piutang BUMDes pada Usaha Dagang</h4>
                     </div>
                     <div class="panel-body">
-                        <h3 class=""><b>3685</b></h3>
+                        <h3 class=""><b>Rp365000</b></h3>
                         {{-- <p class="text-muted"><b>15%</b> Orders in Last 10 months</p> --}}
                     </div>
                 </div>
@@ -155,7 +169,7 @@
                         <h4 class="panel-title">Pembayaran Beban Usaha Jasa</h4>
                     </div>
                     <div class="panel-body">
-                        <h3 class=""><b>25487</b></h3>
+                        <h3 class=""><b>Rp254000</b></h3>
                         {{-- <p class="text-muted"><b>65%</b> From Last 24 Hours</p> --}}
                     </div>
                 </div>
