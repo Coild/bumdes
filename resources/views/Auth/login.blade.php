@@ -28,36 +28,36 @@
                     <h3 class="text-center m-t-0 m-b-30">
                         <span class=""><img src={{ asset("images/dark.png") }} alt="logo" height="125"></span>
                     </h3>
-                    <h4 class="text-muted text-center m-t-0"><b>Sign In</b></h4>
+                    {{-- <h4 class="text-muted text-center m-t-0"><b>Sign In</b></h4> --}}
 
                     <form class="form-horizontal m-t-20" action="index.html">
 
                         <div class="form-group">
                             <div class="col-xs-12">
-                                <input class="form-control" type="text" required="" placeholder="Username">
+                                <input class="form-control" type="text" required="" placeholder="Nama Pengguna">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <div class="col-xs-12">
-                                <input class="form-control" type="password" required="" placeholder="Password">
+                                <input class="form-control" type="password" required="" placeholder="Kata Sandi">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <div class="col-xs-12">
-                                <div class="checkbox checkbox-primary">
-                                    <input id="checkbox-signup" type="checkbox">
-                                    <label for="checkbox-signup">
-                                        Remember me
-                                    </label>
+                                <div>
+                                    {{-- <input id="checkbox-signup" type="checkbox"> --}}
+                                    <button class="btn-link">
+                                        Lupa Kata Sandi
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
                         <div class="form-group text-center m-t-20">
                             <div class="col-xs-12">
-                                <button class="btn btn-primary w-md waves-effect waves-light" type="submit" onclick="window.location.href='{{route('get.dashboard')}}'">Log In</button>
+                                <button class="btn btn-primary w-md waves-effect waves-light" type="submit" onclick="window.location.href='{{route('get.dashboard')}}'">Masuk</button>
                             </div>
                         </div>
 
