@@ -9,7 +9,7 @@
             <div class="col-sm-12">
                 <div class="page-header-title">
                     <ol class="breadcrumb pull-right">
-                        <li><a href="#">Persediaan Barang</a></li>
+                        {{-- <li><a href="#">Persediaan Barang</a></li> --}}
                     </ol>
                     <div class="clearfix"></div>
                 </div>
