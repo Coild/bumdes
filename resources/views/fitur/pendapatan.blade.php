@@ -8,12 +8,10 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="page-header-title">
-
-                        <ol class="breadcrumb pull-right">
-                            <li><a href="#">Transaksi Jasa</a></li>
-                            <li class="active">Pendapatan</li>
-                        </ol>
-
+                        <h4 class="pull-left page-title">Pendapatan</h4>
+                        {{-- <ol class="breadcrumb pull-right">
+                        <li class="active">Dashboard</li>
+                    </ol> --}}
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -90,8 +88,8 @@
                                                         <div class="conbtn">
                                                             <button class="btn btn-primary center fa fa-edit"
                                                                 data-toggle="modal" data-target="#edit"
-                                                                onclick='edit_data(@json($item),{{$loop->index}})'></button>
-                                                                {{-- onclick="edit_data('{{ $item['tanggal'] }}', '{{ $jasa[$item['usaha']]['namajasa'] }}', '{{ $pelanggan[$item['pelanggan']]['nama'] }}', {{ $loop->index }})" --}}
+                                                                onclick='edit_data(@json($item),{{ $loop->index }})'></button>
+                                                            {{-- onclick="edit_data('{{ $item['tanggal'] }}', '{{ $jasa[$item['usaha']]['namajasa'] }}', '{{ $pelanggan[$item['pelanggan']]['nama'] }}', {{ $loop->index }})" --}}
                                                             <button class="btn btn-danger center fa fa-trash"
                                                                 style="margin-left: 2%"></button>
                                                             <button class="btn btn-success center mdi mdi-eye"
@@ -193,7 +191,8 @@
     </div><!-- /.modal -->
 
     <!-- sample modal content -->
-    <div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -201,8 +200,8 @@
                     <h4 class="modal-title" id="myModalLabel">Edit Transaksi Jasa</h4>
                 </div>
                 <div class="modal-body">
-                    <form action="{{ route('post.editpendapatan') }}" method="POST" class="form-horizontal" role="form"
-                        enctype="multipart/form-data">
+                    <form action="{{ route('post.editpendapatan') }}" method="POST" class="form-horizontal"
+                        role="form" enctype="multipart/form-data">
                         @csrf
                         <input type="hidden" name="id" id="edit_id">
                         <div class="form-group">
@@ -310,7 +309,7 @@
             document.getElementById("gambar_src").src = gambar;
         }
 
-        function edit_data(data,id) {
+        function edit_data(data, id) {
             console.log('editdata: ' + data['tanggal']);
             document.getElementById("edit_id").value = id;
             document.getElementById("edit_usah").value = data['usaha'];

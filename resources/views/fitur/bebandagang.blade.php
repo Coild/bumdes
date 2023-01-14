@@ -8,12 +8,10 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="page-header-title">
-
-                        <ol class="breadcrumb pull-right">
-                            <li><a href="#">Transaksi Dagang</a></li>
-                            <li class="active">Beban</li>
-                        </ol>
-
+                        <h4 class="pull-left page-title">Beban Dagang</h4>
+                        {{-- <ol class="breadcrumb pull-right">
+                        <li class="active">Dashboard</li>
+                    </ol> --}}
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -238,8 +236,8 @@
                     <h4 class="modal-title" id="myModalLabel">Bukti Transaksi</h4>
                 </div>
                 <div class="modal-body">
-                    <form action="{{ route('post.bebandagang') }}" method="POST" class="form-horizontal" role="form"
-                        enctype="multipart/form-data">
+                    <form action="{{ route('post.bebandagang') }}" method="POST" class="form-horizontal"
+                        role="form" enctype="multipart/form-data">
                         @csrf
                         <div class="conbtn">
                             <img src="" alt="nota" id="gambar_src" style="width: 80%;">

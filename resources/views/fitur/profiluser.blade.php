@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="page-header-title">
-                        <h4 class="pull-left page-title">Profil BUMDes</h4>
+                        <h4 class="pull-left page-title">Profil Pengguna</h4>
                         {{-- <ol class="breadcrumb pull-right">
                         <li class="active">Dashboard</li>
                     </ol> --}}

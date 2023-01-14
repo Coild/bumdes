@@ -8,14 +8,14 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="page-header-title">
-                    <ol class="breadcrumb pull-right">
-                        {{-- <li><a href="#">Persediaan Barang</a></li> --}}
-                    </ol>
+                    <h4 class="pull-left page-title">Persediaan Barang</h4>
+                    {{-- <ol class="breadcrumb pull-right">
+                        <li class="active">Dashboard</li>
+                    </ol> --}}
                     <div class="clearfix"></div>
                 </div>
             </div>
         </div>
-
 
         <div class="row">
             <div class="col-md-12">

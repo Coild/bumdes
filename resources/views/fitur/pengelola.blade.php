@@ -8,11 +8,10 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="page-header-title">
-                        <!-- <h4 class="pull-left page-title">Daftar Pengelola</h4> -->
-                        <ol class="breadcrumb pull-right">
-                            <li><a href="#">Master Data</a></li>
-                            <li class="active">Pengelola</li>
-                        </ol>
+                        <h4 class="pull-left page-title">Pengelola</h4>
+                        {{-- <ol class="breadcrumb pull-right">
+                        <li class="active">Dashboard</li>
+                    </ol> --}}
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -159,7 +158,8 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
     <!-- Modal Edit-->
-    <div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div id="edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">

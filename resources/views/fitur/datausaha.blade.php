@@ -8,26 +8,25 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="page-header-title">
-                        <ol class="breadcrumb pull-right">
-                            <li><a href="#">Master Data</a></li>
-                            <li class="active">Data Usaha</li>
-                        </ol>
+                        <h4 class="pull-left page-title">Data Usaha</h4>
+                        {{-- <ol class="breadcrumb pull-right">
+                        <li class="active">Dashboard</li>
+                    </ol> --}}
                         <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
 
-
             <div class="row">
                 {{-- {{dd($Tab == "jasa")}} --}}
                 <ul class="nav nav-tabs navtab-bg nav-justified">
-                    <li class= {{$Tab == "jasa" ? "active" : "" }}>
+                    <li class={{ $Tab == 'jasa' ? 'active' : '' }}>
                         <a href="#home1" data-toggle="tab" aria-expanded="false">
                             <span class="visible-xs"><i class="fa fa-shopping-basket"></i></span>
                             <span class="hidden-xs">Usaha Jasa</span>
                         </a>
                     </li>
-                    <li class= {{$Tab == "dagang" ? "active" : "" }}>
+                    <li class={{ $Tab == 'dagang' ? 'active' : '' }}>
                         <a href="#profile1" data-toggle="tab" aria-expanded="true">
                             <span class="visible-xs"><i class="fa fa-group"></i></span>
                             <span class="hidden-xs">Usaha Dagang</span>
@@ -37,7 +36,7 @@
 
                 <!-- Tab Content -->
                 <div class="tab-content">
-                    <div class="tab-pane {{$Tab == "jasa" ? "active" : "" }}" id="home1">
+                    <div class="tab-pane {{ $Tab == 'jasa' ? 'active' : '' }}" id="home1">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Data Usaha Jasa</h3>
@@ -109,7 +108,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane {{$Tab == "dagang" ? "active" : "" }}" id="profile1">
+                    <div class="tab-pane {{ $Tab == 'dagang' ? 'active' : '' }}" id="profile1">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
                                 <h3 class="panel-title">Data Usaha Dagang</h3>
@@ -150,7 +149,8 @@
                                                         <td>
                                                             <div class="conbtn">
                                                                 <button class="btn btn-primary center fa fa-edit"
-                                                                    data-toggle="modal" data-target="#editdagang" onclick="edit_datadagang('{{ $item['namadagang'] }}', '{{ $item['alamatdagang'] }}', {{ $loop->index }})"></button>
+                                                                    data-toggle="modal" data-target="#editdagang"
+                                                                    onclick="edit_datadagang('{{ $item['namadagang'] }}', '{{ $item['alamatdagang'] }}', {{ $loop->index }})"></button>
                                                                 <button class="btn btn-danger center fa fa-trash"
                                                                     style="margin-left: 2%"></button>
                                                             </div>
@@ -402,8 +402,8 @@
                     element +
                     '">                                            </div>                                        </div>                                    </td>                                    <td>                                        <div class="conbtn pt-3">                                        <button class="btn btn-danger center fa fa-trash"                                        style="padding: 7px;margin-left: 2%;"></button>                                    </div>                                    </td>                                </tr>                            </form>';
             });
-            
-                                                                    
+
+
             document.querySelector('#place_here').innerHTML = atas + isi + bawah;
         }
 

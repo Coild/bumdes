@@ -8,12 +8,10 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="page-header-title">
-
-                        <ol class="breadcrumb pull-right">
-                            <li><a href="#">Transaksi Jasa</a></li>
-                            <li class="active">Beban</li>
-                        </ol>
-
+                        <h4 class="pull-left page-title">Beban Jasa</h4>
+                        {{-- <ol class="breadcrumb pull-right">
+                        <li class="active">Dashboard</li>
+                    </ol> --}}
                         <div class="clearfix"></div>
                     </div>
                 </div>

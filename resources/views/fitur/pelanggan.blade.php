@@ -5,19 +5,17 @@
         <div class="container">
 
             <!-- Page-Title -->
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="page-header-title">
-
-                        <ol class="breadcrumb pull-right">
-                            <li><a href="#">Master Data</a></li>
-                            <li class="active">Pelanggan</li>
-                        </ol>
-
-                        <div class="clearfix"></div>
-                    </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-header-title">
+                    <h4 class="pull-left page-title">Pelanggan</h4>
+                    {{-- <ol class="breadcrumb pull-right">
+                        <li class="active">Dashboard</li>
+                    </ol> --}}
+                    <div class="clearfix"></div>
                 </div>
             </div>
+        </div>
 
 
             <div class="row">
