@@ -4,7 +4,7 @@
     <div class="sidebar-inner slimscrollleft">
         <div class="user-details">
             <div class="text-center">
-                <a href="{{ route('get.profilbumdes') }}"></a><img src={{ asset("images/".$foto) }} alt="" class="img-circle"></a>
+                <a href="{{ route('get.profilbumdes') }}"></a><img src={{ asset("images/defaultbumdes.png") }} alt="" class="img-circle"></a>
             </div>
             <div class="user-info">
                 <div class="dropdown">
