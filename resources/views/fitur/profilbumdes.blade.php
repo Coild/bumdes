@@ -39,11 +39,12 @@
                                     <div class="conbtn">
                                         <div class="mx-auto text-center">
                                             <form style="padding-right: 25px">
-                                                <img class="rounded-circle m-b-5"
+                                                <img class="img-circle rounded-circle m-b-5"
                                                     @if (count($bumdes) > 0) src="{{ asset('images/' . $bumdes['file']) }}"
-                                                    @else src="{{ asset('images/profil_holder.png') }}" @endif
+                                                    @else src="{{ asset('images/defaultbumdes.png') }}" @endif
                                                     alt="">
-                                                <p id="file-name">Nama User</p>
+                                                <p id="file-name"><br></p>
+                                                
                                                 <div class="modal-footer m-t-8">
                                                     <div class="mx-auto text-right">
 
@@ -455,7 +456,8 @@
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Foto</label>
                                 <div class="col-md-8">
-                                    <input class="form-control" name="file" type="file" required />
+                                    <input class="form-control" name="file" type="file" id="file"
+                                    onchange="validateFile()" required />
                                 </div>
                             </div>
     

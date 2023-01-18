@@ -138,7 +138,8 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label">Foto</label>
                             <div class="col-md-8">
-                                <input class="form-control" name="file" type="file" required />
+                                <input class="form-control" name="file" type="file" id="file"
+                                onchange="validateFile()" required />
                             </div>
                         </div>
 
