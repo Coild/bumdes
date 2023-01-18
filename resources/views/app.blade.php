@@ -89,6 +89,9 @@
     <script src={{ asset('plugins/datatables/responsive.bootstrap.min.js') }}></script>
     <script src={{ asset('plugins/datatables/dataTables.scroller.min.js') }}></script>
 
+    {{-- sweet alert --}}
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.all.min.js"></script>
+
     <!-- Datatable init js -->
     <script src={{ asset('pages/datatables.init.js') }}></script>
 
@@ -115,6 +118,44 @@
     <!-- Plugins Init js -->
     <script src={{ asset('pages/form-advanced.js') }}></script>
     
+    <script>
+        function validateFile() {
+            var input = document.getElementById("file");
+            if (input.files.length > 0) {
+                var file = input.files[0];
+                if (file.type.match(/image\/.*/)) {
+                    if (file.size <= (1048576 * 2)) {
+                        // file is a valid image and its size is under 1MB
+                    } else {
+                        // alert("Ukuran file terlalu besar. Maksimum ukuran 2MB.");
+                        Swal.fire({
+                        title: "File Anda terlalu besar",
+                        text: "Ukuran gambar tidak boleh lebih dari 2MB",
+                        icon: "warning",
+                        // showCancelButton: true,
+                        // confirmButtonColor: "#3085d6",
+                        // cancelButtonColor: "#d33",
+                        confirmButtonText: "Baiklah"
+                    })
+                    }
+                } else {
+                    // alert("Tipe file tidak valid, tolong masukan file gambar.");
+                    Swal.fire({
+                        title: "Format file salah",
+                        text: "Harap masukkan file berupa gambar",
+                        icon: "warning",
+                        // showCancelButton: true,
+                        // confirmButtonColor: "#3085d6",
+                        // cancelButtonColor: "#d33",
+                        confirmButtonText: "Baiklah"
+                    })
+                }
+            } else {
+                alert("Harap memilih file.");
+            }
+        }
+    </script>
+
     @yield('script')
 </body>
 

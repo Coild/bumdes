@@ -173,7 +173,7 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label">Bukti Transaksi</label>
                             <div class="col-md-8">
-                                <input class="form-control" name="file" type="file" required />
+                                <input class="form-control" name="file" type="file" id="file" onchange="validateFile()" required />
                             </div>
                         </div>
 
@@ -283,7 +283,7 @@
 
                             <div class="col-md-10">
                                 <div class="input-group ">
-                                    <input name="file" type="file" class="form-control" required>
+                                    <input name="file" type="file" id="file" onchange="validateFile()" class="form-control" required>
                                     <span class="input-group-addon bg-custom b-0"><i
                                             class="mdi mdi-calendar text-white"></i></span>
                                 </div><!-- input-group -->
@@ -316,6 +316,24 @@
             document.getElementById("datepicker-autoclose2").value = data['tanggal'];
             document.getElementById("edit_pelang").value = data['pelanggan'];
             document.getElementById("edit_catat").value = data['catatan'];
+        }
+
+        function validateFile() {
+            var input = document.getElementById("file");
+            if (input.files.length > 0) {
+                var file = input.files[0];
+                if (file.type.match(/image\/.*/)) {
+                    if (file.size <= (1048576*2)) {
+                        // file is a valid image and its size is under 1MB
+                    } else {
+                        alert("Ukuran file terlalu besar. Maksimum ukuran 1MB.");
+                    }
+                } else {
+                    alert("Tipe file tidak valid, tolong masukan file gambar.");
+                }
+            } else {
+                alert("Harap memilih file.");
+            }
         }
     </script>
 @endsection
