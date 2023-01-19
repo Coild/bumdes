@@ -52,7 +52,7 @@
                                                 </form>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-xs-12">
+                                        <div class="col-md-6 col-sm-12 col-xs-12">
                                             <div class="m-t-5">
                                                 <form class="form" role="form">
                                                     <div class="form-group">
@@ -66,8 +66,7 @@
                                                         <label class="control-label">Nomor HP</label>
                                                         <div class="">
                                                             <input type="text" name="catatan" class="form-control"
-                                                                disabled="disabled"
-                                                                value="">
+                                                                disabled="disabled" value="">
                                                         </div>
                                                     </div>
                                                 </form>
@@ -86,7 +85,7 @@
 
                 <div class="col-md-12">
                     <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal"
-                        data-target="#tambah">
+                        data-target="#bayar">
                         Bayar </button>
                 </div>
 
@@ -180,7 +179,41 @@
         </div> <!-- container -->
 
     </div> <!-- content -->
+    <!-- sample modal content -->
+    <div id="bayar" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel">Pembayaran</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Jumlah</label>
+                            <div class="col-md-10">
+                                <input name="kode" data-parsley-type="number" type="text"
+                                    class="form-control" placeholder="Jumlah" data-parsley-maxlength="8" required />
+                            </div>
+                        </div>
+
+
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-default waves-effect"
+                                data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 @endsection
+
+
 
 @section('script')
     <script>

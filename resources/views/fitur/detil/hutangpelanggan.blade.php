@@ -123,57 +123,20 @@
 
             </div> <!-- End Row -->
             <div class="row">
+
                 <div class="col-md-12">
                     <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal"
-                        data-target="#tambah"> Bayar </button>
+                        data-target="#bayar">
+                        Bayar </button>
                 </div>
+
                 <div class="col-md-6">
-                    {{-- <p style="font-size: 20px; font-weight:200; padding-left:10px;" class="bg-primary p-3">Riwayat Hutang</p> --}}
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Riwayat Hutang</h3>
+                            <h3 class="panel-title"> Riwayat Hutang</h3>
 
                         </div>
-                        <div class="panel-body">
 
-                            <table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap"
-                                cellspacing="0" width="100%">
-                                <thead>
-                                    <tr>
-                                        <th style="text-align: center;">No</th>
-                                        <th style="text-align: center;">No Transaksi</th>
-                                        <th style="text-align: center;">Tanggal Transaksi</th>
-                                        <th style="text-align: center;">Total Transaksi</th>
-                                        <th style="text-align: center;">Hutang</th>
-                                        {{-- <th style="text-align: center;">Aksi</th> --}}
-                                    </tr>
-                                </thead>
-
-                                <tbody>
-
-                                    <tr>
-                                        <td style="text-align: center;">1</td>
-                                        <td style="text-align: center;">14045</td>
-                                        <td style="text-align: center;">03 Desember 2022</td>
-                                        <td style="text-align: center;">70000</td>
-                                        <td style="text-align: center;">25000</td>
-                                        <td style="text-align: center;">
-                                            {{-- <Button
-                                                class="btn btn-primary">Bayar</Button></td> --}}
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    {{-- <p style="font-size: 20px; font-weight:200; padding-left:10px;" class="bg-primary p-3">Riwayat Bayar</p> --}}
-
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Riwayat Hutang</h3>
-
-                        </div>
                         <div class="panel-body">
 
                             <table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap"
@@ -191,6 +154,7 @@
 
 
                                 <tbody>
+
                                     <tr>
                                         <td style="text-align: center;">1</td>
                                         <td style="text-align: center;">14045</td>
@@ -199,11 +163,22 @@
                                         <td style="text-align: center;">25000</td>
                                         {{-- <td style="text-align: center;"><Button class="btn btn-primary">Bayar</Button></td> --}}
                                     </tr>
+
+
                                 </tbody>
                             </table>
                         </div>
+                    </div>
+                </div>
 
-                        {{-- <div class="panel-body">
+                <div class="col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"> Riwayat Bayar</h3>
+
+                        </div>
+
+                        <div class="panel-body">
                             <table id="datatable-responsive2" class="table table-hover table-bordered dt-responsive nowrap"
                                 cellspacing="0" width="100%">
                                 <thead>
@@ -212,7 +187,8 @@
                                         <th style="text-align: center;">No Transaksi</th>
                                         <th style="text-align: center;">Tanggal Transaksi</th>
                                         <th style="text-align: center;">Total Transaksi</th>
-                                        <th style="text-align: center;">Sisa Hutang</th>]
+                                        <th style="text-align: center;">Sisa Hutang</th>
+                                        {{-- <th style="text-align: center;">Aksi</th> --}}
                                     </tr>
                                 </thead>
 
@@ -225,20 +201,58 @@
                                         <td style="text-align: center;">05 Desember 2022</td>
                                         <td style="text-align: center;">20000</td>
                                         <td style="text-align: center;">5000</td>
-                                     
+                                        {{-- <td style="text-align: center;"><Button class="btn btn-primary">Bayar</Button></td> --}}
                                     </tr>
 
 
                                 </tbody>
                             </table>
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
+
+
+
+
             </div>
+
 
         </div> <!-- container -->
 
     </div> <!-- content -->
+
+    <!-- sample modal content -->
+    <div id="bayar" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel">Pembayaran</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Jumlah</label>
+                            <div class="col-md-10">
+                                <input name="kode" data-parsley-type="number" type="text" class="form-control"
+                                    placeholder="Jumlah" data-parsley-maxlength="8" required />
+                            </div>
+                        </div>
+
+
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-default waves-effect"
+                                data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 @endsection
 
 @section('script')
