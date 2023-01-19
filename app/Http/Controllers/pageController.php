@@ -26,7 +26,7 @@ class pageController extends Controller
     public function profiluser(Request $req)
     {
         // Session::forget('bumdes');
-        $bumdes = Session::get('bumdes') == null ? [] : Session::get('bumdes');
+        $bumdes = Session::get('user') == null ? [] : Session::get('user');
         $datajasa = Session::get('datausahajasa') == null ? [] : Session::get('datausahajasa');
         $datadagang = Session::get('datausahadagang') == null ? [] : Session::get('datausahadagang');
         // dd($bumdes);
@@ -62,11 +62,11 @@ class pageController extends Controller
                         'alamat' => '',
                         'no_ketua' => '',
                         'no_benda' => '',
-                        'file' => 'foto.png'
+                        'file' => 'profil_holder.png'
                     ];
                 }
                 // dd($bumdes);
-                Session::put('bumdes', $bumdes);
+                Session::put('user', $bumdes);
             }
             if ($req->jenis == 4) {
                 $bumdes = [
@@ -77,7 +77,7 @@ class pageController extends Controller
                     'file' => $bumdes['file'] ?? 'foto.png'
                 ];
                 // array_push($datadagang, $isi);
-                Session::put('bumdes', $bumdes);
+                Session::put('user', $bumdes);
             }
         }
         // dd($bumdes);

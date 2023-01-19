@@ -41,7 +41,7 @@
                                             <form style="padding-right: 25px">
                                                 <img class="rounded-circle m-b-5"
                                                     @if (count($bumdes) > 0) src="{{ asset('images/' . $bumdes['file']) }}"
-                                                    @else src="{{ asset('images/placeholder.jpg') }}" @endif
+                                                    @else src="{{ asset('images/profil_holder.png') }}" @endif
                                                     alt="">
                                                 <p id="file-name">Nama User</p>
                                                 <div class="modal-footer m-t-8">
@@ -66,7 +66,7 @@
 
                                         <div class="mx-auto text-left">
                                             <form style="padding-right: 25px" method="POST"
-                                                action="{{ route('post.profilbumdes') }}">
+                                                action="{{ route('post.profiluser') }}">
                                                 @csrf
                                                 <input type="hidden" name="jenis" value=4>
                                                 <div class="form-group">
@@ -131,7 +131,7 @@
                     <h4 class="modal-title" id="myModalLabel">Tambah Transaksi</h4>
                 </div>
                 <div class="modal-body">
-                    <form action="{{ route('post.profilbumdes') }}" method="POST" class="form-horizontal"
+                    <form action="{{ route('post.profiluser') }}" method="POST" class="form-horizontal"
                         role="form" enctype="multipart/form-data">
                         @csrf
                         <input type="hidden" name="jenis" value=3>

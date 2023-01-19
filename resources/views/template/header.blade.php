@@ -1,5 +1,5 @@
  
- <?php $foto = Session::get('bumdes') == null ? 'profil_holder.png' : Session::get('bumdes')['file'];  ?>
+ <?php $foto = Session::get('user') == null ? 'profil_holder.png' : Session::get('user')['file'];  ?>
  <!-- Top Bar Start -->
  <div class="topbar">
     <!-- LOGO -->
