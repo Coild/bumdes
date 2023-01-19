@@ -24,22 +24,21 @@
                 <ul class="nav navbar-nav navbar-right pull-right">
                     <li class="dropdown hidden-xs">
                         <a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="true">
-                            <i class="fa fa-bell"></i> <span class="badge badge-xs badge-danger">3</span>
+                            <i class="fa fa-bell"></i> <span class="badge badge-xs badge-danger">1</span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-lg">
-                            <li class="text-center notifi-title">Notification <span class="badge badge-xs badge-success">3</span></li>
+                            <li class="text-center notifi-title">Notification <span class="badge badge-xs badge-success">1</span></li>
                             <li class="list-group">
                                <!-- list item-->
-                               <a href="javascript:void(0);" class="list-group-item">
+                               <a href="{{ route('get.pembelian') }}" class="list-group-item">
                                   <div class="media">
-                                     <div class="media-heading">Your order is placed</div>
+                                     <div class="media-heading">Gas tersisa 10</div>
                                      <p class="m-0">
-                                       <small>Dummy text of the printing and typesetting industry.</small>
+                                       <small>BUMDes perlu untuk membeli Gas.</small>
                                      </p>
                                   </div>
                                </a>
-                               <!-- list item-->
-                                <a href="javascript:void(0);" class="list-group-item">
+                                {{-- <a href="#" class="list-group-item">
                                   <div class="media">
                                      <div class="media-body clearfix">
                                         <div class="media-heading">New Message received</div>
@@ -49,8 +48,7 @@
                                      </div>
                                   </div>
                                 </a>
-                                <!-- list item-->
-                                <a href="javascript:void(0);" class="list-group-item">
+                                <a href="#" class="list-group-item">
                                   <div class="media">
                                      <div class="media-body clearfix">
                                         <div class="media-heading">Your item is shipped.</div>
@@ -59,11 +57,10 @@
                                         </p>
                                      </div>
                                   </div>
-                                </a>
-                               <!-- last list item -->
-                                <a href="javascript:void(0);" class="list-group-item">
+                                </a> --}}
+                                {{-- <a href="#" class="list-group-item">
                                   <small class="text-primary">See all notifications</small>
-                                </a>
+                                </a> --}}
                             </li>
                         </ul>
                     </li>
@@ -73,11 +70,11 @@
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle profile waves-effect waves-light" data-toggle="dropdown" aria-expanded="true"><img src={{ asset("images/".$foto) }} alt="user-img" class="img-circle"/></a>
                         <ul class="dropdown-menu">
-                            <li><a href="javascript:void(0)"> Profile</a></li>
-                            <li><a href="javascript:void(0)"><span class="badge badge-success pull-right">5</span> Settings </a></li>
-                            <li><a href="javascript:void(0)"> Lock screen</a></li>
+                            <li><a href="{{ route('get.profiluser') }}"> Profile</a></li>
+                            {{-- <li><a href="javascript:void(0)"><span class="badge badge-success pull-right">5</span> Settings </a></li>
+                            <li><a href="javascript:void(0)"> Lock screen</a></li> --}}
                             <li class="divider"></li>
-                            <li><a href="javascript:void(0)"> Logout</a></li>
+                            <li><a href="{{ route('get.login') }}" style="color: red">Keluar</a></li>
                         </ul>
                     </li>
                 </ul>

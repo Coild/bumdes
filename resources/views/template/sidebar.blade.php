@@ -7,14 +7,14 @@
                 <a href="{{ route('get.profilbumdes') }}"></a><img src={{ asset("images/".$foto) }} alt="" class="img-circle"></a>
             </div>
             <div class="user-info">
-                <div class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">BUMDes Kuta Mandalika</a>
-                    <ul class="dropdown-menu">
+                <div class="dropdown m-t-5">
+                    <h5><a href="{{ route('get.profilbumdes') }}" class="text-white">BUMDes Kuta Mandalika</a></h5>
+                    {{-- <ul class="dropdown-menu">
                         <li><a href="{{ route('get.profilbumdes') }}"> Profil BUMDes</a></li>
                         <li><a href="javascript:void(0)"> Pengaturan</a></li>
                         <li class="divider"></li>
                         <li><a href="javascript:void(0)"> Logout</a></li>
-                    </ul>
+                    </ul> --}}
                 </div>
 
                 {{-- <p class="text-muted m-0"><i class="fa fa-dot-circle-o text-success"></i> Online</p> --}}

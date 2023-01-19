@@ -18,9 +18,6 @@
                 <div class="col-sm-12">
                     <div class="page-header-title">
                         <h4 class="pull-left page-title">Profil Pengguna</h4>
-                        {{-- <ol class="breadcrumb pull-right">
-                        <li class="active">Dashboard</li>
-                    </ol> --}}
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -29,9 +26,6 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Gambaran Umum</h3>
-                        </div>
 
                         <div class="panel-body">
                             <div class="row mt-2">
@@ -43,7 +37,7 @@
                                                     @if (count($bumdes) > 0) src="{{ asset('images/' . $bumdes['file']) }}"
                                                     @else src="{{ asset('images/profil_holder.png') }}" @endif
                                                     alt="">
-                                                <p id="file-name">Nama User</p>
+                                                <p id="file-name"><br></p>
                                                 <div class="modal-footer m-t-8">
                                                     <div class="mx-auto text-right">
 
@@ -52,8 +46,7 @@
                                                             style="display: none"> --}}
                                                         {{-- <button class="btn btn-primary waves-effect waves-light" onclick="diklik()">Pilih gambar</button> --}}
                                                         <button type="button" class="btn btn-primary" data-toggle="modal"
-                                                            data-target="#foto">Pilih
-                                                            gambar</button>
+                                                            data-target="#foto">Ubah Foto</button>
                                                     </div>
                                                 </div>
                                             </form>
@@ -70,35 +63,34 @@
                                                 @csrf
                                                 <input type="hidden" name="jenis" value=4>
                                                 <div class="form-group">
-                                                    <label for="exampleFormControlInput1">Nama BUMDes</label>
+                                                    <label for="exampleFormControlInput1">Nama Pengguna</label>
                                                     <input type="text" class="form-control" name="nama"
                                                         @if (count($bumdes) > 0) value="{{ $bumdes['nama'] }}" @endif
-                                                        placeholder="name@example.com">
+                                                        placeholder="Nama Lengkap Anda">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="exampleFormControlInput1">Alamat BUMDes</label>
+                                                    <label for="exampleFormControlInput1">Alamat Pengguna</label>
                                                     <input type="text" class="form-control" name="alamat"
                                                         @if (count($bumdes) > 0) value="{{ $bumdes['nama'] }}" @endif
-                                                        placeholder="name@example.com">
+                                                        placeholder="Alamat atau Tempat Tinggal Anda">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="exampleFormControlInput1">Nomor Telepon Ketua BUMDes</label>
+                                                    <label for="exampleFormControlInput1">Nomor Telepon Pengguna</label>
                                                     <input type="text" class="form-control" name="no_ketua"
                                                         @if (count($bumdes) > 0) value="{{ $bumdes['no_ketua'] }}" @endif
-                                                        placeholder="name@example.com">
+                                                        placeholder="Nomor Telepon Anda">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="exampleFormControlInput1">Nomor Telepon Bendahara
-                                                        BUMDes</label>
-                                                    <input type="text" class="form-control" name="no_benda"
-                                                        @if (count($bumdes) > 0) value="{{ $bumdes['no_benda'] }}" @endif
-                                                        placeholder="name@example.com">
+                                                    <label for="exampleFormControlInput1">Status Pengguna</label>
+                                                    <input type="text" disabled="disabled" class="form-control" name="no_benda"
+                                                        @if (count($bumdes) > 0) value="Pencatat Transaksi" @endif
+                                                        placeholder="Pencatat Transaksi">
                                                 </div>
                                                 <div class="modal-footer">
                                                     {{-- <button type="button" class="btn btn-default waves-effect m-l-5"
                                                         data-dismiss="modal">Cancel</button> --}}
                                                     <button type="submit"
-                                                        class="btn btn-primary waves-effect waves-light">Ubah Data
+                                                        class="btn btn-primary waves-effect waves-light">Simpan Data
                                                         Profil</button>
                                                 </div>
                                             </form>
@@ -128,7 +120,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title" id="myModalLabel">Tambah Transaksi</h4>
+                    <h4 class="modal-title" id="myModalLabel">Pilih Foto Profil</h4>
                 </div>
                 <div class="modal-body">
                     <form action="{{ route('post.profiluser') }}" method="POST" class="form-horizontal"

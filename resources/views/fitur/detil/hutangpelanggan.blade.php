@@ -9,9 +9,9 @@
                 <div class="col-sm-12">
                     <div class="page-header-title">
                         <ol class="breadcrumb pull-right">
-                            <li><a href="#">Transaksi Jasa</a></li>
-                            <li><a href="{{ route('get.pendapatan') }}">Pendapatan</a></li>
-                            <li class="active">Nota Transaksi Pendapatan</li>
+                            {{-- <li><a href="#">Transaksi Jasa</a></li> --}}
+                            <li><a href="{{ route('get.datahutang') }}">Data Hutang</a></li>
+                            <li class="active">Nota Hutang Pelanggan</li>
                         </ol>
                         <div class="clearfix"></div>
                     </div>
@@ -23,7 +23,7 @@
                 <div class="col-md-12">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Nota Transaksi</h3>
+                            <h3 class="panel-title">Nota Hutang</h3>
 
                         </div>
 
@@ -46,7 +46,7 @@
                                                         <label class="control-label">Hutang</label>
                                                         <div class="">
                                                             <input type="text" name="tanggal" class="form-control"
-                                                                disabled="disabled" value="{{5000}}">
+                                                                disabled="disabled" value="{{ 5000 }}">
                                                         </div>
                                                     </div>
                                                 </form>
@@ -59,23 +59,21 @@
                                                         <label class="control-label">Alamat</label>
                                                         <div class="">
                                                             <input type="text" name="pelanggan" class="form-control"
-                                                                disabled="disabled"
-                                                                value="Desa kuta">
+                                                                disabled="disabled" value="Desa kuta">
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
                                                         <label class="control-label">No Hp</label>
                                                         <div class="">
                                                             <input type="text" name="catatan" class="form-control"
-                                                                disabled="disabled"
-                                                                value="">
+                                                                disabled="disabled" value="084896857490">
                                                         </div>
                                                     </div>
                                                 </form>
                                             </div>
                                         </div>
-                                    </div>                                   
-                                    
+                                    </div>
+
                                 </div>
 
 
@@ -126,8 +124,8 @@
             </div> <!-- End Row -->
             <div class="row">
                 <div class="col-md-12">
-                    <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px"
-                                        data-toggle="modal" data-target="#tambah"> Bayar </button>
+                    <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal"
+                        data-target="#tambah"> Bayar </button>
                 </div>
                 <div class="col-md-6">
                     {{-- <p style="font-size: 20px; font-weight:200; padding-left:10px;" class="bg-primary p-3">Riwayat Hutang</p> --}}
@@ -136,84 +134,104 @@
                             <h3 class="panel-title">Riwayat Hutang</h3>
 
                         </div>
-
                         <div class="panel-body">
-                            <table id="datatable-responsive"
-                        class="table table-hover table-bordered dt-responsive nowrap"
-                        cellspacing="0" width="100%">
-                        <thead>
-                            <tr>
-                                <th style="text-align: center;">No</th>
-                                <th style="text-align: center;">No Transaksi</th>
-                                <th style="text-align: center;">Tanggal Transaksi</th>
-                                <th style="text-align: center;">Total Transaksi</th>
-                                <th style="text-align: center;">Hutang</th>
-                                {{-- <th style="text-align: center;">Aksi</th> --}}
-                            </tr>
-                        </thead>
 
+                            <table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap"
+                                cellspacing="0" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th style="text-align: center;">No</th>
+                                        <th style="text-align: center;">No Transaksi</th>
+                                        <th style="text-align: center;">Tanggal Transaksi</th>
+                                        <th style="text-align: center;">Total Transaksi</th>
+                                        <th style="text-align: center;">Hutang</th>
+                                        {{-- <th style="text-align: center;">Aksi</th> --}}
+                                    </tr>
+                                </thead>
 
-                        <tbody>
+                                <tbody>
 
-                            <tr>
-                                <td style="text-align: center;">1</td>
-                                <td style="text-align: center;">14045</td>
-                                <td style="text-align: center;">03 Desember 2022</td>
-                                <td style="text-align: center;">70000</td>
-                                <td style="text-align: center;">25000</td>
-                                <td style="text-align: center;">
-                                    {{-- <Button
-                                        class="btn btn-primary">Bayar</Button></td> --}}
-                            </tr>
-
-
-                        </tbody>
-                    </table>
+                                    <tr>
+                                        <td style="text-align: center;">1</td>
+                                        <td style="text-align: center;">14045</td>
+                                        <td style="text-align: center;">03 Desember 2022</td>
+                                        <td style="text-align: center;">70000</td>
+                                        <td style="text-align: center;">25000</td>
+                                        <td style="text-align: center;">
+                                            {{-- <Button
+                                                class="btn btn-primary">Bayar</Button></td> --}}
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     {{-- <p style="font-size: 20px; font-weight:200; padding-left:10px;" class="bg-primary p-3">Riwayat Bayar</p> --}}
-                    
+
                     <div class="panel panel-primary">
                         <div class="panel-heading">
                             <h3 class="panel-title">Riwayat Hutang</h3>
 
                         </div>
-
                         <div class="panel-body">
-                            <table id="datatable-responsive2"
-                        class="table table-hover table-bordered dt-responsive nowrap"
-                        cellspacing="0" width="100%">
-                        <thead>
-                            <tr>
-                                <th style="text-align: center;">No</th>
-                                <th style="text-align: center;">No Transaksi</th>
-                                <th style="text-align: center;">Tanggal Transaksi</th>
-                                <th style="text-align: center;">Total Transaksi</th>
-                                <th style="text-align: center;">Sisa Hutang</th>
-                                {{-- <th style="text-align: center;">Aksi</th> --}}
-                            </tr>
-                        </thead>
+
+                            <table id="datatable-responsive" class="table table-hover table-bordered dt-responsive nowrap"
+                                cellspacing="0" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th style="text-align: center;">No</th>
+                                        <th style="text-align: center;">No Transaksi</th>
+                                        <th style="text-align: center;">Tanggal Transaksi</th>
+                                        <th style="text-align: center;">Total Transaksi</th>
+                                        <th style="text-align: center;">Hutang</th>
+                                        {{-- <th style="text-align: center;">Aksi</th> --}}
+                                    </tr>
+                                </thead>
 
 
-                        <tbody>
-
-                            <tr>
-                                <td style="text-align: center;">1</td>
-                                <td style="text-align: center;">14045</td>
-                                <td style="text-align: center;">05 Desember 2022</td>
-                                <td style="text-align: center;">20000</td>
-                                <td style="text-align: center;">5000</td>
-                                <td style="text-align: center;">
-                                    {{-- <Button
-                                        class="btn btn-primary">Bayar</Button></td> --}}
-                            </tr>
-
-
-                        </tbody>
-                    </table>
+                                <tbody>
+                                    <tr>
+                                        <td style="text-align: center;">1</td>
+                                        <td style="text-align: center;">14045</td>
+                                        <td style="text-align: center;">03 Desember 2022</td>
+                                        <td style="text-align: center;">70000</td>
+                                        <td style="text-align: center;">25000</td>
+                                        {{-- <td style="text-align: center;"><Button class="btn btn-primary">Bayar</Button></td> --}}
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
+
+                        {{-- <div class="panel-body">
+                            <table id="datatable-responsive2" class="table table-hover table-bordered dt-responsive nowrap"
+                                cellspacing="0" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th style="text-align: center;">No</th>
+                                        <th style="text-align: center;">No Transaksi</th>
+                                        <th style="text-align: center;">Tanggal Transaksi</th>
+                                        <th style="text-align: center;">Total Transaksi</th>
+                                        <th style="text-align: center;">Sisa Hutang</th>]
+                                    </tr>
+                                </thead>
+
+
+                                <tbody>
+
+                                    <tr>
+                                        <td style="text-align: center;">1</td>
+                                        <td style="text-align: center;">14045</td>
+                                        <td style="text-align: center;">05 Desember 2022</td>
+                                        <td style="text-align: center;">20000</td>
+                                        <td style="text-align: center;">5000</td>
+                                     
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div> --}}
                     </div>
                 </div>
             </div>

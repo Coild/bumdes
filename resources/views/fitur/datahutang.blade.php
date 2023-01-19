@@ -30,7 +30,7 @@
                     <li class={{ $Tab == 'dagang' ? 'active' : '' }}>
                         <a href="#profile1" data-toggle="tab" aria-expanded="true">
                             <span class="visible-xs"><i class="fa fa-group"></i></span>
-                            <span class="hidden-xs">Hutang Usaha</span>
+                            <span class="hidden-xs">Hutang BUMDes</span>
                         </a>
                     </li>
                 </ul>
@@ -118,7 +118,7 @@
                     <div class="tab-pane {{ $Tab == 'dagang' ? 'active' : '' }}" id="profile1">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Data Hutang Usaha</h3>
+                                <h3 class="panel-title">Data Hutang BUMDes</h3>
                             </div>
 
                             <div class="panel-body">
@@ -158,8 +158,8 @@
                                                             <div class="conbtn">
                                                                 <button class="btn btn-primary center fa fa-edit"
                                                                     data-toggle="modal" data-target="#editdagangs" onclick="window.location.href='{{ route('get.hutangusaha') }}?id={{ 1 }}'"></button>
-                                                                <button class="btn btn-danger center fa fa-trash"
-                                                                    style="margin-left: 2%"></button>
+                                                                {{-- <button class="btn btn-danger center fa fa-trash"
+                                                                    style="margin-left: 2%"></button> --}}
                                                             </div>
                                                         </td>
                                                     </tr>

@@ -116,7 +116,7 @@
             <div class="col-sm-6 col-lg-4">
                 <div class="panel panel-primary text-center">
                     <div class="panel-heading">
-                        <h4 class="panel-title">Piutang BUMDes pada Usaha Jasa</h4>
+                        <h4 class="panel-title">Hutang BUMDes pada Usaha Jasa</h4>
                     </div>
                     <div class="panel-body">
                         <h3 class=""><b>Rp368000</b></h3>
@@ -154,7 +154,7 @@
             <div class="col-sm-6 col-lg-4">
                 <div class="panel panel-primary text-center">
                     <div class="panel-heading">
-                        <h4 class="panel-title">Piutang BUMDes pada Usaha Dagang</h4>
+                        <h4 class="panel-title">Hutang BUMDes pada Usaha Dagang</h4>
                     </div>
                     <div class="panel-body">
                         <h3 class=""><b>Rp365000</b></h3>
@@ -166,7 +166,7 @@
             <div class="col-sm-6 col-lg-4">
                 <div class="panel panel-primary text-center">
                     <div class="panel-heading">
-                        <h4 class="panel-title">Pembayaran Beban Usaha Jasa</h4>
+                        <h4 class="panel-title">Pembayaran Beban Usaha Dagang</h4>
                     </div>
                     <div class="panel-body">
                         <h3 class=""><b>Rp254000</b></h3>
