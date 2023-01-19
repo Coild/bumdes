@@ -18,6 +18,21 @@
         </div>
 
         <div class="row">
+            <div class="alert alert-danger fade in">
+                <h4>Stok Barang </h4>
+                <p>Stok barang hampir habis</p>
+                <ul>
+                    <li>
+                        Gas
+                    </li>
+                    <li>
+                        Minyak
+                    </li>
+                </ul>
+                <p class="flex justify-content-right">
+                  <button type="button" class="btn btn-sm btn-danger waves-effect waves-light" style="border-radius: 10px">Beli</button>
+                </p>
+            </div>
             <div class="col-md-12">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
