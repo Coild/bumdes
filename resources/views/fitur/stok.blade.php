@@ -31,7 +31,7 @@
                     </li>
                 </ul>
                 <p class="flex justify-content-right">
-                  <button type="button" class="btn btn-sm btn-danger waves-effect waves-light" style="border-radius: 10px">Beli</button>
+                  <button type="button" onclick="window.location.href='{{ route('get.pembelian') }}'" class="btn btn-sm btn-danger waves-effect waves-light" style="border-radius: 10px">Beli</button>
                 </p>
             </div>
             @endisset
