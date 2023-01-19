@@ -108,6 +108,8 @@ Route::post('editnotabebandagang', [pageController::class, 'editnotabebandagang'
 Route::get('/stok', [pageController::class, 'stok']);
 Route::post('/stok', [pageController::class, 'stok']);
 
+Route::get('/neraca', [pageController::class, 'neraca']);
+
 Route::get('/laporan', [pageController::class, 'laporan']);
 
 // Route::get('dummy' , function()

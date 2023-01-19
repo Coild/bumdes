@@ -16,6 +16,11 @@ class pageController extends Controller
         return view('auth.login', ['data' => $data]);
     }
 
+    public function neraca()
+    {
+        return view('fitur.neraca');
+    }
+
     public function lupa(Request $req)
     {
         $data = $req->all();
