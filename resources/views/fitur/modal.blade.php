@@ -15,15 +15,33 @@
     <link href={{ 'css/icons.css' }} rel="stylesheet" type="text/css">
     <link href={{ 'css/style.css' }} rel="stylesheet" type="text/css">
 
+    <!-- Normalize or reset CSS with your favorite library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+    <!-- Load paper.css for happy printing -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css">
+
+    <!-- Set page size here: A5, A4 or A3 -->
+    <!-- Set also "landscape" if you need -->
+    <style>
+        @page {
+            size: A4;
+            padding-left: 50px;
+            padding-top: 15px; 
+            margin: 15mm 1mm 1mm 1mm;
+        }
+    </style>
+
+
 
     <link href={{ asset('css/laporan1.css') }} rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
+    <section class="sheet " style="height: auto;">
     <!-- Start content -->
-    <div class="row">
-        <div>
+
             <center>
                 <p>&nbsp;</p>
                 <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
@@ -160,9 +178,9 @@
                     </tbody>
                 </table>
             </center>
-        </div>
-    </div>
+      
     <!-- end row -->
+    </section>
 
 
 

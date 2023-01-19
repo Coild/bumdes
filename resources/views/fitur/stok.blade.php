@@ -18,6 +18,7 @@
         </div>
 
         <div class="row">
+            @isset($alert)
             <div class="alert alert-danger fade in">
                 <h4>Stok Barang </h4>
                 <p>Stok barang hampir habis</p>
@@ -33,6 +34,8 @@
                   <button type="button" class="btn btn-sm btn-danger waves-effect waves-light" style="border-radius: 10px">Beli</button>
                 </p>
             </div>
+            @endisset
+            
             <div class="col-md-12">
                 <div class="panel panel-primary">
                     <div class="panel-heading">

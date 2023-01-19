@@ -537,6 +537,8 @@ class pageController extends Controller
         $req->get('id') != null ? $loc =  $req->get('id') : $loc = Session::get('locstok');
         Session::put('locstok', $loc);
 
+        $alert = $req->alert;
+
         $barang = Session::get('barang') == null ? [] : Session::get('barang');
         $dagangan = Session::get('dagangan') == null ? [] : Session::get('dagangan');
         // dd($loc);
@@ -551,7 +553,7 @@ class pageController extends Controller
             Session::put('barang', $barang);
         }
 
-        return view('fitur.stok', compact('barang'));
+        return view('fitur.stok', compact('barang','alert'));
     }
 
     public function pendapatan(Request $req)
