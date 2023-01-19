@@ -61,18 +61,12 @@
                                         style="margin-left: 15px; margin-right: 15px;" id="exampleInputPassword2"
                                         placeholder="Password">
                                 </div>
-
-                                {{-- <div class="form-group">
-                                    Jenis Usaha
-                                    <select name="status" class="form-control"
-                                        style="margin-left: 15px; margin-right: 15px;" required>
-                                        <option>Bendahara</option>
-                                        <option>Pencatat Transaksi</option>
-                                    </select>
-                                </div> --}}
-
-                                <button type="submit"
-                                    class="btn btn-success waves-effect waves-light m-l-10">Unduh</button>
+                                <button class="btn btn-success center" 
+                                onclick="window.location.href='{{ route('get.neraca') }}'">
+                                <a href="{{ route('get.neraca') }}" class="text-white">
+                                Unduh
+                            </a>
+                            </button>
                             </form>
                             <p>&nbsp;</p>
                             {{-- table --}}
@@ -109,12 +103,12 @@
                                             <td class="column6 style11 null"></td>
                                             <td class="column7 style11 null"></td>
                                         </tr>
-                                        <tr class="row3">
+                                        {{-- <tr class="row3">
                                             <td class="column0 style134 s style134" colspan="6">Periode: 01/01/2023 -
                                                 31/12/2023</td>
                                             <td class="column6 style11 null"></td>
                                             <td class="column7 style11 null"></td>
-                                        </tr>
+                                        </tr> --}}
                                         <tr class="row4">
                                             <td class="column0 style20 null"></td>
                                             <td class="column1 style12 null"></td>
@@ -475,9 +469,14 @@
                                         <option>Pencatat Transaksi</option>
                                     </select>
                                 </div> --}}
-
-                                <button type="submit"
-                                    class="btn btn-success waves-effect waves-light m-l-10">Unduh</button>
+                                
+                                <button class="btn btn-success center" 
+                                    onclick="window.location.href='{{ route('get.labarugi') }}'">
+                                    <a href="{{ route('get.labarugi') }}" class="text-white">
+                                    Unduh
+                                </a>
+                                </button>
+                                
                             </form>
                             <p>&nbsp;</p>
                             <center>
@@ -491,7 +490,7 @@
                                     <col class="col5">
                                     <tbody>
                                         <tr class="row0">
-                                            <td class="column0 style132 s style132" colspan="3">LAPORAN NERACA</td>
+                                            <td class="column0 style132 s style132" colspan="3">LAPORAN LABA RUGI</td>
                                             <td class="column3 style3 null">&nbsp;</td>
                                             <td class="column4 style3 null">&nbsp;</td>
                                             <td class="column5 style3 null">&nbsp;</td>
@@ -512,13 +511,13 @@
                                             <td class="column4 style3 null">&nbsp;</td>
                                             <td class="column5 style3 null">&nbsp;</td>
                                         </tr>
-                                        <tr class="row3">
+                                        {{-- <tr class="row3">
                                             <td class="column0 style341 s style1" colspan="3">Periode: 01/01/2023 -
                                                 31/12/2023</td>
                                             <td class="column3 style3 null">&nbsp;</td>
                                             <td class="column4 style3 null">&nbsp;</td>
                                             <td class="column5 style3 null">&nbsp;</td>
-                                        </tr>
+                                        </tr> --}}
                                         <tr class="row4">
                                             <td class="column0 style20 null"></td>
                                             <td class="column1 style12 null"></td>
@@ -950,9 +949,12 @@
                                         <option>Pencatat Transaksi</option>
                                     </select>
                                 </div> --}}
-
-                                <button type="submit"
-                                    class="btn btn-success waves-effect waves-light m-l-10">Unduh</button>
+                                <button class="btn btn-success center" 
+                                onclick="window.location.href='{{ route('get.modal') }}'">
+                                <a href="{{ route('get.modal') }}" class="text-white">
+                                Unduh
+                            </a>
+                            </button>
                             </form>
                             <center>
                                 <p>&nbsp;</p>
@@ -979,11 +981,11 @@
                                             <td class="column2 style3 null"></td>
                                             <td class="column3 style3 null">&nbsp;</td>
                                         </tr>
-                                        <tr class="row3">
+                                        {{-- <tr class="row3">
                                             <td class="column0 style134 s style134" colspan="3">Periode: 01/01/2023 -
                                                 31/12/2023</td>
                                             <td class="column3 style3 null">&nbsp;</td>
-                                        </tr>
+                                        </tr> --}}
                                         <tr class="row4">
                                             <td class="column0 style8 null"></td>
                                             <td class="column1 style8 null"></td>

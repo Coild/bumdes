@@ -94,7 +94,7 @@
                                                         <td>
                                                             <div class="conbtn">
                                                                 <button class="btn btn-primary center fa fa-edit"
-                                                                    data-toggle="modal" data-target="#editjasad"
+                                                                    data-toggle="modal" data-target="#editjasa"
                                                                     onclick="window.location.href='{{ route('get.hutangpelanggan') }}?id={{ 1 }}'">
                                                                 </button>
                                                                 {{-- <button class="btn btn-danger center fa fa-trash"

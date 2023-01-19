@@ -35,7 +35,7 @@
                     <col class="col5">
                     <tbody>
                         <tr class="row0">
-                            <td class="column0 style132 s style132" colspan="3">LAPORAN NERACA</td>
+                            <td class="column0 style132 s style132" colspan="3">LAPORAN LABA RUGI</td>
                             
                         </tr>
                         <tr class="row1">

@@ -164,11 +164,11 @@ class pageController extends Controller
         return view('fitur.profilbumdes', compact('datajasa', 'datadagang', 'bumdes','Tab'));
     }
     
-    public function laporan(Request $req)
+    public function laporan()
     {
-        $data = $req->all();
-        $data == null ? [] : $data;
-        return view('fitur.laporan', ['data' => $data]);
+        // $data = $req->all();
+        // $data == null ? [] : $data;
+        return view('fitur.laporan');
     }
 
     public function dashboard(Request $req)
