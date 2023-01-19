@@ -109,6 +109,8 @@ Route::get('/stok', [pageController::class, 'stok']);
 Route::post('/stok', [pageController::class, 'stok']);
 
 Route::get('/neraca', [pageController::class, 'neraca']);
+Route::get('/labarugi', [pageController::class, 'labarugi']);
+Route::get('/modal', [pageController::class, 'modal']);
 
 Route::get('/laporan', [pageController::class, 'laporan']);
 

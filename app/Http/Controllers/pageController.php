@@ -21,6 +21,16 @@ class pageController extends Controller
         return view('fitur.neraca');
     }
 
+    public function labarugi()
+    {
+        return view('fitur.labarugi');
+    }
+
+    public function modal()
+    {
+        return view('fitur.modal');
+    }
+
     public function lupa(Request $req)
     {
         $data = $req->all();
