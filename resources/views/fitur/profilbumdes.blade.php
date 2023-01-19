@@ -112,7 +112,7 @@
                     </div>
                 </div>
             </div>
-            {<div class="row">
+            <div class="row">
                 {{-- {{dd($Tab == "jasa")}} --}}
                 <ul class="nav nav-tabs navtab-bg nav-justified">
                     <li class= {{$Tab == "jasa" ? "active" : "" }}>
