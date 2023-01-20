@@ -71,7 +71,7 @@
                                                 <div class="form-group">
                                                     <label for="exampleFormControlInput1">Alamat Pengguna</label>
                                                     <input type="text" class="form-control" name="alamat"
-                                                        @if (count($bumdes) > 0) value="{{ $bumdes['nama'] }}" @endif
+                                                        @if (count($bumdes) > 0) value="{{ $bumdes['alamat'] }}" @endif
                                                         placeholder="Alamat atau Tempat Tinggal Anda">
                                                 </div>
                                                 <div class="form-group">
