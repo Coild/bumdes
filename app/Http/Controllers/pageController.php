@@ -141,7 +141,7 @@ class pageController extends Controller
                         'alamat' => '',
                         'no_ketua' => '',
                         'no_benda' => '',
-                        'file' => 'profil_holder.png'
+                        'file' => $nama ?? 'profil_holder.png'
                     ];
                 }
                 // dd($bumdes);

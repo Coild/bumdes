@@ -6,7 +6,7 @@
             width: 280px;
             height: 280px;
             border-radius: 50%;
-        }
+        } 
     </style>
 @endsection
 @section('content')
@@ -75,7 +75,7 @@
                                                 <div class="form-group">
                                                     <label for="exampleFormControlInput1">Alamat BUMDes</label>
                                                     <input type="text" class="form-control" name="alamat"
-                                                        @if (count($bumdes) > 0) value="{{ $bumdes['nama'] }}" @endif
+                                                        @if (count($bumdes) > 0) value="{{ $bumdes['alamat'] }}" @endif
                                                         placeholder="Lokasi atau Alamat BUMDes">
                                                 </div>
                                                 <div class="form-group">
