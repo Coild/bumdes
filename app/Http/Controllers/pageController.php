@@ -456,6 +456,13 @@ class pageController extends Controller
         return view('fitur.akun', ['data' => $data]);
     }
 
+    public function detilakun(Request $req)
+    {
+        $data = $req->all();
+        $data == null ? [] : $data;
+        return view('fitur.detil.akun');
+    }
+
     public function pemasok(Request $req)
     {
         // Session::flush();

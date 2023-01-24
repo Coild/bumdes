@@ -52,7 +52,8 @@ Route::post('pengelola', [pageController::class, 'pengelola'])->name('post.penge
 // Route::get('editpengelola', [pageController::class, 'pengelola'])->name('get.editpengelola');
 Route::post('editpengelola', [pageController::class, 'editpengelola'])->name('post.editpengelola');
 
-Route::get('akun', [pageController::class, 'akun']);
+Route::get('akun', [pageController::class, 'akun'])->name('get.akun');
+Route::get('detilakun', [pageController::class, 'detilakun'])->name('get.detilakun');
 
 Route::get('pemasok', [pageController::class, 'pemasok'])->name('get.pemasok');
 Route::post('pemasok', [pageController::class, 'pemasok'])->name('post.pemasok');
