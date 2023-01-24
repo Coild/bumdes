@@ -10,8 +10,8 @@
                     <div class="page-header-title">
                         <ol class="breadcrumb pull-right">
                             {{-- <li><a href="#">Transaksi Jasa</a></li> --}}
-                            <li><a href="{{ route('get.datahutang') }}">Data Hutang</a></li>
-                            <li class="active">Nota Hutang BUMDes</li>
+                            <li><a href="{{ route('get.akun') }}">Akun</a></li>
+                            <li class="active">Detils Akun</li>
                         </ol>
                         <div class="clearfix"></div>
                     </div>
@@ -23,7 +23,7 @@
                 <div class="col-md-12">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Nota Hutang</h3>
+                            <h3 class="panel-title">Detil Akun</h3>
 
                         </div>
 
@@ -82,12 +82,6 @@
 
 
             <div class="row">
-
-                <div class="col-md-12">
-                    <button class="btn btn-primary mb-2 pb-2" style="margin-bottom: 25px" data-toggle="modal"
-                        data-target="#bayar">
-                        Bayar </button>
-                </div>
 
                 <div class="col-md-6">
                     <div class="panel panel-primary">
