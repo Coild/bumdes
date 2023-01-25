@@ -138,8 +138,29 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label">Nama Transaksi Beban</label>
                             <div class="col-md-8">
-                                <input name="namabeban" type="text" class="form-control"
-                                    placeholder="Nama Transaksi Beban (contoh: Beban Operasional)" required>
+                                {{-- <input name="namabeban" type="text" class="form-control"
+                                    placeholder="Nama Transaksi Beban (contoh: Beban Operasional)" required> --}}
+                                    {{-- <select name="klasifikasi" class="form-control" required>
+                                        <option value="ATK">ATK</option>
+                                        <option value="Biaya kantor">Biaya kantor</option>
+                                        <option value="Honor pengurus dan karyawan">Honor pengurus dan karyawan</option>
+                                        <option value="Biaya penyusutan inventaris">Biaya penyusutan inventaris</option>
+                                        <option value="Operasional badan pengawas dan penasehat">Operasional badan pengawas dan penasehat</option>
+                                        <option value="Lainnya">Lainnya</option>  
+                                    </select> --}}
+
+                                    <select name="klasifikasi" class="form-control" required>
+                                        <option value="Operasional">Operasional - ATK</option>
+                                        <option value="Operasional">Operasional - Biaya Kantor </option>
+                                        <option value="Operasional">Operasional - Honor pengurus dan karyawan</option>
+                                        <option value="Operasional">Operasional - Biaya penyusutan inventaris">Biaya penyusutan inventaris</option>
+                                        <option value="Operasional">Operasional - Operasional badan pengawas dan penasehat">Operasional badan pengawas dan penasehat</option>
+                                        <option value="Operasional">Operasional - Lainnya</option>
+                                        <option value="Non operasional">Non operasional - Pajak bunga bank</option>
+                                        <option value="Non operasional">Non operasional - Administrasi bank</option>
+                                        <option value="Non operasional">Non operasional - Biaya operasional lainnya</option>
+                                    </select>
+                            </div>
                             </div>
                         </div>
 
