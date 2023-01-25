@@ -37,7 +37,7 @@
                                             <th style="text-align: center;">Kode Akun</th>
                                             <th style="text-align: center;">Nama Akun</th>
                                             <th style="text-align: center;">Jenis Akun</th>
-                                            <th style="text-align: center;">Klasifikasi</th>
+                                            <th style="text-align: center;">Nilai</th>
                                             {{-- <th style="text-align: center;">Nilai Akun</th> --}}
                                             <th style="text-align: center;">Aksi</th>
                                         </tr>
@@ -66,7 +66,7 @@
                                             </td>
                                             <td>
                                                 {{-- {{$data ==null ? 'kosong' : $data['klasifikasi']}} --}}
-                                                Kredit
+                                                Rp1000000
                                             </td>
                                             {{-- <td>
                                                 {{$data ==null ? 'kosong' : $data['nilai']}}
@@ -74,11 +74,111 @@
                                             <td>
                                                 <div class="conbtn">
                                                     <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
-                                                    <button class="btn btn-success center fa fa-eye" style="margin-left: 2%" onclick="window.location.href='{{ route('get.detilakun') }}'"></button>
-                                                    <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button>
+                                                    {{-- <button class="btn btn-success center fa fa-eye" style="margin-left: 2%" onclick="window.location.href='{{ route('get.detilakun') }}'"></button> --}}
+                                                    {{-- <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button> --}}
                                                 </div>
                                             </td>
                                         </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="conbtn">
+                                                    {{1}}
+                                                </div>
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==null ? 'kosong' : $data['kode']}} --}}
+                                                1-00023
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==null ? 'kosong' : $data['nama']}} --}}
+                                                Bank
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==null ? 'kosong' : $data['jenis']}} --}}
+                                                Header
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==null ? 'kosong' : $data['klasifikasi']}} --}}
+                                                Rp95000000
+                                            </td>
+                                            {{-- <td>
+                                                {{$data ==null ? 'kosong' : $data['nilai']}}
+                                            </td> --}}
+                                            <td>
+                                                <div class="conbtn">
+                                                    <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button>
+                                                    {{-- <button class="btn btn-success center fa fa-eye" style="margin-left: 2%" onclick="window.location.href='{{ route('get.detilakun') }}'"></button> --}}
+                                                    {{-- <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button> --}}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="conbtn">
+                                                    {{1}}
+                                                </div>
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==null ? 'kosong' : $data['kode']}} --}}
+                                                1-00001
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==null ? 'kosong' : $data['nama']}} --}}
+                                                Kas penjualan gas
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==null ? 'kosong' : $data['jenis']}} --}}
+                                               Sub Header
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==null ? 'kosong' : $data['klasifikasi']}} --}}
+                                                Rp2000000
+                                            </td>
+                                            {{-- <td>
+                                                {{$data ==null ? 'kosong' : $data['nilai']}}
+                                            </td> --}}
+                                            <td>
+                                                <div class="conbtn">
+                                                    {{-- <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button> --}}
+                                                    <button class="btn btn-success center fa fa-eye" style="margin-left: 2%" onclick="window.location.href='{{ route('get.detilakun') }}'"></button>
+                                                    {{-- <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button> --}}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="conbtn">
+                                                    {{1}}
+                                                </div>
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==null ? 'kosong' : $data['kode']}} --}}
+                                                1-00002
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==null ? 'kosong' : $data['nama']}} --}}
+                                                Kas usaha homestay
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==null ? 'kosong' : $data['jenis']}} --}}
+                                                Sub Header
+                                            </td>
+                                            <td>
+                                                {{-- {{$data ==null ? 'kosong' : $data['klasifikasi']}} --}}
+                                                Rp1500000
+                                            </td>
+                                            {{-- <td>
+                                                {{$data ==null ? 'kosong' : $data['nilai']}}
+                                            </td> --}}
+                                            <td>
+                                                <div class="conbtn">
+                                                    {{-- <button class="btn btn-primary center fa fa-edit" data-toggle="modal" data-target="#edit"></button> --}}
+                                                    <button class="btn btn-success center fa fa-eye" style="margin-left: 2%" onclick="window.location.href='{{ route('get.detilakun') }}'"></button>
+                                                    {{-- <button class="btn btn-danger center fa fa-trash" style="margin-left: 2%"></button> --}}
+                                                </div>
+                                            </td>
+                                        </tr>
+
                                         
                                     </tbody>
                                 </table>
@@ -168,67 +268,20 @@
                 <h4 class="modal-title" id="myModalLabel">Tambah Data Akun</h4>
             </div>
             <div class="modal-body">
-                @if ($data != null)
                 <form class="form-horizontal" role="form">
                     @csrf
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Kode Akun</label>
+                        <label class="col-md-4 control-label">Nilai Akun</label>
                         <div class="col-md-8">
                             <input name="kode" data-parsley-type="number" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['kode']}}" data-parsley-maxlength="8" required />
                         </div>
                     </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nama Akun</label>
-                        <div class="col-md-8">
-                            <input name="nama" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nama']}}" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Jenis Akun</label>
-                        <div class="col-sm-8">
-                            <select name="jenis" class="form-control" required>
-                                @if ($data['jenis'] == 'Header')
-                                <option value="Header">Header</option>
-                                <option value="Sub Header">Sub Header</option>
-                                @else
-                                <option value="Sub Header">Sub Header</option>
-                                <option value="Header">Header</option>
-                                @endif
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Klasifikasi</label>
-                        <div class="col-sm-8">
-                            <select name="klasifikasi" class="form-control" required>
-                                @if ($data['klasifikasi'] == 'Debit')
-                                <option value="Debit">Debit</option>
-                                <option value="Kredit">Kredit</option>
-                                @else
-                                <option value="Kredit">Kredit</option>
-                                <option value="Debit">Debit</option>
-                                @endif
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nilai Akun</label>
-                        <div class="col-md-8">
-                            <input name="nilai" data-parsley-type="number" type="text" class="form-control" value="{{$data ==null ? 'kosong' : $data['nilai']}}" required />
-                        </div>
-                    </div>
-
                     <div class="modal-footer">
 
                         <button type="button" class="btn btn-default waves-effect m-l-5" data-dismiss="modal">Cancel</button>
                         <button type="submit" class="btn btn-primary waves-effect waves-light">Simpan</button>
                     </div>
                 </form>
-                @endif
             </div>
 
         </div><!-- /.modal-content -->

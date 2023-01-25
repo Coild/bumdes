@@ -32,41 +32,40 @@
 
                                 <div class="col-md-12 col-sm-12 col-xs-12">
                                     <div class="container">
-                                        <div class="col-md-6 col-xs-12">
+                                        <div class="col-md-4 col-xs-12">
                                             <div class="m-t-5">
                                                 <form class="form" role="form">
                                                     <div class="form-group">
-                                                        <label class="control-label">Nama Usaha</label>
+                                                        <label class="control-label">Kode Akun</label>
                                                         <div class="">
                                                             <input type="text" name="nota" class="form-control"
                                                                 disabled="disabled" value="{{ 'Toko A' }}">
                                                         </div>
                                                     </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12">
+                                            <div class="m-t-5">
+                                                <form class="form" role="form">
                                                     <div class="form-group">
-                                                        <label class="control-label">Pendapatan</label>
+                                                        <label class="control-label">Akun</label>
                                                         <div class="">
                                                             <input type="text" name="tanggal" class="form-control"
-                                                                disabled="disabled" value="{{ 5000 }}">
+                                                                disabled="disabled" value="{{ Kas penjualan gas }}">
                                                         </div>
                                                     </div>
                                                 </form>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-sm-12 col-xs-12">
+                                        <div class="col-md-4 col-xs-12">
                                             <div class="m-t-5">
                                                 <form class="form" role="form">
                                                     <div class="form-group">
-                                                        <label class="control-label">Alamat</label>
+                                                        <label class="control-label">Nilai</label>
                                                         <div class="">
-                                                            <input type="text" name="pelanggan" class="form-control"
-                                                                disabled="disabled" value="Desa kuta">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="control-label">Nomor HP</label>
-                                                        <div class="">
-                                                            <input type="text" name="catatan" class="form-control"
-                                                                disabled="disabled" value="">
+                                                            <input type="text" name="tanggal" class="form-control"
+                                                                disabled="disabled" value="{{ 5000 }}">
                                                         </div>
                                                     </div>
                                                 </form>
@@ -83,7 +82,7 @@
 
             <div class="row">
 
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
                             <h3 class="panel-title"> Pembelian</h3>
@@ -99,10 +98,11 @@
                                         <th style="text-align: center;">No</th>
                                         <th style="text-align: center;">Tanggal</th>
                                         <th style="text-align: center;">Kode Transaksi</th>
-                                        <th style="text-align: center;">Nama Pemasok</th>
-                                        <th style="text-align: center;">Total Pembelian</th>
+                                        <th style="text-align: center;">Transaksi</th>
+                                        <th style="text-align: center;">Kredit </th>
+                                        <th style="text-align: center;">Debit </th>
                                         <th style="text-align: center;">Gambar Bukti</th>
-                                        <th style="text-align: center;">Aksi</th>
+                                        {{-- <th style="text-align: center;">Aksi</th> --}}
                                     </tr>
                                 </thead>
 
@@ -113,9 +113,9 @@
                                         <td style="text-align: center;">No</td>
                                         <td style="text-align: center;">3 Desember 2022</td>
                                         <td style="text-align: center;">878</td>
-                                        <td style="text-align: center;">Toko A</td>
+                                        <td style="text-align: center;">Penjualan Gas</td>
                                         <td style="text-align: center;">200000</td>
-                                        <td style="text-align: center;">Halo</td>
+                                        <td style="text-align: center;">0</td>
                                         <td style="text-align: center;"><button class="btn btn-success">Lihat</button></td>
                                     </tr>
 
@@ -125,51 +125,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-6">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title"> Penjualan</h3>
-
-                        </div>
-
-                        <div class="panel-body">
-                            <table id="datatable-responsive2" class="table table-hover table-bordered dt-responsive nowrap"
-                                cellspacing="0" width="100%">
-                                <thead>
-                                    <tr>
-                                        <th style="text-align: center;">No</th>
-                                        <th style="text-align: center;">Tanggal</th>
-                                        <th style="text-align: center;">Kode Transaksi</th>
-                                        <th style="text-align: center;">Nama Pelanggan</th>
-                                        <th style="text-align: center;">Total Penghasilan</th>
-                                        <th style="text-align: center;">Gambar Bukti</th>
-                                        <th style="text-align: center;">Aksi</th>
-                                    </tr>
-                                </thead>
-
-
-                                <tbody>
-
-                                    <tr>
-                                        <td style="text-align: center;">No</td>
-                                        <td style="text-align: center;">3 Desember 2022</td>
-                                        <td style="text-align: center;">878</td>
-                                        <td style="text-align: center;">Toko A</td>
-                                        <td style="text-align: center;">200000</td>
-                                        <td style="text-align: center;">Halo</td>
-                                        <td style="text-align: center;"><button class="btn btn-success">Lihat</button></td>
-                                    </tr>
-
-
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-
-
 
             </div>
 
