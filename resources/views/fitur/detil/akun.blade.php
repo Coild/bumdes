@@ -52,7 +52,7 @@
                                                         <label class="control-label">Akun</label>
                                                         <div class="">
                                                             <input type="text" name="tanggal" class="form-control"
-                                                                disabled="disabled" value="{{ Kas penjualan gas }}">
+                                                                disabled="disabled" value="{{ 'Kas penjualan gas' }}">
                                                         </div>
                                                     </div>
                                                 </form>
