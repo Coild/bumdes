@@ -109,7 +109,6 @@ Route::post('editnotabebandagang', [pageController::class, 'editnotabebandagang'
 Route::get('/stok', [pageController::class, 'stok']);
 Route::post('/stok', [pageController::class, 'stok']);
 
-
 Route::get('neraca', [pageController::class, 'neraca'])->name('get.neraca');
 Route::get('labarugi', [pageController::class, 'labarugi'])->name('get.labarugi');
 Route::get('modal', [pageController::class, 'modal'])->name('get.modal');
