@@ -49,7 +49,7 @@
                                 <div>
                                     {{-- <input id="checkbox-signup" type="checkbox"> --}}
                                     <button class="btn-link" onclick="window.location.href='lupa'">
-                                        Lupa Kata Sandi Bukan Cici
+                                        Lupa Kata Sandi
                                     </button>
                                 </div>
                             </div>
